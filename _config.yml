@@ -1,0 +1,68 @@
+repositoryUrl: https://github.com/dynamsoft-docs/label-recognition-docs/blob/master
+repository: Dynamsoft-docs/label-recognition-docs-server
+docFullPath: https://www.dynamsoft.com/label-recognition/docs/server
+firstLevelUrl: /label-recognition/docs/server
+docHomePage: /label-recognition/docs/core/introduction/
+
+introduction: /label-recognition/docs/core/introduction/
+parameters: /label-recognition/docs/core/parameters/
+enumerations_old: /label-recognition/docs/core/parameters/enum/
+parameters-reference: /label-recognition/docs/parameters/reference/
+
+programming: /label-recognition/docs/server/programming/
+
+c-cplusplus: /label-recognition/docs/server/programming/c-cplusplus/
+c-cplusplus-api-reference: /label-recognition/docs/server/programming/c-cplusplus/api-reference/
+
+c-functions: /label-recognition/docs/server/programming/c-cplusplus/api-reference/c-functions/
+cpp-methods: /label-recognition/docs/server/programming/c-cplusplus/api-reference/c-label-recognition-class/
+c-cplusplus-structs: /label-recognition/docs/server/programming/c-cplusplus/api-reference/structs/
+
+c-cplusplus-release-notes: /label-recognition/docs/server/programming/c-cplusplus/release-notes/
+
+dotnet: /label-recognition/docs/server/programming/dotnet/
+dotnet_api: /label-recognition/docs/server/programming/dotnet/api-reference/
+dotnet_release_notes: /label-recognition/docs/server/programming/dotnet/release-notes/
+
+java: /label-recognition/docs/server/programming/java/
+java-api: /label-recognition/docs/server/programming/java/api-reference/
+java-release-notes: /label-recognition/docs/server/programming/java/release-notes/
+
+enumerations: /capture-vision/docs/core/enums/
+parameters_reference: /capture-vision/docs/core/parameters/reference/
+
+dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+
+
+assets: /label-recognition/docs/server/assets/
+edit_icon: /label-recognition/docs/server/assets/img-icon/edit-icon.png
+smile_icon: /label-recognition/docs/server/assets/img-icon/icon-smile.png
+sad_icon: /label-recognition/docs/server/assets/img-icon/icon-sad.png
+dbr_icon: /label-recognition/docs/server/server/assets/img-icon/icon-dbr.svg
+dwt_icon: /label-recognition/docs/assets/img-icon/icon-dwt.svg
+dnt_icon: /label-recognition/docs/server/assets/img-icon/icon-dnt.svg
+
+useVersionTree: true
+
+baseurl: "/label-recognition/docs/server"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-layout"
+      noTitleIndex: true
+      needAutoGenerateSidebar: true
+      needGenerateH3Content: true
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
+
+url: "https://www.dynamsoft.com" # sitemap root
+
