@@ -31,22 +31,22 @@ permalink: /programming/java/api-reference/index.html
 
 ## Enumerations
 
-- [EnumRegionPredetectionMode]({{ site.enumerations_old }}region-predetection-mode.html)
-- [EnumColourConversionMode]({{ site.enumerations_old }}colour-conversion-mode.html)
-- [EnumGrayscaleTransformationMode]({{ site.enumerations_old }}grayscale-transformation-mode.html)
-- [EnumGrayscaleEnhancementMode]({{ site.enumerations_old }}grayscale-enhancement-mode.html)
-- [EnumBinarizationMode]({{ site.enumerations_old }}binarization-mode.html)
-- [EnumTextureDetectionMode]({{ site.enumerations_old }}texture-detection-mode.html)
-- [EnumBarcodeFormat]({{ site.enumerations_old }}barcode-format.html)
-- [EnumBarcodeFormat_2]({{ site.enumerations_old }}barcode-format-2.html)
-- [EnumImagePixelFormat]({{ site.enumerations_old }}image-pixel-format.html)
-- [EnumDMChargeWay]({{ site.enumerations_old }}dm-charge-way.html)	
-- [EnumDMLicenseModule]({{ site.enumerations_old }}dm-license-module.html)	
-- [EnumDMUUIDGenerationMethod]({{ site.enumerations_old }}dm-uuid-generation-method.html)	
-- [EnumProduct]({{ site.enumerations_old }}product.html)	
-- [EnumLocalizationSourceType]({{ site.enumerations_old }}localization-source-type.html)
+- [EnumRegionPredetectionMode]({{ site.enumerations }}region-predetection-mode.html)
+- [EnumColourConversionMode]({{ site.enumerations }}colour-conversion-mode.html)
+- [EnumGrayscaleTransformationMode]({{ site.enumerations }}grayscale-transformation-mode.html)
+- [EnumGrayscaleEnhancementMode]({{ site.enumerations }}grayscale-enhancement-mode.html)
+- [EnumBinarizationMode]({{ site.enumerations }}binarization-mode.html)
+- [EnumTextureDetectionMode]({{ site.enumerations }}texture-detection-mode.html)
+- [EnumBarcodeFormat]({{ site.enumerations }}barcode-format.html)
+- [EnumBarcodeFormat_2]({{ site.enumerations }}barcode-format-2.html)
+- [EnumImagePixelFormat]({{ site.enumerations }}image-pixel-format.html)
+- [EnumDMChargeWay]({{ site.enumerations }}dm-charge-way.html)	
+- [EnumDMLicenseModule]({{ site.enumerations }}dm-license-module.html)	
+- [EnumDMUUIDGenerationMethod]({{ site.enumerations }}dm-uuid-generation-method.html)	
+- [EnumProduct]({{ site.enumerations }}product.html)	
+- [EnumLocalizationSourceType]({{ site.enumerations }}localization-source-type.html)
 
 ## Error Code
 
-- [Error Code]({{ site.enumerations_old }}error-code.html)
+- [Error Code]({{ site.enumerations }}error-code.html)
 		

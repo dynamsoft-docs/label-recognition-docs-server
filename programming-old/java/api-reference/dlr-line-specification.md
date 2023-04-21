@@ -35,7 +35,7 @@ int[] grayscaleEnhancementModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumGrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) Enumeration items.  
+   Each array item can be any one of the [`EnumGrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) Enumeration items.  
  
 **Default value**
    `[EnumGrayscaleEnhancementMode.GEM_GENERAL, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP]`  
@@ -56,7 +56,7 @@ int[] binarizationModes
 
 **Value Range**
 
-Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) Enumeration items.
+Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations }}binarization-mode.html) Enumeration items.
 
 **Default value**
 

@@ -25,7 +25,7 @@ class Dynamsoft.Core.ImageData
 | [`Width`](#width) | *int* |
 | [`Height`](#height) | *int* |
 | [`Stride`](#stride) | *int* |
-| [`Format`](#format) | [`EnumImagePixelFormat`]({{ site.enumerations_old }}image-pixel-format.html) |
+| [`Format`](#format) | [`EnumImagePixelFormat`]({{ site.enumerations }}image-pixel-format.html) |
 
 
 &nbsp;

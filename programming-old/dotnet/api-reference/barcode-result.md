@@ -21,8 +21,8 @@ class Dynamsoft.Core.BarcodeResult
   
 | Attribute | Type |
 |---------- | ---- |
-| [`BarcodeFormat`](#barcodeformat) | [`EnumBarcodeFormat`]({{ site.enumerations_old }}barcode-format.html) |
-| [`BarcodeFormat_2`](#barcodeformat_2) | [`EnumBarcodeFormat_2`]({{ site.enumerations_old }}barcode-format-2.html) |
+| [`BarcodeFormat`](#barcodeformat) | [`EnumBarcodeFormat`]({{ site.enumerations }}barcode-format.html) |
+| [`BarcodeFormat_2`](#barcodeformat_2) | [`EnumBarcodeFormat_2`]({{ site.enumerations }}barcode-format-2.html) |
 | [`Text`](#text) | *string* |
 | [`Bytes`](#bytes) | *byte[]* |
 | [`Location`](#location) | [`Quadrilateral`](quadrilateral.md)\* |

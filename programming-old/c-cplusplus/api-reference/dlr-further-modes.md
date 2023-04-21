@@ -21,11 +21,11 @@ typedef struct tagDLR_FurtherModes DLR_FurtherModes
   
 | Attribute | Type |
 |---------- | ---- |
-| [`colourConversionModes[8]`](#colourconversionmodes) | [`ColourConversionMode`]({{ site.enumerations_old }}colour-conversion-mode.html) |
-| [`grayscaleTransformationModes[8]`](#grayscaletransformationmodes) | [`GrayscaleTransformationMode`]({{ site.enumerations_old }}grayscale-transformation-mode.html) |
-| [`regionPredetectionModes[8]`](#regionpredetectionmodes) | [`RegionPredetectionMode`]({{ site.enumerations_old }}region-predetection-mode.html) |
-| [`grayscaleEnhancementModes[8]`](#grayscaleenhancementmodes) | [`GrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) | 
-| [`textureDetectionModes[8]`](#texturedetectionmodes) | [`TextureDetectionMode`]({{ site.enumerations_old }}texture-detection-mode.html) |
+| [`colourConversionModes[8]`](#colourconversionmodes) | [`ColourConversionMode`]({{ site.enumerations }}colour-conversion-mode.html) |
+| [`grayscaleTransformationModes[8]`](#grayscaletransformationmodes) | [`GrayscaleTransformationMode`]({{ site.enumerations }}grayscale-transformation-mode.html) |
+| [`regionPredetectionModes[8]`](#regionpredetectionmodes) | [`RegionPredetectionMode`]({{ site.enumerations }}region-predetection-mode.html) |
+| [`grayscaleEnhancementModes[8]`](#grayscaleenhancementmodes) | [`GrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) | 
+| [`textureDetectionModes[8]`](#texturedetectionmodes) | [`TextureDetectionMode`]({{ site.enumerations }}texture-detection-mode.html) |
 
 
 &nbsp;
@@ -38,7 +38,7 @@ ColourConversionMode colourConversionModes[8]
 ```
 
 **Value Range**
-   Each array item can be any one of the [`ColourConversionMode`]({{ site.enumerations_old }}colour-conversion-mode.html) Enumeration items. 
+   Each array item can be any one of the [`ColourConversionMode`]({{ site.enumerations }}colour-conversion-mode.html) Enumeration items. 
  
 **Default value**
    `[CICM_GENERAL, CICM_SKIP, CICM_SKIP, CICM_SKIP, CICM_SKIP, CICM_SKIP, CICM_SKIP, CICM_SKIP]`  
@@ -56,7 +56,7 @@ GrayscaleTransformationMode grayscaleTransformationModes[8]
 ```
 
 **Value Range**
-   Each array item can be any one of the [`GrayscaleTransformationMode`]({{ site.enumerations_old }}grayscale-transformation-mode.html) Enumeration items. 
+   Each array item can be any one of the [`GrayscaleTransformationMode`]({{ site.enumerations }}grayscale-transformation-mode.html) Enumeration items. 
  
 **Default value**
    `[GTM_ORIGINAL, GTM_SKIP, GTM_SKIP, GTM_SKIP, GTM_SKIP, GTM_SKIP, GTM_SKIP, GTM_SKIP]`  
@@ -74,7 +74,7 @@ RegionPredetectionMode regionPredetectionModes[8]
 ```
 
 **Value Range**
-   Each array item can be any one of the [`RegionPredetectionMode`]({{ site.enumerations_old }}region-predetection-mode.html) Enumeration items.  
+   Each array item can be any one of the [`RegionPredetectionMode`]({{ site.enumerations }}region-predetection-mode.html) Enumeration items.  
  
 **Default value**
    `[RPM_GENERAL, RPM_SKIP, RPM_SKIP, RPM_SKIP, RPM_SKIP, RPM_SKIP, RPM_SKIP, RPM_SKIP]`  
@@ -92,7 +92,7 @@ GrayscaleEnhancementMode grayscaleEnhancementModes[8]
 ```
 
 **Value Range**
-   Each array item can be any one of the [`GrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) Enumeration items.  
+   Each array item can be any one of the [`GrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) Enumeration items.  
  
 **Default value**
    `[GEM_GENERAL, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP]`  
@@ -110,7 +110,7 @@ TextureDetectionMode textureDetectionModes[8]
 ```
 
 **Value Range**
-   Each array item can be any one of the [`TextureDetectionMode`]({{ site.enumerations_old }}texture-detection-mode.html) Enumeration items.  
+   Each array item can be any one of the [`TextureDetectionMode`]({{ site.enumerations }}texture-detection-mode.html) Enumeration items.  
  
 **Default value**
    `[TDM_GENERAL_WIDTH_CONCENTRATION, TDM_SKIP, TDM_SKIP, TDM_SKIP, TDM_SKIP, TDM_SKIP, TDM_SKIP, TDM_SKIP]`  

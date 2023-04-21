@@ -22,7 +22,7 @@ typedef struct tagDLR_ReferenceRegion  DLR_ReferenceRegion
   
 | Attribute | Type |
 |---------- | ---- |
-| [`localizationSourceType`](#localizationsourcetype) | [`LocalizationSourceType`]({{ site.enumerations_old }}localization-source-type.html) |
+| [`localizationSourceType`](#localizationsourcetype) | [`LocalizationSourceType`]({{ site.enumerations }}localization-source-type.html) |
 | [`location`](#location) | [`Quadrilateral`](quadrilateral.md) |
 | [`regionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`regionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
@@ -41,7 +41,7 @@ LocalizationSourceType localizationSourceType
 
 **Value Range**
 
-A value of [`LocalizationSourceType`]({{ site.enumerations_old }}localization-source-type.html) Enumeration items.
+A value of [`LocalizationSourceType`]({{ site.enumerations }}localization-source-type.html) Enumeration items.
 
 **Default value**
 
@@ -121,7 +121,7 @@ int barcodeFormatIds
 
 **Value Range**
 
-A combined value of [`BarcodeFormat`]({{ site.enumerations_old }}barcode-format.html) Enumeration items
+A combined value of [`BarcodeFormat`]({{ site.enumerations }}barcode-format.html) Enumeration items
 
 **Default value**
 
@@ -144,7 +144,7 @@ int barcodeFormatIds_2
 
 **Value Range**
 
-A combined value of [`BarcodeFormat_2`]({{ site.enumerations_old }}barcode-format-2.html) Enumeration items
+A combined value of [`BarcodeFormat_2`]({{ site.enumerations }}barcode-format-2.html) Enumeration items
 
 **Default value**
 

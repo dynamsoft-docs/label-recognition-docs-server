@@ -76,7 +76,7 @@ int[] Dynamsoft.DLR.DLR_RuntimeSettings.RegionPredetectionModes[8]
 
 **Value Range**
 
-Each array item can be any one of the [`DLRRegionPredetectionMode`]({{ site.enumerations_old }}parameter-mode-enums.html#dlrregionpredetectionmode) Enumeration items.
+Each array item can be any one of the [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode) Enumeration items.
 
 **Default value**
 
@@ -107,7 +107,7 @@ int[] Dynamsoft.DLR.DLR_RuntimeSettings.GrayscaleTransformationModes[8]
 
 **Value Range**
 
-Each array item can be any one of the [`DLRGrayscaleTransformationMode`]({{ site.enumerations_old }}parameter-mode-enums.html#dlrgrayscaletransformationmode) Enumeration items.
+Each array item can be any one of the [`DLRGrayscaleTransformationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode) Enumeration items.
 
 **Default value**
 

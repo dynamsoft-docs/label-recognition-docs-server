@@ -24,7 +24,7 @@ typedef struct tagDLRReferenceRegion  DLRReferenceRegion
   
 | Attribute | Type |
 |---------- | ---- |
-| [`localizationSourceType`](#localizationsourcetype) | [`DLRLocalizationSourceType`]({{ site.enumerations_old }}other-enums.html#dlrlocalizationsourcetype) |
+| [`localizationSourceType`](#localizationsourcetype) | [`DLRLocalizationSourceType`]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype) |
 | [`points`](#points) | [`DLRPoint`](dlr-point.md)[4] |
 | [`regionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`regionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
@@ -41,7 +41,7 @@ DLRLocalizationSourceType tagDLRReferenceRegion::localizationSourceType
 
 **Value Range**
 
-A value of [`DLRLocalizationSourceType`]({{ site.enumerations_old }}other-enums.html#dlrlocalizationsourcetype) Enumeration items.
+A value of [`DLRLocalizationSourceType`]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype) Enumeration items.
 
 **Default value**
 
@@ -113,7 +113,7 @@ int tagDLRReferenceRegion::barcodeFormatIds
 
 **Value Range**
 
-A combined value of [`DLRBarcodeFormat`]({{ site.enumerations_old }}other-enums.html#dlrbarcodeformat) Enumeration items
+A combined value of [`DLRBarcodeFormat`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat) Enumeration items
 
 **Default value**
 
@@ -134,7 +134,7 @@ int tagDLRReferenceRegion::barcodeFormatIds_2
 
 **Value Range**
 
-A combined value of [`DLRBarcodeFormat_2`]({{ site.enumerations_old }}other-enums.html#dlrbarcodeformat_2) Enumeration items
+A combined value of [`DLRBarcodeFormat_2`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat_2) Enumeration items
 
 **Default value**
 

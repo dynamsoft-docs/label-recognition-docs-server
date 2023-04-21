@@ -27,7 +27,7 @@ class Dynamsoft.DLR.DLR_RuntimeSettings
 | [`TextArea`](#textarea) | [`Quadrilateral`](quadrilateral.md) |
 | [`DictionaryPath`](#dictionarypath) | *string* |
 | [`DictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) | [`DLR_DictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.md) |
-| [`BinarizationModes`](#binarizationmodes) | [`EnumBinarizationMode`]({{ site.enumerations_old }}binarization-mode.html)[ ] |
+| [`BinarizationModes`](#binarizationmodes) | [`EnumBinarizationMode`]({{ site.enumerations }}binarization-mode.html)[ ] |
 | [`FurtherModes`](#furthermodes) | [`DLR_FurtherModes`](dlr-further-modes.md)|
 
 
@@ -104,7 +104,7 @@ EnumBinarizationMode[] BinarizationModes
 
 **Value Range**
 
-Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) Enumeration items.
+Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations }}binarization-mode.html) Enumeration items.
 
 **Default value**
 

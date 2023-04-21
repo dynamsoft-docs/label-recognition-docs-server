@@ -6,7 +6,7 @@ docHomePage: /label-recognition/docs/core/introduction/
 
 introduction: /label-recognition/docs/core/introduction/
 parameters: /label-recognition/docs/core/parameters/
-enumerations_old: /label-recognition/docs/core/parameters/enum/
+enumerations: /label-recognition/docs/core/parameters/enum/
 parameters-reference: /label-recognition/docs/parameters/reference/
 
 programming: /label-recognition/docs/server/programming/
@@ -28,8 +28,8 @@ java: /label-recognition/docs/server/programming/java/
 java-api: /label-recognition/docs/server/programming/java/api-reference/
 java-release-notes: /label-recognition/docs/server/programming/java/release-notes/
 
-enumerations: /capture-vision/docs/core/enums/
-parameters_reference: /capture-vision/docs/core/parameters/reference/
+dcv_enumerations: /capture-vision/docs/core/enums/
+dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 

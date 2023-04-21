@@ -23,19 +23,19 @@ permalink: /programming/java/api-reference/index-v1.2.1.html
 
 ## Enumerations
 
-- [EnumDLRBarcodeFormat]({{ site.enumerations_old }}other-enums.html#dlrbarcodeformat)
-- [EnumDLRBarcodeFormat_2]({{ site.enumerations_old }}other-enums.html#dlrbarcodeformat_2)
-- [EnumDLRBinarizationMode]({{ site.enumerations_old }}parameter-mode-enums.html#dlrbinarizationmode)
-- [EnumDLRGrayscaleTransformationMode]({{ site.enumerations_old }}parameter-mode-enums.html#dlrgrayscaletransformationmode)
-- [EnumDLRImagePixelFormat]({{ site.enumerations_old }}other-enums.html#dlrimagepixelformat)
-- [EnumDLRLocalizationSourceType]({{ site.enumerations_old }}other-enums.html#dlrlocalizationsourcetype)
-- [EnumDLRRegionPredetectionMode]({{ site.enumerations_old }}parameter-mode-enums.html#dlrregionpredetectionmode)
-- [EnumDMChargeWay]({{ site.enumerations_old }}other-enums.html#dm_chargeway)	
-- [EnumDMLicenseModule]({{ site.enumerations_old }}other-enums.html#dm_licensemodule)	
-- [EnumDMUUIDGenerationMethod]({{ site.enumerations_old }}other-enums.html#dm_uuidgenerationmethod)	
-- [EnumProduct]({{ site.enumerations_old }}other-enums.html#product)	
+- [EnumDLRBarcodeFormat]({{ site.enumerations }}other-enums.html#dlrbarcodeformat)
+- [EnumDLRBarcodeFormat_2]({{ site.enumerations }}other-enums.html#dlrbarcodeformat_2)
+- [EnumDLRBinarizationMode]({{ site.enumerations }}parameter-mode-enums.html#dlrbinarizationmode)
+- [EnumDLRGrayscaleTransformationMode]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)
+- [EnumDLRImagePixelFormat]({{ site.enumerations }}other-enums.html#dlrimagepixelformat)
+- [EnumDLRLocalizationSourceType]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype)
+- [EnumDLRRegionPredetectionMode]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)
+- [EnumDMChargeWay]({{ site.enumerations }}other-enums.html#dm_chargeway)	
+- [EnumDMLicenseModule]({{ site.enumerations }}other-enums.html#dm_licensemodule)	
+- [EnumDMUUIDGenerationMethod]({{ site.enumerations }}other-enums.html#dm_uuidgenerationmethod)	
+- [EnumProduct]({{ site.enumerations }}other-enums.html#product)	
 
 ## Error Code
 
-- [Error Code]({{ site.enumerations_old }}error-code.html)
+- [Error Code]({{ site.enumerations }}error-code.html)
 		

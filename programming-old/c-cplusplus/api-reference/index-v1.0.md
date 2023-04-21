@@ -126,21 +126,21 @@ permalink: /programming/c-cplusplus/api-reference/index-v1.0.html
    
 &nbsp; 
 
-## [Enumerations]({{ site.enumerations_old }})
-- [`DLRBarcodeFormat`]({{ site.enumerations_old }}other-enums.html#dlrbarcodeformat)
-- [`DLRBarcodeFormat_2`]({{ site.enumerations_old }}other-enums.html#dlrbarcodeformat_2)
-- [`DLRBinarizationMode`]({{ site.enumerations_old }}parameter-mode-enums.html#dlrbinarizationmode)
-- [`DLRGrayscaleTransformationMode`]({{ site.enumerations_old }}parameter-mode-enums.html#dlrgrayscaletransformationmode)
-- [`DLRImagePixelFormat`]({{ site.enumerations_old }}other-enums.html#dlrimagepixelformat)
-- [`DLRLocalizationSourceType`]({{ site.enumerations_old }}other-enums.html#dlrlocalizationsourcetype)
-- [`DLRRegionPredetectionMode`]({{ site.enumerations_old }}parameter-mode-enums.html#dlrregionpredetectionmode)
-- [`DM_ChargeWay`]({{ site.enumerations_old }}other-enums.html#dm_chargeway)	
-- [`DM_DeploymentType`]({{ site.enumerations_old }}other-enums.html#dm_deploymenttype)	
-- [`DM_LicenseModule`]({{ site.enumerations_old }}other-enums.html#dm_licensemodule)	
-- [`DM_UUIDGenerationMethod`]({{ site.enumerations_old }}other-enums.html#dm_uuidgenerationmethod)	
+## [Enumerations]({{ site.enumerations }})
+- [`DLRBarcodeFormat`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat)
+- [`DLRBarcodeFormat_2`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat_2)
+- [`DLRBinarizationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrbinarizationmode)
+- [`DLRGrayscaleTransformationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)
+- [`DLRImagePixelFormat`]({{ site.enumerations }}other-enums.html#dlrimagepixelformat)
+- [`DLRLocalizationSourceType`]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype)
+- [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)
+- [`DM_ChargeWay`]({{ site.enumerations }}other-enums.html#dm_chargeway)	
+- [`DM_DeploymentType`]({{ site.enumerations }}other-enums.html#dm_deploymenttype)	
+- [`DM_LicenseModule`]({{ site.enumerations }}other-enums.html#dm_licensemodule)	
+- [`DM_UUIDGenerationMethod`]({{ site.enumerations }}other-enums.html#dm_uuidgenerationmethod)	
 
 
-## [Error Code]({{ site.enumerations_old }}error-code.html)
+## [Error Code]({{ site.enumerations }}error-code.html)
 		
 ## [Structs](structs/index.md)
 - [`DLRRuntimeSettings`](structs/dlr-runtime-settings.md)	

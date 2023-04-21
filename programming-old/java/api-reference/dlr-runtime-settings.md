@@ -108,7 +108,7 @@ int[] binarizationModes
 
 **Value Range**
 
-Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) Enumeration items.
+Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations }}binarization-mode.html) Enumeration items.
 
 **Default value**
 

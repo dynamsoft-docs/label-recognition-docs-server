@@ -21,8 +21,8 @@ typedef struct tagDLR_LineSpecification DLR_LineSpecification
   
 | Attribute | Type |
 |---------- | ---- |
-| [`grayscaleEnhancementModes[8]`](#grayscaleenhancementmodes) | [`GrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) | 
-| [`binarizationModes[8]`](#binarizationmodes) | [`BinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) |
+| [`grayscaleEnhancementModes[8]`](#grayscaleenhancementmodes) | [`GrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) | 
+| [`binarizationModes[8]`](#binarizationmodes) | [`BinarizationMode`]({{ site.enumerations }}binarization-mode.html) |
 
 
 &nbsp;
@@ -35,7 +35,7 @@ GrayscaleEnhancementMode grayscaleEnhancementModes[8]
 ```
 
 **Value Range**
-   Each array item can be any one of the [`GrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) Enumeration items.  
+   Each array item can be any one of the [`GrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) Enumeration items.  
  
 **Default value**
    `[GEM_GENERAL, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP, GEM_SKIP]`  
@@ -56,7 +56,7 @@ BinarizationMode binarizationModes[8]
 
 **Value Range**
 
-Each array item can be any one of the [`BinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) Enumeration items.
+Each array item can be any one of the [`BinarizationMode`]({{ site.enumerations }}binarization-mode.html) Enumeration items.
 
 **Default value**
 

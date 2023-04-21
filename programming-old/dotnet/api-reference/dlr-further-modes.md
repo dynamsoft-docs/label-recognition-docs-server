@@ -21,11 +21,11 @@ class Dynamsoft.DLR.DLR_FurtherModes
   
 | Attribute | Type |
 |---------- | ---- |
-| [`ColourConversionModes`](#colourconversionmodes) | [`EnumColourConversionMode`]({{ site.enumerations_old }}colour-conversion-mode.html)[ ] |
-| [`GrayscaleTransformationModes`](#grayscaletransformationmodes) | [`EnumGrayscaleTransformationMode`]({{ site.enumerations_old }}grayscale-transformation-mode.html)[ ] |
-| [`RegionPredetectionModes`](#regionpredetectionmodes) | [`EnumRegionPredetectionMode`]({{ site.enumerations_old }}region-predetection-mode.html)[ ] |
-| [`GrayscaleEnhancementModes`](#grayscaleenhancementmodes) | [`EnumGrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html)[] | 
-| [`TextureDetectionModes`](#texturedetectionmodes) | [`EnumTextureDetectionMode`]({{ site.enumerations_old }}texture-detection-mode.html)[ ] |
+| [`ColourConversionModes`](#colourconversionmodes) | [`EnumColourConversionMode`]({{ site.enumerations }}colour-conversion-mode.html)[ ] |
+| [`GrayscaleTransformationModes`](#grayscaletransformationmodes) | [`EnumGrayscaleTransformationMode`]({{ site.enumerations }}grayscale-transformation-mode.html)[ ] |
+| [`RegionPredetectionModes`](#regionpredetectionmodes) | [`EnumRegionPredetectionMode`]({{ site.enumerations }}region-predetection-mode.html)[ ] |
+| [`GrayscaleEnhancementModes`](#grayscaleenhancementmodes) | [`EnumGrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html)[] | 
+| [`TextureDetectionModes`](#texturedetectionmodes) | [`EnumTextureDetectionMode`]({{ site.enumerations }}texture-detection-mode.html)[ ] |
 
 
 &nbsp;
@@ -38,7 +38,7 @@ EnumColourConversionMode[] ColourConversionModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumColourConversionMode`]({{ site.enumerations_old }}colour-conversion-mode.html) Enumeration items. 
+   Each array item can be any one of the [`EnumColourConversionMode`]({{ site.enumerations }}colour-conversion-mode.html) Enumeration items. 
  
 **Default value**
    `[EnumColourConversionMode.CICM_GENERAL, EnumColourConversionMode.CICM_SKIP, EnumColourConversionMode.CICM_SKIP, EnumColourConversionMode.CICM_SKIP, EnumColourConversionMode.CICM_SKIP, EnumColourConversionMode.CICM_SKIP, EnumColourConversionMode.CICM_SKIP, EnumColourConversionMode.CICM_SKIP]`  
@@ -56,7 +56,7 @@ EnumGrayscaleTransformationMode[] GrayscaleTransformationModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumGrayscaleTransformationMode`]({{ site.enumerations_old }}grayscale-transformation-mode.html) Enumeration items. 
+   Each array item can be any one of the [`EnumGrayscaleTransformationMode`]({{ site.enumerations }}grayscale-transformation-mode.html) Enumeration items. 
  
 **Default value**
    `[EnumGrayscaleTransformationMode.GTM_ORIGINAL, EnumGrayscaleTransformationMode.GTM_SKIP, EnumGrayscaleTransformationMode.GTM_SKIP, EnumGrayscaleTransformationMode.GTM_SKIP, EnumGrayscaleTransformationMode.GTM_SKIP, EnumGrayscaleTransformationMode.GTM_SKIP, EnumGrayscaleTransformationMode.GTM_SKIP, EnumGrayscaleTransformationMode.GTM_SKIP]`  
@@ -74,7 +74,7 @@ EnumRegionPredetectionMode[] RegionPredetectionModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumRegionPredetectionMode`]({{ site.enumerations_old }}region-predetection-mode.html) Enumeration items.  
+   Each array item can be any one of the [`EnumRegionPredetectionMode`]({{ site.enumerations }}region-predetection-mode.html) Enumeration items.  
  
 **Default value**
    `[EnumRegionPredetectionMode.RPM_GENERAL, EnumRegionPredetectionMode.RPM_SKIP, EnumRegionPredetectionMode.RPM_SKIP, EnumRegionPredetectionMode.RPM_SKIP, EnumRegionPredetectionMode.RPM_SKIP, EnumRegionPredetectionMode.RPM_SKIP, EnumRegionPredetectionMode.RPM_SKIP, EnumRegionPredetectionMode.RPM_SKIP]`  
@@ -92,7 +92,7 @@ EnumGrayscaleEnhancementMode[] GrayscaleEnhancementModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumGrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) Enumeration items.  
+   Each array item can be any one of the [`EnumGrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) Enumeration items.  
  
 **Default value**
    `[EnumGrayscaleEnhancementMode.GEM_GENERAL, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP]`  
@@ -110,7 +110,7 @@ EnumTextureDetectionMode[] TextureDetectionModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumTextureDetectionMode`]({{ site.enumerations_old }}texture-detection-mode.html) Enumeration items.  
+   Each array item can be any one of the [`EnumTextureDetectionMode`]({{ site.enumerations }}texture-detection-mode.html) Enumeration items.  
  
 **Default value**
    `[EnumTextureDetectionMode.TDM_GENERAL_WIDTH_CONCENTRATION, EnumTextureDetectionMode.TDM_SKIP, EnumTextureDetectionMode.TDM_SKIP, EnumTextureDetectionMode.TDM_SKIP, EnumTextureDetectionMode.TDM_SKIP, EnumTextureDetectionMode.TDM_SKIP, EnumTextureDetectionMode.TDM_SKIP, EnumTextureDetectionMode.TDM_SKIP]`  

@@ -89,10 +89,10 @@ permalink: /programming/c-cplusplus/release-notes/c-cpp-2.html
 - Added [`DLR_RuntimeSettings`](../api-reference/dlr-runtime-settings.md) property [`dictionaryPath`](../api-reference/dlr-runtime-settings.md#dictionarypath) and [`dictionaryCorrectionThreshold`](../api-reference/dlr-runtime-settings.md#dictionarycorrectionthreshold) for users to further improve the recognizing accuracy by referencing dictionary files.
 - Added struct [`DLR_DictionaryCorrectionThreshold`](../api-reference/dlr-dictionary-correction-threshold.md).
 - Added struct [`DLR_FurtherModes`](../api-reference/dlr-further-modes.md) and property [`DLR_RuntimeSettings.furtherModes`](../api-reference/dlr-runtime-settings.md#furthermodes) for users to config more processing modes.
-- Added enumeration [`TextureDetectionMode`]({{ site.enumerations_old }}texture-detection-mode.html) and property [`DLR_FurtherModes.textureDetectionModes`](../api-reference/dlr-further-modes.md#texturedetectionmodes) for users to detect and remove the texture background.
-- Added enumeration [`ColourConversionMode`]({{ site.enumerations_old }}colour-conversion-mode.html) and property [`DLR_FurtherModes.colourConversionModes`](../api-reference/dlr-further-modes.md#colourconversionmodes) for users to convert color images to grayscale images in differenct ways.
-- Added enumeration [`BinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) and property [`DLR_RuntimeSettings.binarizationModes`](../api-reference/dlr-runtime-settings.md#binarizationmodes) for users to convert grayscale images to binary images in different ways.
-- Added enumeration [`GrayscaleEnhancementMode`]({{ site.enumerations_old }}grayscale-enhancement-mode.html) and property [`DLR_FurtherModes.grayscaleEnhancementModes`](../api-reference/dlr-further-modes.md#grayscaleenhancementmodes) for users to enable grayscale images preprocessing. 
+- Added enumeration [`TextureDetectionMode`]({{ site.enumerations }}texture-detection-mode.html) and property [`DLR_FurtherModes.textureDetectionModes`](../api-reference/dlr-further-modes.md#texturedetectionmodes) for users to detect and remove the texture background.
+- Added enumeration [`ColourConversionMode`]({{ site.enumerations }}colour-conversion-mode.html) and property [`DLR_FurtherModes.colourConversionModes`](../api-reference/dlr-further-modes.md#colourconversionmodes) for users to convert color images to grayscale images in differenct ways.
+- Added enumeration [`BinarizationMode`]({{ site.enumerations }}binarization-mode.html) and property [`DLR_RuntimeSettings.binarizationModes`](../api-reference/dlr-runtime-settings.md#binarizationmodes) for users to convert grayscale images to binary images in different ways.
+- Added enumeration [`GrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) and property [`DLR_FurtherModes.grayscaleEnhancementModes`](../api-reference/dlr-further-modes.md#grayscaleenhancementmodes) for users to enable grayscale images preprocessing. 
 - Added [`charaterHConfidence`](../api-reference/dlr-character-result.md#characterhconfidence), [`charaterMConfidence`](../api-reference/dlr-character-result.md#charactermconfidence) and [`charaterLConfidence`](../api-reference/dlr-character-result.md#characterlconfidence) properties in [`DLRCharacterResult`](../api-reference/dlr-character-result.md) struct so that more alternative results will be available for users.
 
 #### Improved
@@ -114,7 +114,7 @@ permalink: /programming/c-cplusplus/release-notes/c-cpp-2.html
 - Renamed function `DLR_FreeDLRResults` to [`DLR_FreeResults`](../api-reference/label-recognizer-functions.md#dlr_freeresults).
 - Renamed method `GetAllDLRResults` to [`GetAllResults`](../api-reference/label-recognizer.md#getallresults).
 - Renamed method `FreeDLRResults` to [`FreeResults`](../api-reference/label-recognizer.md#freeresults).
-- Renamed enum `DLRLocalizationSourceType` to [`LocalizationSourceType`]({{ site.enumerations_old }}localization-source-type.html).
+- Renamed enum `DLRLocalizationSourceType` to [`LocalizationSourceType`]({{ site.enumerations }}localization-source-type.html).
 - Renamed struct `DLRReferenceRegion` to [`DLR_ReferenceRegion`](../api-reference/dlr-reference-region.md).
 - Renamed struct `DLRRuntimeSettings` to [`DLR_RuntimeSettings`](../api-reference/dlr-runtime-settings.md).
 - Renamed struct `DLRCharacterResult` to [`DLR_CharacterResult`](../api-reference/dlr-character-result.md).

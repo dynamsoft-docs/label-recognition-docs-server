@@ -33,22 +33,22 @@ permalink: /programming/c-cplusplus/api-reference/c-index.html
 
 ## Enumerations
 
-- [RegionPredetectionMode]({{ site.enumerations_old }}region-predetection-mode.html)
-- [ColourConversionMode]({{ site.enumerations_old }}colour-conversion-mode.html)
-- [GrayscaleTransformationMode]({{ site.enumerations_old }}grayscale-transformation-mode.html)
-- [GrayscaleEnhancementMode]({{ site.enumerations_old }}grayscale-enhancement-mode.html)
-- [BinarizationMode]({{ site.enumerations_old }}binarization-mode.html)
-- [TextureDetectionMode]({{ site.enumerations_old }}texture-detection-mode.html)
-- [BarcodeFormat]({{ site.enumerations_old }}barcode-format.html)
-- [BarcodeFormat_2]({{ site.enumerations_old }}barcode-format-2.html)
-- [ImagePixelFormat]({{ site.enumerations_old }}image-pixel-format.html)
-- [DMChargeWay]({{ site.enumerations_old }}dm-charge-way.html)	
-- [DMLicenseModule]({{ site.enumerations_old }}dm-license-module.html)	
-- [DMUUIDGenerationMethod]({{ site.enumerations_old }}dm-uuid-generation-method.html)	
-- [Product]({{ site.enumerations_old }}product.html)	
-- [LocalizationSourceType]({{ site.enumerations_old }}localization-source-type.html)
+- [RegionPredetectionMode]({{ site.enumerations }}region-predetection-mode.html)
+- [ColourConversionMode]({{ site.enumerations }}colour-conversion-mode.html)
+- [GrayscaleTransformationMode]({{ site.enumerations }}grayscale-transformation-mode.html)
+- [GrayscaleEnhancementMode]({{ site.enumerations }}grayscale-enhancement-mode.html)
+- [BinarizationMode]({{ site.enumerations }}binarization-mode.html)
+- [TextureDetectionMode]({{ site.enumerations }}texture-detection-mode.html)
+- [BarcodeFormat]({{ site.enumerations }}barcode-format.html)
+- [BarcodeFormat_2]({{ site.enumerations }}barcode-format-2.html)
+- [ImagePixelFormat]({{ site.enumerations }}image-pixel-format.html)
+- [DMChargeWay]({{ site.enumerations }}dm-charge-way.html)	
+- [DMLicenseModule]({{ site.enumerations }}dm-license-module.html)	
+- [DMUUIDGenerationMethod]({{ site.enumerations }}dm-uuid-generation-method.html)	
+- [Product]({{ site.enumerations }}product.html)	
+- [LocalizationSourceType]({{ site.enumerations }}localization-source-type.html)
 
 
 ## Error Code
 
-- [Error Code]({{ site.enumerations_old }}error-code.html)
+- [Error Code]({{ site.enumerations }}error-code.html)

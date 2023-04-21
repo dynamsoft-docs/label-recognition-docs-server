@@ -185,7 +185,7 @@ Dynamsoft Label Recognition SDK supports automatic region detection to extract t
     dlr.UpdateRuntimeSettings(&settings, szErrorMsg, 512);
 ```
 
-Setting the predetection mode option to `DLR_RPM_AUTO` will allow the library to automatically detect a region. Learn more about other predetection mode options available in [`DLRRegionPredetectionMode`]({{ site.enumerations_old }}parameter-mode-enums.html#dlrregionpredetectionmode).
+Setting the predetection mode option to `DLR_RPM_AUTO` will allow the library to automatically detect a region. Learn more about other predetection mode options available in [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode).
 
 ### Use a template to change settings
 

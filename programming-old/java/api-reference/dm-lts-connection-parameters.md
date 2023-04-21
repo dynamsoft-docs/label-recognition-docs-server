@@ -125,7 +125,7 @@ int deploymentType
 
 **Value Range**
 
-Any one of the [`EnumDMDeploymentType`]({{ site.enumerations_old }}dm-deployment-type.html) Enumeration items.   
+Any one of the [`EnumDMDeploymentType`]({{ site.enumerations }}dm-deployment-type.html) Enumeration items.   
 
 **Default value**
 
@@ -133,7 +133,7 @@ DM_DT_DESKTOP
 
 **See also**
 
-[`EnumDMDeploymentType`]({{ site.enumerations_old }}dm-deployment-type.html)  
+[`EnumDMDeploymentType`]({{ site.enumerations }}dm-deployment-type.html)  
 
 
 &nbsp;
@@ -147,7 +147,7 @@ int chargeWay
 
 **Value Range**
 
-A value of [`EnumDMChargeWay`]({{ site.enumerations_old }}dm-charge-way.html) Enumeration items.
+A value of [`EnumDMChargeWay`]({{ site.enumerations }}dm-charge-way.html) Enumeration items.
 
 **Default value**
 
@@ -155,7 +155,7 @@ A value of [`EnumDMChargeWay`]({{ site.enumerations_old }}dm-charge-way.html) En
 
 **See also**
 
-[`EnumDMChargeWay`]({{ site.enumerations_old }}dm-charge-way.html)
+[`EnumDMChargeWay`]({{ site.enumerations }}dm-charge-way.html)
       
 
 &nbsp;
@@ -169,7 +169,7 @@ int UUIDGenerationMethod
 
 **Value Range**
 
-A value of [`EnumDMUUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-generation-method.html) Enumeration items.
+A value of [`EnumDMUUIDGenerationMethod`]({{ site.enumerations }}dm-uuid-generation-method.html) Enumeration items.
 
 **Default value**
 
@@ -177,7 +177,7 @@ A value of [`EnumDMUUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-gen
 
 **See also**
 
-[`EnumDMUUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-generation-method.html)
+[`EnumDMUUIDGenerationMethod`]({{ site.enumerations }}dm-uuid-generation-method.html)
       
 
 &nbsp;
@@ -208,7 +208,7 @@ int[] limitedLicenseModules
 
 **Value Range**
 
-A list of the [`EnumDMLicenseModule`]({{ site.enumerations_old }}dm-license-module.html) Enumeration items.   
+A list of the [`EnumDMLicenseModule`]({{ site.enumerations }}dm-license-module.html) Enumeration items.   
 
 **Default value**
 
@@ -216,7 +216,7 @@ null
 
 **See also**
 
-[`EnumDMLicenseModule`]({{ site.enumerations_old }}dm-license-module.html)    
+[`EnumDMLicenseModule`]({{ site.enumerations }}dm-license-module.html)    
       
 
 &nbsp;
@@ -269,7 +269,7 @@ int products
 
 **Value Range**
 
-A combine value of [`EnumProduct`]({{ site.enumerations_old }}product.html) Enumeration items.
+A combine value of [`EnumProduct`]({{ site.enumerations }}product.html) Enumeration items.
 
 **Default value**
 
@@ -277,4 +277,4 @@ A combine value of [`EnumProduct`]({{ site.enumerations_old }}product.html) Enum
 
 **See also**
 
-[`EnumProduct`]({{ site.enumerations_old }}product.html)
+[`EnumProduct`]({{ site.enumerations }}product.html)

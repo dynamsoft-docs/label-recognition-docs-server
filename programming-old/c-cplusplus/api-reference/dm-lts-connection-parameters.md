@@ -26,12 +26,12 @@ typedef struct tagDM_DLSConnectionParameters  DM_DLSConnectionParameters
 | [`standbyServerURL`](#standbyserverurl) | *char\** |
 | [`handshakeCode`](#handshakecode) | *char\** |
 | [`sessionPassword`](#sessionpassword) | *char\** |
-| [`deploymentType`](#deploymenttype) | [`DM_DeploymentType`]({{ site.enumerations_old }}dm-deployment-type.html) |
-| [`chargeWay`](#chargeway) | [`DM_ChargeWay`]({{ site.enumerations_old }}dm-charge-way.html) |
-| [`UUIDGenerationMethod`](#uuidgenerationmethod) | [`DM_UUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-generation-method.html) |
+| [`deploymentType`](#deploymenttype) | [`DM_DeploymentType`]({{ site.enumerations }}dm-deployment-type.html) |
+| [`chargeWay`](#chargeway) | [`DM_ChargeWay`]({{ site.enumerations }}dm-charge-way.html) |
+| [`UUIDGenerationMethod`](#uuidgenerationmethod) | [`DM_UUIDGenerationMethod`]({{ site.enumerations }}dm-uuid-generation-method.html) |
 | [`maxBufferDays`](#maxbufferdays) | *int* |
 | [`limitedLicenseModulesCount`](#limitedlicensemodulescount) | *int* |
-| [`limitedLicenseModules`](#limitedlicensemodules) | [`DM_LicenseModule*`]({{ site.enumerations_old }}dm-license-module.html) |
+| [`limitedLicenseModules`](#limitedlicensemodules) | [`DM_LicenseModule*`]({{ site.enumerations }}dm-license-module.html) |
 | [`maxConcurrentInstanceCount`](#maxconcurrentinstancecount) | *int* |
 | [`organizationID`](#organizationID) | *char\** |
 | [`products`](#products) | *int* |
@@ -122,7 +122,7 @@ DM_DeploymentType deploymentType
 
 **Value Range**
 
-A value of [`DM_DeploymentType`]({{ site.enumerations_old }}dm-deployment-type.html) Enumeration items.
+A value of [`DM_DeploymentType`]({{ site.enumerations }}dm-deployment-type.html) Enumeration items.
 
 **Default value**
 
@@ -130,7 +130,7 @@ A value of [`DM_DeploymentType`]({{ site.enumerations_old }}dm-deployment-type.h
 
 **See also**
 
-[`DM_DeploymentType`]({{ site.enumerations_old }}dm-deployment-type.html)
+[`DM_DeploymentType`]({{ site.enumerations }}dm-deployment-type.html)
       
 
 &nbsp;
@@ -143,7 +143,7 @@ DM_ChargeWay chargeWay
 
 **Value Range**
 
-A value of [`DM_ChargeWay`]({{ site.enumerations_old }}dm-charge-way.html) Enumeration items.
+A value of [`DM_ChargeWay`]({{ site.enumerations }}dm-charge-way.html) Enumeration items.
 
 **Default value**
 
@@ -151,7 +151,7 @@ A value of [`DM_ChargeWay`]({{ site.enumerations_old }}dm-charge-way.html) Enume
 
 **See also**
 
-[`DM_ChargeWay`]({{ site.enumerations_old }}dm-charge-way.html)
+[`DM_ChargeWay`]({{ site.enumerations }}dm-charge-way.html)
       
 
 &nbsp;
@@ -164,7 +164,7 @@ DM_UUIDGenerationMethod UUIDGenerationMethod
 
 **Value Range**
 
-A value of [`DM_UUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-generation-method.html) Enumeration items.
+A value of [`DM_UUIDGenerationMethod`]({{ site.enumerations }}dm-uuid-generation-method.html) Enumeration items.
 
 **Default value**
 
@@ -172,7 +172,7 @@ A value of [`DM_UUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-genera
 
 **See also**
 
-[`DM_UUIDGenerationMethod`]({{ site.enumerations_old }}dm-uuid-generation-method.html)
+[`DM_UUIDGenerationMethod`]({{ site.enumerations }}dm-uuid-generation-method.html)
       
 
 &nbsp;
@@ -217,7 +217,7 @@ DM_LicenseModule* limitedLicenseModules
 
 **Value Range**
 
-Each array item can be any one of the [`DM_LicenseModule`]({{ site.enumerations_old }}dm-license-module.html) Enumeration items.
+Each array item can be any one of the [`DM_LicenseModule`]({{ site.enumerations }}dm-license-module.html) Enumeration items.
 
 **Default value**
 
@@ -225,7 +225,7 @@ NULL
 
 **See also**
 
-[`DM_LicenseModule`]({{ site.enumerations_old }}dm-license-module.html)
+[`DM_LicenseModule`]({{ site.enumerations }}dm-license-module.html)
 
 &nbsp;
 
@@ -273,7 +273,7 @@ int products
 
 **Value Range**
 
-A combine value of [`Product`]({{ site.enumerations_old }}product.html) Enumeration items.
+A combine value of [`Product`]({{ site.enumerations }}product.html) Enumeration items.
 
 **Default value**
 
@@ -281,7 +281,7 @@ A combine value of [`Product`]({{ site.enumerations_old }}product.html) Enumerat
 
 **See also**
 
-[`Product`]({{ site.enumerations_old }}product.html)
+[`Product`]({{ site.enumerations }}product.html)
 
 &nbsp;
 

@@ -28,7 +28,7 @@ typedef struct tagDLR_RuntimeSettings  DLR_RuntimeSettings
 | [`textArea`](#textarea) | [`Quadrilateral`](quadrilateral.md) |
 | [`dictionaryPath[256]`](#dictionarypath) | *char* |
 | [`dictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) |  [`DLR_DictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.md) |
-| [`binarizationModes[8]`](#binarizationmodes) | [`BinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) |
+| [`binarizationModes[8]`](#binarizationmodes) | [`BinarizationMode`]({{ site.enumerations }}binarization-mode.html) |
 | [`furtherModes`](#furthermodes) | [`DLR_FurtherModes`](dlr-further-modes.md)|
 | [`timeout`](#timeout) | *int* |
 | [`reserved`](#reserved) | *char\[60\]* |
@@ -105,7 +105,7 @@ BinarizationMode binarizationModes[8]
 
 **Value Range**
 
-Each array item can be any one of the [`BinarizationMode`]({{ site.enumerations_old }}binarization-mode.html) Enumeration items.
+Each array item can be any one of the [`BinarizationMode`]({{ site.enumerations }}binarization-mode.html) Enumeration items.
 
 **Default value**
 
