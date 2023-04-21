@@ -86,4 +86,4 @@ jobs:
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
           local-dir: /home/ubuntu/DLRDocServerPreview/_site/
-          server-dir: /www.dynamsoft.com/label-recognition/docs/server         
+          server-dir: /www.dynamsoft.com/label-recognition/docs/server/        
