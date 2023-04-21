@@ -5,6 +5,7 @@ description: This page shows the DLRCharacterResult struct of Dynamsoft Label Re
 keywords: DLRCharacterResult, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/api-reference/dlr-character-result-v1.2.1.html
 ---
 
 

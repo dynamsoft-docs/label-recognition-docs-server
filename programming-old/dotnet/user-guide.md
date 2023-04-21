@@ -5,6 +5,7 @@ description: This is the user guide page of Dynamsoft Label Recognizer for .Net 
 keywords: a, user guide
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/dotnet/user-guide.html
 ---
 
 # User Guide - .Net 

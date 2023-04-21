@@ -4,6 +4,7 @@ title: DLR_ImageData - Dynamsoft Label Recognition .Net Class
 description: This page shows the DLR_ImageData struct of Dynamsoft Label Recognition for .Net Language.
 keywords: DLR_ImageData, .Net
 needAutoGenerateSidebar: true
+permalink: /programming/dotnet/api-reference/class/dlr-image-data.html
 ---
 
 

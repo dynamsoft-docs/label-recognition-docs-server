@@ -5,6 +5,7 @@ description: This is the main page of Dynamsoft Label Recognition for Java Langu
 keywords: java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/index-v1.2.1.html
 ---
 
 # Dynamsoft Label Recognition - for Java

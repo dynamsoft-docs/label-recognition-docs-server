@@ -6,6 +6,7 @@ keywords: DLR_RuntimeSettings, struct, .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/dotnet/api-reference/dlr-runtime-settings.html
 ---
 
 

@@ -6,6 +6,7 @@ keywords: DLRFurtherModes, Java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/dlr-further-modes.html
 ---
 
 

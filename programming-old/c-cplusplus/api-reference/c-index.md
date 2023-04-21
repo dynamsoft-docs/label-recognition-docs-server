@@ -5,6 +5,7 @@ description: This page shows C API Reference of Dynamsoft Label Recognizer.
 keywords: api reference, c
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/c-cplusplus/api-reference/c-index.html
 ---
 
 

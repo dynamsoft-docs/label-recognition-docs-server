@@ -4,6 +4,7 @@ title: Main Page - Dynamsoft Label Recognition for C
 description: This is the main page of Dynamsoft Label Recognition for C Language.
 keywords: c
 needAutoGenerateSidebar: false
+permalink: /programming/c-cplusplus/c-index-v1.2.1.html
 ---
 
 

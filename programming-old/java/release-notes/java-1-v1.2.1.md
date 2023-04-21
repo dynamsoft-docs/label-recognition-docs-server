@@ -4,6 +4,7 @@ title: Java SDK Release Notes 1.x - Dynamsoft Label Recognition
 description: This is the release notes page of Dynamsoft Label Recognition for Java SDK version 1.x.
 keywords: release notes, java
 needAutoGenerateSidebar: false
+permalink: /programming/java/release-notes/java-1-v1.2.1.html
 ---
 
 # Release Notes for Java - 1.x

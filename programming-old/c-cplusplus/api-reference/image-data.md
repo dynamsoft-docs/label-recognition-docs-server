@@ -6,6 +6,7 @@ keywords: ImageData, struct, c, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/image-data.html
 ---
 
 

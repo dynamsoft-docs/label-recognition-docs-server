@@ -4,6 +4,7 @@ title: DLRReferenceRegion - Dynamsoft Label Recognition C & C++ Struct
 description: This page shows the DLRReferenceRegion struct of Dynamsoft Label Recognition for C & C++ Language.
 keywords: DLRReferenceRegion, struct, c, c++
 needAutoGenerateSidebar: true
+permalink: /programming/c-cplusplus/api-reference/structs/dlr-reference-region.html
 ---
 
 

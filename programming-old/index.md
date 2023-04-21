@@ -5,6 +5,7 @@ keywords: programming
 description: Dynamsoft Label Recognizer supports the following programming languages - C, C++, iOS, .NET, Android, iOS, Java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/index.html
 ---
 
 # Dynamsoft Label Recognizer - Programming

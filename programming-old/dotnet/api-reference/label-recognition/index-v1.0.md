@@ -4,6 +4,7 @@ title: LabelRecognition Class - Dynamsoft Label Recognition .Net API Reference
 description: This page shows LabelRecognition methods of Dynamsoft Label Recognition for .Net API Reference.
 keywords: api reference, .Net
 needAutoGenerateSidebar: false
+permalink: /programming/dotnet/api-reference/label-recognition/index-v1.0.html
 ---
 
 

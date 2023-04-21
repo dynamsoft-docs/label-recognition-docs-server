@@ -5,6 +5,7 @@ description: This page shows the LabelRecognitionException Class of Dynamsoft La
 keywords: LabelRecognitionException, class, api reference, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/api-reference/label-recognition-exception.html
 ---
 
 

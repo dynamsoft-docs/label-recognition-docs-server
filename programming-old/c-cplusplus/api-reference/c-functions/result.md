@@ -4,6 +4,7 @@ title: Result - Dynamsoft Label Recognition C API Reference
 description: This is the result functions of Dynamsoft Label Recognition for C API Reference.
 keywords: api reference, c
 needAutoGenerateSidebar: true
+permalink: /programming/c-cplusplus/api-reference/c-functions/result.html
 ---
 
 # C API Reference - Result

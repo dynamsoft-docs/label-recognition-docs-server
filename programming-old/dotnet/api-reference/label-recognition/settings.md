@@ -4,6 +4,7 @@ title: Settings - Dynamsoft Label Recognition .Net API Reference
 description: This is the settings functions of Dynamsoft Label Recognition for .Net API Reference.
 keywords: api reference, .Net
 needAutoGenerateSidebar: true
+permalink: /programming/dotnet/api-reference/label-recognition/settings.html
 ---
 
 # .Net API Reference - Settings

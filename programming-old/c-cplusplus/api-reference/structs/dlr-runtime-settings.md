@@ -4,6 +4,7 @@ title: DLRRuntimeSettings - Dynamsoft Label Recognition C & C++ Struct
 description: This page shows the DLRRuntimeSettings struct of Dynamsoft Label Recognition for C & C++ Language.
 keywords: DLRRuntimeSettings, struct, c, c++
 needAutoGenerateSidebar: true
+permalink: /programming/c-cplusplus/api-reference/structs/dlr-runtime-settings.html
 ---
 
 

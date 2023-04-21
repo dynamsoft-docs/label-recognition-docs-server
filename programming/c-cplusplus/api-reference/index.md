@@ -4,6 +4,7 @@ title: Dynamsoft Label Recognizer C++ API Reference - Main Page
 description: This is the main page of Dynamsoft Label Recognizer SDK API Reference for C++ Language.
 keywords: label recognition, api reference, C++
 permalink: /programming/c-plusplus/api-reference/index.html
+permalink: /programming/c-cplusplus/api-reference/index.html
 ---
 
 # API Reference - C++

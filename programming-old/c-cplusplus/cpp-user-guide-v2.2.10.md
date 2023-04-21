@@ -5,6 +5,7 @@ description: This is the user guide page of Dynamsoft Label Recognizer for C++ L
 keywords: c++, user guide
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/c-cplusplus/cpp-user-guide-v2.2.10.html
 ---
 
 # User Guide - C++

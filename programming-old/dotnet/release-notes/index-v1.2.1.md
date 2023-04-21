@@ -4,6 +4,7 @@ title: Release Notes - Dynamsoft Label Recognition .Net SDK
 description: This is the release notes page of Dynamsoft Label Recognition for .Net SDK.
 keywords: release notes, .Net
 needAutoGenerateSidebar: false
+permalink: /programming/dotnet/release-notes/index-v1.2.1.html
 ---
 
 # Dynamsoft Label Recognition .Net SDK - Release Notes

@@ -6,6 +6,7 @@ keywords: LabelRecognizerException, class, api reference, .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/dotnet/api-reference/label-recognizer-exception.html
 ---
 
 

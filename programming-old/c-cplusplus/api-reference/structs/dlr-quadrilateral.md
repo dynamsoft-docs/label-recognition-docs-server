@@ -4,6 +4,7 @@ title: DLRQuadrilateral - Dynamsoft Label Recognition C & C++ Struct
 description: This page shows the DLRQuadrilateral struct of Dynamsoft Label Recognition for C & C++ Language.
 keywords: DLRQuadrilateral, struct, c, c++
 needAutoGenerateSidebar: true
+permalink: /programming/c-cplusplus/api-reference/structs/dlr-quadrilateral.html
 ---
 
 

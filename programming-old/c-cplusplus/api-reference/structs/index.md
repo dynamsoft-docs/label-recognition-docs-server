@@ -4,6 +4,7 @@ title: C and C++ Structs - Dynamsoft Label Recognition C/C++ API Reference
 description: This page shows all Structs of Dynamsoft Label Recognition for C/C++ API Reference.
 keywords: api reference, c, c++
 needAutoGenerateSidebar: false
+permalink: /programming/c-cplusplus/api-reference/structs/index.html
 ---
 
 

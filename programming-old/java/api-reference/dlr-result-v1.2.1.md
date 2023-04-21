@@ -5,6 +5,7 @@ description: This page shows the DLRResult struct of Dynamsoft Label Recognition
 keywords: DLRResult, struct, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/api-reference/dlr-result-v1.2.1.html
 ---
 
 

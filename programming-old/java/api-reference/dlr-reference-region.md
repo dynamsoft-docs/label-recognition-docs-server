@@ -6,6 +6,7 @@ keywords: DLRReferenceRegion, struct, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/dlr-reference-region.html
 ---
 
 

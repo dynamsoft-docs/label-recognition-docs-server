@@ -6,6 +6,7 @@ keywords: api reference, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/label-recognizer-v2.0.html
 ---
 
 

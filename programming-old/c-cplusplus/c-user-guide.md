@@ -5,6 +5,7 @@ description: This is the user guide page of Dynamsoft Label Recognizer for C Lan
 keywords: c, user guide
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/c-cplusplus/c-user-guide.html
 ---
 
 # User Guide - C

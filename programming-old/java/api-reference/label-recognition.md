@@ -5,6 +5,7 @@ description: This page shows LabelRecognition methods of Dynamsoft Label Recogni
 keywords: api reference, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/api-reference/label-recognition.html
 ---
 
 

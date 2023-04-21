@@ -6,6 +6,7 @@ keywords: DMDLSConnectionParameters, .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/dotnet/api-reference/dm-lts-connection-parameters.html
 ---
 
 

@@ -8,6 +8,7 @@ needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CCharacterResult
 permalink: /programming/c-plusplus/api-reference/character-result.html
+permalink: /programming/c-cplusplus/api-reference/character-result.html
 ---
 
 

@@ -4,6 +4,7 @@ title: C/C++ SDK Release Notes 2.x - Dynamsoft Label Recoginizer
 description: This is the release notes page of Dynamsoft Label Recoginizer for C/C++ SDK version 2.x.
 keywords: release notes, c, c++
 needAutoGenerateSidebar: false
+permalink: /programming/c-cplusplus/release-notes/c-cpp-2.html
 ---
 
 # Release Notes - C/C++ 2.x

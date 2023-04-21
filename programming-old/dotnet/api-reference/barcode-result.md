@@ -6,6 +6,7 @@ keywords: BarcodeResult, .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/dotnet/api-reference/barcode-result.html
 ---
 
 

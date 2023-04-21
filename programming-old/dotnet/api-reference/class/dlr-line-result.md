@@ -4,6 +4,7 @@ title: DLR_LineResult - Dynamsoft Label Recognition .Net Class
 description: This page shows the DLR_LineResult struct of Dynamsoft Label Recognition for .Net Language.
 keywords: DLR_LineResult, struct, .Net
 needAutoGenerateSidebar: true
+permalink: /programming/dotnet/api-reference/class/dlr-line-result.html
 ---
 
 

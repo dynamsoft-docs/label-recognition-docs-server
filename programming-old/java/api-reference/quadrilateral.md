@@ -6,6 +6,7 @@ keywords: Quadrilateral, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/quadrilateral.html
 ---
 
 

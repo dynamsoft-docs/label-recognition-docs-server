@@ -4,6 +4,7 @@ title: Java User Guide - Dynamsoft Label Recognition
 description: This is the user guide page of Dynamsoft Label Recognition for Java Language.
 keywords: java, user guide
 needAutoGenerateSidebar: true
+permalink: /programming/java/user-guide-v1.2.1.html
 ---
 
 # Dynamsoft Label Recognition - Java User Guide

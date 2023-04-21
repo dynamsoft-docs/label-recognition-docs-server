@@ -6,6 +6,7 @@ keywords: DLR_DictionaryCorrectionThreshold, C, C++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/dlr-dictionary-correction-threshold.html
 ---
 
 

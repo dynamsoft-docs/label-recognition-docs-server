@@ -4,6 +4,7 @@ title: General - Dynamsoft Label Recognition .Net API Reference
 description: This is the general functions of Dynamsoft Label Recognition for .Net API Reference.
 keywords: api reference, .Net
 needAutoGenerateSidebar: true
+permalink: /programming/dotnet/api-reference/label-recognition/general.html
 ---
 
 # .Net API Reference - General

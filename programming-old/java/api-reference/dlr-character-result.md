@@ -6,6 +6,7 @@ keywords: DLRCharacterResult, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/dlr-character-result.html
 ---
 
 

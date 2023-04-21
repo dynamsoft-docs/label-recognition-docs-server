@@ -4,6 +4,7 @@ title: .Net User Guide - Dynamsoft Label Recognition
 description: This is the user guide page of Dynamsoft Label Recognition for .Net Language.
 keywords: a, user guide
 needAutoGenerateSidebar: true
+permalink: /programming/dotnet/user-guide-v1.2.1.html
 ---
 
 # Dynamsoft Label Recognition - .Net User Guide

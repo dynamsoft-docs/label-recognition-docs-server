@@ -6,6 +6,7 @@ keywords: BarcodeResult, Java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/barcode-result.html
 ---
 
 

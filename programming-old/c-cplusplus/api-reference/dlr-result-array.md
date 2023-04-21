@@ -6,6 +6,7 @@ keywords: DLR_ResultArray, struct, c, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/dlr-result-array.html
 ---
 
 # DLR_ResultArray

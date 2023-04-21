@@ -5,6 +5,7 @@ description: This page shows the DMLTSConnectionParameters struct of Dynamsoft L
 keywords: DMLTSConnectionParameters, struct, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/api-reference/dm-lts-connection-parameters-v1.2.1.html
 ---
 
 

@@ -7,6 +7,7 @@ needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CRecognizedTextLineElement
+permalink: /programming/c-cplusplus/api-reference/recognized-text-line-element.html
 ---
 
 # CRecognizedTextLineElement

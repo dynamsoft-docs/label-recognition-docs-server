@@ -6,6 +6,7 @@ keywords: BarcodeResultArray, struct, c, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/barcode-result-array.html
 ---
 
 # BarcodeResultArray

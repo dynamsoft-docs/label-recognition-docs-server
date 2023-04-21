@@ -5,6 +5,7 @@ description: This is the main page of Dynamsoft Label Recognizer for C Language.
 keywords: c
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/c-cplusplus/c-index.html
 ---
 
 # C Documentation

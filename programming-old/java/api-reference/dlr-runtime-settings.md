@@ -6,6 +6,7 @@ keywords: DLRRuntimeSettings, struct, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/dlr-runtime-settings.html
 ---
 
 

@@ -5,6 +5,7 @@ description: This is the main page of Dynamsoft Label Recognition for .Net Langu
 keywords: .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/dotnet/index-v1.2.1.html
 ---
 
 # Dynamsoft Label Recognition - for .Net

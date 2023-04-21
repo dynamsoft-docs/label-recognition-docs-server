@@ -4,6 +4,7 @@ title: Settings - Dynamsoft Label Recognition C++ API Reference
 description: This is the settings functions of Dynamsoft Label Recognition for C++ API Reference.
 keywords: api reference, cpp
 needAutoGenerateSidebar: true
+permalink: /programming/c-cplusplus/api-reference/c-label-recognition-class/settings.html
 ---
 
 # C++ API Reference - Settings

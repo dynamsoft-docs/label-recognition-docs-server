@@ -6,6 +6,7 @@ keywords: Point, Java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/point.html
 ---
 
 

@@ -6,6 +6,7 @@ keywords: DLR_LineSpecification, c, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/dlr-line-specification.html
 ---
 
 

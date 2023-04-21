@@ -5,6 +5,7 @@ description: This page shows .Net API Reference of Dynamsoft Label Recognizer.
 keywords: api reference, .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/dotnet/api-reference/index.html
 ---
 
 

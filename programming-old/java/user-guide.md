@@ -5,6 +5,7 @@ description: This is the user guide page of Dynamsoft Label Recognizer for Java 
 keywords: java, user guide
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/user-guide.html
 ---
 
 # User Guide - Java

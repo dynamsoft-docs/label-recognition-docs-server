@@ -6,6 +6,7 @@ keywords: DLRLineSpecification, Java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/dlr-line-specification.html
 ---
 
 

@@ -6,6 +6,7 @@ keywords: CImageData, class, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/c-cplusplus/api-reference/image-data-cpp.html
 ---
 
 # CImageData

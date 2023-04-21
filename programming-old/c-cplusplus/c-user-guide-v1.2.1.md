@@ -4,6 +4,7 @@ title: C User Guide - Dynamsoft Label Recognition
 description: This is the user guide page of Dynamsoft Label Recognition for C Language.
 keywords: c, user guide
 needAutoGenerateSidebar: true
+permalink: /programming/c-cplusplus/c-user-guide-v1.2.1.html
 ---
 
 # Dynamsoft Label Recognition - C User Guide

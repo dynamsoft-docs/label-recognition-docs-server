@@ -6,6 +6,7 @@ keywords: LabelRecognizerException, class, api reference, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/java/api-reference/label-recognizer-exception.html
 ---
 
 

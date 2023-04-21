@@ -5,6 +5,7 @@ description: This is the main page of Dynamsoft Label Recognizer for Java API Re
 keywords: api reference, java
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
+permalink: /programming/java/api-reference/index.html
 ---
 
 # API Reference - Java

@@ -7,6 +7,7 @@ needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CTextLineResultItem
+permalink: /programming/c-cplusplus/api-reference/text-line-result-item.html
 ---
 
 # CTextLineResultItem

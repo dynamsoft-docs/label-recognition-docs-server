@@ -6,6 +6,7 @@ keywords: DLR_ReferenceRegion, struct, .Net
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 noTitleIndex: true
+permalink: /programming/dotnet/api-reference/dlr-reference-region.html
 ---
 
 
