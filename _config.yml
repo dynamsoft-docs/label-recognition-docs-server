@@ -32,7 +32,7 @@ dcv_enumerations: /capture-vision/docs/core/enums/
 dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-
+dcv_arch: /capture-vision/docs/core/architecture/
 
 assets: /label-recognition/docs/server/assets/
 edit_icon: /label-recognition/docs/server/assets/img-icon/edit-icon.png
