@@ -15,13 +15,14 @@ Dynamsoft Label Recognizer (DLR) is an SDK designed to recognize meaningful zona
 ## Modules of SDK
 
 |Modules|Description|Header files|dll/so files|
-|---|---|---|---|
-|Capture Vision Router (CVR)        |Active organizer and coordinator                       |DynamsoftCaptureVisionRouter.h|Windows:<br/>DynamsoftCaptureVisionRouter[**arch**].dll<br/><br/>Linux:<br/>DynamsoftCaptureVisionRouter.so|
-|Dynamsoft Label Recognizer (DLR)   |Label recognition algorithms                           |DynamsoftLabelRecognizer.h|Windows:<br/>DynamsoftLabelRecognizer[**arch**].dll<br/><br/>Linux:<br/>DynamsoftLabelRecognizer.so|
-|Dynamsoft Core (DC)                |Basic structures and common intermediate results       |DynamsoftCore.h|Windows:<br/>DynamsoftCore[**arch**].dll<br/><br/>Linux:<br/>DynamsoftCore.so|
-|Dynamsoft Image Processing (DIP)   |Image processing algorithms                            |-|Windows:<br/>DynamsoftImageProcessing[**arch**].dll<br/><br/>Linux:<br/>DynamsoftImageProcessing.so|
-|Dynamsoft License (DL)             |License module                                         |DynamsoftLicense.h|Windows:<br/>DynamsoftLicense[**arch**].dll<br/><br/>Linux:<br/>DynamsoftLicense.so|
-|Dynamsoft Utility (DU)             |Contains some useful utility classes                   |DynamsoftUtility.h|Windows:<br/>DynamsoftUtility[**arch**].dll<br/><br/>Linux:<br/>DynamsoftUtility.so|
+|:---|:---|:---|:---|
+|Capture Vision Router (CVR)        |Active organizer and coordinator                       |DynamsoftCaptureVisionRouter.h      |Windows:<br/>DynamsoftCaptureVisionRouter[**arch**].dll<br/><br/>Linux:<br/>DynamsoftCaptureVisionRouter.so|
+|Dynamsoft Label Recognizer (DLR)   |Label recognition algorithms                           |DynamsoftLabelRecognizer.h          |Windows:<br/>DynamsoftLabelRecognizer[**arch**].dll<br/><br/>Linux:<br/>DynamsoftLabelRecognizer.so|
+|Dynamsoft Core (DC)                |Basic structures and common intermediate results       |DynamsoftCore.h                     |Windows:<br/>DynamsoftCore[**arch**].dll<br/><br/>Linux:<br/>DynamsoftCore.so|
+|Dynamsoft Image Processing (DIP)   |Image processing algorithms                            |-                                   |Windows:<br/>DynamsoftImageProcessing[**arch**].dll<br/><br/>Linux:<br/>DynamsoftImageProcessing.so|
+|Dynamsoft License (DL)             |License module                                         |DynamsoftLicense.h                  |Windows:<br/>DynamsoftLicense[**arch**].dll<br/><br/>Linux:<br/>DynamsoftLicense.so|
+|Dynamsoft Utility (DU)             |Contains some useful utility classes                   |DynamsoftUtility.h                  |Windows:<br/>DynamsoftUtility[**arch**].dll<br/><br/>Linux:<br/>DynamsoftUtility.so|
+
 >Note: **arch** refers to the CPU architecture for Windows edition, which could be either x86 or x64 here.
 
 ## Main Classes of SDK
