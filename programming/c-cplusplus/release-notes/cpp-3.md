@@ -11,8 +11,4 @@ permalink: /programming/c-cplusplus/release-notes/cpp-3.html
 
 ## 3.0.0 (06/29/2023)
 
-### New
-
-### Renamed
-
-### Removed
+{%- include release-notes/product-highlight-3.0.0.md -%}
