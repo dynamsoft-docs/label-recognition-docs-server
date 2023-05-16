@@ -176,7 +176,7 @@ Let's start by creating a console application which demonstrates the minimum cod
             m_router = router;
         }
 
-        virtual void OnImageSourceStateChanged(ImageSourceState state)
+        virtual void OnImageSourceStateReceived(ImageSourceState state)
         {
             if(state == ISS_EXHAUSTED)
                 m_router->StopCapturing();
