@@ -24,6 +24,7 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
     - [Set Input Image Source](#set-input-image-source)
     - [Add Captured Result Receiver](#add-captured-result-receiver)
     - [Start Recognition](#start-recognition)
+    - [Release Allocated Memory](#release-allocated-memory)
     - [Build and Run the Project](#build-and-run-the-project)
       - [On windows](#on-windows)
       - [On Linux](#on-linux)
@@ -40,7 +41,7 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
 
 ## Installation
 
-If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/survey/dlr/?utm_source=docs" target="_blank">Dynamsoft website</a> to get it. Once the folder is decompressed, the root directory of the DLR installation package is `DynamsoftLabelRecognizer`, which we will refer to as `[INSTALLATION FOLDER]` throughout this guide.
+If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/survey/dlr/?utm_source=docs" target="_blank">Dynamsoft website</a> to get it. Once the folder is decompressed, the root directory of the DLR installation package is `Dynamsoft\LabelRecognizer`, which we will refer to as `[INSTALLATION FOLDER]` throughout this guide.
 
 ## Build Your First Application
 
@@ -149,7 +150,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 2. Create an instance of Dynamsoft Capture Vision Router
 
     ```cpp
-    CCaptureVisionRouter router;
+    CCaptureVisionRouter* router = new CCaptureVisionRouter();
     ```
 
 ### Set Input Image Source
@@ -157,10 +158,10 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Setting up a directory fetcher to retrieve image data sources from a directory.
 
     ```cpp
-    CDirectoryFetcher dirFetcher;
-    dirFetcher.SetDirectory("[Your Image Path]");
+    CImageSourceAdapter *dirFetcher = new CDirectoryFetcher;
+    dirFetcher->SetDirectory("[Your Image Path]");
 
-    router.SetInput(&dirFetcher);
+    router->SetInput(dirFetcher);
     ```
 
 2. Create a class `MyImageSourceStateListener` to implement the `CImageSourceStateListenter` interface, and call `StopCapturing` in the callback function.
@@ -187,8 +188,8 @@ Let's start by creating a console application which demonstrates the minimum cod
 3. Register the `MyImageSourceStateListener` object to monitor the status of the image source.
 
     ```cpp
-    MyImageSourceStateListener listener(&router);
-    router.AddImageSourceAdapterStateListener(&listener);
+    CImageSourceStateListener *listener = new MyImageSourceStateListener(router);
+    router->AddImageSourceStateListener(listener);
     ```
 
 ### Add Captured Result Receiver
@@ -220,8 +221,8 @@ Let's start by creating a console application which demonstrates the minimum cod
 2. Register the `MyResultReceiver` object to monitor the captured results of the router.
 
     ```cpp
-    MyResultReceiver recv;
-    router.AddResultReceiver(&recv);
+    CCapturedResultReceiver* recv = new MyResultReceiver();
+    router->AddResultReceiver(recv);
     ```
 
 ### Start Recognition
@@ -229,13 +230,27 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Start recognition with the default Label Recognizer Template.
 
     ```cpp
-    router.StartCapturing("recognize-textlines", true);
+    router->StartCapturing("recognize-textlines", true);
     ```
 
    >Note:
     >
     >- The second parameter is set to true, all images in the folder will be processed before returning. If set to false, it will return immediately.
-    >- You can also manually call StopCapturing to stop the current recognition task..
+    >- You can also manually call StopCapturing to stop the current recognition task.
+
+### Release Allocated Memory
+
+1. Release the CCaptureVisionRouter instance.
+
+    ```cpp
+    delete router, router = NULL;
+    ```
+
+   >Note:
+   >You only need to explicitly dispose of the CImageSourceAdapter instance, as ownership of the following associated instances will be automatically transferred to the CCaptureVisionRouter instance:
+    >- CImageSourceAdapter instance associated using SetInput
+    >- CCapturedResultReceiver instance associated using AddResultReceiver
+    >- CImageSourceStateListener instance associated using AddImageSourceStateListener.
 
 You can download the similar complete source code from [Here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/C++/HelloWorld).
 
