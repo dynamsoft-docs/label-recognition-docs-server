@@ -158,7 +158,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Setting up a directory fetcher to retrieve image data sources from a directory.
 
     ```cpp
-    CImageSourceAdapter *dirFetcher = new CDirectoryFetcher;
+    CDirectoryFetcher *dirFetcher = new CDirectoryFetcher;
     dirFetcher->SetDirectory("[Your Image Path]");
 
     router->SetInput(dirFetcher);
