@@ -248,9 +248,9 @@ Let's start by creating a console application which demonstrates the minimum cod
 
    >Note:
    >You only need to explicitly dispose of the `CCaptureVisionRouter` instance, as ownership of the following associated instances will be automatically transferred to the `CCaptureVisionRouter` instance:
-    >- The CImageSourceAdapter instance associated by calling the `SetInput` API.
-    >- The CCapturedResultReceiver instance associated by calling the `AddResultReceiver` API.
-    >- The CImageSourceStateListener instance associated by calling the `AddImageSourceStateListener` API.
+    >- The `CImageSourceAdapter` instance associated by calling the `SetInput` API.
+    >- The `CCapturedResultReceiver` instance associated by calling the `AddResultReceiver` API.
+    >- The `CImageSourceStateListener` instance associated by calling the `AddImageSourceStateListener` API.
 
 You can download the similar complete source code from [Here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/C++/HelloWorld).
 
