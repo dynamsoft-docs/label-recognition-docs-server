@@ -10,6 +10,10 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
 
 # User Guide - C++
 
+In this guide, you will learn step by step on how to build a label recognizer application with Dynamsoft Label Recognizer SDK using C++ language.
+
+> Read more on [Dynamsoft Label Recognizer Features](https://www.dynamsoft.com/label-recognition/docs/introduction/index.html)
+
 <span style="font-size:20px">Table of Contents</span>
 
 - [User Guide - C++](#user-guide---c)
@@ -20,14 +24,19 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
       - [For Windows](#for-windows)
       - [For Linux](#for-linux)
     - [Include the Library](#include-the-library)
-    - [Initialize the Capture Vision Router](#initialize-the-capture-vision-router)
-    - [Set Input Image Source](#set-input-image-source)
-    - [Add Captured Result Receiver](#add-captured-result-receiver)
-    - [Start Recognition](#start-recognition)
-    - [Release Allocated Memory](#release-allocated-memory)
+    - [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance)
+    - [Recognize and Output Recognition Results](#recognize-and-output-recognition-results)
+    - [Release the Allocated Memory](#release-the-allocated-memory)
     - [Build and Run the Project](#build-and-run-the-project)
       - [On windows](#on-windows)
       - [On Linux](#on-linux)
+  - [Process Multiple Images](#process-multiple-images)
+    - [Preparation Steps](#preparation-steps)
+    - [Add an Image Source as the Input](#add-an-image-source-as-the-input)
+    - [Add Captured Result Receiver](#add-captured-result-receiver)
+    - [Start Recognition](#start-recognition)
+    - [Release Allocated Memory](#release-allocated-memory)
+    - [Build and Run the Project Again](#build-and-run-the-project-again)
 
 ## Requirements
 
@@ -36,8 +45,8 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
   - Visual Studio 2012 or above
 
 - Linux
-  - Linux x64: Ubuntu 14.04.4+ LTS, Debian 8+, etc
-  - GCC 4.2+
+  - Linux x64: Ubuntu 14.04.4+ LTS, Debian 8+, etc.
+  - GCC 5.4+
 
 ## Installation
 
@@ -47,41 +56,41 @@ If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/surve
 
 Let's start by creating a console application which demonstrates the minimum code needed to recognize text from an image file.
 
->You can download the complete source code referenced in this guide from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/C++/HelloWorld).
+>You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/HelloWorld/RecognizeAnImage).
 
 ### Create A New Project
 
 #### For Windows
 
-1. Open Visual Studio. Go to File > New > Project, select Empty App and enter `HelloWorld` in the `name` text box.
+1. Open Visual Studio. Go to File > New > Project, select Empty App and enter `RecognizeAnImage` in the `name` text box.
 
-2. Add a new source file named `HelloWorld.cpp` into the project.
+2. Add a new source file named `RecognizeAnImage.cpp` into the project.
 
 #### For Linux
 
-1. Create a new source file named `HelloWorld.cpp` and place it into the folder `[INSTALLATION FOLDER]\Samples\C++\HelloWorld`.
+1. Create a new source file named `RecognizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]\Samples\HelloWorld\RecognizeAnImage`.
 
-2. Create a file named `Makefile` and put it in the same directory as the file `HelloWorld.cpp`. The content of `Makefile` is as follows:
+2. Create a file named `Makefile` and put it in the same directory as the file `RecognizeAnImage.cpp`. The content of `Makefile` is as follows:
 
     ```makefile
     CC=gcc
-    CCFLAGS=-c
+    CCFLAGS=-c -std=c++11
 
     DLRMODEL_PATH=../../../CharacterModel
-    DLRLIB_PATH=../../../Lib/Linux/x64
-    LDFLAGS=-L $(DLRLIB_PATH) -Wl,-rpath=$(DLRLIB_PATH) -Wl,-rpath=./
-    DLRLIB=-lDynamsoftCaptureVisionRouter -lDynamsoftCore -lDynamsoftLicense -lDynamsoftUtitlity
+    DS_LIB_PATH=../../../Lib/Linux/x64
+    LDFLAGS=-L $(DS_LIB_PATH) -Wl,-rpath=$(DS_LIB_PATH) -Wl,-rpath=./
+    DS_LIB=-lDynamsoftCaptureVisionRouter -lDynamsoftCore -lDynamsoftLicense
 
     STDLIB=-lstdc++
 
-    TARGET=HelloWorld
-    OBJECT=HelloWorld.o
-    SOURCE=HelloWorld.cpp
+    TARGET=RecognizeAnImage
+    OBJECT=RecognizeAnImage.o
+    SOURCE=RecognizeAnImage.cpp
 
     # build rule for target.
     $(TARGET): $(OBJECT)
-        $(CC) -o $(TARGET) $(OBJECT) $(STDLIB) $(DLRLIB) $(LDFLAGS)
-        cp -r $(DLRMODEL_PATH) $(DLRLIB_PATH)
+        $(CC) -o $(TARGET) $(OBJECT) $(STDLIB) $(DS_LIB) $(LDFLAGS)
+        cp -r $(DLRMODEL_PATH) $(DS_LIB_PATH)
 
     # target to build an object file
     $(OBJECT): $(SOURCE)
@@ -90,47 +99,41 @@ Let's start by creating a console application which demonstrates the minimum cod
     # the clean target
     .PHONY : clean
     clean: 
-        rm -f $(OBJECT) $(TARGET) -r $(DLRLIB_PATH)/CharacterModel
+        rm -f $(OBJECT) $(TARGET) -r $(DS_LIB_PATH)/CharacterModel
     ```
 
-    >Note: The `DLRLIB_PATH` variable should be set to the correct directory where the DLR library files are located. The files and character models directory can be found in `[INSTALLATION FOLDER]/Lib/Linux/x64`.
+    >Note: The `DS_LIB_PATH` variable should be set to the correct directory where the DLR library files are located. The files and character models directory can be found in `[INSTALLATION FOLDER]/Lib/Linux/x64`.
 
 ### Include the Library
 
-1. Add headers and libs in `HelloWorld.cpp`.
+1. Add headers and libs in `RecognizeAnImage.cpp`.
 
     ```cpp
     #include <iostream>
-    #include "<relative path>/Include/DynamsoftCaptureVisionRouter.h"
-    #include "<relative path>/Include/DynamsoftLicense.h"
-    #include "<relative path>/Include/DynamsoftUtility.h"
+    #include <string>
+    #include "[INSTALLATION FOLDER]/Include/DynamsoftCaptureVisionRouter.h"
 
     using namespace std;
     using namespace dynamsoft::cvr;
     using namespace dynamsoft::dlr;
     using namespace dynamsoft::license;
     using namespace dynamsoft::basic_structures;
-    using namespace dynamsoft::utility;
 
     // The following code only applies to Windows.
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "<relative path>/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-            #pragma comment(lib, "<relative path>/Lib/Windows/x64/DynamsoftCorex64.lib")
-            #pragma comment(lib, "<relative path>/Lib/Windows/x64/DynamsoftUtilityx64.lib")
-            #pragma comment(lib, "<relative path>/Lib/Windows/x64/DynamsoftLicensex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
         #else
-            #pragma comment(lib, "<relative path>/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-            #pragma comment(lib, "<relative path>/Lib/Windows/x86/DynamsoftCorex86.lib")
-            #pragma comment(lib, "<relative path>/Lib/Windows/x64/DynamsoftUtilityx86.lib")
-            #pragma comment(lib, "<relative path>/Lib/Windows/x86/DynamsoftLicensex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
         #endif
     #endif
     ```
 
-    >Please replace `<relative path>` in the above code with the relative path to the `HelloWorld.cpp` file. The c++ header file can be found in `[INSTALLATION FOLDER]/Include/`. The import lib files (only for Windows) can be found in `[INSTALLATION FOLDER]/Lib/Windows/[platform]`.
-
-### Initialize the Capture Vision Router
+### Initialize a Capture Vision Router Instance
 
 1. Initialize the license key
 
@@ -153,9 +156,121 @@ Let's start by creating a console application which demonstrates the minimum cod
     CCaptureVisionRouter* router = new CCaptureVisionRouter();
     ```
 
-### Set Input Image Source
+### Recognize and Output Recognition Results
 
-1. Setting up a directory fetcher to retrieve image data sources from a directory.
+1. Recognize an image file
+
+    ```cpp
+    string imageFile = "[INSTALLATION FOLDER]/Images/dlr-sample-vin.png";
+    CCapturedResultArray* results = router->Capture(imageFile.c_str(), CPresetTemplate::PT_RECOGNIZE_TEXT_LINES);
+    ```
+
+    > Note:
+    >
+    > Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpacking path.
+
+2. Output the recognition results
+
+    ```cpp
+    cout << "File: " << imageFile << endl;
+
+    /*
+    * results is an Array of CCapturedResult objects, each object is the result of an image.
+    */
+    for (int arrayIndex = 0; arrayIndex < results->GetCount(); arrayIndex++)
+    {
+        const CCapturedResult* result = results->GetResult(arrayIndex);
+
+        if (result->GetErrorCode() != 0) {
+            cout << "Error: " << result->GetErrorCode() << "," << result->GetErrorString() << endl;
+            continue;
+        }
+
+        /*
+        * There can be multiple types of result items per image.
+        * We check each of these items until we find the normalized image.
+        */
+        int count = result->GetCount();
+        cout << "Recognized " << count << " text lines" << endl;
+        for (int i = 0; i < count; i++) {
+            const CCapturedResultItem* item = result->GetItem(i);
+
+            CapturedResultItemType type = item->GetType();
+            if (type == CapturedResultItemType::CRIT_TEXT_LINE) {
+                const CTextLineResultItem* textLine = dynamic_cast<const CTextLineResultItem*>(item);
+
+                cout << ">>Line result " << i << ": " << textLine->GetText() << endl;
+            }
+        }
+    }
+    ```
+
+### Release the Allocated Memory
+
+```cpp
+delete router, router = NULL;
+delete results, results = NULL;   
+```
+
+### Build and Run the Project
+
+#### On windows
+
+1. Build the application through Visual Studio.
+
+2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Lib\Windows\[platforms]`
+    >Note: Select the corresponding folder (x86 or x64) based on your project's platform setting.
+
+3. Copy the `[INSTALLATION FOLDER]\CharacterModel` directory to the same folder as the EXE file.
+
+4. Run the program `RecognizeAnImage.exe`.
+
+#### On Linux
+
+1. Open a terminal and change to the target directory where `Makefile` located in. Build the sample:
+
+    ```sh
+    >make
+    ```
+
+2. Run the program `RecognizeAnImage`.
+
+    ```sh
+    >./RecognizeAnImage
+    ```
+
+## Process Multiple Images
+
+If you need to process multiple images at once instead of one image, you can follow these steps:
+
+### Preparation Steps
+
+1. [Create a new project](#create-a-new-project) named `RecognizeMultipleImages`.
+2. [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance).
+3. [Include the Library](#include-the-library).
+
+>You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/HelloWorld/RecognizeMultipleImages).
+
+### Add an Image Source as the Input
+
+The class `CDirectoryFetcher` is capable of converting a local directory to an image source. We will use it to connect multiple images to the image-processing engine.
+
+1. Include additional `DynamsoftUtility` module which contains `CDirectoryFetcher`.
+
+    ```cpp
+    using namespace dynamsoft::utility;
+
+    // The following code only applies to Windows.
+    #if defined(_WIN64) || defined(_WIN32)
+        #ifdef _WIN64
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftUtilityx64.lib")
+        #else
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftUtilityx86.lib")
+        #endif
+    #endif
+    ```
+
+2. Setting up a directory fetcher to retrieve image data sources from a directory.
 
     ```cpp
     CDirectoryFetcher *dirFetcher = new CDirectoryFetcher;
@@ -164,7 +279,7 @@ Let's start by creating a console application which demonstrates the minimum cod
     router->SetInput(dirFetcher);
     ```
 
-2. Create a class `MyImageSourceStateListener` to implement the `CImageSourceStateListenter` interface, and call `StopCapturing` in the callback function.
+3. Create a class `MyImageSourceStateListener` to implement the `CImageSourceStateListenter` interface, and call `StopCapturing` in the callback function.
 
     ```cpp
     class MyImageSourceStateListener : public CImageSourceStateListener
@@ -185,7 +300,7 @@ Let's start by creating a console application which demonstrates the minimum cod
     };
     ```
 
-3. Register the `MyImageSourceStateListener` object to monitor the status of the image source.
+4. Register the `MyImageSourceStateListener` object to monitor the status of the image source.
 
     ```cpp
     CImageSourceStateListener *listener = new MyImageSourceStateListener(router);
@@ -230,53 +345,22 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Start recognition with the default Label Recognizer Template.
 
     ```cpp
-    router->StartCapturing("recognize-textlines", true);
+    router->StartCapturing(CPresetTemplate::PT_RECOGNIZE_TEXT_LINES, true);
     ```
 
    >Note:
     >
-    >- The second parameter is set to true, all images in the folder will be processed before returning. If set to false, it will return immediately.
-    >- You can also manually call StopCapturing to stop the current recognition task.
+    >- During the process, the callback function `OnRecognizedTextLinesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceStateReceived()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
 
 ### Release Allocated Memory
 
-1. Release the CCaptureVisionRouter instance.
+```cpp
+delete router, router = NULL;
+delete dirFetcher, dirFetcher = NULL;
+delete listener, listener = NULL;
+delete recv, recv = NULL;
+```
 
-    ```cpp
-    delete router, router = NULL;
-    ```
+### Build and Run the Project Again
 
-   >Note:
-   >You only need to explicitly dispose of the `CCaptureVisionRouter` instance, as ownership of the following associated instances will be automatically transferred to the `CCaptureVisionRouter` instance:
-    >- The `CImageSourceAdapter` instance associated by calling the `SetInput` API.
-    >- The `CCapturedResultReceiver` instance associated by calling the `AddResultReceiver` API.
-    >- The `CImageSourceStateListener` instance associated by calling the `AddImageSourceStateListener` API.
-
-You can download the similar complete source code from [Here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/C++/HelloWorld).
-
-### Build and Run the Project
-
-#### On windows
-
-1. Build the application through Visual Studio.
-
-2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Lib\Windows\[platforms]`
-    >Note: Select the corresponding folder (x86 or x64) based on your project's platform setting.
-
-3. Copy the `[INSTALLATION FOLDER]\CharacterModel` directory to the same folder as the EXE file.
-
-4. Run the program `HelloWorld.exe`.
-
-#### On Linux
-
-1. Open a terminal and change to the target directory where `Makefile` located in. Build the sample:
-
-    ```sh
-    >make
-    ```
-
-2. Run the program `HelloWorld`.
-
-    ```sh
-    >./HelloWorld
-    ```
+Please refer to [Build and Run the Project](#build-and-run-the-project).
