@@ -21,14 +21,14 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 
 ## Final Results
 
-- [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/captured-result-receiver.html)
+- [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-receiver.html)
 - [`CRecognizedTextLinesResult`]({{ site.c-cplusplus-api-reference }}recognized-text-lines-result.html)
 - [`CTextLineResultItem`]({{ site.c-cplusplus-api-reference }}text-line-result-item.html)
 - [`CCharacterResult`]({{ site.c-cplusplus-api-reference }}character-result.html)
 - [`CCapturedResult`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result.html)
 - [`CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html)
 - [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
-- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/raw-image-result-item.html)
+- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
 
 ## Intermediate Results
 
