@@ -6,7 +6,7 @@ keywords: struct, c++, SimplifiedLabelRecognizerSettings
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 breadcrumbText: CVR C++ SimplifiedLabelRecognizerSettings Struct
-permalink: /programming/cplusplus/api-reference/capture-vision-router/structs/simplified-capture-vision-settings.html
+permalink: /programming/c-cplusplus/api-reference/simplified-label-recognizer-settings.html
 ---
 
 # SimplifiedLabelRecognizerSettings
