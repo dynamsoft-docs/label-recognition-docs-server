@@ -70,7 +70,7 @@ char lineStringRegExPattern[1024];
 
 ### maxThreadsInOneTask
 
-Set the maximum available threads count in one barcode decoding task.
+Set the maximum available threads count in one label recognition task.
 
 ```cpp
 int maxThreadsInOneTask;
