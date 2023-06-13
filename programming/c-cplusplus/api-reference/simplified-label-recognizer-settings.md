@@ -11,7 +11,7 @@ permalink: /programming/c-cplusplus/api-reference/simplified-label-recognizer-se
 
 # SimplifiedLabelRecognizerSettings
 
-The `SimplifiedLabelRecognizerSettings` struct contains settings for barcode decoding. It is a sub-parameter of `SimplifiedCaptureVisionSettings`
+The `SimplifiedLabelRecognizerSettings` struct contains settings for label recognition. It is a sub-parameter of `SimplifiedCaptureVisionSettings`
 
 ```cpp
 typedef struct tagSimplifiedLabelRecognizerSettings
