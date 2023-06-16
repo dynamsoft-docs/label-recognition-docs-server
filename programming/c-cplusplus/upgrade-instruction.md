@@ -3,7 +3,7 @@ title: Upgrade Instructions - Dynamsoft Label Recognizer C++ Edition
 keywords: c++, cplusplus, upgrade
 description: This page introduces how to upgrade Dynamsoft Label Recognizer
 needAutoGenerateSidebar: false
-permalink: /programming/cplusplus/upgrade-instruction.html
+permalink: /programming/c-cplusplus/upgrade-instruction.html
 ---
 
 # How to Upgrade
