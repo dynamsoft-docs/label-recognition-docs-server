@@ -50,10 +50,10 @@ The `CRecognizedTextLinesResult` class represents the result of a text recogniti
 
 ## API Reference
 
-- [API Reference](api-reference/cpp-index.md)
+- [API Reference](api-reference/index.md)
 
 ## Release Notes
 
-- [Version 3.x](../../programming/release-notes/cpp-3.md)
-- [Version 2.x](../../programming/release-notes/c-cpp-2.md)
-- [Version 1.x](../../programming/release-notes/c-cpp-1.md)
+- [Version 3.x](release-notes/cpp-3.md)
+- [Version 2.x](release-notes/c-cpp-2.md)
+- [Version 1.x](release-notes/c-cpp-1.md)
