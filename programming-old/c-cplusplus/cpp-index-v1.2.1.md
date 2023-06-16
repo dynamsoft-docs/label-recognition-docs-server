@@ -11,7 +11,7 @@ permalink: /programming/c-cplusplus/cpp-index-v1.2.1.html
 
 ## Getting Started
 
-- [User Guide](cpp-user-guide.md)
+- [User Guide]({{site.c-cplusplus}}cpp-user-guide.html)
 
 ## API Reference
 
