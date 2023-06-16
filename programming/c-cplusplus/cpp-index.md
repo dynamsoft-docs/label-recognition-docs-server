@@ -55,5 +55,5 @@ The `CRecognizedTextLinesResult` class represents the result of a text recogniti
 ## Release Notes
 
 - [Version 3.x](release-notes/cpp-3.md)
-- [Version 2.x](release-notes/c-cpp-2.md)
-- [Version 1.x](release-notes/c-cpp-1.md)
+- [Version 2.x]({{c-cplusplus-release-notes}}c-cpp-2.html)
+- [Version 1.x]({{c-cplusplus-release-notes}}c-cpp-1.html)
