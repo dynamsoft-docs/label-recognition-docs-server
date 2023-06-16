@@ -26,7 +26,7 @@ permalink: /programming/c-cplusplus/release-notes/c-cpp-1.html
 
 - Added a new parameter [`LabelRecognitionParameter.Timeout`]({{ site.parameters-reference }}label-recognition-parameter/parameter-control.html#timeout). Should the recognition time pass the value of this parameter, a new error code [`DLRERR_RECOGNITION_TIMEOUT`]({{ site.enumerations }}error-code.html) will be returned.
 
-- Added a new parameter [`LabelRecognitionParameter.Pages`]({{ site.parameters-reference }}label-recognition-parameter/parameter-control.html#page) that specifies a page or a subset of pages of a single file to run the recognition process on.
+- Added a new parameter [`LabelRecognitionParameter.Page`]({{ site.parameters-reference }}label-recognition-parameter/parameter-control.html#page) that specifies a page or a subset of pages of a single file to run the recognition process on.
 
 - Added the following error codes: [`DLRERR_TIFF_READ_FAILED`]({{ site.enumerations }}error-code.html) , [`DLRERR_PDF_READ_FAILED`]({{ site.enumerations }}error-code.html) and [`DLRERR_PDF_DLL_MISSING`]({{ site.enumerations }}error-code.html). These error codes will be returned when the recognizer fails to read a TIFF file, a PDF file, or if the PDF DLL is missing, respectively.
 

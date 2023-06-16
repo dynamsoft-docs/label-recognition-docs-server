@@ -7,7 +7,7 @@ docHomePage: /label-recognition/docs/core/introduction/
 introduction: /label-recognition/docs/core/introduction/
 parameters: /label-recognition/docs/core/parameters/
 enumerations: /label-recognition/docs/core/parameters/enum/
-parameters-reference: /label-recognition/docs/parameters/reference/
+parameters-reference: /label-recognition/docs/core/parameters/reference/
 
 programming: /label-recognition/docs/server/programming/
 

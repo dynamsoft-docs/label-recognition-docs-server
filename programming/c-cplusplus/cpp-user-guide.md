@@ -331,7 +331,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     };
     ```
 
-    >For the error handling mechanism, the SDK returns Error Code in the `CRecognizedTextLinesResult` object. You can add error handling code as needed. See [Error Code]({{site.dcv_enumerations}}error-code.html) for a full list of supported error codes.
+    >For the error handling mechanism, the SDK returns Error Code in the `CRecognizedTextLinesResult` object. You can add error handling code as needed. See [Error Code]({{site.dcv_enumerations}}core/error-code.html) for a full list of supported error codes.
 
 2. Register the `MyResultReceiver` object to monitor the captured results of the router.
 
