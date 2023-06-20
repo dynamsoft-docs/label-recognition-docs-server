@@ -106,4 +106,5 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`RegionObjectElementType`]({{ site.dcv_enumerations}}core/region-object-element-type.html?src=cpp&&lang=cpp)
 - [`SectionType`]({{ site.dcv_enumerations}}core/section-type.html?src=cpp&&lang=cpp)
 - [`TargetType`]({{ site.dcv_enumerations}}core/target-type.html?src=cpp&&lang=cpp)
+- [`VideoFrameQuality`]({{ site.dcv_enumerations }}core/video-frame-quality.html?src=cpp&&lang=cpp)
 - [`ColourChannelUsageType`]({{ site.dcv_enumerations}}core/colour-channel-usage-type.html?src=cpp&&lang=cpp)
