@@ -3,7 +3,6 @@ layout: default-layout
 title: Dynamsoft Label Recognizer C++ API Reference - Main Page
 description: This is the main page of Dynamsoft Label Recognizer SDK API Reference for C++ Language.
 keywords: label recognition, api reference, C++
-permalink: /programming/c-plusplus/api-reference/index.html
 permalink: /programming/c-cplusplus/api-reference/index.html
 ---
 
@@ -30,10 +29,17 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
 - [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
 
+## Final Results Filters
+
+- [`CCapturedResultFilter`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-filter.html)
+- [`CMultiFrameResultCrossFilter`]({{ site.dcv_cpp_api }}utility/multi-frame-result-cross-filter.html)
+
 ## Intermediate Results
 
 - [`CIntermediateResultManager`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-manager.html)
 - [`CIntermediateResultReceiver`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-receiver.html)
+- [`CObservationParameters`]({{ site.dcv_cpp_api }}core/intermediate-results/observed-parameters.html)
+- [`IntermediateResultExtraInfo`]({{ site.dcv_cpp_api }}core/structs/intermediate-result-extra-info.html)
 - [`CLocalizedTextLinesUnit`]({{ site.c-cplusplus-api-reference }}localized-text-lines-unit.html)
 - [`CLocalizedTextLineElement`]({{ site.c-cplusplus-api-reference }}localized-text-line-element.html)
 - [`CRecognizedTextLinesUnit`]({{ site.c-cplusplus-api-reference }}recognized-text-lines-unit.html)
@@ -53,6 +59,12 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`CRegionObjectElement`]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html)
 - [`CPredetectedRegionElement`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-region-element.html)
 
+## Settings
+
+- [`SimplifiedCaptureVisionSettings`]({{ site.dcv_cpp_api }}capture-vision-router/structs/simplified-capture-vision-settings.html)
+- [`SimplifiedLabelRecognizerSettings`]({{ site.c-cplusplus-api-reference }}simplified-label-recognizer-settings.html)
+- [`CPresetTemplate`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/preset-template.html)
+
 ## State Listener
 
 - [`CCaptureStateListener`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/capture-state-listener.html)
@@ -70,6 +82,15 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`CFileImageTag`]({{ site.dcv_cpp_api }}core/basic-structures/file-image-tag.html)
 - [`CPDFReadingParameter`]({{ site.dcv_cpp_api }}core/basic-structures/pdf-reading-parameter.html)
 
+## Modules
+
+- [`CCaptureVisionRouterModule`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/capture-vision-router-module.html)
+- [`CLabelRecognizerModule`]({{ site.c-cplusplus-api-reference }}label-recognizer-module.html)
+- [`CCoreModule`]({{ site.dcv_cpp_api }}core/basic-structures/core-module.html)
+- [`CLicenseModule`]({{ site.dcv_cpp_api }}license/license-module.html)
+- [`CUtilityModule`]({{ site.dcv_cpp_api }}utility/utility-module.html)
+- [`CImageProcessingModule`]({{ site.dcv_cpp_api }}image-processing/image-processing-module.html)
+
 ## Enumerations
 
 - [`BufferOverflowProtectionMode`]({{ site.dcv_enumerations}}core/buffer-overflow-protection-mode.html?src=cpp&&lang=cpp)
@@ -85,3 +106,4 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`RegionObjectElementType`]({{ site.dcv_enumerations}}core/region-object-element-type.html?src=cpp&&lang=cpp)
 - [`SectionType`]({{ site.dcv_enumerations}}core/section-type.html?src=cpp&&lang=cpp)
 - [`TargetType`]({{ site.dcv_enumerations}}core/target-type.html?src=cpp&&lang=cpp)
+- [`ColourChannelUsageType`]({{ site.dcv_enumerations}}core/colour-channel-usage-type.html?src=cpp&&lang=cpp)
