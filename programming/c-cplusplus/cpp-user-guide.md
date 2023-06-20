@@ -12,7 +12,7 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
 
 In this guide, you will learn step by step on how to build a label recognizer application with Dynamsoft Label Recognizer SDK using C++ language.
 
-> Read more on [Dynamsoft Label Recognizer Features](https://www.dynamsoft.com/label-recognition/docs/introduction/index.html)
+> Read more on [Dynamsoft Label Recognizer Features](https://www.dynamsoft.com/label-recognition/docs/core/introduction/index.html)
 
 <span style="font-size:20px">Table of Contents</span>
 
@@ -50,7 +50,7 @@ In this guide, you will learn step by step on how to build a label recognizer ap
 
 ## Installation
 
-If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/survey/dlr/?utm_source=docs" target="_blank">Dynamsoft website</a> to get it. Once the folder is decompressed, the root directory of the DLR installation package is `Dynamsoft\LabelRecognizer`, which we will refer to as `[INSTALLATION FOLDER]` throughout this guide.
+If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/survey/dlr/?utm_source=docs" target="_blank">Dynamsoft website</a> to get it. After the folder is decompressed, the root directory of the DLR installation package is called `[INSTALLATION FOLDER]` in this guide.
 
 ## Build Your First Application
 
@@ -68,7 +68,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 
 #### For Linux
 
-1. Create a new source file named `RecognizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]\Samples\HelloWorld\RecognizeAnImage`.
+1. Create a new source file named `RecognizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]\Resources\LabelRecognizer\Samples\HelloWorld\RecognizeAnImage`.
 
 2. Create a file named `Makefile` and put it in the same directory as the file `RecognizeAnImage.cpp`. The content of `Makefile` is as follows:
 
@@ -161,7 +161,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Recognize an image file
 
     ```cpp
-    string imageFile = "[INSTALLATION FOLDER]/Images/dlr-sample-vin.png";
+    string imageFile = "[INSTALLATION FOLDER]/Resources/LabelRecognizer/Images/dlr-sample-vin.png";
     CCapturedResultArray* results = router->Capture(imageFile.c_str(), CPresetTemplate::PT_RECOGNIZE_TEXT_LINES);
     ```
 
@@ -221,7 +221,7 @@ delete results, results = NULL;
 2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Lib\Windows\[platforms]`
     >Note: Select the corresponding folder (x86 or x64) based on your project's platform setting.
 
-3. Copy the `[INSTALLATION FOLDER]\CharacterModel` directory to the same folder as the EXE file.
+3. Copy the `[INSTALLATION FOLDER]\Resources\LabelRecognizer\CharacterModel` directory to the same folder as the EXE file.
 
 4. Run the program `RecognizeAnImage.exe`.
 
