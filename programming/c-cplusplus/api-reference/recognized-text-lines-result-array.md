@@ -18,7 +18,7 @@ The `CRecognizedTextLinesResultArray` class represents an array of recognized te
 
 *Namespace:* dynamsoft::dlr
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CRecognizedTextLinesResultArray

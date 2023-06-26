@@ -21,7 +21,7 @@ The `CCharacterResult` class represents the result of a character recognition pr
 
 *Namespace:* dynamsoft::dlr
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CCharacterResult

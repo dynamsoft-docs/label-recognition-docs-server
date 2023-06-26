@@ -18,7 +18,7 @@ The `CRecognizedTextLinesUnit` class represents an intermediate result unit cont
 
 *Namespace:* dynamsoft::dlr::intermediate_results
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CRecognizedTextLinesUnit : public CIntermediateResultUnit

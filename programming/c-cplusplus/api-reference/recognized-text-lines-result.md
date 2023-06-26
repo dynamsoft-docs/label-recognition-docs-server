@@ -18,7 +18,7 @@ The `CRecognizedTextLinesResult` class represents the result of a text recogniti
 
 *Namespace:* dynamsoft::dlr
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CRecognizedTextLinesResult

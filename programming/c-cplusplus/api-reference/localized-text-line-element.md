@@ -18,7 +18,7 @@ The `CLocalizedTextLineElement` class represents a localized text line element. 
 
 *Namespace:* dynamsoft::dlr::intermediate_results
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CLocalizedTextLineElement : public CRegionObjectElement

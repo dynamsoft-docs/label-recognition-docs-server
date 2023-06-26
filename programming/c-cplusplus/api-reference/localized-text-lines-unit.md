@@ -18,7 +18,7 @@ The `CLocalizedTextLinesUnit` class represents a unit that contains localized te
 
 *Namespace:* dynamsoft::dlr::intermediate_results
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CLocalizedTextLinesUnit : public CIntermediateResultUnit

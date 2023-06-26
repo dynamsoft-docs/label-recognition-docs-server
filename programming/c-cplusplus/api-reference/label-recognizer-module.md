@@ -17,7 +17,7 @@ The `CLabelRecognizerModule` class defines general functions in the label recogn
 
 *Namespace:* dynamsoft::dlr
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CLabelRecognizerModule 

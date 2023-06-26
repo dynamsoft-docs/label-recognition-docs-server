@@ -18,7 +18,7 @@ The `CTextLineResultItem` class represents a text line result item recognized by
 
 *Namespace:* dynamsoft::dlr
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CTextLineResultItem : public CCapturedResultItem

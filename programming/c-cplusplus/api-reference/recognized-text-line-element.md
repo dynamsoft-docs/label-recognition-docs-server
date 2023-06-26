@@ -18,7 +18,7 @@ The `CRecognizedTextLineElement` class represents a line of recognized text in a
 
 *Namespace:* dynamsoft::dlr::intermediate_results
 
-*Assembly:* DynamsoftLabelRecognizer.dll
+*Assembly:* DynamsoftLabelRecognizer
 
 ```cpp
 class CRecognizedTextLineElement : public CRegionObjectElement
