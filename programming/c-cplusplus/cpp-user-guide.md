@@ -12,7 +12,7 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
 
 In this guide, you will learn step by step on how to build a label recognizer application with Dynamsoft Label Recognizer SDK using C++ language.
 
-> Read more on [Dynamsoft Label Recognizer Features](https://www.dynamsoft.com/label-recognition/docs/core/introduction/index.html)
+> Read more on [Dynamsoft Label Recognizer Features]({{site.introdution}})
 
 <span style="font-size:20px">Table of Contents</span>
 
@@ -117,7 +117,6 @@ Let's start by creating a console application which demonstrates the minimum cod
     using namespace dynamsoft::cvr;
     using namespace dynamsoft::dlr;
     using namespace dynamsoft::license;
-    using namespace dynamsoft::basic_structures;
 
     // The following code only applies to Windows.
     #if defined(_WIN64) || defined(_WIN32)
@@ -162,7 +161,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 
     ```cpp
     string imageFile = "[INSTALLATION FOLDER]/Resources/LabelRecognizer/Images/dlr-sample-vin.png";
-    CCapturedResultArray* results = router->Capture(imageFile.c_str(), CPresetTemplate::PT_RECOGNIZE_TEXT_LINES);
+    CCapturedResult* result = router->Capture(imageFile.c_str(), CPresetTemplate::PT_RECOGNIZE_TEXT_LINES);
     ```
 
     > Note:
@@ -174,33 +173,20 @@ Let's start by creating a console application which demonstrates the minimum cod
     ```cpp
     cout << "File: " << imageFile << endl;
 
-    /*
-    * results is an Array of CCapturedResult objects, each object is the result of an image.
-    */
-    for (int arrayIndex = 0; arrayIndex < results->GetCount(); arrayIndex++)
-    {
-        const CCapturedResult* result = results->GetResult(arrayIndex);
+    if (result->GetErrorCode() != 0) {
+        cout << "Error: " << result->GetErrorCode() << "," << result->GetErrorString() << endl;
+    }
 
-        if (result->GetErrorCode() != 0) {
-            cout << "Error: " << result->GetErrorCode() << "," << result->GetErrorString() << endl;
-            continue;
-        }
+    int count = result->GetCount();
+    cout << "Recognized " << count << " text lines" << endl;
+    for (int i = 0; i < count; i++) {
+        const CCapturedResultItem* item = result->GetItem(i);
 
-        /*
-        * There can be multiple types of result items per image.
-        * We check each of these items until we find the normalized image.
-        */
-        int count = result->GetCount();
-        cout << "Recognized " << count << " text lines" << endl;
-        for (int i = 0; i < count; i++) {
-            const CCapturedResultItem* item = result->GetItem(i);
+        CapturedResultItemType type = item->GetType();
+        if (type == CapturedResultItemType::CRIT_TEXT_LINE) {
+            const CTextLineResultItem* textLine = dynamic_cast<const CTextLineResultItem*>(item);
 
-            CapturedResultItemType type = item->GetType();
-            if (type == CapturedResultItemType::CRIT_TEXT_LINE) {
-                const CTextLineResultItem* textLine = dynamic_cast<const CTextLineResultItem*>(item);
-
-                cout << ">>Line result " << i << ": " << textLine->GetText() << endl;
-            }
+            cout << ">>Line result " << i << ": " << textLine->GetText() << endl;
         }
     }
     ```
@@ -209,7 +195,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 
 ```cpp
 delete router, router = NULL;
-delete results, results = NULL;   
+delete result, result = NULL;   
 ```
 
 ### Build and Run the Project
