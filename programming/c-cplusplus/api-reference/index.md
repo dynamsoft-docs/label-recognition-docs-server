@@ -23,11 +23,9 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-receiver.html)
 - [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
 - [`CCapturedResult`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result.html)
-- [`CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html)
 - [`CTextLineResultItem`]({{ site.c-cplusplus-api-reference }}text-line-result-item.html)
 - [`CCharacterResult`]({{ site.c-cplusplus-api-reference }}character-result.html)
 - [`CRecognizedTextLinesResult`]({{ site.c-cplusplus-api-reference }}recognized-text-lines-result.html)
-- [`CRecognizedTextLinesResultArray`]({{ site.c-cplusplus-api-reference }}recognized-text-lines-result-array.html)
 - [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
 
 ## Final Results Filters
@@ -72,7 +70,9 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 - [`CCaptureStateListener`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/capture-state-listener.html)
 - [`CImageSourceStateListener`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/image-source-state-listener.html)
 
-## [`CLicenseManager`]({{ site.dcv_cpp_api }}license/license-manager.html)
+## License
+
+- [`CLicenseManager`]({{ site.dcv_cpp_api }}license/license-manager.html)
 
 ## Basic Structure
 
