@@ -12,7 +12,7 @@ permalink: /programming/c-cplusplus/cpp-user-guide.html
 
 In this guide, you will learn step by step on how to build a label recognizer application with Dynamsoft Label Recognizer SDK using C++ language.
 
-> Read more on [Dynamsoft Label Recognizer Features]({{site.introdution}})
+> Read more on [Dynamsoft Label Recognizer Features]({{site.introduction}})
 
 <span style="font-size:20px">Table of Contents</span>
 
