@@ -12,96 +12,94 @@ permalink: /programming/c-cplusplus/upgrade-instruction.html
 
 `DynamsoftLabelRecognizer` SDK has been refactored to integrate with `DynamsoftCaptureVision (DCV)` architecture. Notice the following break changes when upgrading your SDK.
 
-### Update the Included .h .lib & .dll file
+### Update the Included .h .lib & .dll/.so file
 
-Since the SDK architecture is changed, you have to change you code for including the headers, libs and DLLs. You can use the following code to replace your previous code.
+Since the SDK architecture is changed, you have to change you code for including the headers, libs(windows only). You can use the following code to replace your previous code.
 
 ```cpp
-#include "[INSTALLATION FOLDER]/Include/DynamsoftLicense.h"
 #include "[INSTALLATION FOLDER]/Include/DynamsoftCaptureVisionRouter.h"
-#include "[INSTALLATION FOLDER]/Include/DynamsoftLabelRecognizer.h"
 
 using namespace std;
 using namespace dynamsoft::license;
 using namespace dynamsoft::cvr;
-using namespace dynamsoft::ddn;
+using namespace dynamsoft::dlr;
 
 #if defined(_WIN64) || defined(_WIN32)
     #ifdef _WIN64
         #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
         #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLabelRecognizerx64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
     #else
         #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
         #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLabelRecognizerx86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
     #endif
 #endif
 ```
 
-Put the following **.dll** files in your lib:
+Put the following **.dll/.so** files in your executable path:
 
-x64:
+- Windows
+  - x64:
+    - DynamsoftCaptureVisionRouterx64.dll
+    - DynamsoftCorex64.dll
+    - DynamsoftImageProcessingx64.dll
+    - DynamsoftLabelRecognizerx64.dll
+    - DynamsoftLicensex64.dll
+    - DynamsoftUtilityx64.dll(Optional)
 
-* DynamsoftCaptureVisionRouterx64.dll
-* DynamsoftCorex64.dll
-* DynamsoftImageProcessingx64.dll
-* DynamsoftLabelRecognizerx64.dll
-* DynamsoftLicensex64.dll
-* DynamsoftUtilityx64.dll
+  - x86:
+    - DynamsoftCaptureVisionRouterx86.dll
+    - DynamsoftCorex86.dll
+    - DynamsoftImageProcessingx86.dll
+    - DynamsoftLabelRecognizerx86.dll
+    - DynamsoftLicensex86.dll
+    - DynamsoftUtilityx86.dll(Optional)
 
-x86:
-
-* DynamsoftCaptureVisionRouterx86.dll
-* DynamsoftCorex86.dll
-* DynamsoftImageProcessingx86.dll
-* DynamsoftLabelRecognizerx86.dll
-* DynamsoftLicensex86.dll
-* DynamsoftUtilityx86.dll
+- Linux
+  - x64:
+    - libDynamsoftCaptureVisionRouter.so
+    - libDynamsoftCore.so
+    - libDynamsoftImageProcessing.so
+    - libDynamsoftLabelRecognizer.so
+    - libDynamsoftLicense.so
+    - libDynamsoftUtility.so(Optional)
 
 ### Migrate from Class CLabelRecognizer to Class CCaptureVisionRouter
 
-Class `CCaptureVisionRouter` is added to replace class `CLabelRecognizer`. Class `CCaptureVisionRouter` APIs includes the following features:
+The `CCaptureVisionRouter` class serves as the central class of the DCV framework's execution flow. It encompasses the following functionalities:
 
-* Retrieve images
-* Update templates and configure settings
-* Implement label recognizing
-* Dispatch the results
+- Retrieving images from the `ImageSourceAdapter`.
+- Updating templates and configuring settings.
+- Dynamically loading the `DynamsoftLabelRecognizer` module for label recognition.
+- Dispatching the results to registered receivers of type `CapturedResultReceiver`.
 
-### Templates
+### Templates Migration
 
-The template system is upgraded. The template you used for the previous version can't be directly recognized by the new version. Please go to [this page]() to upgrade your template.
+The template system is upgraded. The template you used for the previous version can't be directly recognized by the new version. Please <a href="mailto:support@dynamsoft.com">contact us</a> to upgrade your template.
 
 ### Update Your Image Label Recognizing Codes
 
 #### Single Image Label Recognizing
 
-Since class `CLabelRecognizer` is replaced with class `CCaptureVisionRouter`. You have to use the following `Capture` APIs instead of the `Recognize` APIs:
+Please refer to the [user guide](../c-cplusplus/cpp-user-guide.md#create-a-new-project) for more detailed information on using the following `Capture` APIs instead of the `Recognize` APIs.
 
 ```cpp
 // Capture from a file.
-CCapturedResultArray* Capture(const char* filePath, const char* templateName="");
+CCapturedResult* Capture(const char* filePath, const char* templateName="");
 // Capture from a file in memory.
-CCapturedResultArray* Capture(const unsigned char *fileBytes, int fileSize, const char* templateName="");
+CCapturedResult* Capture(const unsigned char *fileBytes, int fileSize, const char* templateName="");
 // Capture from a CImageData object.
 CCapturedResult* Capture(const CImageData* pImageData, const char* templateName="");
 ```
 
+> Note: The `Capture` API is designed to recognize text in single-page files, such as images or PDFs. If you need to extract text from multi-page files, it is recommended to use the [`FileFetcher`]({{site.dcv_cpp_api}}utility/file-fetcher.html) instead.
+
 #### Batch Image Label Recognizing
 
-DCV architecture allows you to set a folder as an image source to fetch image from. To use this feature, you have to set `DirectoryFetcher` as the input via class `CCaptureVisionRouter`.
-
-```cpp
-int main()
-{
-   CCaptureVisionRouter cvr;
- 
-   CDirectoryFetcher fetcher;
-   // Replace the following directory path with your directory path:
-   fetcher.SetDirectory("C:\\my-directory-folder\\");
-   cvr.SetInput(&fetcher);
-}
-```
+1. DCV architecture allows you to set a folder as an image source to fetch image from. To use this feature, you have to set [`DirectoryFetcher`]({{site.dcv_cpp_api}}utility/directory-fetcher.html) as the input via class `CCaptureVisionRouter`.
+2. You need to register a [`CCapturedResultReceiver`]({{site.dcv_cpp_api}}core/basic-structures/captured-result-receiver.html) to receive the label recognizing results.
+3. Please refer to the [user guide](../c-cplusplus/cpp-user-guide.md#process-multiple-images) for more details.
 
 >Note: creating multiple `CCaptureVisionRouter` instances might cause crash bugs. Multi-thread processing is internally implemented. As a result you don't need to create multi-thread code by yourself.
 
@@ -116,15 +114,11 @@ class MyImageSource : public CImageSourceAdapter
 };
 int main()
 {
-  MyImageSource source;
-  cvr.SetInput(&source);
+    CCaptureVisionRouter cvr;
+
+    MyImageSource* source = new MyImageSource;
+    cvr.SetInput(source);
 }
 ```
 
 >Note: creating multiple `CCaptureVisionRouter` instances might cause crash bugs. Multi-thread processing is internally implemented. As a result you don't need to create multi-thread code by yourself.
-
-### Result Obtaining
-
-If you are using batch image scanning or video streaming scanning, you have to register a `CCapturedResultReceiver` to receive the label recognizing results.
-
-If you are using `Capture` APIs to process a single image, the label recognizing results are still available from the return value of the `Capture` APIs.
