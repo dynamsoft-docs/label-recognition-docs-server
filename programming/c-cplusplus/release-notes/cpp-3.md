@@ -9,6 +9,6 @@ permalink: /programming/c-cplusplus/release-notes/cpp-3.html
 
 # Release Notes - C++ 3.x
 
-## 3.0.0 (06/29/2023)
+## 3.0.0 (07/04/2023)
 
 {%- include release-notes/product-highlight-3.0.0.md -%}
