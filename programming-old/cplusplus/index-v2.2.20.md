@@ -5,7 +5,7 @@ description: This is the main page of Dynamsoft Label Recognizer for C++ Languag
 keywords: c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
-permalink: /programming/c-cplusplus/cpp-index.html
+permalink: /programming/cplusplus/index-v2.2.20.html
 ---
 
 # C++ Documentation
