@@ -48,7 +48,7 @@ jobs:
           password: ${{ secrets.FTP_DYNAMSOFT_LOCAL_PASSWORD }}
           port: 21 
           local-dir: /home/ubuntu/DLRDocServer/_site/
-          server-dir: /www.dynamsoft.com/label-recognition/docs/server
+          server-dir: /www.dynamsoft.com/label-recognition/docs/server/
 
   Build-Preview:
     if: ${{ github.ref == 'refs/heads/preview' }}
