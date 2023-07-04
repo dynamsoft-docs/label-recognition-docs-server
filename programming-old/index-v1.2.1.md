@@ -14,4 +14,4 @@ permalink: /programming/index-v1.2.1.html
 - [.NET]({{ site.dotnet }})
 - [Java]({{ site.java }})
 - [C]({{ site.c }})
-- [C++]({{ site.cplusplus }})
+- [C++]({{ site.cpp }})

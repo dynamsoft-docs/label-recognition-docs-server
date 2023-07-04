@@ -13,4 +13,4 @@ permalink: /programming/index-v1.2.html
 - [iOS]({{ site.objectivec-swift }})
 - [.NET]({{ site.dotnet }})
 - [C]({{ site.c }})
-- [C++]({{ site.cplusplus }})
+- [C++]({{ site.cpp }})
