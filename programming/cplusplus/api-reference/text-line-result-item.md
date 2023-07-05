@@ -12,7 +12,7 @@ permalink: /programming/cplusplus/api-reference/text-line-result-item.html
 
 # CTextLineResultItem
 
-The `CTextLineResultItem` class represents a text line result item recognized by a document layout analysis engine. It is derived from `CCapturedResultItem`.
+The `CTextLineResultItem` class represents a text line result item recognized by the library. It is derived from `CCapturedResultItem`.
 
 ## Definition
 
