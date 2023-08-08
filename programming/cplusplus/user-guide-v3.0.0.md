@@ -5,7 +5,7 @@ description: This is the user guide page of Dynamsoft Label Recognizer for C++ L
 keywords: c++, user guide
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
-permalink: /programming/cplusplus/user-guide.html
+permalink: /programming/cplusplus/user-guide-v3.0.0.html
 ---
 
 # User Guide - C++
@@ -177,7 +177,7 @@ Let's start by creating a console application which demonstrates the minimum cod
         cout << "Error: " << result->GetErrorCode() << "," << result->GetErrorString() << endl;
     }
 
-    int count = result->GetItemsCount();
+    int count = result->GetCount();
     cout << "Recognized " << count << " text lines" << endl;
     for (int i = 0; i < count; i++) {
         const CCapturedResultItem* item = result->GetItem(i);
@@ -306,7 +306,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
             if(pResult->GetErrorCode() != EC_OK)
                 cout << "Error: " << pResult->GetErrorString() << endl;
 
-            int lCount = pResult->GetItemsCount();
+            int lCount = pResult->GetCount();
             cout << "Recognized " << lCount << " text lines" << endl;
             for (int li = 0; li < lCount; ++li)
             {
