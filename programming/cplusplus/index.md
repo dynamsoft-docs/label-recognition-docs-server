@@ -37,7 +37,7 @@ The `CImageSourceAdapter` class provides an interface for fetching and buffering
 
 - class CCapturedResultReceiver
 
-The `CCaptureResultReceiver` class is responsible for receiving captured results. It contains several callback functions for different types of results, including raw image, decoded barcodes, recognized text lines, detected quads, normalized images, and parsed results. The DLR recognition result is returned by the `OnRecognizedTextLinesReceived` callback function.
+The `CCaptureResultReceiver` class is responsible for receiving captured results. It contains several callback functions for different types of results, including original image, decoded barcodes, recognized text lines, detected quads, normalized images, and parsed results. The DLR recognition result is returned by the `OnRecognizedTextLinesReceived` callback function.
 
 - class CRecognizedTextLinesResult
 

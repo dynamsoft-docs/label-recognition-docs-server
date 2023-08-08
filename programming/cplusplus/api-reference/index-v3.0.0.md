@@ -27,7 +27,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CTextLineResultItem`]({{ site.cpp_api }}text-line-result-item.html)
 - [`CCharacterResult`]({{ site.cpp_api }}character-result.html)
 - [`CRecognizedTextLinesResult`]({{ site.cpp_api }}recognized-text-lines-result.html)
-- [`COriginalImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/original-image-result-item.html)
+- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
 
 ## Final Results Filters
 
@@ -108,7 +108,6 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`PDFReadingMode`]({{ site.dcv_enumerations}}core/pdf-reading-mode.html?src=cpp&&lang=cpp)
 - [`RegionObjectElementType`]({{ site.dcv_enumerations}}core/region-object-element-type.html?src=cpp&&lang=cpp)
 - [`SectionType`]({{ site.dcv_enumerations}}core/section-type.html?src=cpp&&lang=cpp)
+- [`TargetType`]({{ site.dcv_enumerations}}core/target-type.html?src=cpp&&lang=cpp)
 - [`VideoFrameQuality`]({{ site.dcv_enumerations }}core/video-frame-quality.html?src=cpp&&lang=cpp)
 - [`ColourChannelUsageType`]({{ site.dcv_enumerations}}core/colour-channel-usage-type.html?src=cpp&&lang=cpp)
-- [`RasterDataSource`]({{ site.dcv_enumerations}}core/raster-data-source.html?src=cpp&&lang=cpp)
-- [`TransformMatrixType`]({{ site.dcv_enumerations}}core/transform-matrix-type.html?src=cpp&&lang=cpp)
