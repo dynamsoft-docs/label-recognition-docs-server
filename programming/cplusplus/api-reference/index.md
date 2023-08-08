@@ -27,7 +27,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CTextLineResultItem`]({{ site.cpp_api }}text-line-result-item.html)
 - [`CCharacterResult`]({{ site.cpp_api }}character-result.html)
 - [`CRecognizedTextLinesResult`]({{ site.cpp_api }}recognized-text-lines-result.html)
-- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
+- [`COriginalImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
 
 ## Final Results Filters
 
