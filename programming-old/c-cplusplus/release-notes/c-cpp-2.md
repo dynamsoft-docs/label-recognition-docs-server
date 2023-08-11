@@ -14,23 +14,23 @@ permalink: /programming/c-cplusplus/release-notes/c-cpp-2.html
 ### New
 
 - Added new methods
-  - [`DLR_InitRuntimeSettingsFromFile`](../api-reference/label-recognizer-functions.md#dlrinitruntimesettingsfromfile)
-  - [`DLR_InitRuntimeSettings`](../api-reference/label-recognizer-functions.md#dlrinitruntimesettings)
-  - [`DLR_SetCharacterModelDefaultPath`](../api-reference/label-recognizer-functions.md#dlrsetcharactermodeldefaultpath)
-  - [`DLR_FreeString`](../api-reference/label-recognizer-functions.md#dlrfreestring)
+  - [`DLR_InitRuntimeSettingsFromFile`](../../c/api-reference/label-recognizer-functions.md#dlrinitruntimesettingsfromfile)
+  - [`DLR_InitRuntimeSettings`](../../c/api-reference/label-recognizer-functions.md#dlrinitruntimesettings)
+  - [`DLR_SetCharacterModelDefaultPath`](../../c/api-reference/label-recognizer-functions.md#dlrsetcharactermodeldefaultpath)
+  - [`DLR_FreeString`](../../c/api-reference/label-recognizer-functions.md#dlrfreestring)
 
 ### Renamed
 
 - The following methods are renamed
-  - Renamed `DLR_OutputSettingsToFile` to [`DLR_OutputRuntimeSettingsToFile`](../api-reference/label-recognizer-functions.md#dlroutputruntimesettingstofile)
-  - Renamed `DLR_OutputSettingsToString` to [`DLR_OutputRuntimeSettingsToString`](../api-reference/label-recognizer-functions.md#dlroutputruntimesettings)
-  - Renamed `DLR_RecognizeByBuffer` to [`DLR_RecognizeBuffer`](../api-reference/label-recognizer-functions.md#dlrrecognizebuffer)
-  - Renamed `DLR_RecognizeByFile` to [`DLR_RecognizeFile`](../api-reference/label-recognizer-functions.md#dlrrecognizefile)
+  - Renamed `DLR_OutputSettingsToFile` to [`DLR_OutputRuntimeSettingsToFile`](../../c/api-reference/label-recognizer-functions.md#dlroutputruntimesettingstofile)
+  - Renamed `DLR_OutputSettingsToString` to [`DLR_OutputRuntimeSettingsToString`](../../c/api-reference/label-recognizer-functions.md#dlroutputruntimesettings)
+  - Renamed `DLR_RecognizeByBuffer` to [`DLR_RecognizeBuffer`](../../c/api-reference/label-recognizer-functions.md#dlrrecognizebuffer)
+  - Renamed `DLR_RecognizeByFile` to [`DLR_RecognizeFile`](../../c/api-reference/label-recognizer-functions.md#dlrrecognizefile)
 
 ### Removed
 
 - The following methods are removed
-  - `DLR_InitLicense`. The method is replaced by [`DC_InitLicense`](../api-reference/license-manager.md#initlicense) under `DynamsoftCore`.
+  - `DLR_InitLicense`. The method is replaced by [`DC_InitLicense`](../../cplusplus/api-reference/license-manager.md#initlicense) under `DynamsoftCore`.
   - `DLR_AppendSettingsFromString`
   - `DLR_AppendSettingsFromFile`
   - `DLR_ClearAppendedSettings`
@@ -63,12 +63,12 @@ permalink: /programming/c-cplusplus/release-notes/c-cpp-2.html
 
 #### New
 
-- Added a new method [`DLR_UpdateRuntimeSettingsFromString`](../api-reference/label-recognizer-functions.md#dlr_updateruntimesettingsfromstring)  for users to upload runtime settings from stringified JSON data.
-- Added a new method [`DLR_OutputSettingsToString`](../api-reference/label-recognizer-functions.md#dlr_outputsettingstostring) for users to output runtime settings to stringified JSON data.
-- Added a new method [`DLR_RecognizeFileInMemory`](../api-reference/label-recognizer-functions.md#dlr_recognizefileinmemory) to recognize from a file in the memory.
-- Added a new method [`UpdateRuntimeSettingsFromString`](../api-reference/label-recognizer.md#updateruntimesettingsfromstring) for users to upload runtime settings from stringified JSON data.
-- Added a new method [`OutputSettingsToString`](../api-reference/label-recognizer.md#outputsettingstostring) for users to output runtime settings to stringified JSON data.
-- Added a new method [`RecognizeFileInMemory`](../api-reference/label-recognizer.md#recognizefileinmemory) to recognize from a file in the memory.
+- Added a new method [`DLR_UpdateRuntimeSettingsFromString`](../../c/api-reference/label-recognizer-functions.md#dlr_updateruntimesettingsfromstring)  for users to upload runtime settings from stringified JSON data.
+- Added a new method [`DLR_OutputSettingsToString`](../../c/api-reference/label-recognizer-functions.md#dlr_outputsettingstostring) for users to output runtime settings to stringified JSON data.
+- Added a new method [`DLR_RecognizeFileInMemory`](../../c/api-reference/label-recognizer-functions.md#dlr_recognizefileinmemory) to recognize from a file in the memory.
+- Added a new method [`UpdateRuntimeSettingsFromString`](../../cplusplus/api-reference/label-recognizer.md#updateruntimesettingsfromstring) for users to upload runtime settings from stringified JSON data.
+- Added a new method [`OutputSettingsToString`](../../cplusplus/api-reference/label-recognizer.md#outputsettingstostring) for users to output runtime settings to stringified JSON data.
+- Added a new method [`RecognizeFileInMemory`](../../cplusplus/api-reference/label-recognizer.md#recognizefileinmemory) to recognize from a file in the memory.
 - Added modes parameter `CharacterNormalizationModes` to normalize the text. The parameter is available under the following classes:
   - `LabelRecognizerParameter`
   - `TextArea`
@@ -105,15 +105,15 @@ permalink: /programming/c-cplusplus/release-notes/c-cpp-2.html
 
 #### API Changes
 
-- Modified the function `DLR_InitLicense(void*, const char*)` to [`DLR_InitLicense(const char*,char errorMsgBuffer[], const int errorMsgBufferLen)`](../api-reference/label-recognizer-functions.md#dlr_initlicense) (C).
-- Modified the method `InitLicense(const char*)` to static [`InitLicense(const char*,char errorMsgBuffer[] = NULL, const int errorMsgBufferLen = 0)`](../api-reference/label-recognizer.md#initlicense) (C++).
-- Modified the first parameter type of the method [`UpdateReferenceRegionFromBarcodeResults`](../api-reference/label-recognizer.md#updatereferenceregionfrombarcoderesults) from `TextResultArray` to `BarcodeResultArray`.
+- Modified the function `DLR_InitLicense(void*, const char*)` to [`DLR_InitLicense(const char*,char errorMsgBuffer[], const int errorMsgBufferLen)`](../../c/api-reference/label-recognizer-functions.md#dlr_initlicense) (C).
+- Modified the method `InitLicense(const char*)` to static [`InitLicense(const char*,char errorMsgBuffer[] = NULL, const int errorMsgBufferLen = 0)`](../../cplusplus/api-reference/label-recognizer.md#initlicense) (C++).
+- Modified the first parameter type of the method [`UpdateReferenceRegionFromBarcodeResults`](../../cplusplus/api-reference/label-recognizer.md#updatereferenceregionfrombarcoderesults) from `TextResultArray` to `BarcodeResultArray`.
 - Modified the parameters [`LabelRecognizerParameter.LetterHeightRange`]({{ site.parameters-reference }}label-recognition-parameter/parameter-control.html#letterheightrange) and [`TextArea.LetterHeightRange`]({{ site.parameters-reference }}text-area/parameter-control.html#letterheightrange). The value unit of the parameters are modified from percentage to thousandth. The available range of the value and the default value are updated as well.
-- Renamed class `CLabelRecognition` to [`CLableRecognizer`](../api-reference/label-recognizer.md).
-- Renamed function `DLR_GetAllDLRResults` to [`DLR_GetAllResults`](../api-reference/label-recognizer-functions.md#dlr_getallresults).
-- Renamed function `DLR_FreeDLRResults` to [`DLR_FreeResults`](../api-reference/label-recognizer-functions.md#dlr_freeresults).
-- Renamed method `GetAllDLRResults` to [`GetAllResults`](../api-reference/label-recognizer.md#getallresults).
-- Renamed method `FreeDLRResults` to [`FreeResults`](../api-reference/label-recognizer.md#freeresults).
+- Renamed class `CLabelRecognition` to [`CLabelRecognizer`](../../cplusplus/api-reference/label-recognizer.md).
+- Renamed function `DLR_GetAllDLRResults` to [`DLR_GetAllResults`](../../c/api-reference/label-recognizer-functions.md#dlr_getallresults).
+- Renamed function `DLR_FreeDLRResults` to [`DLR_FreeResults`](../../c/api-reference/label-recognizer-functions.md#dlr_freeresults).
+- Renamed method `GetAllDLRResults` to [`GetAllResults`](../../cplusplus/api-reference/label-recognizer.md#getallresults).
+- Renamed method `FreeDLRResults` to [`FreeResults`](../../cplusplus/api-reference/label-recognizer.md#freeresults).
 - Renamed enum `DLRLocalizationSourceType` to [`LocalizationSourceType`]({{ site.enumerations }}localization-source-type.html).
 - Renamed struct `DLRReferenceRegion` to [`DLR_ReferenceRegion`](../api-reference/dlr-reference-region.md).
 - Renamed struct `DLRRuntimeSettings` to [`DLR_RuntimeSettings`](../api-reference/dlr-runtime-settings.md).
