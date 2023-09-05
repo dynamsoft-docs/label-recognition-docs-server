@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CCharacterResult - Dynamsoft Label Recognizer Classes
-Description: The class CCharacterResult of Dynamsoft Label Recognizer represents the result of a character recognition process.
-Keywords: Character result
+title: CCharacterResult - Dynamsoft Label Recognizer Classes
+description: The class CCharacterResult of Dynamsoft Label Recognizer represents the result of a character recognition process.
+keywords: Character result
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true

@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CTextLineResultItem - Dynamsoft Label Recognizer Classes
-Description: The class CTextLineResultItem of Dynamsoft Label Recognizer represents a text line result item recognized by a document layout analysis engine.
-Keywords: Text line result item
+title: CTextLineResultItem - Dynamsoft Label Recognizer Classes
+description: The class CTextLineResultItem of Dynamsoft Label Recognizer represents a text line result item recognized by a document layout analysis engine.
+keywords: Text line result item
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true

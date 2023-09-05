@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CRecognizedTextLinesResult - Dynamsoft Label Recognizer Classes
-Description: The class CRecognizedTextLinesResult of Dynamsoft Label Recognizer represents the result of a text recognition process.
-Keywords: Recognized text lines result
+title: CRecognizedTextLinesResult - Dynamsoft Label Recognizer Classes
+description: The class CRecognizedTextLinesResult of Dynamsoft Label Recognizer represents the result of a text recognition process.
+keywords: Recognized text lines result
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
