@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CLocalizedTextLineElement - Dynamsoft Label Recognizer Classes
-Description: The class CLocalizedTextLineElement of Dynamsoft Label Recognizer represents a localized text line element.
-Keywords: Localized text line element
+title: CLocalizedTextLineElement - Dynamsoft Label Recognizer Classes
+description: The class CLocalizedTextLineElement of Dynamsoft Label Recognizer represents a localized text line element.
+keywords: Localized text line element
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true

@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CRecognizedTextLinesResultArray - Dynamsoft Label Recognizer Classes
-Description: The class CRecognizedTextLinesResultArray of Dynamsoft Label Recognizer represents an array of recognized text lines.
-Keywords: Recognized text lines result array
+title: CRecognizedTextLinesResultArray - Dynamsoft Label Recognizer Classes
+description: The class CRecognizedTextLinesResultArray of Dynamsoft Label Recognizer represents an array of recognized text lines.
+keywords: Recognized text lines result array
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true

@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CRecognizedTextLineElement - Dynamsoft Label Recognizer Classes
-Description: The class CRecognizedTextLineElement of Dynamsoft Label Recognizer represents a line of recognized text in an image.
-Keywords: Recognized text line element
+title: CRecognizedTextLineElement - Dynamsoft Label Recognizer Classes
+description: The class CRecognizedTextLineElement of Dynamsoft Label Recognizer represents a line of recognized text in an image.
+keywords: Recognized text line element
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true

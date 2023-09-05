@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CLocalizedTextLinesUnit - Dynamsoft Label Recognizer Classes
-Description: The class CLocalizedTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains localized text lines.
-Keywords: Localized text lines unit
+title: CLocalizedTextLinesUnit - Dynamsoft Label Recognizer Classes
+description: The class CLocalizedTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains localized text lines.
+keywords: Localized text lines unit
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true

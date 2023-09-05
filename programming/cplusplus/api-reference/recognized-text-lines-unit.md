@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-Title: CRecognizedTextLinesUnit - Dynamsoft Label Recognizer Classes
-Description: The class CRecognizedTextLinesUnit of Dynamsoft Label Recognizer represents an intermediate result unit containing recognized text lines.
-Keywords: Recognized text lines unit
+title: CRecognizedTextLinesUnit - Dynamsoft Label Recognizer Classes
+description: The class CRecognizedTextLinesUnit of Dynamsoft Label Recognizer represents an intermediate result unit containing recognized text lines.
+keywords: Recognized text lines unit
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
