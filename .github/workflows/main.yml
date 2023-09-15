@@ -38,7 +38,7 @@ jobs:
           git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo
           cp -rfp ./label-recognition-docs-server/* ./DLRDocServer/
           cp -rfp ./Docs-Template-Repo/* ./DLRDocServer/
-          cd DLRDocServer && bundle exec jekyll build --incremental
+          cd DLRDocServer && bundle install && bundle exec jekyll build
 
       - name: Sync files - Main Site
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
@@ -81,7 +81,7 @@ jobs:
           cp -rfp ./Docs-Template-Repo-Preview-DCV2/* ./DLRDocServerPreview/
           sed -i -e "1,3s/blob\/master$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DLRDocServerPreview/_config.yml
-          cd DLRDocServerPreview && bundle exec jekyll build --incremental
+          cd DLRDocServerPreview && bundle install && bundle exec jekyll build
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
