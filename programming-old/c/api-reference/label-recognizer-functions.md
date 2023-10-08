@@ -205,7 +205,7 @@ DLR_DestroyInstance(recognizer);
 
 ### DLR_GetRuntimeSettings
 
-Get current settings and save them into a [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Get current settings and save them into a [`DLR_RuntimeSettings`]({{site.c-cplusplus-api-reference}}dlr-runtime-settings.html) struct.
 
 ```c
 int DLR_GetRuntimeSettings (void* recognizer, DLR_RuntimeSettings* settings)
@@ -449,7 +449,7 @@ int DLR_UpdateReferenceRegionFromBarcodeResults (void* recognizer, const Barcode
 **Parameters**
 
 `[in] recognizer` Handle of the Dynamsoft Label Recognizer instance.  
-`[in] barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`](barcode-result-array.md).
+`[in] barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`]({{site.c-cplusplus-api-reference}}barcode-result-array.html).
 `[in] templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**
@@ -579,7 +579,7 @@ int DLR_RecognizeBuffer(void* recognizer, const ImageData* imageData, const char
 **Parameters**
 
 `[in] recognizer` Handle of the label recognition instance.  
-`[in] imageData` A struct of [`ImageData`](image-data.md) that represents an image.  
+`[in] imageData` A struct of [`ImageData`]({{site.c-cplusplus-api-reference}}image-data.html) that represents an image.  
 `[in] templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**

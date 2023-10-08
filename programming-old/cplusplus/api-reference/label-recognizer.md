@@ -111,7 +111,7 @@ delete recognizer;
 
 ### GetRuntimeSettings
 
-Get current settings and save them into a [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Get current settings and save them into a [`DLR_RuntimeSettings`]({{site.c-cplusplus-api-reference}}dlr-runtime-settings.html) struct.
 
 ```cpp
 int GetRuntimeSettings (DLR_RuntimeSettings* settings)
@@ -343,7 +343,7 @@ int UpdateReferenceRegionFromBarcodeResults (const BarcodeResultArray* barcodeRe
 
 **Parameters**
 
-`[in] barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`](barcode-result-array.md).
+`[in] barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`]({{site.c-cplusplus-api-reference}}barcode-result-array.html).
 `[in] templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**
