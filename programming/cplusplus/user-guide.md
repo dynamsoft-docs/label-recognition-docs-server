@@ -211,7 +211,9 @@ delete result, result = NULL;
 
 3. Copy the `[INSTALLATION FOLDER]\Distributables\CharacterModel` directory to the same folder as the EXE file.
 
-4. Run the program `RecognizeAnImage.exe`.
+4. Copy the `[INSTALLATION FOLDER]\Distributables\DLR-PresetTemplates.json` file to the same folder as the EXE file.
+
+5. Run the program `RecognizeAnImage.exe`.
 
 #### On Linux
 
