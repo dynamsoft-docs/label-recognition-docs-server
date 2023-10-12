@@ -303,7 +303,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     class MyResultReceiver : public CCapturedResultReceiver
     {
     public:
-        virtual void OnRecognizedTextLinesReceived(const CRecognizedTextLinesResult* pResult)
+        virtual void OnRecognizedTextLinesReceived(CRecognizedTextLinesResult* pResult)
         {
             if(pResult->GetErrorCode() != EC_OK)
                 cout << "Error: " << pResult->GetErrorString() << endl;
