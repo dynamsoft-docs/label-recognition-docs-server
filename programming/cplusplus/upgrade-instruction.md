@@ -10,7 +10,7 @@ permalink: /programming/cplusplus/upgrade-instruction.html
 
 ## From 2.x to 3.x
 
-`DynamsoftLabelRecognizer` SDK has been refactored to integrate with `DynamsoftCaptureVision (DCV)` architecture. Notice the following break changes when upgrading your SDK.
+Dynamsoft Label Recognizer SDK has been refactored to integrate with [`DynamsoftCaptureVision (DCV)`]({{ site.dcv_introduction }}) architecture. Notice the following break changes when upgrading your SDK.
 
 ### Update the Included .h .lib & .dll/.so file
 
@@ -37,88 +37,82 @@ using namespace dynamsoft::dlr;
 #endif
 ```
 
-Put the following **.dll/.so** files in your executable path:
+**Distribution**
 
-- Windows
-  - x64:
-    - DynamsoftCaptureVisionRouterx64.dll
-    - DynamsoftCorex64.dll
-    - DynamsoftImageProcessingx64.dll
-    - DynamsoftLabelRecognizerx64.dll
-    - DynamsoftLicensex64.dll
-    - DynamsoftUtilityx64.dll(Optional)
+- Copy `[INSTALLATION FOLDER]/Distributables/DLR-PresetTemplates.json` to the same folder as the executable program.
+- Copy the libraries to the same folder as the executable program.
+  - For Windows: Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]/Distributables/Lib/Windows/[platform]`. Replace `[platform]` with your project's platform setting.
+  - For Linux: Copy **ALL** `*.so` files under `[INSTALLATION FOLDER]/Distributables/Lib/Linux/[platform]`. Replace `[platform]` with your project's platform setting.
 
-  - x86:
-    - DynamsoftCaptureVisionRouterx86.dll
-    - DynamsoftCorex86.dll
-    - DynamsoftImageProcessingx86.dll
-    - DynamsoftLabelRecognizerx86.dll
-    - DynamsoftLicensex86.dll
-    - DynamsoftUtilityx86.dll(Optional)
+### Update Single Image Recognizing APIs
 
-- Linux
-  - x64:
-    - libDynamsoftCaptureVisionRouter.so
-    - libDynamsoftCore.so
-    - libDynamsoftImageProcessing.so
-    - libDynamsoftLabelRecognizer.so
-    - libDynamsoftLicense.so
-    - libDynamsoftUtility.so(Optional)
+The APIs for recognizing single image has been adjusted as follows:
 
-### Migrate from Class CLabelRecognizer to Class CCaptureVisionRouter
+| Old APIs | New APIs |
+| :----------- | :------- |
+| `CLabelRecognizer.RecognizeFile` | `CCaptureVisionRouter.Capture(const char* filePath, const char* templateName)` |
+| `CLabelRecognizer.RecognizeFileInMemory` | `CCaptureVisionRouter.Capture(const unsigned char *fileBytes, int fileSize, const char* templateName)` |
+| `CLabelRecognizer.RecognizeBuffer` | `CCaptureVisionRouter.Capture(const CImageData* pImageData, const char* templateName)` |
+| `struct DLR_Result` | `class CTextLineResultItem` |
+| `struct DLR_ResultArray` | `class CCapturedResult` |
 
-The `CCaptureVisionRouter` class serves as the central class of the DCV framework's execution flow. It encompasses the following functionalities:
+> Note: The `Capture` API is designed to recognize text in single-page files, such as images or PDFs. If you need to extract text from multi-page files, it is recommended to use the [`CFileFetcher`]({{site.dcv_cpp_api}}utility/file-fetcher.html) instead.
 
-- Retrieving images from the `ImageSourceAdapter`.
-- Updating templates and configuring settings.
-- Dynamically loading the `DynamsoftLabelRecognizer` module for label recognition.
-- Dispatching the results to registered receivers of type `CapturedResultReceiver`.
+### Update Video Streaming Recognizing Code
 
-### Templates Migration
-
-The template system is upgraded. The template you used for the previous version can't be directly recognized by the new version. Please <a href="mailto:support@dynamsoft.com">contact us</a> to upgrade your template.
-
-### Update Your Image Label Recognizing Codes
-
-#### Single Image Label Recognizing
-
-Please refer to the [user guide](../cplusplus/user-guide.md#create-a-new-project) for more detailed information on using the following `Capture` APIs instead of the `Recognize` APIs.
+`CImageSourceAdapter` is added to replace the `FrameDecodeingParameters` and the previous video methods. You should implement `CImageSourceAdapter` to transfer image data from camera or video file to buffer. The following code snippet demonstrate basic usage of recognizing video frames:
 
 ```cpp
-// Capture from a file.
-CCapturedResult* Capture(const char* filePath, const char* templateName="");
-// Capture from a file in memory.
-CCapturedResult* Capture(const unsigned char *fileBytes, int fileSize, const char* templateName="");
-// Capture from a CImageData object.
-CCapturedResult* Capture(const CImageData* pImageData, const char* templateName="");
-```
-
-> Note: The `Capture` API is designed to recognize text in single-page files, such as images or PDFs. If you need to extract text from multi-page files, it is recommended to use the [`FileFetcher`]({{site.dcv_cpp_api}}utility/file-fetcher.html) instead.
-
-#### Batch Image Label Recognizing
-
-1. DCV architecture allows you to set a folder as an image source to fetch image from. To use this feature, you have to set [`DirectoryFetcher`]({{site.dcv_cpp_api}}utility/directory-fetcher.html) as the input via class `CCaptureVisionRouter`.
-2. You need to register a [`CCapturedResultReceiver`]({{site.dcv_cpp_api}}core/basic-structures/captured-result-receiver.html) to receive the label recognizing results.
-3. Please refer to the [user guide](../cplusplus/user-guide.md#process-multiple-images) for more details.
-
->Note: creating multiple `CCaptureVisionRouter` instances might cause crash bugs. Multi-thread processing is internally implemented. As a result you don't need to create multi-thread code by yourself.
-
-### Update Your Video Streaming Label Recognizing Codes
-
-`CImageSourceAdapter` is added to replace the `FrameDecodeingParameters` and the previous video methods. The following steps shows how to implement video streaming label recognizing with `CImageSourceAdapter`:
-
-```cpp
-class MyImageSource : public CImageSourceAdapter 
+class MyVideoSource : public CProactiveImageSourceAdapter 
 {
-  // Add code to implement CImageSourceAdapter
+    // You should implement the `HasNextImageToFetch` method to indicate if there is a next frame
+    bool HasNextImageToFetch() const override 
+    {
+        return true;
+    }
+
+    // You should implement the `FetchImage` method to get the next frame
+    CImageData* FetchImage() override
+    {
+        // Add code to get the video frame from camera or video file
+    }
 };
+
+class MyTextLineResultReceiver: public CCapturedResultReceiver
+{
+public:
+    virtual void OnRecognizedTextLinesReceived(RecognizedTextLinesResult * result) {
+        // Add code to process the result
+    }
+};
+
 int main()
 {
-    CCaptureVisionRouter cvr;
+    CCaptureVisionRouter *cvr = new CCaptureVisionRouter;
 
-    MyImageSource* source = new MyImageSource;
-    cvr.SetInput(source);
+    // Create your video source and bind it to the router
+    MyVideoSource *source = new MyVideoSource;
+    cvr->SetInput(source);
+
+    // Create a CCapturedResultReceiver instance 
+    MyTextLineResultReceiver *labelReceiver = new MyTextLineResultReceiver;
+    cvr->AddResultReceiver(labelReceiver);
+
+    // Start capturing
+    errorCode = cvr->StartCapturing(CPresetTemplate::PT_RECOGNIZE_TEXT_LINES, true, errorMsg, 512);
+
+    delete labelReceiver;
+    delete source;
+    delete cvr;
 }
 ```
 
->Note: creating multiple `CCaptureVisionRouter` instances might cause crash bugs. Multi-thread processing is internally implemented. As a result you don't need to create multi-thread code by yourself.
+### Update Images Batch Recognizing Code
+
+1. DCV architecture allows you to set a folder as an image source to fetch image from. To use this feature, you have to set [`CDirectoryFetcher`]({{site.dcv_cpp_api}}utility/directory-fetcher.html) as the input via class `CCaptureVisionRouter`.
+2. You need to register a [`CCapturedResultReceiver`]({{site.dcv_cpp_api}}core/basic-structures/captured-result-receiver.html) to receive the label recognizing results.
+3. Please refer to the [`user guide`](../cplusplus/user-guide.md#process-multiple-images) for more details.
+
+### Migrate Your Templates
+
+The template system is upgraded. The template you used for the previous version can't be directly recognized by the new version. Please <a href="mailto:support@dynamsoft.com">contact us</a> to upgrade your template.
