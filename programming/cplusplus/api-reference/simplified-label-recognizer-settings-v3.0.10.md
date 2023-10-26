@@ -21,8 +21,7 @@ typedef struct tagSimplifiedLabelRecognizerSettings
     char characterModelName[64];
     char lineStringRegExPattern[1024];
     int maxThreadsInOneTask;
-    int scaleDownThreshold;
-    char reserved[508];
+    char reserved[512];
 } SimplifiedLabelRecognizerSettings;
 ```
 
@@ -35,7 +34,6 @@ typedef struct tagSimplifiedLabelRecognizerSettings
 | [`characterModelName`](#charactermodelname) | *LocalizationMode[8]* |
 | [`lineStringRegExPattern`](#linestringregexpattern) | *DeblurMode[10]* |
 | [`maxThreadsInOneTask`](#maxthreadsinonetask) | *int* |
-| [`scaleDownThreshold`](#scaledownthreshold) | *int* |
 | [`reserved`](#reserved) | *char[512]* |
 
 ### grayscaleTransformationModes
@@ -78,42 +76,10 @@ Set the maximum available threads count in one label recognition task.
 int maxThreadsInOneTask;
 ```
 
-**Value Range**
-
-[1, 256]
-
-**Default value**
-
-4
-
-**Remarks**
-
-To keep a balance between speed and quality, the library concurrently runs four different threads by default.
-
-### scaleDownThreshold
-
-Sets the threshold for the image shrinking.
-
-```cpp
-int scaleDownThreshold;
-```
-
-**Value Range**
-
-[512, 0x7fffffff]
-
-**Default Value**
-
-2300
-
-**Remarks**
-
-If the shorter edge size is larger than the given threshold value, the library will calculate the required height and width of the barcode image and shrink the image to that size before localization. Otherwise, the library will perform label localization on the original image.
-
 ### reserved
 
 Reserved for future use.
 
 ```cpp
-char reserved[508];
+char reserved[512];
 ```
