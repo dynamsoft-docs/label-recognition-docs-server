@@ -56,7 +56,7 @@ If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/surve
 
 Let's start by creating a console application which demonstrates the minimum code needed to recognize text from an image file.
 
->You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/HelloWorld/RecognizeAnImage).
+>You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/Samples/HelloWorld/RecognizeAnImage).
 
 ### Create A New Project
 
@@ -239,7 +239,7 @@ If you need to process multiple images at once instead of one image, you can fol
 2. [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance).
 3. [Include the Library](#include-the-library).
 
->You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/HelloWorld/RecognizeMultipleImages).
+>You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/Samples/HelloWorld/RecognizeMultipleImages).
 
 ### Add an Image Source as the Input
 
@@ -321,7 +321,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     };
     ```
 
-    >For the error handling mechanism, the SDK returns Error Code in the `CRecognizedTextLinesResult` object. You can add error handling code as needed. See [Error Code]({{site.dcv_enumerations}}core/error-code.html) for a full list of supported error codes.
+    >For the error handling mechanism, the SDK returns Error Code in the `CRecognizedTextLinesResult` object. You can add error handling code as needed. See [Error Code]({{site.dcv_enumerations}}core/error-code.html?lang=cpp) for a full list of supported error codes.
 
 2. Register the `MyResultReceiver` object to monitor the captured results of the router.
 
