@@ -32,11 +32,11 @@ typedef struct tagSimplifiedLabelRecognizerSettings
 | --------- | ---- |
 | [`grayscaleTransformationModes`](#grayscaletransformationmodes) | *GrayscaleTransformationMode[8]* |
 | [`grayscaleEnhancementModes`](#grayscaleenhancementmodes) | *GrayscaleEnhancementMode[8]* |
-| [`characterModelName`](#charactermodelname) | *LocalizationMode[8]* |
-| [`lineStringRegExPattern`](#linestringregexpattern) | *DeblurMode[10]* |
+| [`characterModelName`](#charactermodelname) | *char[64]* |
+| [`lineStringRegExPattern`](#linestringregexpattern) | *char[1024]* |
 | [`maxThreadsInOneTask`](#maxthreadsinonetask) | *int* |
 | [`scaleDownThreshold`](#scaledownthreshold) | *int* |
-| [`reserved`](#reserved) | *char[512]* |
+| [`reserved`](#reserved) | *char[508]* |
 
 ### grayscaleTransformationModes
 

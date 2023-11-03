@@ -35,7 +35,6 @@ class CTextLineResultItem : public CCapturedResultItem
 | [`GetConfidence`](#getconfidence) | Gets the confidence of the text line recognition result. |
 | [`GetCharacterResultsCount`](#getcharacterresultscount) | Gets the count of character results in the text line. |
 | [`GetCharacterResult`](#getcharacterresult) | Gets the character result at the specified index. |
-| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Gets the rotation transform matrix of the text line. |
 
 ### GetText
 
@@ -102,19 +101,3 @@ virtual int GetCharacterResult(int index, CCharacterResult* charResult) const = 
 **Return value**
 
 Returns 0 if successful, otherwise returns a non-zero error code.
-
-### GetRotationTransformMatrix
-
-It is used to get the rotation transform matrix of the text line.
-
-```cpp
-virtual void GetRotationTransformMatrix(double matrix[9]) const = 0;
-```
-
-**Parameters**
-
-`[out] matrix` The rotation transform matrix of the text line.
-
-**Return value**
-
-None.
