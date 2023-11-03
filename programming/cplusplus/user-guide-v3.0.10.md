@@ -56,7 +56,7 @@ If you don't have SDK yet, please go to <a href="https://www.dynamsoft.com/surve
 
 Let's start by creating a console application which demonstrates the minimum code needed to recognize text from an image file.
 
->You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/Samples/HelloWorld/RecognizeAnImage).
+>You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/HelloWorld/RecognizeAnImage).
 
 ### Create A New Project
 
@@ -76,9 +76,8 @@ Let's start by creating a console application which demonstrates the minimum cod
     CC=gcc
     CCFLAGS=-c -std=c++11
 
-    DLRMODEL_PATH=../../../Distributables/CharacterModel
-    DS_LIB_PATH=../../../Distributables/Lib/Linux/x64
-    DS_JSON_PATH=../../../Distributables/DLR-PresetTemplates.json
+    DLRMODEL_PATH=../../../CharacterModel
+    DS_LIB_PATH=../../../Lib/Linux/x64
     LDFLAGS=-L $(DS_LIB_PATH) -Wl,-rpath=$(DS_LIB_PATH) -Wl,-rpath=./
     DS_LIB=-lDynamsoftCaptureVisionRouter -lDynamsoftCore -lDynamsoftLicense
 
@@ -92,7 +91,6 @@ Let's start by creating a console application which demonstrates the minimum cod
     $(TARGET): $(OBJECT)
         $(CC) -o $(TARGET) $(OBJECT) $(STDLIB) $(DS_LIB) $(LDFLAGS)
         cp -r $(DLRMODEL_PATH) $(DS_LIB_PATH)
-        cp  $(DS_JSON_PATH) $(DS_LIB_PATH)
 
     # target to build an object file
     $(OBJECT): $(SOURCE)
@@ -104,7 +102,7 @@ Let's start by creating a console application which demonstrates the minimum cod
         rm -f $(OBJECT) $(TARGET) -r $(DS_LIB_PATH)/CharacterModel
     ```
 
-    >Note: The `DS_LIB_PATH` variable should be set to the correct directory where the DLR library files are located. The files and character models directory can be found in `[INSTALLATION FOLDER]/Distributables/Lib/Linux/x64`.
+    >Note: The `DS_LIB_PATH` variable should be set to the correct directory where the DLR library files are located. The files and character models directory can be found in `[INSTALLATION FOLDER]/Lib/Linux/x64`.
 
 ### Include the Library
 
@@ -123,13 +121,13 @@ Let's start by creating a console application which demonstrates the minimum cod
     // The following code only applies to Windows.
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
         #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
         #endif
     #endif
     ```
@@ -206,14 +204,12 @@ delete result, result = NULL;
 
 1. Build the application through Visual Studio.
 
-2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Distributables\Lib\Windows\[platforms]`
+2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Lib\Windows\[platforms]`
     >Note: Select the corresponding folder (x86 or x64) based on your project's platform setting.
 
-3. Copy the `[INSTALLATION FOLDER]\Distributables\CharacterModel` directory to the same folder as the EXE file.
+3. Copy the `[INSTALLATION FOLDER]\Resources\LabelRecognizer\CharacterModel` directory to the same folder as the EXE file.
 
-4. Copy the `[INSTALLATION FOLDER]\Distributables\DLR-PresetTemplates.json` file to the same folder as the EXE file.
-
-5. Run the program `RecognizeAnImage.exe`.
+4. Run the program `RecognizeAnImage.exe`.
 
 #### On Linux
 
@@ -239,7 +235,7 @@ If you need to process multiple images at once instead of one image, you can fol
 2. [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance).
 3. [Include the Library](#include-the-library).
 
->You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/Samples/HelloWorld/RecognizeMultipleImages).
+>You can download the complete source code from [here](https://github.com/Dynamsoft/label-recognizer-c-cpp-samples/tree/master/samples/HelloWorld/RecognizeMultipleImages).
 
 ### Add an Image Source as the Input
 
@@ -253,9 +249,9 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     // The following code only applies to Windows.
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftUtilityx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftUtilityx64.lib")
         #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftUtilityx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftUtilityx86.lib")
         #endif
     #endif
     ```
@@ -305,7 +301,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     class MyResultReceiver : public CCapturedResultReceiver
     {
     public:
-        virtual void OnRecognizedTextLinesReceived(CRecognizedTextLinesResult* pResult)
+        virtual void OnRecognizedTextLinesReceived(const CRecognizedTextLinesResult* pResult)
         {
             if(pResult->GetErrorCode() != EC_OK)
                 cout << "Error: " << pResult->GetErrorString() << endl;
@@ -321,7 +317,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     };
     ```
 
-    >For the error handling mechanism, the SDK returns Error Code in the `CRecognizedTextLinesResult` object. You can add error handling code as needed. See [Error Code]({{site.dcv_enumerations}}core/error-code.html?lang=cpp) for a full list of supported error codes.
+    >For the error handling mechanism, the SDK returns Error Code in the `CRecognizedTextLinesResult` object. You can add error handling code as needed. See [Error Code]({{site.dcv_enumerations}}core/error-code.html) for a full list of supported error codes.
 
 2. Register the `MyResultReceiver` object to monitor the captured results of the router.
 
