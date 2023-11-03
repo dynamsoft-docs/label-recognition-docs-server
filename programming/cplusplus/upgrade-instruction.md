@@ -10,7 +10,7 @@ permalink: /programming/cplusplus/upgrade-instruction.html
 
 ## From 2.x to 3.x
 
-`DynamsoftLabelRecognizer` SDK has been refactored to integrate with `DynamsoftCaptureVision (DCV)` architecture. Notice the following break changes when upgrading your SDK.
+`DynamsoftLabelRecognizer` SDK has been revamped to integrate with `DynamsoftCaptureVision (DCV)` architecture. Notice the following break changes when upgrading your SDK.
 
 ### Update the Included .h .lib & .dll/.so file
 
