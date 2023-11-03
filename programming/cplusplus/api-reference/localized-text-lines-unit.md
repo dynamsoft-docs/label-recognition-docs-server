@@ -59,6 +59,4 @@ virtual const CLocalizedTextLineElement* GetLocalizedTextLine(int index) const =
 
 **Return value**
 
-Returns a const pointer to the localized text line element at the specified index. 
-
-Note: The CLocalizedTextLineElement class is not defined in this input, so it may need to be included in the documentation separately.
+Returns a const pointer to the localized text line element at the specified index.
