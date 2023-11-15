@@ -142,7 +142,7 @@ delete recognizer;
 
 ### UpdateRuntimeSettings
 
-Update runtime settings with a given [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Update runtime settings with a given [`DLR_RuntimeSettings`]({{site.c-cplusplus-api-reference}}dlr-runtime-settings.html) struct.
 
 ```cpp
 int UpdateRuntimeSettings (DLR_RuntimeSettings* settings, char errorMsgBuffer[] = NULL, const int errorMsgBufferLen = 0)

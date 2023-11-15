@@ -237,7 +237,7 @@ DLR_DestroyInstance(recognizer);
 
 ### DLR_UpdateRuntimeSettings
 
-Update runtime settings with a given [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Update runtime settings with a given [`DLR_RuntimeSettings`]({{site.c-cplusplus-api-reference}}dlr-runtime-settings.html) struct.
 
 ```c
 int DLR_UpdateRuntimeSettings (void* recognizer, DLR_RuntimeSettings* settings, char errorMsgBuffer[], const int errorMsgBufferLen)
