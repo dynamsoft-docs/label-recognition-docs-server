@@ -139,7 +139,7 @@ Let's start by creating a console application which demonstrates the minimum cod
     ```cpp
     char error[512];
     
-    CLicenseManger::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", error, 512);
+    CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", error, 512);
     cout << "License initialization: " << error << endl;
     ```
 

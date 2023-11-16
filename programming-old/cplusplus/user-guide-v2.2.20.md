@@ -126,7 +126,7 @@ Let's start by creating a console application which demonstrates the minimum cod
     char error[512];
     
     // 1.Initialize license.
-    CLicenseManger::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", error, 512);
+    CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", error, 512);
     ```
 
     >Note:
