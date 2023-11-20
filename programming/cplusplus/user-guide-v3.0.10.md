@@ -68,7 +68,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 
 #### For Linux
 
-1. Create a new source file named `RecognizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]\Resources\LabelRecognizer\Samples\HelloWorld\RecognizeAnImage`.
+1. Create a new source file named `RecognizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]\Dynamsoft\Resources\LabelRecognizer\Samples\HelloWorld\RecognizeAnImage`.
 
 2. Create a file named `Makefile` and put it in the same directory as the file `RecognizeAnImage.cpp`. The content of `Makefile` is as follows:
 
@@ -102,7 +102,7 @@ Let's start by creating a console application which demonstrates the minimum cod
         rm -f $(OBJECT) $(TARGET) -r $(DS_LIB_PATH)/CharacterModel
     ```
 
-    >Note: The `DS_LIB_PATH` variable should be set to the correct directory where the DLR library files are located. The files and character models directory can be found in `[INSTALLATION FOLDER]/Lib/Linux/x64`.
+    >Note: The `DS_LIB_PATH` variable should be set to the correct directory where the DLR library files are located. The files and character models directory can be found in `[INSTALLATION FOLDER]/Dynamsoft/Lib/Linux/x64`.
 
 ### Include the Library
 
@@ -111,7 +111,7 @@ Let's start by creating a console application which demonstrates the minimum cod
     ```cpp
     #include <iostream>
     #include <string>
-    #include "[INSTALLATION FOLDER]/Include/DynamsoftCaptureVisionRouter.h"
+    #include "[INSTALLATION FOLDER]/Dynamsoft/Include/DynamsoftCaptureVisionRouter.h"
 
     using namespace std;
     using namespace dynamsoft::cvr;
@@ -121,13 +121,13 @@ Let's start by creating a console application which demonstrates the minimum cod
     // The following code only applies to Windows.
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x64/DynamsoftCorex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x64/DynamsoftLicensex64.lib")
         #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x86/DynamsoftCorex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x86/DynamsoftLicensex86.lib")
         #endif
     #endif
     ```
@@ -160,7 +160,7 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Recognize an image file
 
     ```cpp
-    string imageFile = "[INSTALLATION FOLDER]/Resources/LabelRecognizer/Images/dlr-sample-vin.png";
+    string imageFile = "[INSTALLATION FOLDER]/Dynamsoft/Resources/LabelRecognizer/Images/dlr-sample-vin.png";
     CCapturedResult* result = router->Capture(imageFile.c_str(), CPresetTemplate::PT_RECOGNIZE_TEXT_LINES);
     ```
 
@@ -204,10 +204,10 @@ delete result, result = NULL;
 
 1. Build the application through Visual Studio.
 
-2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Lib\Windows\[platforms]`
+2. Copy the related DLL files to the same folder as the EXE file. The DLL files can be found in `[INSTALLATION FOLDER]\Dynamsoft\Lib\Windows\[platforms]`
     >Note: Select the corresponding folder (x86 or x64) based on your project's platform setting.
 
-3. Copy the `[INSTALLATION FOLDER]\Resources\LabelRecognizer\CharacterModel` directory to the same folder as the EXE file.
+3. Copy the `[INSTALLATION FOLDER]\Dynamsoft\Resources\LabelRecognizer\CharacterModel` directory to the same folder as the EXE file.
 
 4. Run the program `RecognizeAnImage.exe`.
 
@@ -249,9 +249,9 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     // The following code only applies to Windows.
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftUtilityx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x64/DynamsoftUtilityx64.lib")
         #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftUtilityx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x86/DynamsoftUtilityx86.lib")
         #endif
     #endif
     ```
