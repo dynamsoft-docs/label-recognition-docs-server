@@ -17,7 +17,7 @@ Dynamsoft Label Recognizer SDK has been refactored to integrate with [`Dynamsoft
 Since the SDK architecture is changed, you have to change you code for including the headers, libs(windows only). You can use the following code to replace your previous code.
 
 ```cpp
-#include "[INSTALLATION FOLDER]/Include/DynamsoftCaptureVisionRouter.h"
+#include "[INSTALLATION FOLDER]/Dynamsoft/Include/DynamsoftCaptureVisionRouter.h"
 
 using namespace std;
 using namespace dynamsoft::license;
@@ -26,23 +26,23 @@ using namespace dynamsoft::dlr;
 
 #if defined(_WIN64) || defined(_WIN32)
     #ifdef _WIN64
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
     #else
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
     #endif
 #endif
 ```
 
 **Distribution**
 
-- Copy `[INSTALLATION FOLDER]/Distributables/DLR-PresetTemplates.json` to the same folder as the executable program.
+- Copy `[INSTALLATION FOLDER]/Dynamsoft/Distributables/DLR-PresetTemplates.json` to the same folder as the executable program.
 - Copy the libraries to the same folder as the executable program.
-  - For Windows: Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]/Distributables/Lib/Windows/[platform]`. Replace `[platform]` with your project's platform setting.
-  - For Linux: Copy **ALL** `*.so` files under `[INSTALLATION FOLDER]/Distributables/Lib/Linux/[platform]`. Replace `[platform]` with your project's platform setting.
+  - For Windows: Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/[platform]`. Replace `[platform]` with your project's platform setting.
+  - For Linux: Copy **ALL** `*.so` files under `[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Linux/[platform]`. Replace `[platform]` with your project's platform setting.
 
 ### Update Single Image Recognizing APIs
 
