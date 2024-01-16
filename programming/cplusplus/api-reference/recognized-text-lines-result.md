@@ -37,6 +37,9 @@ class CRecognizedTextLinesResult
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the recognition result, if an error occurred. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the recognition result, if an error occurred. |
+| [`operator[]`](#operator) | Gets the text line result item at the specified index. |
+| [`Retain`](#retain) | Increases the reference count of the CRecognizedTextLinesResult object. |
+| [`Release`](#release) | Decreases the reference count of the CRecognizedTextLinesResult object. |
 
 ### GetOriginalImageHashId
 
@@ -158,3 +161,39 @@ virtual const char* GetErrorString() const = 0;
 **Return value**
 
 Returns a pointer to a null-terminated string containing the error message of the recognition result, or a pointer to an empty string if no error occurred.
+
+### operator[]
+
+Gets the text line result item at the specified index.
+
+```cpp
+virtual const CTextLineResultItem* operator[](int index) const = 0;
+```
+
+**Parameters**
+
+`[in] index` The zero-based index of the text line result item to retrieve.
+
+**Return value**
+
+Returns a pointer to the CTextLineResultItem object at the specified index.
+
+### Retain
+
+Increases the reference count of the CRecognizedTextLinesResult object.
+
+```cpp
+virtual CRecognizedTextLinesResult* Retain() = 0;
+```
+
+**Return value**
+
+An object of CRecognizedTextLinesResult.
+
+### Release
+
+Decreases the reference count of the CRecognizedTextLinesResult object.
+
+```cpp
+virtual void Release() = 0;
+```

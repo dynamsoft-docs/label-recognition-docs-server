@@ -24,6 +24,10 @@ cpp: /label-recognition/docs/server/programming/cplusplus/
 cpp_api: /label-recognition/docs/server/programming/cplusplus/api-reference/
 cpp_release_notes: /label-recognition/docs/server/programming/cplusplus/release-notes/
 
+dlr_cpp: /label-recognition/docs/server/programming/cplusplus/
+dlr_cpp_api: /label-recognition/docs/server/programming/cplusplus/api-reference/
+dlr_cpp_release_notes: /label-recognition/docs/server/programming/cplusplus/release-notes/
+
 c: /label-recognition/docs/server/programming/c/
 c_api: /label-recognition/docs/server/programming/c/api-reference/
 

@@ -77,17 +77,16 @@ Returns an integer value representing the number of individual character recogni
 Gets the character recognition result at the specified index.
 
 ```cpp
-virtual int GetCharacterResult(int index, CCharacterResult* charResult) const = 0;
+virtual const CCharacterResult* GetCharacterResult(int index) const = 0;
 ```
 
 **Parameters**
 
-`[in] index` The index of the character recognition result to retrieve.<br>
-`[out] charResult` A pointer to a CCharacterResult object to store the result in.
+`[in] index` The index of the character recognition result to retrieve.
 
 **Return value**
 
-Returns an integer value representing the success of the operation. Zero indicates success, while any other value indicates failure.
+Returns a pointer to a CCharacterResult object to store the result in.
 
 ### GetRowNumber
 
