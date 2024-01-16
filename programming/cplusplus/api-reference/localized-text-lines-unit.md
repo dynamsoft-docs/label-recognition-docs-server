@@ -32,6 +32,11 @@ class CLocalizedTextLinesUnit : public CIntermediateResultUnit
 |-----------------------------------|-------------|
 | [`GetCount`](#getcount)           | Gets the number of localized text lines in the unit.|
 | [`GetLocalizedTextLine`](#getlocalizedtextline) | Gets a pointer to a specific localized text line element.|
+| [`operator[]`](#operator) | Gets a pointer to a specific localized text line element.|
+| [`RemoveAllLocalizedTextLines`](#removealllocalizedtextlines) | Removes all localized text lines.|
+| [`RemoveLocalizedTextLine`](#removelocalizedtextline) | Removes the localized text line at the specified index.|
+| [`AddLocalizedTextLine`](#addlocalizedtextline) | Adds a localized text line.|
+| [`SetLocalizedTextLine`](#setlocalizedtextline) | Sets the localized text line at the specified index.|
 
 ### GetCount
 
@@ -60,3 +65,81 @@ virtual const CLocalizedTextLineElement* GetLocalizedTextLine(int index) const =
 **Return value**
 
 Returns a const pointer to the localized text line element at the specified index.
+
+### operator[]
+
+Gets a pointer to a specific localized text line element.
+
+```cpp
+virtual const CLocalizedTextLineElement* operator[](int index) const = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the localized text line element to retrieve.
+
+**Return value**
+
+Returns a const pointer to the localized text line element at the specified index.
+
+### RemoveAllLocalizedTextLines
+
+Removes all localized text lines.
+
+```cpp
+virtual void RemoveAllLocalizedTextLines() = 0;
+```
+
+### RemoveLocalizedTextLine
+
+Removes the localized text line at the specified index.
+
+```cpp
+virtual int RemoveLocalizedTextLine(int index) = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the localized text line to remove.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### AddLocalizedTextLine
+
+Adds a localized text line.
+
+```cpp
+virtual int AddLocalizedTextLine(const CLocalizedTextLineElement* element, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] element` The localized text line element to add.
+
+`[in] matrixToOriginalImage` The matrix to original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### SetLocalizedTextLine
+
+Sets the localized text line at the specified index.
+
+```cpp
+virtual int SetLocalizedTextLine(int index, const CLocalizedTextLineElement* element, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the localized text line to set.
+
+`[in] element` The localized text line element to set.
+
+`[in] matrixToOriginalImage` The matrix to original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.

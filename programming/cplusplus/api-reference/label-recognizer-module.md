@@ -28,6 +28,8 @@ class CLabelRecognizerModule
 | Method                                                    | Description                                        |
 | --------------------------------------------------------- | -------------------------------------------------- |
 | [GetVersion](#getversion)                                     | Returns the version of the label recognizer module. |
+| [CreateRecognizedTextLineElement](#createrecognizedtextlineelement) | Create a Recognized Text Line Element object.          |
+| [CreateLocalizedTextLineElement](#createlocalizedtextlineelement) | Create a Localized Text Line Element object.          |
 
 ## GetVersion
 
@@ -44,3 +46,27 @@ None.
 **Return Value**
 
 Returns a const char pointer representing the version of the label recognizer module.
+
+### CreateRecognizedTextLineElement
+
+Create a Recognized Text Line Element object.
+
+```cpp
+static intermediate_results::CRecognizedTextLineElement* CreateRecognizedTextLineElement();
+```
+
+**Return Value**
+
+Returns an instance of CRecognizedTextLineElement.
+
+### CreateLocalizedTextLineElement
+
+Create a Localized Text Line Element object.
+
+```cpp
+static intermediate_results::CLocalizedTextLineElement* CreateLocalizedTextLineElement();
+```
+
+**Return Value**
+
+Returns an instance of CLocalizedTextLineElement.

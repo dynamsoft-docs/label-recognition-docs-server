@@ -4,6 +4,7 @@ version_info_list:
   - value: latest version
   - value: 3.x
     child: 
+      - 3.0.20
       - 3.0.0
   - value: 2.x
     child:
