@@ -45,10 +45,70 @@
                         "version": "3.2.0"
                     },{
                         "path": "/parameters/reference/image-source-options",
-                        "version": "3.2.0"
+                        "version": "2.2.0"
                     },{
                         "path": "/parameters/reference/global-parameter",
                         "version": "2.2.0"
+                    },{
+                        "path": "/parameters/reference/character-model",
+                        "version": "3.2.0"
+                    }
+                ]
+            }
+        }
+    },{
+        "version": "3.0.30",
+        "matchList": {
+            "cpp":{
+                "dcvRepoServer": [
+                    {
+                        "path": "/programming/cplusplus/api-reference/utility",
+                        "version": "1.0.20"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/license",
+                        "version": "3.0.40"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/capture-vision-router",
+                        "version": "2.0.30"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/core",
+                        "version": "3.0.30"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/image-processing",
+                        "version": "2.0.30"
+                    }
+                ],
+                "dcvRepoCore": [
+                    {
+                        "path": "/enums/capture-vision-router",
+                        "version": "2.0.30"
+                    }, {
+                        "path": "/enums/core",
+                        "version": "3.0.30"
+                    },{
+                        "path": "/parameters/reference/capture-vision-template",
+                        "version": "2.0.30"
+                    },{
+                        "path": "/parameters/reference/target-roi-def",
+                        "version": "2.0.30"
+                    },{
+                        "path": "/parameters/reference/label-recognizer-task-settings",
+                        "version": "3.0.30"
+                    },{
+                        "path": "/parameters/reference/image-parameter",
+                        "version": "2.0.30"
+                    },{
+                        "path": "/parameters/reference/text-line-specification",
+                        "version": "3.0.30"
+                    },{
+                        "path": "/parameters/reference/image-source-options",
+                        "version": "2.0.30"
+                    },{
+                        "path": "/parameters/reference/global-parameter",
+                        "version": "2.0.30"
+                    },{
+                        "path": "/parameters/reference/character-model",
+                        "version": "3.0.30"
                     }
                 ]
             }
@@ -84,7 +144,7 @@
                         "version": "3.0.20"
                     },{
                         "path": "/parameters/reference/capture-vision-template",
-                        "version": "2.0.21"
+                        "version": "2.0.20"
                     },{
                         "path": "/parameters/reference/target-roi-def",
                         "version": "2.0.20"
@@ -93,16 +153,133 @@
                         "version": "3.0.20"
                     },{
                         "path": "/parameters/reference/image-parameter",
-                        "version": "2.0.21"
+                        "version": "2.0.20"
                     },{
                         "path": "/parameters/reference/text-line-specification",
                         "version": "3.0.20"
                     },{
                         "path": "/parameters/reference/image-source-options",
-                        "version": "3.0.20"
+                        "version": "2.0.20"
                     },{
                         "path": "/parameters/reference/global-parameter",
                         "version": "2.0.20"
+                    },{
+                        "path": "/parameters/reference/character-model",
+                        "version": "3.0.20"
+                    }
+                ]
+            }
+        }
+    },{
+        "version": "3.0.10",
+        "matchList": {
+            "cpp":{
+                "dcvRepoServer": [
+                    {
+                        "path": "/programming/cplusplus/api-reference/utility",
+                        "version": "1.0.10"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/license",
+                        "version": "3.0.10"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/capture-vision-router",
+                        "version": "2.0.10"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/core",
+                        "version": "3.0.10"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/image-processing",
+                        "version": "2.0.10"
+                    }
+                ],
+                "dcvRepoCore": [
+                    {
+                        "path": "/enums/capture-vision-router",
+                        "version": "2.0.10"
+                    }, {
+                        "path": "/enums/core",
+                        "version": "3.0.10"
+                    },{
+                        "path": "/parameters/reference/capture-vision-template",
+                        "version": "2.0.10"
+                    },{
+                        "path": "/parameters/reference/target-roi-def",
+                        "version": "2.0.10"
+                    },{
+                        "path": "/parameters/reference/label-recognizer-task-settings",
+                        "version": "3.0.10"
+                    },{
+                        "path": "/parameters/reference/image-parameter",
+                        "version": "2.0.10"
+                    },{
+                        "path": "/parameters/reference/text-line-specification",
+                        "version": "3.0.10"
+                    },{
+                        "path": "/parameters/reference/image-source-options",
+                        "version": "2.0.10"
+                    },{
+                        "path": "/parameters/reference/global-parameter",
+                        "version": "2.0.10"
+                    },{
+                        "path": "/parameters/reference/character-model",
+                        "version": "3.0.10"
+                    }
+                ]
+            }
+        }
+    },{
+        "version": "3.0.0",
+        "matchList": {
+            "cpp":{
+                "dcvRepoServer": [
+                    {
+                        "path": "/programming/cplusplus/api-reference/utility",
+                        "version": "1.0.0"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/license",
+                        "version": "3.0.0"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/capture-vision-router",
+                        "version": "2.0.0"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/core",
+                        "version": "3.0.0"
+                    }, {
+                        "path": "/programming/cplusplus/api-reference/image-processing",
+                        "version": "2.0.0"
+                    }
+                ],
+                "dcvRepoCore": [
+                    {
+                        "path": "/enums/capture-vision-router",
+                        "version": "2.0.0"
+                    }, {
+                        "path": "/enums/core",
+                        "version": "3.0.0"
+                    },{
+                        "path": "/parameters/reference/capture-vision-template",
+                        "version": "2.0.0"
+                    },{
+                        "path": "/parameters/reference/target-roi-def",
+                        "version": "2.0.0"
+                    },{
+                        "path": "/parameters/reference/label-recognizer-task-settings",
+                        "version": "3.0.0"
+                    },{
+                        "path": "/parameters/reference/image-parameter",
+                        "version": "2.0.0"
+                    },{
+                        "path": "/parameters/reference/text-line-specification",
+                        "version": "3.0.0"
+                    },{
+                        "path": "/parameters/reference/image-source-options",
+                        "version": "2.0.0"
+                    },{
+                        "path": "/parameters/reference/global-parameter",
+                        "version": "2.0.0"
+                    },{
+                        "path": "/parameters/reference/character-model",
+                        "version": "3.0.0"
                     }
                 ]
             }
