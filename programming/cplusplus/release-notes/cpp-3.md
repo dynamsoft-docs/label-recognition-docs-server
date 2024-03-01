@@ -9,11 +9,11 @@ permalink: /programming/cplusplus/release-notes/cpp-3.html
 
 # Release Notes - C++ 3.x
 
-## 3.2.10 (02/29/2024)
+## 3.2.10 (03/01/2024)
 
 ### Improved
 
-- Security update for `DynamsoftLabelRecognizer` library and other coorsponding libraries.
+- Security update for `DynamsoftLabelRecognizer` library and other corresponding libraries.
 - Supported multiple instances of the class [`CCaptureVisionRouter`]({{ site.dcv_cpp_api }}capture-vision-router/capture-vision-router.html).
 - Supported the filter configuration of the characters that are not recognized by the Deep Neural Network via the `Filter.txt` file.
 - Improved the usage count logic of the concurrent license mode.
