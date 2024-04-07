@@ -6,7 +6,6 @@ keywords: label recognizer module, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 breadcrumbText: C++ CLabelRecognizerModule Class
-permalink: /programming/cplusplus/api-reference/label-recognizer-module.html
 ---
 
 # CLabelRecognizerModule

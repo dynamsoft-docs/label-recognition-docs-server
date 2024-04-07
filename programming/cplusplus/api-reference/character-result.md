@@ -7,7 +7,6 @@ needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CCharacterResult
-permalink: /programming/cplusplus/api-reference/character-result.html
 ---
 
 
