@@ -7,7 +7,6 @@ needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CLocalizedTextLinesUnit
-permalink: /programming/cplusplus/api-reference/localized-text-lines-unit.html
 ---
 
 # CLocalizedTextLinesUnit

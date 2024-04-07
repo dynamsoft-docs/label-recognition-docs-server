@@ -4,10 +4,40 @@ title: C/C++ SDK Release Notes 3.x - Dynamsoft Label Recoginizer
 description: This is the release notes page of Dynamsoft Label Recoginizer for C/C++ SDK version 3.x.
 keywords: release notes, c++
 needAutoGenerateSidebar: false
-permalink: /programming/cplusplus/release-notes/cpp-3.html
 ---
 
 # Release Notes - C++ 3.x
+
+## 3.2.20 (04/07/2024)
+
+### Highlights
+
+- Added confusable character distinguishing: this feature enhances the library's ability to distinguish between common confusable character sets including {0, o, O}, {1, I, l}, and {5, s, S}, across popular fonts like Arial, Times New Roman, and Verdana, etc.
+- Supported confusable character set customization: leveraging the new caching mechanism in the `CaptureVisionRouter (CVR)` module, the library now enables users to customize confusable character sets to meet the needs of specific scenarios.
+
+### Changelogs
+
+#### Improved
+
+- Improved the speed of `TextLineGroup` detection by optimizing internal logic.
+
+#### New
+
+- Added new APIs for users to obtain the cached character items and the character clusters:
+  - A new class [`CBufferedCharacterItemSet`]({{ site.dlr_cpp_api }}buffered-character-item-set.html) to represent a collection of buffered character items and cluster information.
+  - A new class [`CBufferedCharacterItem`]({{ site.dlr_cpp_api }}buffered-character-item.html) to represent a basic item of the buffered characters with its image and features information.
+  - A new class [`CCharacterCluster`]({{ site.dlr_cpp_api }}character-cluster.html) to represent a character cluster generated from the collected buffered character items.
+  - Added a new class [`CBufferedItemsManager`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/buffered-items-manager.html) to manage the buffered character items.
+  - Added a new method [`GetBufferedItemsManger`]({{ site.dcv_cpp_api }}capture-vision-router/buffered-items.html#getbuffereditemsmanager) to get an object of `CBufferedItemsManager`.
+- Added new [`LabelRecognizerTaskSettings`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/index.html) parameters.
+  - Added [`ConfusableCharactersPath`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/confusable-characters-path.html) to define the path of the resource files that store the confusable characters' information.
+  - Added [`ClusterSamplesCountThreshold`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/cluster-samples-count-threshold.html) to specify the lowest required sample count for clustering.
+- Added new [`TextLineSpecification`]({{ site.dcv_parameters_reference }}text-line-specification/index.html) parameters.
+  - Added [`ConfusableCharactersCorrection`]({{ site.dcv_parameters_reference }}text-line-specification/confusable-characters-correction.html) to define which confusable characters you are going to distinguish. You can also specify the font type of the characters.
+  - Added [`ExpectedGroupCount`]({{ site.dcv_parameters_reference }}text-line-specification/expected-groups-count.html) to define the count of `TextLineGroups` that might exist on the image.
+- Added a new method [`GetSpecificationName`]({{ site.dlr_cpp_api }}text-line-result-item.html) to the `CTextLineResultItem` class to get the name of the `TextLineSpecification`object that generated this `CTextLineResultItem`.
+- Added a new method [`GetSpecificationName`]({{ site.dlr_cpp_api }}recognized-text-line-element.html) to the `CRecognizedTextLineElement` class to get the name of the `TextLineSpecification`object that generated this `CRecognizedTextLineElement`.
+- Added a new error code [`EC_PDF_LIBRARY_LOAD_FAILED`]({{ site.dcv_enumerations }}core/error-code.html?lang=cpp).
 
 ## 3.2.10 (03/01/2024)
 

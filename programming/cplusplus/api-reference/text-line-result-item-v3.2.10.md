@@ -88,15 +88,13 @@ Returns the count of character results in the text line.
 It is used to get the character result at the specified index.
 
 ```cpp
-virtual int GetCharacterResult(int index, CCharacterResult* charResult) const = 0;
+virtual const CCharacterResult* GetCharacterResult(int index) const = 0;
 ```
 
 **Parameters**
 
 `[in] index` The index of the character result to get.
 
-`[out] charResult` The character result at the specified index.
-
 **Return value**
 
-Returns 0 if successful, otherwise returns a non-zero error code.
+Returns the character result at the specified index.

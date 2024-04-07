@@ -3,7 +3,6 @@ layout: default-layout
 title: Dynamsoft Label Recognizer C++ API Reference - Main Page
 description: This is the main page of Dynamsoft Label Recognizer SDK API Reference for C++ Language.
 keywords: label recognition, api reference, C++
-permalink: /programming/cplusplus/api-reference/index.html
 ---
 
 # Dynamsoft Capture Vision API Reference - C++ Edition
@@ -17,6 +16,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`Multiple-File Processing`]({{ site.dcv_cpp_api }}capture-vision-router/multiple-file-processing.html)
 - [`Settings`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html)
 - [`Intermediate Result`]({{ site.dcv_cpp_api }}capture-vision-router/intermediate-result.html)
+- [`Buffered Items`]({{ site.dcv_cpp_api }}capture-vision-router/buffered-items.html)
 - [`Auxiliary Methods`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-methods.html)
 
 ### Classes
@@ -30,6 +30,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CIntermediateResultManager`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/intermediate-result-manager.html)
 - [`CIntermediateResultReceiver`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/intermediate-result-receiver.html)
 - [`CPresetTemplate`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/preset-template.html)
+- [`CBufferedItemsManager`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/buffered-items-manager.html)
 
 ### Structs
 
@@ -51,6 +52,9 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CRecognizedTextLinesResult`]({{ site.dlr_cpp_api }}recognized-text-lines-result.html)
 - [`CRecognizedTextLinesUnit`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html)
 - [`CTextLineResultItem`]({{ site.dlr_cpp_api }}text-line-result-item.html)
+- [`CBufferedCharacterItem`]({{ site.dlr_cpp_api }}buffered-character-item.html)
+- [`CBufferedCharacterItemSet`]({{ site.dlr_cpp_api }}buffered-character-item-set.html)
+- [`CCharacterCluster`]({{ site.dlr_cpp_api }}character-cluster.html)
 
 ### Structs
 

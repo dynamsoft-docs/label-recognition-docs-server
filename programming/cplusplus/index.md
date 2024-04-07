@@ -5,7 +5,6 @@ description: This is the main page of Dynamsoft Label Recognizer for C++ Languag
 keywords: c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
-permalink: /programming/cplusplus/index.html
 ---
 
 # C++ Edition Introduction
@@ -22,6 +21,7 @@ Dynamsoft Label Recognizer (DLR) is an SDK designed to recognize meaningful zona
 |Dynamsoft Image Processing (DIP)   |Image processing algorithms                            |-                                   |Windows:<br/>DynamsoftImageProcessing[**arch**].dll<br/><br/>Linux:<br/>DynamsoftImageProcessing.so|
 |Dynamsoft License (DL)             |License module                                         |DynamsoftLicense.h                  |Windows:<br/>DynamsoftLicense[**arch**].dll<br/><br/>Linux:<br/>DynamsoftLicense.so|
 |Dynamsoft Utility (DU)             |Contains some useful utility classes                   |DynamsoftUtility.h                  |Windows:<br/>DynamsoftUtility[**arch**].dll<br/><br/>Linux:<br/>DynamsoftUtility.so|
+|Dynamsoft Neural Network (DNN)             | A deep learning library for computer vision tasks                   |DynamsoftNeuralNetwork.h                  |Windows:<br/>DynamsoftNeuralNetwork[**arch**].dll<br/><br/>Linux:<br/>DynamsoftNeuralNetwork.so|
 
 >Note: **arch** refers to the CPU architecture for Windows edition, which could be either x86 or x64 here.
 

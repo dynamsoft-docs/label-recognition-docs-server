@@ -7,7 +7,6 @@ needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CTextLineResultItem
-permalink: /programming/cplusplus/api-reference/text-line-result-item.html
 ---
 
 # CTextLineResultItem
@@ -35,6 +34,7 @@ class CTextLineResultItem : public CCapturedResultItem
 | [`GetConfidence`](#getconfidence) | Gets the confidence of the text line recognition result. |
 | [`GetCharacterResultsCount`](#getcharacterresultscount) | Gets the count of character results in the text line. |
 | [`GetCharacterResult`](#getcharacterresult) | Gets the character result at the specified index. |
+| [`GetSpecificationName`](#getspecificationname) | Gets the name of the text line specification that generated this element. |
 
 ### GetText
 
@@ -99,3 +99,15 @@ virtual const CCharacterResult* GetCharacterResult(int index) const = 0;
 **Return value**
 
 Returns the character result at the specified index.
+
+### GetSpecificationName
+
+Gets the name of the text line specification that generated this item.
+
+```cpp
+virtual const char* GetSpecificationName() const = 0;
+```
+
+**Return value**
+
+Returns the name of the text line specification that generated this item.

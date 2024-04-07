@@ -7,7 +7,6 @@ needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
 breadcrumbText: CRecognizedTextLineElement
-permalink: /programming/cplusplus/api-reference/recognized-text-line-element.html
 ---
 
 # CRecognizedTextLineElement
@@ -35,6 +34,7 @@ class CRecognizedTextLineElement : public CRegionObjectElement
 | [`GetCharacterResultsCount`](#getcharacterresultscount) | Gets the number of individual character recognition results in the line. |
 | [`GetCharacterResult`](#getcharacterresult) | Gets the character recognition result at the specified index. |
 | [`GetRowNumber`](#getrownumber) | Gets the row number of the text line within the image. |
+| [`GetSpecificationName`](#getspecificationname) | Gets the name of the text line specification that generated this element. |
 
 ### GetText
 
@@ -99,3 +99,15 @@ virtual int GetRowNumber() const = 0;
 **Return value**
 
 Returns an integer value representing the row number of the text line within the image.
+
+### GetSpecificationName
+
+Gets the name of the text line specification that generated this element.
+
+```cpp
+virtual const char* GetSpecificationName() const = 0;
+```
+
+**Return value**
+
+Returns the name of the text line specification that generated this element.
