@@ -27,7 +27,7 @@ typedef struct tagImageData  ImageData
 | [`width`](#width) | *int* |
 | [`height`](#height) | *int* |
 | [`stride`](#stride) | *int* |
-| [`format`](#format) | [`ImagePixelFormat`]({{ site.enumerations }}image-pixel-format.html) |
+| [`format`](#format) | [`ImagePixelFormat`]({{ site.dlr_enumerations }}image-pixel-format.html) |
 
 
 &nbsp;

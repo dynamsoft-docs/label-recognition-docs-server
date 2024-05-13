@@ -21,8 +21,8 @@ class Dynamsoft.DLR.DLR_LineSpecification
   
 | Attribute | Type |
 |---------- | ---- |
-| [`GrayscaleEnhancementModes`](#grayscaleenhancementmodes) | [`EnumGrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html)[] | 
-| [`BinarizationModes`](#binarizationmodes) | [`EnumBinarizationMode`]({{ site.enumerations }}binarization-mode.html)[ ] |
+| [`GrayscaleEnhancementModes`](#grayscaleenhancementmodes) | [`EnumGrayscaleEnhancementMode`]({{ site.dlr_enumerations }}grayscale-enhancement-mode.html)[] | 
+| [`BinarizationModes`](#binarizationmodes) | [`EnumBinarizationMode`]({{ site.dlr_enumerations }}binarization-mode.html)[ ] |
 
 
 &nbsp;
@@ -35,7 +35,7 @@ EnumGrayscaleEnhancementMode[] GrayscaleEnhancementModes
 ```
 
 **Value Range**
-   Each array item can be any one of the [`EnumGrayscaleEnhancementMode`]({{ site.enumerations }}grayscale-enhancement-mode.html) Enumeration items.  
+   Each array item can be any one of the [`EnumGrayscaleEnhancementMode`]({{ site.dlr_enumerations }}grayscale-enhancement-mode.html) Enumeration items.  
  
 **Default value**
    `[EnumGrayscaleEnhancementMode.GEM_GENERAL, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP, EnumGrayscaleEnhancementMode.GEM_SKIP]`  
@@ -56,7 +56,7 @@ EnumBinarizationMode[] BinarizationModes
 
 **Value Range**
 
-Each array item can be any one of the [`EnumBinarizationMode`]({{ site.enumerations }}binarization-mode.html) Enumeration items.
+Each array item can be any one of the [`EnumBinarizationMode`]({{ site.dlr_enumerations }}binarization-mode.html) Enumeration items.
 
 **Default value**
 

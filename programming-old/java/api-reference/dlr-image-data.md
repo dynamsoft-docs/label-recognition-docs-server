@@ -25,7 +25,7 @@ class com.dynamsoft.dlr.DLRImageData
 | [`width`](#width) | *int* |
 | [`height`](#height) | *int* |
 | [`stride`](#stride) | *int* |
-| [`format`](#format) | [`DLRImagePixelFormat`]({{ site.enumerations }}other-enums.html#dlrimagepixelformat) |
+| [`format`](#format) | [`DLRImagePixelFormat`]({{ site.dlr_enumerations }}other-enums.html#dlrimagepixelformat) |
 
 
 &nbsp;

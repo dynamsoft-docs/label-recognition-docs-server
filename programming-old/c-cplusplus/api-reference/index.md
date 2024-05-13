@@ -11,5 +11,5 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 
 - [`CLabelRecognition` Class](c-label-recognition-class/index.md) 
 - [C Functions](c-functions/index.md)
-- [Enumerations]({{ site.enumerations }})
+- [Enumerations]({{ site.dlr_enumerations }})
 - [Structs](structs/index.md)  

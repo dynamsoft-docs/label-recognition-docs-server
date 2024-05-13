@@ -27,10 +27,10 @@ typedef struct tagDLRRuntimeSettings  DLRRuntimeSettings
 | [`maxThreadCount`](#maxthreadcount) | *int* |
 | [`characterModelName`](#charactermodelname) | *char\[64\]* |
 | [`linesCount`](#linescount) | *int* |
-| [`regionPredetectionModes`](#regionpredetectionmodes) | [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)\[8\] |
+| [`regionPredetectionModes`](#regionpredetectionmodes) | [`DLRRegionPredetectionMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)\[8\] |
 | [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.md) |
 | [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
-| [`grayscaleTransformationModes`](#grayscaletransformationmodes) | [`DLRGrayscaleTransformationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)\[8\] |
+| [`grayscaleTransformationModes`](#grayscaletransformationmodes) | [`DLRGrayscaleTransformationMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)\[8\] |
 | [`reserved`](#reserved) | *char\[64\]* |
 
 
@@ -85,7 +85,7 @@ DLRRegionPredetectionMode tagDLRRuntimeSettings::regionPredetectionModes[8]
 
 **Value Range**
 
-Each array item can be any one of the [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode) Enumeration items.
+Each array item can be any one of the [`DLRRegionPredetectionMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode) Enumeration items.
 
 **Default value**
 
@@ -116,7 +116,7 @@ DLRGrayscaleTransformationMode tagDLRRuntimeSettings::grayscaleTransformationMod
 
 **Value Range**
 
-Each array item can be any one of the [`DLRGrayscaleTransformationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode) Enumeration items.
+Each array item can be any one of the [`DLRGrayscaleTransformationMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode) Enumeration items.
 
 **Default value**
 

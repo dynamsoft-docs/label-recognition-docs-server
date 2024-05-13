@@ -73,20 +73,20 @@ permalink: /programming/dotnet/api-reference/index-v1.0.html
 
 &nbsp; 
 
-## [Enumerations]({{ site.enumerations }})
-- [`EnumDLRBarcodeFormat`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat)
-- [`EnumDLRBarcodeFormat_2`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat_2)
-- [`EnumDLRBinarizationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrbinarizationmode)
-- [`EnumDLRGrayscaleTransformationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)
-- [`EnumDLRImagePixelFormat`]({{ site.enumerations }}other-enums.html#dlrimagepixelformat)
-- [`EnumDLRLocalizationSourceType`]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype)
-- [`EnumDLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)
-- [`EnumDMChargeWay`]({{ site.enumerations }}other-enums.html#dm_chargeway)	
-- [`EnumDMDeploymentType`]({{ site.enumerations }}other-enums.html#dm_deploymenttype)	
-- [`EnumDMLicenseModule`]({{ site.enumerations }}other-enums.html#dm_licensemodule)	
-- [`EnumDMUUIDGenerationMethod`]({{ site.enumerations }}other-enums.html#dm_uuidgenerationmethod)	
+## [Enumerations]({{ site.dlr_enumerations }})
+- [`EnumDLRBarcodeFormat`]({{ site.dlr_enumerations }}other-enums.html#dlrbarcodeformat)
+- [`EnumDLRBarcodeFormat_2`]({{ site.dlr_enumerations }}other-enums.html#dlrbarcodeformat_2)
+- [`EnumDLRBinarizationMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrbinarizationmode)
+- [`EnumDLRGrayscaleTransformationMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)
+- [`EnumDLRImagePixelFormat`]({{ site.dlr_enumerations }}other-enums.html#dlrimagepixelformat)
+- [`EnumDLRLocalizationSourceType`]({{ site.dlr_enumerations }}other-enums.html#dlrlocalizationsourcetype)
+- [`EnumDLRRegionPredetectionMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)
+- [`EnumDMChargeWay`]({{ site.dlr_enumerations }}other-enums.html#dm_chargeway)	
+- [`EnumDMDeploymentType`]({{ site.dlr_enumerations }}other-enums.html#dm_deploymenttype)	
+- [`EnumDMLicenseModule`]({{ site.dlr_enumerations }}other-enums.html#dm_licensemodule)	
+- [`EnumDMUUIDGenerationMethod`]({{ site.dlr_enumerations }}other-enums.html#dm_uuidgenerationmethod)	
 
 &nbsp; 
 
-## [Error Code]({{ site.enumerations }}error-code.html)
+## [Error Code]({{ site.dlr_enumerations }}error-code.html)
 		

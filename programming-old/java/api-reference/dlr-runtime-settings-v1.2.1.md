@@ -81,7 +81,7 @@ int[] regionPredetectionModes
 
 **Value Range**
 
-Each array item can be any one of the [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode) Enumeration items.
+Each array item can be any one of the [`DLRRegionPredetectionMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode) Enumeration items.
 
 **Default value**
 
@@ -115,7 +115,7 @@ int[] grayscaleTransformationModes[]
 
 **Value Range**
 
-Each array item can be any one of the [`DLRGrayscaleTransformationMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode) Enumeration items.
+Each array item can be any one of the [`DLRGrayscaleTransformationMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode) Enumeration items.
 
 **Default value**
 

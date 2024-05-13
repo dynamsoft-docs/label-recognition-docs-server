@@ -10,10 +10,10 @@ permalink: /programming/index.html
 
 # Dynamsoft Label Recognizer - Programming
 
-- [JavaScript]({{ site.javascript }})
+- [JavaScript]({{ site.dlr_javascript }})
 - [Android]({{ site.android }})
 - [iOS]({{ site.objectivec-swift }})
-- [.NET]({{ site.dotnet }})
-- [Java]({{ site.java }})
-- [C]({{ site.c }})
-- [C++]({{ site.cpp }})
+- [.NET]({{ site.dlr_dotnet }})
+- [Java]({{ site.dlr_java }})
+- [C]({{ site.dlr_c }})
+- [C++]({{ site.dlr_cpp }})

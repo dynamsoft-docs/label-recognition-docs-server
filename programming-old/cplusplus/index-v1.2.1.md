@@ -11,12 +11,12 @@ permalink: /programming/cplusplus/index-v1.2.1.html
 
 ## Getting Started
 
-- [User Guide]({{site.cpp}}user-guide.html)
+- [User Guide]({{site.dlr_cpp}}user-guide.html)
 
 ## API Reference
 
-- [API Reference]({{site.cpp_api}})
+- [API Reference]({{site.dlr_cpp_api}})
 
 ## Release Notes
 
-- [Version 1.x]({{site.c-cplusplus-release-notes}}c-cpp-1.html)
+- [Version 1.x]({{site.dlr_c_cplusplus_release_notes}}c-cpp-1.html)

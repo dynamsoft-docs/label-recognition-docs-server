@@ -26,7 +26,7 @@ class dynamsoft::core::CImageData;
 |[`GetWidth`](#getwidth)| Gets the width of the image data (measured in pixels). |
 |[`GetHeight`](#getheight)| Gets the height of the image data (measured in pixels). |
 |[`GetStride`](#getstride)| Gets the stride length of the image data (measured in bytes). |
-|[`GetImagePixelFormat`](#getimagepixelformat)| Gets the [`pixel format`]({{ site.enumerations }}image-pixel-format.html) of the image data. |
+|[`GetImagePixelFormat`](#getimagepixelformat)| Gets the [`pixel format`]({{ site.dlr_enumerations }}image-pixel-format.html) of the image data. |
 
 &nbsp;
 
@@ -101,7 +101,7 @@ int GetStride() const;
 
 ## GetImagePixelFormat
 
-Gets the [`pixel format`]({{ site.enumerations }}image-pixel-format.html) of the image data.
+Gets the [`pixel format`]({{ site.dlr_enumerations }}image-pixel-format.html) of the image data.
 
 ```cpp
 ImagePixelFormat GetImagePixelFormat() const;

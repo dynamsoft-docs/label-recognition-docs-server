@@ -17,7 +17,7 @@ Stores the reference region information.
   
 | Attribute | Type |
 |---------- | ---- |
-| [`localizationSourceType`](#localizationsourcetype) | [`DLRLocalizationSourceType`]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype) |
+| [`localizationSourceType`](#localizationsourcetype) | [`DLRLocalizationSourceType`]({{ site.dlr_enumerations }}other-enums.html#dlrlocalizationsourcetype) |
 | [`points`](#points) | [`DLRPoint[]`](dlr-point.md) |
 | [`regionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`regionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
@@ -34,7 +34,7 @@ int localizationSourceType
 
 **Value Range**
 
-A value of [`DLRLocalizationSourceType`]({{ site.enumerations }}other-enums.html#dlrlocalizationsourcetype) Enumeration items.
+A value of [`DLRLocalizationSourceType`]({{ site.dlr_enumerations }}other-enums.html#dlrlocalizationsourcetype) Enumeration items.
 
 **Default value**
 
@@ -109,7 +109,7 @@ int barcodeFormatIds
 
 **Value Range**
 
-A combined value of [`DLRBarcodeFormat`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat) Enumeration items
+A combined value of [`DLRBarcodeFormat`]({{ site.dlr_enumerations }}other-enums.html#dlrbarcodeformat) Enumeration items
 
 **Default value**
 
@@ -131,7 +131,7 @@ int barcodeFormatIds_2
 
 **Value Range**
 
-A combined value of [`DLRBarcodeFormat_2`]({{ site.enumerations }}other-enums.html#dlrbarcodeformat_2) Enumeration items
+A combined value of [`DLRBarcodeFormat_2`]({{ site.dlr_enumerations }}other-enums.html#dlrbarcodeformat_2) Enumeration items
 
 **Default value**
 

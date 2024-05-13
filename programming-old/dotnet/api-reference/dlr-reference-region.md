@@ -21,7 +21,7 @@ class Dynamsoft.DLR.DLR_ReferenceRegion
   
 | Attribute | Type |
 |---------- | ---- |
-| [`LocalizationSourceType`](#localizationsourcetype) | [`EnumLocalizationSourceType`]({{ site.enumerations }}localization-source-type.html) |
+| [`LocalizationSourceType`](#localizationsourcetype) | [`EnumLocalizationSourceType`]({{ site.dlr_enumerations }}localization-source-type.html) |
 | [`Location`](#location) | [`Quadrilateral`](quadrilateral.md) |
 | [`RegionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`RegionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
@@ -39,7 +39,7 @@ int LocalizationSourceType
 
 **Value Range**
 
-A value of [`EnumLocalizationSourceType`]({{ site.enumerations }}localization-source-type.html) Enumeration items.
+A value of [`EnumLocalizationSourceType`]({{ site.dlr_enumerations }}localization-source-type.html) Enumeration items.
 
 **Default value**
 
@@ -119,7 +119,7 @@ int BarcodeFormatIds
 
 **Value Range**
 
-A combined value of [`EnumBarcodeFormat`]({{ site.enumerations }}barcode-format.html) Enumeration items
+A combined value of [`EnumBarcodeFormat`]({{ site.dlr_enumerations }}barcode-format.html) Enumeration items
 
 **Default value**
 
@@ -142,7 +142,7 @@ int BarcodeFormatIds_2
 
 **Value Range**
 
-A combined value of [`EnumBarcodeFormat_2`]({{ site.enumerations }}barcode-format-2.html) Enumeration items
+A combined value of [`EnumBarcodeFormat_2`]({{ site.dlr_enumerations }}barcode-format-2.html) Enumeration items
 
 **Default value**
 

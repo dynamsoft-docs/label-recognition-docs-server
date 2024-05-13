@@ -354,7 +354,7 @@ the optional argument for a specified mode in Modes parameters.
 **Remark**
 
 Check follow link for available modes and arguments:
-- [`RegionPredetectionModes`]({{ site.parameters-reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
+- [`RegionPredetectionModes`]({{ site.dlr_parameters_reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
 
 **Code Snippet**
 
@@ -402,7 +402,7 @@ void setModeArgument (String modesName, int index, String argumentName, String a
 **Remark**
 
 Check follow link for available modes and arguments:
-- [`RegionPredetectionModes`]({{ site.parameters-reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
+- [`RegionPredetectionModes`]({{ site.dlr_parameters_reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
 
 **Code Snippet**
 
