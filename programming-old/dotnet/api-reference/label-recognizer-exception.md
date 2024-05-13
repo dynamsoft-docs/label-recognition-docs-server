@@ -36,7 +36,7 @@ EnumDLRErrorCode Code
 ```  
 **See also**
 
-[`EnumDLRErrorCode`]({{ site.enumerations }}error-code.html)    
+[`EnumDLRErrorCode`]({{ site.dlr_enumerations }}error-code.html)    
 
 &nbsp;
 

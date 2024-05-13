@@ -20,4 +20,4 @@ permalink: /programming/c/index-v1.2.1.html
 
 ## Release Notes
 
-- [Version 1.x]({{site.c-cplusplus-release-notes}}c-cpp-1.html)
+- [Version 1.x]({{site.dlr_c_cplusplus_release_notes}}c-cpp-1.html)

@@ -26,7 +26,7 @@ permalink: /programming/c-cplusplus/api-reference/c-functions/settings.html
 
 
 ## DLR_GetRuntimeSettings
-Get current settings and save them into a [`DLRRuntimeSettings`]({{ site.c-cplusplus-structs }}dlr-runtime-settings.html) struct.
+Get current settings and save them into a [`DLRRuntimeSettings`]({{ site.dlr_c_cplusplus_structs }}dlr-runtime-settings.html) struct.
 
 ```c
 DLR_API int DLR_GetRuntimeSettings (void* recognizer, DLRRuntimeSettings* settings)
@@ -52,7 +52,7 @@ DLR_DestroyInstance(recognizer);
 &nbsp;
 
 ## DLR_UpdateRuntimeSettings
-Update runtime settings with a given [`DLRRuntimeSettings`]({{ site.c-cplusplus-structs }}dlr-runtime-settings.html) struct.
+Update runtime settings with a given [`DLRRuntimeSettings`]({{ site.dlr_c_cplusplus_structs }}dlr-runtime-settings.html) struct.
 
 ```c
 DLR_API int DLR_UpdateRuntimeSettings (void* recognizer, DLRRuntimeSettings* settings, char errorMsgBuffer[], const int errorMsgBufferLen)
@@ -272,7 +272,7 @@ Returns error code (returns 0 if the function operates successfully).
 
 #### Remark
 Check follow link for available modes and arguments:
-- [`RegionPredetectionModes`]({{ site.parameters-reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
+- [`RegionPredetectionModes`]({{ site.dlr_parameters_reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
 
 **Code Snippet**
 ```c
@@ -314,7 +314,7 @@ Returns error code (returns 0 if the function operates successfully).
 
 #### Remark
 Check follow link for available modes and arguments:
-- [`RegionPredetectionModes`]({{ site.parameters-reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
+- [`RegionPredetectionModes`]({{ site.dlr_parameters_reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
 
 **Code Snippet**
 ```c

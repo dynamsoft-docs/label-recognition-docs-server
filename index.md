@@ -8,8 +8,8 @@ needAutoGenerateSidebar: true
 
 # Dynamsoft Label Recognizer Documentation
 
-* [Programming]({{ site.programming }})
-  * [.NET]({{ site.dotnet }})
-  * [Java]({{ site.java }})
-  * [C]({{ site.c }})
-  * [C++]({{ site.cpp }})
+* [Programming]({{ site.dlr_programming }})
+  * [.NET]({{ site.dlr_dotnet }})
+  * [Java]({{ site.dlr_java }})
+  * [C]({{ site.dlr_c }})
+  * [C++]({{ site.dlr_cpp }})

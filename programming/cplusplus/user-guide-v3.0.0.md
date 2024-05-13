@@ -11,7 +11,7 @@ needGenerateH3Content: true
 
 In this guide, you will learn step by step on how to build a label recognizer application with Dynamsoft Label Recognizer SDK using C++ language.
 
-> Read more on [Dynamsoft Label Recognizer Features]({{site.introduction}})
+> Read more on [Dynamsoft Label Recognizer Features]({{site.dlr_introduction}})
 
 <span style="font-size:20px">Table of Contents</span>
 
@@ -40,7 +40,7 @@ In this guide, you will learn step by step on how to build a label recognizer ap
 ## Requirements
 
 - Windows
-  - Windows 7, 8, 10, 2003, 2008, 2008 R2, 2012.
+  - Windows 7, 8, 10, 11, 2003, 2008, 2008 R2, 2012.
   - Visual Studio 2012 or above
 
 - Linux

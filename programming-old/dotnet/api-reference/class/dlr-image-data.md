@@ -20,7 +20,7 @@ Stores the image data.
 | [`Width`](#width) | *int* |
 | [`Height`](#height) | *int* |
 | [`Stride`](#stride) | *int* |
-| [`Format`](#format) | [`EnumDLRImagePixelFormat`]({{ site.enumerations }}other-enums.html#dlrimagepixelformat) |
+| [`Format`](#format) | [`EnumDLRImagePixelFormat`]({{ site.dlr_enumerations }}other-enums.html#dlrimagepixelformat) |
 
 
 ### Bytes

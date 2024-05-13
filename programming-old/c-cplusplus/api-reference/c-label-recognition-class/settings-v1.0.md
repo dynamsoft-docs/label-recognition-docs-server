@@ -24,7 +24,7 @@ permalink: /programming/c-cplusplus/api-reference/c-label-recognition-class/sett
 ---
 
 ## GetRuntimeSettings
-Get current settings and save them into a [`DLRRuntimeSettings`]({{ site.c-cplusplus-structs }}dlr-runtime-settings.html) struct.
+Get current settings and save them into a [`DLRRuntimeSettings`]({{ site.dlr_c_cplusplus_structs }}dlr-runtime-settings.html) struct.
 
 ```cpp
 int dynamsoft::dlr::CLabelRecognition::GetRuntimeSettings (DLRRuntimeSettings* settings)
@@ -49,7 +49,7 @@ delete recognizer;
 &nbsp;
 
 ## UpdateRuntimeSettings
-Update runtime settings with a given [`DLRRuntimeSettings`]({{ site.c-cplusplus-structs }}dlr-runtime-settings.html) struct.
+Update runtime settings with a given [`DLRRuntimeSettings`]({{ site.dlr_c_cplusplus_structs }}dlr-runtime-settings.html) struct.
 
 ```cpp
 int dynamsoft::dlr::CLabelRecognition::UpdateRuntimeSettings (DLRRuntimeSettings* settings, char errorMsgBuffer[] = NULL, const int errorMsgBufferLen = 0)
@@ -228,7 +228,7 @@ Returns error code (returns 0 if the function operates successfully).
 
 #### Remark
 Check follow link for available modes and arguments:
-- [`RegionPredetectionModes`]({{ site.parameters-reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
+- [`RegionPredetectionModes`]({{ site.dlr_parameters_reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
 
 **Code Snippet**
 ```cpp
@@ -269,7 +269,7 @@ Returns error code (returns 0 if the function operates successfully).
 
 #### Remark
 Check follow link for available modes and arguments:
-- [`RegionPredetectionModes`]({{ site.parameters-reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
+- [`RegionPredetectionModes`]({{ site.dlr_parameters_reference }}label-recognition-parameter/region-predetection-modes.html#regionpredetectionmodes)
 
 **Code Snippet**
 ```cpp

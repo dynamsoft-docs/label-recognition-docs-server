@@ -23,9 +23,9 @@ keywords: label recognition, api reference, C++
 - [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-receiver.html)
 - [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
 - [`CCapturedResult`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result.html)
-- [`CTextLineResultItem`]({{ site.cpp_api }}text-line-result-item.html)
-- [`CCharacterResult`]({{ site.cpp_api }}character-result.html)
-- [`CRecognizedTextLinesResult`]({{ site.cpp_api }}recognized-text-lines-result.html)
+- [`CTextLineResultItem`]({{ site.dlr_cpp_api }}text-line-result-item.html)
+- [`CCharacterResult`]({{ site.dlr_cpp_api }}character-result.html)
+- [`CRecognizedTextLinesResult`]({{ site.dlr_cpp_api }}recognized-text-lines-result.html)
 - [`COriginalImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/original-image-result-item.html)
 
 ## Final Results Filters
@@ -42,12 +42,12 @@ keywords: label recognition, api reference, C++
 - [`CIntermediateResult`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result.html)
 - [`CIntermediateResultUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html)
 - [`CPredetectedRegionsUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-regions-unit.html)
-- [`CLocalizedTextLinesUnit`]({{ site.cpp_api }}localized-text-lines-unit.html)
-- [`CRecognizedTextLinesUnit`]({{ site.cpp_api }}recognized-text-lines-unit.html)
+- [`CLocalizedTextLinesUnit`]({{ site.dlr_cpp_api }}localized-text-lines-unit.html)
+- [`CRecognizedTextLinesUnit`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html)
 - [`CRegionObjectElement`]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html)
 - [`CPredetectedRegionElement`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-region-element.html)
-- [`CLocalizedTextLineElement`]({{ site.cpp_api }}localized-text-line-element.html)
-- [`CRecognizedTextLineElement`]({{ site.cpp_api }}recognized-text-line-element.html)
+- [`CLocalizedTextLineElement`]({{ site.dlr_cpp_api }}localized-text-line-element.html)
+- [`CRecognizedTextLineElement`]({{ site.dlr_cpp_api }}recognized-text-line-element.html)
 - [`CBinaryImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/binary-image-unit.html)
 - [`CColourImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/colour-image-unit.html)
 - [`CEnhancedGrayscaleImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/enhanced-grayscale-image-unit.html)
@@ -62,7 +62,7 @@ keywords: label recognition, api reference, C++
 ## Settings
 
 - [`SimplifiedCaptureVisionSettings`]({{ site.dcv_cpp_api }}capture-vision-router/structs/simplified-capture-vision-settings.html)
-- [`SimplifiedLabelRecognizerSettings`]({{ site.cpp_api }}simplified-label-recognizer-settings.html)
+- [`SimplifiedLabelRecognizerSettings`]({{ site.dlr_cpp_api }}simplified-label-recognizer-settings.html)
 - [`CPresetTemplate`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/preset-template.html)
 
 ## State Listener
@@ -87,7 +87,7 @@ keywords: label recognition, api reference, C++
 ## Modules
 
 - [`CCaptureVisionRouterModule`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/capture-vision-router-module.html)
-- [`CLabelRecognizerModule`]({{ site.cpp_api }}label-recognizer-module.html)
+- [`CLabelRecognizerModule`]({{ site.dlr_cpp_api }}label-recognizer-module.html)
 - [`CCoreModule`]({{ site.dcv_cpp_api }}core/basic-structures/core-module.html)
 - [`CLicenseModule`]({{ site.dcv_cpp_api }}license/license-module.html)
 - [`CUtilityModule`]({{ site.dcv_cpp_api }}utility/utility-module.html)

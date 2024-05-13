@@ -33,22 +33,22 @@ permalink: /programming/c/api-reference/index.html
 
 ## Enumerations
 
-- [RegionPredetectionMode]({{ site.enumerations }}region-predetection-mode.html)
-- [ColourConversionMode]({{ site.enumerations }}colour-conversion-mode.html)
-- [GrayscaleTransformationMode]({{ site.enumerations }}grayscale-transformation-mode.html)
-- [GrayscaleEnhancementMode]({{ site.enumerations }}grayscale-enhancement-mode.html)
-- [BinarizationMode]({{ site.enumerations }}binarization-mode.html)
-- [TextureDetectionMode]({{ site.enumerations }}texture-detection-mode.html)
-- [BarcodeFormat]({{ site.enumerations }}barcode-format.html)
-- [BarcodeFormat_2]({{ site.enumerations }}barcode-format-2.html)
-- [ImagePixelFormat]({{ site.enumerations }}image-pixel-format.html)
-- [DMChargeWay]({{ site.enumerations }}dm-charge-way.html)	
-- [DMLicenseModule]({{ site.enumerations }}dm-license-module.html)	
-- [DMUUIDGenerationMethod]({{ site.enumerations }}dm-uuid-generation-method.html)	
-- [Product]({{ site.enumerations }}product.html)	
-- [LocalizationSourceType]({{ site.enumerations }}localization-source-type.html)
+- [RegionPredetectionMode]({{ site.dlr_enumerations }}region-predetection-mode.html)
+- [ColourConversionMode]({{ site.dlr_enumerations }}colour-conversion-mode.html)
+- [GrayscaleTransformationMode]({{ site.dlr_enumerations }}grayscale-transformation-mode.html)
+- [GrayscaleEnhancementMode]({{ site.dlr_enumerations }}grayscale-enhancement-mode.html)
+- [BinarizationMode]({{ site.dlr_enumerations }}binarization-mode.html)
+- [TextureDetectionMode]({{ site.dlr_enumerations }}texture-detection-mode.html)
+- [BarcodeFormat]({{ site.dlr_enumerations }}barcode-format.html)
+- [BarcodeFormat_2]({{ site.dlr_enumerations }}barcode-format-2.html)
+- [ImagePixelFormat]({{ site.dlr_enumerations }}image-pixel-format.html)
+- [DMChargeWay]({{ site.dlr_enumerations }}dm-charge-way.html)	
+- [DMLicenseModule]({{ site.dlr_enumerations }}dm-license-module.html)	
+- [DMUUIDGenerationMethod]({{ site.dlr_enumerations }}dm-uuid-generation-method.html)	
+- [Product]({{ site.dlr_enumerations }}product.html)	
+- [LocalizationSourceType]({{ site.dlr_enumerations }}localization-source-type.html)
 
 
 ## Error Code
 
-- [Error Code]({{ site.enumerations }}error-code.html)
+- [Error Code]({{ site.dlr_enumerations }}error-code.html)

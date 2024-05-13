@@ -27,12 +27,12 @@ typedef struct tagDM_LTSConnectionParameters  DM_LTSConnectionParameters
 | [`standbyServerURL`](#standbyserverurl) | *const char\** |
 | [`handshakeCode`](#handshakecode) | *const char\** |
 | [`sessionPassword`](#sessionpassword) | *const char\** |
-| [`deploymentType`](#deploymenttype) | [`DM_DeploymentType`]({{ site.enumerations }}other-enums.html#dm_deploymenttype) |
-| [`chargeWay`](#chargeway) | [`DM_ChargeWay`]({{ site.enumerations }}other-enums.html#dm_chargeway) |
-| [`UUIDGenerationMethod`](#uuidgenerationmethod) | [`DM_UUIDGenerationMethod`]({{ site.enumerations }}other-enums.html#dm_uuidgenerationmethod) |
+| [`deploymentType`](#deploymenttype) | [`DM_DeploymentType`]({{ site.dlr_enumerations }}other-enums.html#dm_deploymenttype) |
+| [`chargeWay`](#chargeway) | [`DM_ChargeWay`]({{ site.dlr_enumerations }}other-enums.html#dm_chargeway) |
+| [`UUIDGenerationMethod`](#uuidgenerationmethod) | [`DM_UUIDGenerationMethod`]({{ site.dlr_enumerations }}other-enums.html#dm_uuidgenerationmethod) |
 | [`maxBufferDays`](#maxbufferdays) | *int* |
 | [`limitedLicenseModulesCount`](#limitedlicensemodulescount) | *int* |
-| [`limitedLicenseModules`](#limitedlicensemodules) | [`DM_LicenseModule*`]({{ site.enumerations }}other-enums.html#dm_licensemodule) |
+| [`limitedLicenseModules`](#limitedlicensemodules) | [`DM_LicenseModule*`]({{ site.dlr_enumerations }}other-enums.html#dm_licensemodule) |
 | [`maxConcurrentInstanceCount`](#maxconcurrentinstancecount) | *int* |
 | [`reserved`](#reserved) | *char\[60\]* |
 
@@ -111,7 +111,7 @@ DM_DeploymentType tagDM_LTSConnectionParameters::deploymentType
 
 **Value Range**
 
-A value of [`DM_DeploymentType`]({{ site.enumerations }}other-enums.html#dm_deploymenttype) Enumeration items.
+A value of [`DM_DeploymentType`]({{ site.dlr_enumerations }}other-enums.html#dm_deploymenttype) Enumeration items.
 
 **Default value**
 
@@ -119,7 +119,7 @@ A value of [`DM_DeploymentType`]({{ site.enumerations }}other-enums.html#dm_depl
 
 **See also**
 
-[`DM_DeploymentType`]({{ site.enumerations }}other-enums.html#dm_deploymenttype)
+[`DM_DeploymentType`]({{ site.dlr_enumerations }}other-enums.html#dm_deploymenttype)
       
 
 ### chargeWay
@@ -130,7 +130,7 @@ DM_ChargeWay tagDM_LTSConnectionParameters::chargeWay
 
 **Value Range**
 
-A value of [`DM_ChargeWay`]({{ site.enumerations }}other-enums.html#dm_chargeway) Enumeration items.
+A value of [`DM_ChargeWay`]({{ site.dlr_enumerations }}other-enums.html#dm_chargeway) Enumeration items.
 
 **Default value**
 
@@ -138,7 +138,7 @@ A value of [`DM_ChargeWay`]({{ site.enumerations }}other-enums.html#dm_chargeway
 
 **See also**
 
-[`DM_ChargeWay`]({{ site.enumerations }}other-enums.html#dm_chargeway)
+[`DM_ChargeWay`]({{ site.dlr_enumerations }}other-enums.html#dm_chargeway)
       
 
 ### UUIDGenerationMethod
@@ -149,7 +149,7 @@ DM_UUIDGenerationMethod tagDM_LTSConnectionParameters::UUIDGenerationMethod
 
 **Value Range**
 
-A value of [`DM_UUIDGenerationMethod`]({{ site.enumerations }}other-enums.html#dm_uuidgenerationmethod) Enumeration items.
+A value of [`DM_UUIDGenerationMethod`]({{ site.dlr_enumerations }}other-enums.html#dm_uuidgenerationmethod) Enumeration items.
 
 **Default value**
 
@@ -157,7 +157,7 @@ A value of [`DM_UUIDGenerationMethod`]({{ site.enumerations }}other-enums.html#d
 
 **See also**
 
-[`DM_UUIDGenerationMethod`]({{ site.enumerations }}other-enums.html#dm_uuidgenerationmethod)
+[`DM_UUIDGenerationMethod`]({{ site.dlr_enumerations }}other-enums.html#dm_uuidgenerationmethod)
       
 
 ### maxBufferDays
@@ -196,7 +196,7 @@ DM_LicenseModule* tagDM_LTSConnectionParameters::limitedLicenseModules
 
 **Value Range**
 
-Each array item can be any one of the [`DM_LicenseModule`]({{ site.enumerations }}other-enums.html#dm_licensemodule) Enumeration items.
+Each array item can be any one of the [`DM_LicenseModule`]({{ site.dlr_enumerations }}other-enums.html#dm_licensemodule) Enumeration items.
 
 **Default value**
 
@@ -204,7 +204,7 @@ NULL
 
 **See also**
 
-[`DM_LicenseModule`]({{ site.enumerations }}other-enums.html#dm_licensemodule)
+[`DM_LicenseModule`]({{ site.dlr_enumerations }}other-enums.html#dm_licensemodule)
       
 
 ### reserved

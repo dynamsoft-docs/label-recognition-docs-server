@@ -6,7 +6,7 @@
   - `LineStringLengthRange` is used to define the minimum and maximum string length when running the recognition process on a specific line.
   - `MaxLineCharacterSpacing` is used to control the spacing between characters treated as one line.
 
-- Improved the regular expression parameter by supporting more [RegEx pattern syntaxes]({{ site.parameters-reference }}label-recognition-parameter/parameter-control.html#textregexpattern).
+- Improved the regular expression parameter by supporting more [RegEx pattern syntaxes]({{ site.dlr_parameters_reference }}label-recognition-parameter/parameter-control.html#textregexpattern).
 
 - Improved the recognition accuracy when dealing with skewed and italics characters.
 

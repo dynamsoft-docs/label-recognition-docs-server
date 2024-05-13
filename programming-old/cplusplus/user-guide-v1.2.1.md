@@ -109,7 +109,7 @@ There are two ways to set a single reference region - 1) through runtime setting
 
 ### Specify multiple reference regions
 
-To reference multiple regions, we cannot follow the runtime settings example above. Below is an example of how to define multiple reference regions of interest, `R1` and `R2`, using a template string. Learn more about [`ReferenceRegionArray`]({{ site.parameters-reference }}index.html#referenceregionarray).
+To reference multiple regions, we cannot follow the runtime settings example above. Below is an example of how to define multiple reference regions of interest, `R1` and `R2`, using a template string. Learn more about [`ReferenceRegionArray`]({{ site.dlr_parameters_reference }}index.html#referenceregionarray).
 
 ```cpp
     string ReferenceRegionArray = 
@@ -185,7 +185,7 @@ Dynamsoft Label Recognition SDK supports automatic region detection to extract t
     dlr.UpdateRuntimeSettings(&settings, szErrorMsg, 512);
 ```
 
-Setting the predetection mode option to `DLR_RPM_AUTO` will allow the library to automatically detect a region. Learn more about other predetection mode options available in [`DLRRegionPredetectionMode`]({{ site.enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode).
+Setting the predetection mode option to `DLR_RPM_AUTO` will allow the library to automatically detect a region. Learn more about other predetection mode options available in [`DLRRegionPredetectionMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode).
 
 ### Use a template to change settings
 

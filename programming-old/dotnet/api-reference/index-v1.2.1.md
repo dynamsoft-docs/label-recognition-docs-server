@@ -11,4 +11,4 @@ permalink: /programming/dotnet/api-reference/index-v1.2.1.html
 
 - [`LabelRecognition` Class](label-recognition/index.md) 
 - [Other Classes](class/index.md)  
-- [Enumerations]({{ site.enumerations }})
+- [Enumerations]({{ site.dlr_enumerations }})

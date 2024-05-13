@@ -8,6 +8,14 @@ needAutoGenerateSidebar: false
 
 # Release Notes - C++ 3.x
 
+## 3.2.30 (05/13/2024)
+
+### Fixed
+
+- Fixed a bug where the DynamsoftNeuralNetwork module failed to load due to a path error.
+- Fixed a bug where users would not receive proper error messages when attempting to configure [`SimplifiedLabelRecognizerSettings`]({{ site.dlr_cpp_api }}simplified-label-recognizer-settings.html) with an incorrect `CharacterModel`.
+- Fixed a bug where the characters might not be correctly excluded when they are configured in the filter file.
+
 ## 3.2.20 (04/07/2024)
 
 ### Highlights
