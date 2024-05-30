@@ -101,7 +101,7 @@ keywords: label recognition, api reference, C++
 - [`GrayscaleTransformationMode`]({{ site.dcv_enumerations}}core/grayscale-transformation-mode.html?src=cpp&&lang=cpp)
 - [`ImageCaptureDistanceMode`]({{ site.dcv_enumerations}}core/image-capture-distance-mode.html?src=cpp&&lang=cpp)
 - [`ImagePixelFormat`]({{ site.dcv_enumerations}}core/image-pixel-format.html?src=cpp&&lang=cpp)
-- [`ImageSourceState`]({{ site.dcv_enumerations}}core/image-source-state.html?src=cpp&&lang=cpp)
+- [`ImageSourceState`]({{ site.dcv_enumerations}}capture-vision-router/image-source-state.html?src=cpp&&lang=cpp)
 - [`ImageTagType`]({{ site.dcv_enumerations}}core/image-tag-type.html?src=cpp&&lang=cpp)
 - [`IntermediateResultUnitType`]({{ site.dcv_enumerations}}core/intermediate-result-unit-type.html?src=cpp&&lang=cpp)
 - [`PDFReadingMode`]({{ site.dcv_enumerations}}core/pdf-reading-mode.html?src=cpp&&lang=cpp)

@@ -37,6 +37,7 @@ keywords: label recognition, api reference, C++
 ### Enums
 
 - [`CaptureState`]({{ site.dcv_enumerations }}capture-vision-router/capture-state.html?lang=cpp)
+- [`ImageSourceState`]({{ site.dcv_enumerations }}capture-vision-router/image-source-state.html?lang=cpp)
 
 ## DynamsoftLabelRecognizer
 
@@ -115,7 +116,6 @@ keywords: label recognition, api reference, C++
 - [`GrayscaleTransformationMode`]({{ site.dcv_enumerations }}core/grayscale-transformation-mode.html?lang=cpp)
 - [`ImageCaptureDistanceMode`]({{ site.dcv_enumerations }}core/image-capture-distance-mode.html?lang=cpp)
 - [`ImagePixelFormat`]({{ site.dcv_enumerations }}core/image-pixel-format.html?lang=cpp)
-- [`ImageSourceState`]({{ site.dcv_enumerations }}core/image-source-state.html?lang=cpp)
 - [`ImageTagType`]({{ site.dcv_enumerations }}core/image-tag-type.html?lang=cpp)
 - [`IntermediateResultUnitType`]({{ site.dcv_enumerations }}core/intermediate-result-unit-type.html?lang=cpp)
 - [`PDFReadingMode`]({{ site.dcv_enumerations }}core/pdf-reading-mode.html?lang=cpp)
