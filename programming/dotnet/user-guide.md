@@ -15,24 +15,24 @@ In this guide, you will learn step by step on how to build a label recognition a
 > Read more on [Dynamsoft Label Recognizer Features](https://www.dynamsoft.com/label-recognition/features/)
 
 - [Getting Started with Dynamsoft Label Recognizer SDK .NET Edition](#getting-started-with-dynamsoft-label-recognizer-sdk-net-edition)
-  - [System Requirements](#system-requirements)
-  - [Build Your First Application](#build-your-first-application)
-    - [Create a New Project](#create-a-new-project)
-    - [Install the NuGet Package](#install-the-nuget-package)
-    - [Import the Namespace](#import-the-namespace)
-    - [Initialize the License Key](#initialize-the-license-key)
-    - [Create a CaptureVisionRouter Instance](#create-a-capturevisionrouter-instance)
-    - [Invoke the Text Capturing](#invoke-the-text-capturing)
-    - [Filter and Get Recognized Text Results](#filter-and-get-recognized-text-results)
-    - [Build and Run the Project](#build-and-run-the-project)
-  - [Process Multiple Images](#process-multiple-images)
-    - [Import the Additional Namespace.](#import-the-additional-namespace)
-    - [Create an ImageSource as the Input](#create-an-imagesource-as-the-input)
-    - [Implement a CapturedResultReceiver as the Output Listener](#implement-a-capturedresultreceiver-as-the-output-listener)
-    - [Handle Capture Stoppage by Implementing a ImageSource State Listener](#handle-capture-stoppage-by-implementing-a-imagesource-state-listener)
-    - [Register the Input, Output Listener and ImageSource State Listener to the CaptureVisionRouter Instance](#register-the-input-output-listener-and-imagesource-state-listener-to-the-capturevisionrouter-instance)
-    - [Start the Capturing Process](#start-the-capturing-process)
-    - [Build and Run the Project Again](#build-and-run-the-project-again)
+	- [System Requirements](#system-requirements)
+	- [Build Your First Application](#build-your-first-application)
+		- [Create a New Project](#create-a-new-project)
+		- [Install the NuGet Package](#install-the-nuget-package)
+		- [Import the Namespace](#import-the-namespace)
+		- [Initialize the License Key](#initialize-the-license-key)
+		- [Create a CaptureVisionRouter Instance](#create-a-capturevisionrouter-instance)
+		- [Invoke the Text Capturing](#invoke-the-text-capturing)
+		- [Filter and Get Recognized Text Results](#filter-and-get-recognized-text-results)
+		- [Build and Run the Project](#build-and-run-the-project)
+	- [Process Multiple Images](#process-multiple-images)
+		- [Import the Additional Namespace.](#import-the-additional-namespace)
+		- [Create an ImageSource as the Input](#create-an-imagesource-as-the-input)
+		- [Implement a CapturedResultReceiver as the Output Listener](#implement-a-capturedresultreceiver-as-the-output-listener)
+		- [Handle Capture Stoppage by Implementing a ImageSource State Listener](#handle-capture-stoppage-by-implementing-a-imagesource-state-listener)
+		- [Register the Input, Output Listener and ImageSource State Listener to the CaptureVisionRouter Instance](#register-the-input-output-listener-and-imagesource-state-listener-to-the-capturevisionrouter-instance)
+		- [Start the Capturing Process](#start-the-capturing-process)
+		- [Build and Run the Project Again](#build-and-run-the-project-again)
 
 ## System Requirements
 
@@ -95,7 +95,7 @@ if (errorCode != (int)EnumErrorCode.EC_OK)
     Console.WriteLine("License initialization error: " + errorMsg);
 ```
 
-> The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. When it expires, you can request a 30-day free trial license from the <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dlr&package=dotnet" target="_blank">Customer Portal</a>.
+> The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr&utm_source=guide&package=dotnet){:target="_blank"} link.
 
 ### Create a CaptureVisionRouter Instance
 

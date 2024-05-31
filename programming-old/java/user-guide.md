@@ -10,14 +10,15 @@ permalink: /programming/java/user-guide.html
 
 # User Guide - Java
 
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Build Your First Application](#build-your-first-application)
-    * [Create A New Project](#create-a-new-project)
-    * [Include the Label Recognizer Library](#include-the-label-recognizer-library)
-    * [Initialize the Label Recognizer](#initialize-the-label-recognizer)
-    * [Recognition Process and How to Use the Results](#recognition-process-and-how-to-use-the-results)
-    * [Build and Run the Project](#build-and-run-the-project)
+- [User Guide - Java](#user-guide---java)
+	- [Requirements](#requirements)
+	- [Installation](#installation)
+	- [Build your First Application](#build-your-first-application)
+		- [Create a New Project](#create-a-new-project)
+		- [Include the Label Recognizer library](#include-the-label-recognizer-library)
+		- [Initialize the Label Recognizer](#initialize-the-label-recognizer)
+		- [Recognition Process and How to Use the Results](#recognition-process-and-how-to-use-the-results)
+		- [Build and Run the Project](#build-and-run-the-project)
 
 ## Requirements
 
@@ -69,7 +70,7 @@ Let's start by creating a console application which demonstrates how to use the 
     >Note:
     >- Network connection is required for the license to work.
     >- "DLS2***" is a default free public trial license used in the sample.
-    >- If the license has expired, please request a trial license through the <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=docs" target="_blank">customer portal</a>.
+    >- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr&utm_source=guide&package=java){:target="_blank"} link.
 
 2. Create an instance of Dynamsoft Label Recognizer
 
