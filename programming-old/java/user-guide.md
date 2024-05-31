@@ -70,7 +70,7 @@ Let's start by creating a console application which demonstrates how to use the 
     >Note:
     >- Network connection is required for the license to work.
     >- "DLS2***" is a default free public trial license used in the sample.
-    >- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr&utm_source=guide&package=dotnet){:target="_blank"} link.
+    >- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr&utm_source=guide&package=java){:target="_blank"} link.
 
 2. Create an instance of Dynamsoft Label Recognizer
 
