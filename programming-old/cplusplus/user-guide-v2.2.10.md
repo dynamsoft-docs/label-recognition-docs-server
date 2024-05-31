@@ -13,19 +13,19 @@ permalink: /programming/cplusplus/user-guide-v2.2.10.html
 <span style="font-size:20px">Table of Contents</span>
 
 - [User Guide - C++](#user-guide---c)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Build Your First Application](#build-your-first-application)
-    - [Create A New Project](#create-a-new-project)
-      - [For Windows](#for-windows)
-      - [For Linux](#for-linux)
-    - [Include the Label Recognizer Library](#include-the-label-recognizer-library)
-    - [Initialize the Label Recognizer](#initialize-the-label-recognizer)
-    - [Recognition Process and How to Use the Results](#recognition-process-and-how-to-use-the-results)
-    - [Release Allocated Memory](#release-allocated-memory)
-    - [Build and Run the Project](#build-and-run-the-project)
-      - [For windows](#for-windows-1)
-      - [For Linux](#for-linux-1)
+	- [Requirements](#requirements)
+	- [Installation](#installation)
+	- [Build Your First Application](#build-your-first-application)
+		- [Create A New Project](#create-a-new-project)
+			- [For Windows](#for-windows)
+			- [For Linux](#for-linux)
+		- [Include the Label Recognizer Library](#include-the-label-recognizer-library)
+		- [Initialize the Label Recognizer](#initialize-the-label-recognizer)
+		- [Recognition Process and How to Use the Results](#recognition-process-and-how-to-use-the-results)
+		- [Release Allocated Memory](#release-allocated-memory)
+		- [Build and Run the Project](#build-and-run-the-project)
+			- [For windows](#for-windows-1)
+			- [For Linux](#for-linux-1)
 
 ## Requirements
    
@@ -126,7 +126,7 @@ Let's start by creating a console application which demonstrates the minimum cod
     >Note:
     >- An internet connection is required for the license to work.
     >- "DLS2***" is a default free public trial license used in the sample.
-    >- If the license has expired, please request an extension through the <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=docs" target="_blank">customer portal</a>.
+    >- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr&utm_source=guide&package=cpp){:target="_blank"} link.
 
 2. Create an instance of Dynamsoft Label Recognizer
 
