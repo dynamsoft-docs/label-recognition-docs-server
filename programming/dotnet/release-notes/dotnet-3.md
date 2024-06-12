@@ -8,6 +8,10 @@ needAutoGenerateSidebar: false
 
 # Release Notes - .NET 3.x
 
+## 3.2.31 (06/12/2024)
+
+- Fixed a bug where calling the method `GetSimplifiedSettings` would throw a `System.IO.FileNotFoundException` with the message "Could not load file or assembly ...".
+
 ## 3.2.30 (05/30/2024)
 
 ### Highlights
