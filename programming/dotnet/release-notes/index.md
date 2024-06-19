@@ -8,6 +8,7 @@ needAutoGenerateSidebar: false
 
 # Release Notes - .NET
 
+- [3.2.32 (06/19/2024)](dotnet-3.md#3232-06192024)
 - [3.2.31 (06/12/2024)](dotnet-3.md#3231-06122024)
 - [3.2.30 (05/30/2024)](dotnet-3.md#3230-05302024)
 - [2.0   (08/26/2021)](dotnet-2.md#20-08262021)
