@@ -9,6 +9,28 @@ permalink: /programming/java/release-notes/java-2.html
 
 # Release Notes - Java 2.x
 
+## 2.2.10 (06/27/2024)
+
+### Highlights
+
+{%- include release-notes/product-highlight-2.2.md -%}
+
+### Changelog
+
+#### New
+
+- Added a new property [`timeout`](../../java/api-reference/dlr-runtime-settings.md#timeout) to [`DLRRuntimeSettings`](../../java/api-reference/dlr-runtime-settings.md) class.
+- Added modes parameter `CharacterNormalizationModes` to normalize the text. The parameter is available under the following classes:
+  - `LabelRecognizerParameter`
+  - `TextArea`
+  - `LineSpecification`
+
+#### Improved
+
+- Reduced the size of MRZ model from 10MB to 2.56MB.
+- Improved single-line text confidence. This enables users to implement a result confidence filter to improve the recognition accuracy.
+- Improved character segmentation when processing some connected characters. This improves the recognition accuracy.
+
 ## 2.0 (08/26/2021)
 
 ### Highlights

@@ -24,6 +24,7 @@ version_info_list:
       - 2.2.0_c
       - 2.0.0_c
       - 2.0.0_dotnet
+      - 2.2.10_java
       - 2.0.0_java
   - value: 1.x
     child:

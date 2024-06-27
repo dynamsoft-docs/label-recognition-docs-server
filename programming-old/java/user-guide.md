@@ -16,6 +16,8 @@ permalink: /programming/java/user-guide.html
 	- [Build your First Application](#build-your-first-application)
 		- [Create a New Project](#create-a-new-project)
 		- [Include the Label Recognizer library](#include-the-label-recognizer-library)
+			- [Option 1: Add the Libraries Manually](#option-1-add-the-libraries-manually)
+			- [Option 2: Add the Libraries via Maven](#option-2-add-the-libraries-via-maven)
 		- [Initialize the Label Recognizer](#initialize-the-label-recognizer)
 		- [Recognition Process and How to Use the Results](#recognition-process-and-how-to-use-the-results)
 		- [Build and Run the Project](#build-and-run-the-project)
@@ -40,7 +42,7 @@ Let's start by creating a console application which demonstrates how to use the 
 
 >You can download the similar complete source code from [Here](https://github.com/Dynamsoft/label-recognizer-java-samples/tree/master/samples/HelloWorld).
 
-### Create a New Project 
+### Create a New Project
 
 1. Open Eclipse. Go to File > New > Project,  create a new Java project `DLRJavaSample`.
 
@@ -48,42 +50,77 @@ Let's start by creating a console application which demonstrates how to use the 
 
 ### Include the Label Recognizer library
 
-1. Add the Dynamsoft Label Recognizer JAR file to your project.
-    Click File > Properties > Java Build Path > Libraries > Add external JARs, add `dynamsoft-labelrecognizer-{version number}.jar` and `dynamsoft-core-{version number}.jar` click Apply.
-    >Note: The JAR file can be found at `[INSTALLATION FOLDER]\lib`.
+There are two ways to add the libraries into your project - **Manually** and **Maven**.
 
+#### Option 1: Add the Libraries Manually
 
-2. Import the package in the file `DLRJavaSample.java`
-    ```java
-    import com.dynamsoft.dlr.*;
+1. Click File > Properties > Java Build Path > Libraries > Add external JARs
+
+2. add `dynamsoft-labelrecognizer-{version number}.jar` and `dynamsoft-core-{version number}.jar` click Apply.
+
+>Note: The JAR file can be found at `[INSTALLATION FOLDER]\lib`.
+
+#### Option 2: Add the Libraries via Maven
+
+1. Include the following repository configuration in your pom.xml file:
+
+    ```xml
+    <repositories>
+        <repository>
+            <id>dlr</id>
+            <url>https://download2.dynamsoft.com/maven/jar</url>
+        </repository>
+    </repositories>
+    ```
+
+2. Add the following dependencies to your pom.xml file:
+
+    ```xml
+    <dependencies>
+        <dependency>
+            <groupId>com.dynamsoft</groupId>
+            <artifactId>dlr</artifactId>
+            <version>2.2.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dynamsoft</groupId>
+            <artifactId>dc</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
     ```
 
 ### Initialize the Label Recognizer
 
-1. Initialize the license key
+1. Import the package in the file `DLRJavaSample.java`
 
     ```java
-	// 1.Initialize license.
+    import com.dynamsoft.dlr.*;
+    ```
+
+2. Initialize the license key
+
+    ```java
+    // 1.Initialize license.
     LabelRecognizer.initLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSIsInByb2R1Y3RzIjoyfQ==");
-    ```    
-    
+    ```
+
     >Note:
     >- Network connection is required for the license to work.
     >- "DLS2***" is a default free public trial license used in the sample.
     >- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dlr&utm_source=guide&package=java){:target="_blank"} link.
 
-2. Create an instance of Dynamsoft Label Recognizer
+3. Create an instance of Dynamsoft Label Recognizer
 
     ```java
     // 2.Create an instance of Label Recognizer.
     LabelRecognizer dlr = new LabelRecognizer();
     ```
 
-
 ### Recognition Process and How to Use the Results
 
 1. Recognizing text in an image 
-    
+
     ```java
     DLRResult[] results = null;
 
