@@ -29,6 +29,7 @@ class com.dynamsoft.dlr.DLRRuntimeSettings
 | [`dictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) | [`DLRDictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.md) |
 | [`binarizationModes`](#binarizationmodes) | *int\[\]* |
 | [`furtherModes`](#furthermodes) | [`DLRFurtherModes`](dlr-further-modes.md)|
+| [`timeout`](#timeout) | *int* |
 
 &nbsp;
 
@@ -132,3 +133,21 @@ DLRFurtherModes furtherModes
 
 [`DLRFurtherModes`](dlr-further-modes.md)
 
+&nbsp;
+
+### timeout
+
+Sets the maximum amount of time (in milliseconds) that should be spent searching for labels per page. It does not include the time taken to load/decode an image (TIFF, PNG, etc.) from disk into memory.
+
+```cpp
+int timeout
+```
+
+**Value Range**
+    [0, 0x7fffffff]
+
+**Default value**
+    10000
+
+**Remarks**
+    If you want to stop searching for labels after a certain period of time, you can use this parameter to set a timeout.

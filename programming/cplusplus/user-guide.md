@@ -16,26 +16,26 @@ In this guide, you will learn step by step on how to build a label recognizer ap
 <span style="font-size:20px">Table of Contents</span>
 
 - [User Guide - C++](#user-guide---c)
-	- [Requirements](#requirements)
-	- [Installation](#installation)
-	- [Build Your First Application](#build-your-first-application)
-		- [Create A New Project](#create-a-new-project)
-			- [For Windows](#for-windows)
-			- [For Linux](#for-linux)
-		- [Include the Library](#include-the-library)
-		- [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance)
-		- [Recognize and Output Recognition Results](#recognize-and-output-recognition-results)
-		- [Release the Allocated Memory](#release-the-allocated-memory)
-		- [Build and Run the Project](#build-and-run-the-project)
-			- [On windows](#on-windows)
-			- [On Linux](#on-linux)
-	- [Process Multiple Images](#process-multiple-images)
-		- [Preparation Steps](#preparation-steps)
-		- [Add an Image Source as the Input](#add-an-image-source-as-the-input)
-		- [Add Captured Result Receiver](#add-captured-result-receiver)
-		- [Start Recognition](#start-recognition)
-		- [Release Allocated Memory](#release-allocated-memory)
-		- [Build and Run the Project Again](#build-and-run-the-project-again)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Build Your First Application](#build-your-first-application)
+    - [Create A New Project](#create-a-new-project)
+      - [For Windows](#for-windows)
+      - [For Linux](#for-linux)
+    - [Include the Library](#include-the-library)
+    - [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance)
+    - [Recognize and Output Recognition Results](#recognize-and-output-recognition-results)
+    - [Release the Allocated Memory](#release-the-allocated-memory)
+    - [Build and Run the Project](#build-and-run-the-project)
+      - [On windows](#on-windows)
+      - [On Linux](#on-linux)
+  - [Process Multiple Images](#process-multiple-images)
+    - [Preparation Steps](#preparation-steps)
+    - [Add an Image Source as the Input](#add-an-image-source-as-the-input)
+    - [Add Captured Result Receiver](#add-captured-result-receiver)
+    - [Start Recognition](#start-recognition)
+    - [Release Allocated Memory](#release-allocated-memory)
+    - [Build and Run the Project Again](#build-and-run-the-project-again)
 
 ## Requirements
 
@@ -138,10 +138,17 @@ Let's start by creating a console application which demonstrates the minimum cod
 1. Initialize the license key
 
     ```cpp
+    int errorcode = 0;
     char error[512];
-    
-    CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", error, 512);
-    cout << "License initialization: " << error << endl;
+    errorcode = CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", error, 512);
+    if (errorcode != ErrorCode::EC_OK && errorcode != ErrorCode::EC_LICENSE_CACHE_USED)
+    {
+        cout << "License initialization failed: ErrorCode: " << errorcode << ", ErrorString: " << error << endl;
+    }
+    else
+    {
+        // other codes...
+    }
     ```
 
     >Note:
