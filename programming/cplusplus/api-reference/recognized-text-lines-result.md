@@ -39,6 +39,7 @@ class CRecognizedTextLinesResult
 | [`operator[]`](#operator) | Gets the text line result item at the specified index. |
 | [`Retain`](#retain) | Increases the reference count of the CRecognizedTextLinesResult object. |
 | [`Release`](#release) | Decreases the reference count of the CRecognizedTextLinesResult object. |
+| [`AddItem`](#additem) | Add a specific item to the array in the recognized text lines result. |
 
 ### GetOriginalImageHashId
 
@@ -196,3 +197,19 @@ Decreases the reference count of the CRecognizedTextLinesResult object.
 ```cpp
 virtual void Release() = 0;
 ```
+
+### AddItem
+
+Add a specific item to the array in the recognized text lines result.
+
+```cpp
+virtual int AddItem(const CTextLineResultItem* item) = 0;
+```
+
+**Parameters**
+
+`[in] item` The specific item to add.
+
+**Return value**
+
+Return value indicating whether the addition was successful or not.

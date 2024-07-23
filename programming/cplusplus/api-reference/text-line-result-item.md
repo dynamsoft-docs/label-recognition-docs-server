@@ -35,6 +35,24 @@ class CTextLineResultItem : public CCapturedResultItem
 | [`GetCharacterResultsCount`](#getcharacterresultscount) | Gets the count of character results in the text line. |
 | [`GetCharacterResult`](#getcharacterresult) | Gets the character result at the specified index. |
 | [`GetSpecificationName`](#getspecificationname) | Gets the name of the text line specification that generated this element. |
+| [`GetRawText`](#getrawtext) | Gets the recognized raw text, excluding any concatenation separators. |
+| [`SetLocation`](#setlocation) | Set the location of the text line item. |
+
+### SetLocation
+
+Set the location of the text line item.
+
+```cpp
+virtual int SetLocation(const CQuadrilateral& location) = 0;
+```
+
+**Parameters**
+
+`[in] location` The location of the text line item.
+
+**Return value**
+
+Returns 0 if success, otherwise an error code.
 
 ### GetText
 
@@ -111,3 +129,15 @@ virtual const char* GetSpecificationName() const = 0;
 **Return value**
 
 Returns the name of the text line specification that generated this item.
+
+### GetRawText
+
+Gets the recognized raw text, excluding any concatenation separators.
+
+```cpp
+virtual const char* GetRawText() const = 0;
+```
+
+**Return value**
+
+Returns a pointer to the recognized raw text.

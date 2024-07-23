@@ -33,7 +33,10 @@ class CRecognizedTextLinesUnit : public CIntermediateResultUnit
 | [`GetRecognizedTextLine`](#getrecognizedtextline) | Gets a pointer to the CRecognizedTextLineElement object at the specified index. |
 | [`operator[]`](#operator) | Gets a pointer to the CRecognizedTextLineElement object at the specified index. |
 | [`RemoveAllRecognizedTextLines`](#removeallrecognizedtextlines) | Removes all recognized text lines. |
-| [`SetRecognizedTextLine`](#setrecognizedtextline) | Sets the recognized text line. |
+| [`RemoveRecognizedTextLine`](#removerecognizedtextline) | Removes the recognized text line at the specified index. |
+| [`AddRecognizedTextLine`](#addrecognizedtextline) | Adds a recognized text line. |
+| [`SetRecognizedTextLine`](#setrecognizedtextline) | Sets the recognized text line at the specified index. |
+
 
 ### GetCount
 
@@ -87,17 +90,53 @@ Removes all recognized text lines.
 virtual void RemoveAllRecognizedTextLines() = 0;
 ```
 
-### SetRecognizedTextLine
+### RemoveRecognizedTextLine
 
-Sets the recognized text line.
+Removes the recognized text line at the specified index.
 
 ```cpp
-virtual int SetRecognizedTextLine(const CRecognizedTextLineElement* element, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+virtual int RemoveRecognizedTextLine(int index) = 0;
 ```
 
 **Parameters**
 
-`[in] element` The recognized text line element to set.
+`[in] index` The index of the recognized text line to remove.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### AddRecognizedTextLine
+
+Adds a recognized text line.
+
+```cpp
+virtual int AddRecognizedTextLine(const CRecognizedTextLineElement* element, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] element` The recognized text line to add.
+
+`[in] matrixToOriginalImage` The matrix to original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### SetRecognizedTextLine
+
+Sets the recognized text line at the specified index.
+
+```cpp
+virtual int SetRecognizedTextLine(int index, const CRecognizedTextLineElement* element, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the recognized text line to set.
+
+`[in] element` The recognized text line to set.
 
 `[in] matrixToOriginalImage` The matrix to original image.
 

@@ -8,6 +8,46 @@ needAutoGenerateSidebar: false
 
 # Release Notes - C++ 3.x
 
+## 3.4.10 (07/23/2024)
+
+<!-- Added internal logic for usage count. -->
+### New
+
+- Added a new parameter CharSet to the [`CharacterModel`]({{ site.dcv_parameters }}character-model/) object to include or exclude characters for recognition.
+- Added a new algorithm stage `IRUT_RAW_TEXT_LINES`. Corresponding APIs are added to obtain the intermediate result of this stage.
+  - Class [`CRawTextLinesUnit`]({{ site.dlr_cpp_api }}raw-text-lines-unit.html)
+  - Class [`CRawTextLine`]({{ site.dlr_cpp_api }}raw-text-line.html)
+  - Enumeration [`RawTextLineStatus`]({{ site.dlr_cpp_api }}raw-text-line-status.html)
+- Added the following intermediate result altering functions to the class [`CRecognizedTextLinesUnit`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html).
+  - Added function [`RemoveRecognizedTextLine`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html#removerecognizedtextLine)
+  - Added function [`AddRecognizedTextLine`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html#addrecognizedtextline)
+  - Added function [`SetRecognizedTextLine(index,element,matrixToOriginalImage)`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html#setrecognizedtextlineindexelementmatrixtooriginalimage)
+- Added a new function [`CreateRawTextLine`]({{ site.dlr_cpp_api }}raw-text-lines-unit.html#createRawTextLine) to the class [`CLabelRecognizerModule`]({{ site.dlr_cpp_api }}label-recognizer-module.html).
+- Added a new function [`GetRawText`]({{ site.dlr_cpp_api }}text-line-result-item.html#getrawtext) to the class [`CRecognizedTextLineELement`]({{ site.dlr_cpp_api }}recognized-text-line-element.html).
+- Added a new function [`GetRawText`]({{ site.dlr_cpp_api }}text-line-result-item.html#getrawtext) to the class [`CTextLineResultItem`]({{ site.dlr_cpp_api }}text-line-result-item.html).
+- Added a new function [`AddItem`]({{ site.dlr_cpp_api }}recognized-text-lines-result.html#additem) to the class [`CRecognizedTextLinesResult`]({{ site.dlr_cpp_api }}recognized-text-lines-result.html).
+- Added a new function [`SetLocation`]({{ site.dlr_cpp_api }}text-line-result-item.html#setlocation) to the class [`CTextLineResultItem`]({{ site.dlr_cpp_api }}text-line-result-item.html).
+- Added a new enumeration member `IRUT_RAW_TEXT_LINES` to the [`IntermediateResultUnitType`]({{ site.dcv_enumerations }}core/intermediate-result-unit-type.html?lang=cpp).
+- Added a new function [`Clone`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html#clone) to the class [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html).
+- Added a new callback function [`OnRawTextLinesReceived`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/intermediate-result-receiver.html#onrawtextlinesreceived) to the class [`CIntermediateResultReceiver`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/intermediate-result-receiver.html).
+- Added a new function [`AddItem`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/captured-result.html#additem) to the class [`CCapturedResult`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/captured-result.html).
+- Updated the function [`StopCapturing`]({{ site.dcv_cpp_api }}capture-vision-router/multiple-file-processing.html#stopcapturing). Changed the default value of parameter `waitForRemaingTasks` from `false` to `true`.
+- Add a new charge way, `TimeSliceCount`.
+
+### Changed
+
+- Changed the maximum length of the `DeviceFriendlyName` to 255. If the length exceeds 255, it will be truncated.
+- Changed the default value of the `waitForThreadExit` parameter to `true` for the [`StopCapturing`]({{ site.dcv_cpp_api }}capture-vision-router/multiple-file-processing.html#stopcapturing) method.
+
+### Fixed
+
+- Fixed a bug where `CaptureVisionRouter.StartCapturing` would erroneously halt the fetching process when its status was running, leading to an unnecessary stop and restart of the fetching operation.
+- Fixed a bug where `CDirectoryFetcher` would prematurely read an image before verifying if the buffer was full, resulting in potential loss of the image that did not make it into the buffer upon calling `StopFetching`.
+
+### Deprecated
+
+- Deprecated function [`SetRecognizedTextLine(element,matrixToOriginalImage)`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html#setrecognizedtextlineelementmatrixtooriginalimage) of the class [`CRecognizedTextLinesUnit`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html).
+
 ## 3.2.30 (05/13/2024)
 
 ### Fixed
