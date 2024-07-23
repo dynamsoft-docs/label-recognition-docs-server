@@ -10,8 +10,14 @@ needAutoGenerateSidebar: false
 
 ## 3.4.10 (07/23/2024)
 
+### Highlights
+
+- Added a new algorithm stage `IRUT_RAW_TEXT_LINES`.  Corresponding APIs are added to obtain the intermediate result of this stage.
+
+### Changelogs
+
 <!-- Added internal logic for usage count. -->
-### New
+#### New
 
 - Added a new parameter CharSet to the [`CharacterModel`]({{ site.dcv_parameters }}character-model/) object to include or exclude characters for recognition.
 - Added a new algorithm stage `IRUT_RAW_TEXT_LINES`. Corresponding APIs are added to obtain the intermediate result of this stage.
@@ -34,17 +40,17 @@ needAutoGenerateSidebar: false
 - Updated the function [`StopCapturing`]({{ site.dcv_cpp_api }}capture-vision-router/multiple-file-processing.html#stopcapturing). Changed the default value of parameter `waitForRemaingTasks` from `false` to `true`.
 - Add a new charge way, `TimeSliceCount`.
 
-### Changed
+#### Changed
 
-- Changed the maximum length of the `DeviceFriendlyName` to 255. If the length exceeds 255, it will be truncated.
+- Changed the maximum length of the `name` parameter to 255 for the [`SetDeviceFriendlyName`]({{ site.dcv_cpp_api }}license/license-manager.html#setdevicefriendlyname) method. If the length exceeds 255, it will be truncated.
 - Changed the default value of the `waitForThreadExit` parameter to `true` for the [`StopCapturing`]({{ site.dcv_cpp_api }}capture-vision-router/multiple-file-processing.html#stopcapturing) method.
 
-### Fixed
+#### Fixed
 
 - Fixed a bug where `CaptureVisionRouter.StartCapturing` would erroneously halt the fetching process when its status was running, leading to an unnecessary stop and restart of the fetching operation.
 - Fixed a bug where `CDirectoryFetcher` would prematurely read an image before verifying if the buffer was full, resulting in potential loss of the image that did not make it into the buffer upon calling `StopFetching`.
 
-### Deprecated
+#### Deprecated
 
 - Deprecated function [`SetRecognizedTextLine(element,matrixToOriginalImage)`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html#setrecognizedtextlineelementmatrixtooriginalimage) of the class [`CRecognizedTextLinesUnit`]({{ site.dlr_cpp_api }}recognized-text-lines-unit.html).
 
