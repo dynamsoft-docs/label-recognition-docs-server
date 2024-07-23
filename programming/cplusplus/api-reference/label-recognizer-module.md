@@ -29,6 +29,7 @@ class CLabelRecognizerModule
 | [GetVersion](#getversion)                                     | Returns the version of the label recognizer module. |
 | [CreateRecognizedTextLineElement](#createrecognizedtextlineelement) | Create a Recognized Text Line Element object.          |
 | [CreateLocalizedTextLineElement](#createlocalizedtextlineelement) | Create a Localized Text Line Element object.          |
+| [CreateRawTextLine](#createrawtextline)                       | Create a Raw Text Line object.                       |
 
 ## GetVersion
 
@@ -69,3 +70,15 @@ static intermediate_results::CLocalizedTextLineElement* CreateLocalizedTextLineE
 **Return Value**
 
 Returns an instance of CLocalizedTextLineElement.
+
+### CreateRawTextLine
+
+Create a Raw Text Line object.
+
+```cpp
+static intermediate_results::CRawTextLine* CreateRawTextLine();
+```
+
+**Return Value**
+
+Returns an instance of CRawTextLine.

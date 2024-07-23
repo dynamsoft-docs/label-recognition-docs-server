@@ -4,6 +4,7 @@ version_info_list:
   - value: latest version
   - value: 3.x
     child: 
+      - 3.2.30_cplusplus
       - 3.2.20_cplusplus
       - 3.2.10_cplusplus
       - 3.2.0_cplusplus

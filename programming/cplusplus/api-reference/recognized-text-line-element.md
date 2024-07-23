@@ -35,6 +35,7 @@ class CRecognizedTextLineElement : public CRegionObjectElement
 | [`GetCharacterResult`](#getcharacterresult) | Gets the character recognition result at the specified index. |
 | [`GetRowNumber`](#getrownumber) | Gets the row number of the text line within the image. |
 | [`GetSpecificationName`](#getspecificationname) | Gets the name of the text line specification that generated this element. |
+| [`GetRawText`](#getrawtext) | Gets the recognized raw text, excluding any concatenation separators. |
 
 ### GetText
 
@@ -111,3 +112,15 @@ virtual const char* GetSpecificationName() const = 0;
 **Return value**
 
 Returns the name of the text line specification that generated this element.
+
+### GetRawText
+
+Gets the recognized raw text, excluding any concatenation separators.
+
+```cpp
+virtual const char* GetRawText() const = 0;
+```
+
+**Return value**
+
+Returns a pointer to the recognized raw text.
