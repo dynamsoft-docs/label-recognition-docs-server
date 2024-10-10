@@ -29,7 +29,7 @@ int InitLicense (const char *license)
 `[in]	license`	The product key.
 
 **Return Value**
-Returns error code. Returns 0 if the function completed successfully, otherwise call [`GetErrorString`](general.md#geterrorstring) to get detailed message. 
+Returns error code. Returns 0 if the function completed successfully, otherwise call [`GetErrorString`](general.html#geterrorstring) to get detailed message. 
 
 Possible returns are:
 `DLR_OK`;
@@ -53,7 +53,7 @@ static int dynamsoft::dlr::CLabelRecognition::InitLTSConnectionParameters (DM_LT
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -80,7 +80,7 @@ static int dynamsoft::dlr::CLabelRecognition::InitLicenseFromLTS(DM_LTSConnectio
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp

@@ -13,21 +13,21 @@ permalink: /programming/dotnet/api-reference/index-v2.0.0.html
 
 ## Primary Classes
 
-- [LabelRecognizer](label-recognizer.md)
+- [LabelRecognizer](label-recognizer.html)
 
 ## Auxiliary Classes
 
-- [Quadrilateral](quadrilateral.md)
-- [ImageData](image-data.md)
-- [BarcodeResult](barcode-result.md)
-- [LabelRecognizerException](label-recognizer-exception.md)
-- [DLR_RuntimeSettings](dlr-runtime-settings.md)
-- [DLR_ReferenceRegion](dlr-reference-region.md)
-- [DLR_Result](dlr-result.md)
-- [DLR_LineResult](dlr-line-result.md)
-- [DLR_CharacterResult](dlr-character-result.md)	
-- [DLR_DictionaryCorrectionThreshold](dlr-dictionary-correction-threshold.md)
-- [DLR_FurtherModes](dlr-further-modes.md)
+- [Quadrilateral](quadrilateral.html)
+- [ImageData](image-data.html)
+- [BarcodeResult](barcode-result.html)
+- [LabelRecognizerException](label-recognizer-exception.html)
+- [DLR_RuntimeSettings](dlr-runtime-settings.html)
+- [DLR_ReferenceRegion](dlr-reference-region.html)
+- [DLR_Result](dlr-result.html)
+- [DLR_LineResult](dlr-line-result.html)
+- [DLR_CharacterResult](dlr-character-result.html)	
+- [DLR_DictionaryCorrectionThreshold](dlr-dictionary-correction-threshold.html)
+- [DLR_FurtherModes](dlr-further-modes.html)
 
 ## Enumerations
 

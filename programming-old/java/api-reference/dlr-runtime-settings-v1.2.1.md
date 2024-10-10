@@ -21,8 +21,8 @@ Defines a struct to configure the text recognizer runtime settings. These settin
 | [`characterModelName`](#charactermodelname) | *String* |
 | [`linesCount`](#linescount) | *int* |
 | [`regionPredetectionModes`](#regionpredetectionmodes) | *int\[\]* |
-| [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.md) |
-| [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
+| [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.html) |
+| [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.html) |
 | [`grayscaleTransformationModes`](#grayscaletransformationmodes) | *int\[\]* |
 
 

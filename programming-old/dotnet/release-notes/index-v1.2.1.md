@@ -9,7 +9,7 @@ permalink: /programming/dotnet/release-notes/index-v1.2.1.html
 
 # Dynamsoft Label Recognition .Net SDK - Release Notes
 
-- [1.2.1 (06/08/2021)](dotnet-1.md#121-06082021)
-- [1.2   (05/18/2021)](dotnet-1.md#12-05182021)
-- [1.0   (02/24/2021)](dotnet-1.md#10-02242021)
+- [1.2.1 (06/08/2021)](dotnet-1.html#121-06082021)
+- [1.2   (05/18/2021)](dotnet-1.html#12-05182021)
+- [1.0   (02/24/2021)](dotnet-1.html#10-02242021)
 

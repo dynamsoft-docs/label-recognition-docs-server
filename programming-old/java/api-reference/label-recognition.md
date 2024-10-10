@@ -63,7 +63,7 @@ LabelRecognition(String license) throws LabelRecognitionException;
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 
 **Remarks**
@@ -108,7 +108,7 @@ void initLicense(String license) throws LabelRecognitionException
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -131,7 +131,7 @@ void initLicenseFromLTS(DMLTSConnectionParameters ltsInfo) throws LabelRecogniti
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -173,7 +173,7 @@ The class object of template settings.
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -196,7 +196,7 @@ void updateRuntimeSettings (DLRRuntimeSettings settings) throws LabelRecognition
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -219,7 +219,7 @@ void resetRuntimeSettings () throws LabelRecognitionException
 ```   
    
 **Exceptions**
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -248,7 +248,7 @@ void outputSettingsToFile (String filePath, String templateName) throws LabelRec
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -275,7 +275,7 @@ void appendSettingsFromFile (String filePath) throws LabelRecognitionException
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -299,7 +299,7 @@ void appendSettingsFromString (String content) throws LabelRecognitionException
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -343,7 +343,7 @@ String getModeArgument (String modesName, int index, String argumentName) throws
 the optional argument for a specified mode in Modes parameters.
 
 **Exceptions**
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 #### Remark
 Check follow link for available modes and arguments:
@@ -380,7 +380,7 @@ void setModeArgument (String modesName, int index, String argumentName, String a
 - `argumentValue`: The value of the argument to set. 
 
 **Exceptions**
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 
 #### Remark
@@ -414,7 +414,7 @@ void updateReferenceRegionFromBarcodeResults (TextResult[] barcodeResults, Strin
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 
 **Code Snippet**
@@ -456,7 +456,7 @@ All results recognized successfully.
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java
@@ -486,7 +486,7 @@ All results recognized successfully.
 
 **Exceptions**
 
-[`LabelRecognitionException`](label-recognition-exception.md)
+[`LabelRecognitionException`](label-recognition-exception.html)
 
 **Code Snippet**
 ```java

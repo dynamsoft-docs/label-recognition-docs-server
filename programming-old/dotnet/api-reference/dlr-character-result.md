@@ -27,7 +27,7 @@ class Dynamsoft.DLR.DLR_CharacterResult
 | [`CharacterHConfidence`](#characterhconfidence) | *int* |
 | [`CharacterMConfidence`](#charactermconfidence) | *int* |
 | [`CharacterLConfidence`](#characterlconfidence) | *int* |
-| [`Location`](#location) | [`Quadrilateral`](quadrilateral.md) |
+| [`Location`](#location) | [`Quadrilateral`](quadrilateral.html) |
 
 
 &nbsp;

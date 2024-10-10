@@ -1,55 +1,55 @@
 repositoryUrl: https://github.com/dynamsoft-docs/label-recognition-docs-server/blob/main
 repository: Dynamsoft-docs/label-recognition-docs-server
-docFullPath: https://www.dynamsoft.com/label-recognition/docs/server
-firstLevelUrl: /label-recognition/docs/server
-docHomePage: /label-recognition/docs/core/introduction/
+docFullPath: https://www.dynamsoft.com/label-recognition/docs-archive/server
+firstLevelUrl: /label-recognition/docs-archive/server
+docHomePage: /label-recognition/docs-archive/core/introduction/
 
-dlr_introduction: /label-recognition/docs/core/introduction/
-dlr_enumerations: /label-recognition/docs/core/parameters/enum/
-dlr_parameters_reference: /label-recognition/docs/core/parameters/reference/
+dlr_introduction: /label-recognition/docs-archive/core/introduction/
+dlr_enumerations: /label-recognition/docs-archive/core/parameters/enum/
+dlr_parameters_reference: /label-recognition/docs-archive/core/parameters/reference/
 
-dlr_programming: /label-recognition/docs/server/programming/
+dlr_programming: /label-recognition/docs-archive/server/programming/
 
-dlr_c_cplusplus_api_reference: /label-recognition/docs/server/programming/c-cplusplus/api-reference/
-dlr_c_functions: /label-recognition/docs/server/programming/c-cplusplus/api-reference/c-functions/
-dlr_cpp_methods: /label-recognition/docs/server/programming/c-cplusplus/api-reference/c-label-recognition-class/
-dlr_c_cplusplus_structs: /label-recognition/docs/server/programming/c-cplusplus/api-reference/structs/
-dlr_c_cplusplus_release_notes: /label-recognition/docs/server/programming/c-cplusplus/release-notes/
+dlr_c_cplusplus_api_reference: /label-recognition/docs-archive/server/programming/c-cplusplus/api-reference/
+dlr_c_functions: /label-recognition/docs-archive/server/programming/c-cplusplus/api-reference/c-functions/
+dlr_cpp_methods: /label-recognition/docs-archive/server/programming/c-cplusplus/api-reference/c-label-recognition-class/
+dlr_c_cplusplus_structs: /label-recognition/docs-archive/server/programming/c-cplusplus/api-reference/structs/
+dlr_c_cplusplus_release_notes: /label-recognition/docs-archive/server/programming/c-cplusplus/release-notes/
 
-dlr_cpp: /label-recognition/docs/server/programming/cplusplus/
-dlr_cpp_api: /label-recognition/docs/server/programming/cplusplus/api-reference/
-dlr_cpp_release_notes: /label-recognition/docs/server/programming/cplusplus/release-notes/
+dlr_cpp: /label-recognition/docs-archive/server/programming/cplusplus/
+dlr_cpp_api: /label-recognition/docs-archive/server/programming/cplusplus/api-reference/
+dlr_cpp_release_notes: /label-recognition/docs-archive/server/programming/cplusplus/release-notes/
 
-dlr_c: /label-recognition/docs/server/programming/c/
-dlr_c_api: /label-recognition/docs/server/programming/c/api-reference/
+dlr_c: /label-recognition/docs-archive/server/programming/c/
+dlr_c_api: /label-recognition/docs-archive/server/programming/c/api-reference/
 
-dlr_dotnet: /label-recognition/docs/server/programming/dotnet/
-dlr_dotnet_api: /label-recognition/docs/server/programming/dotnet/api-reference/
-dlr_dotnet_release_notes: /label-recognition/docs/server/programming/dotnet/release-notes/
+dlr_dotnet: /label-recognition/docs-archive/server/programming/dotnet/
+dlr_dotnet_api: /label-recognition/docs-archive/server/programming/dotnet/api-reference/
+dlr_dotnet_release_notes: /label-recognition/docs-archive/server/programming/dotnet/release-notes/
 
-dlr_java: /label-recognition/docs/server/programming/java/
-dlr_java_api: /label-recognition/docs/server/programming/java/api-reference/
-dlr_java_release_notes: /label-recognition/docs/server/programming/java/release-notes/
+dlr_java: /label-recognition/docs-archive/server/programming/java/
+dlr_java_api: /label-recognition/docs-archive/server/programming/java/api-reference/
+dlr_java_release_notes: /label-recognition/docs-archive/server/programming/java/release-notes/
 
-dcv_enumerations: /capture-vision/docs/core/enums/
-dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
+dcv_enumerations: /capture-vision/docs-archive/core/enums/
+dcv_parameters_reference: /capture-vision/docs-archive/core/parameters/reference/
 
-dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
-dcv_arch: /capture-vision/docs/core/architecture/
-dcv_introduction: /capture-vision/docs/core/introduction/
+dcv_cpp_api: /capture-vision/docs-archive/server/programming/cplusplus/api-reference/
+dcv_dotnet_api: /capture-vision/docs-archive/server/programming/dotnet/api-reference/
+dcv_arch: /capture-vision/docs-archive/core/architecture/
+dcv_introduction: /capture-vision/docs-archive/core/introduction/
 
-assets: /label-recognition/docs/server/assets/
-edit_icon: /label-recognition/docs/server/assets/img-icon/edit-icon.png
-smile_icon: /label-recognition/docs/server/assets/img-icon/icon-smile.png
-sad_icon: /label-recognition/docs/server/assets/img-icon/icon-sad.png
-dbr_icon: /label-recognition/docs/server/server/assets/img-icon/icon-dbr.svg
-dwt_icon: /label-recognition/docs/assets/img-icon/icon-dwt.svg
-dnt_icon: /label-recognition/docs/server/assets/img-icon/icon-dnt.svg
+assets: /label-recognition/docs-archive/server/assets/
+edit_icon: /label-recognition/docs-archive/server/assets/img-icon/edit-icon.png
+smile_icon: /label-recognition/docs-archive/server/assets/img-icon/icon-smile.png
+sad_icon: /label-recognition/docs-archive/server/assets/img-icon/icon-sad.png
+dbr_icon: /label-recognition/docs-archive/server/server/assets/img-icon/icon-dbr.svg
+dwt_icon: /label-recognition/docs-archive/assets/img-icon/icon-dwt.svg
+dnt_icon: /label-recognition/docs-archive/server/assets/img-icon/icon-dnt.svg
 
 useVersionTree: true
 
-baseurl: "/label-recognition/docs/server"
+baseurl: "/label-recognition/docs-archive/server"
 
 plugins:
   - jemoji

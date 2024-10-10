@@ -25,10 +25,10 @@ typedef struct tagDLR_Result*  PDLR_Result
 |---------- | ---- |
 | [`referenceRegionName`](#referenceregionname) | *const char \** |
 | [`textAreaName`](#textareaname) | *const char \** |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md) |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html) |
 | [`confidence`](#confidence) | *int* |
 | [`lineResultsCount`](#lineresultscount) | *int* |
-| [`lineResults`](#lineresults) | [`PDLR_LineResult`](dlr-line-result.md)\* |
+| [`lineResults`](#lineresults) | [`PDLR_LineResult`](dlr-line-result.html)\* |
 | [`pageNumber`](#pagenumber) | *int* |
 | [`reserved`](#reserved) | *char\[60\]* |
 

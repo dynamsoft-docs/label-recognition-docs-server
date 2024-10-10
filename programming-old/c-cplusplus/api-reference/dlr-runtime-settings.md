@@ -24,12 +24,12 @@ typedef struct tagDLR_RuntimeSettings  DLR_RuntimeSettings
 |---------- | ---- |
 | [`maxThreadCount`](#maxthreadcount) | *int* |
 | [`characterModelName[64]`](#charactermodelname) | *char* |
-| [`referenceRegion`](#referenceregion) | [`DLR_ReferenceRegion`](dlr-reference-region.md) |
-| [`textArea`](#textarea) | [`Quadrilateral`](quadrilateral.md) |
+| [`referenceRegion`](#referenceregion) | [`DLR_ReferenceRegion`](dlr-reference-region.html) |
+| [`textArea`](#textarea) | [`Quadrilateral`](quadrilateral.html) |
 | [`dictionaryPath[256]`](#dictionarypath) | *char* |
-| [`dictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) |  [`DLR_DictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.md) |
+| [`dictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) |  [`DLR_DictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.html) |
 | [`binarizationModes[8]`](#binarizationmodes) | [`BinarizationMode`]({{ site.dlr_enumerations }}binarization-mode.html) |
-| [`furtherModes`](#furthermodes) | [`DLR_FurtherModes`](dlr-further-modes.md)|
+| [`furtherModes`](#furthermodes) | [`DLR_FurtherModes`](dlr-further-modes.html)|
 | [`timeout`](#timeout) | *int* |
 | [`reserved`](#reserved) | *char\[60\]* |
 
@@ -127,7 +127,7 @@ DLR_FurtherModes furtherModes
 
 **See also**
 
-[`DLR_FurtherModes`](dlr-further-modes.md)
+[`DLR_FurtherModes`](dlr-further-modes.html)
 
 &nbsp;
 

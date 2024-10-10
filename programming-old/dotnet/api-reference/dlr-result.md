@@ -23,9 +23,9 @@ class Dynamsoft.DLR.DLR_Result
 |---------- | ---- |
 | [`ReferenceRegionName`](#referenceregionname) | *string* |
 | [`TextAreaName`](#textareaname) | *string* |
-| [`Location`](#location) | [`Quadrilateral`](quadrilateral.md) |
+| [`Location`](#location) | [`Quadrilateral`](quadrilateral.html) |
 | [`Confidence`](#confidence) | *int* |
-| [`LineResults`](#lineresults) | [`DLR_LineResult[]`](dlr-line-result.md) |
+| [`LineResults`](#lineresults) | [`DLR_LineResult[]`](dlr-line-result.html) |
 | [`PageNumber`](#pagenumber) | *int* |
 
 

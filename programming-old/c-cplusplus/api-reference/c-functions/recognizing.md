@@ -30,7 +30,7 @@ DLR_API int DLR_RecognizeByBuffer(void* recognizer, const DLRImageData* imageDat
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -58,7 +58,7 @@ DLR_API int DLR_RecognizeByFile (void* recognizer, const char* fileName, const c
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c

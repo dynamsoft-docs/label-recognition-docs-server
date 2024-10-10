@@ -31,7 +31,7 @@ typedef struct tagDLR_CharacterResult*  PDLR_CharacterResult
 | [`characterHConfidence`](#characterhconfidence) | *int* |
 | [`characterMConfidence`](#charactermconfidence) | *int* |
 | [`characterLConfidence`](#characterlconfidence) | *int* |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md)\* |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html)\* |
 | [`reserved`](#reserved) | *char\[32\]* |
 
 

@@ -20,9 +20,9 @@ Stores the recognized result.
 |---------- | ---- |
 | [`referenceRegionName`](#referenceregionname) | *String* |
 | [`textAreaName`](#textareaname) | *String* |
-| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
+| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.html) |
 | [`confidence`](#confidence) | *int* |
-| [`lineResults`](#lineresults) | [`DLRLineResult[]`](dlr-line-result.md) |
+| [`lineResults`](#lineresults) | [`DLRLineResult[]`](dlr-line-result.html) |
 | [`pageNumber`](#pagenumber) | *int* |
 
 

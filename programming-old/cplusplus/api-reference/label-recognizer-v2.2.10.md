@@ -98,7 +98,7 @@ CLabelRecognizer::InitLicense("t0260NwAAAHV***************", errorMessage, 256);
 &nbsp;
 
 ### GetRuntimeSettings
-Get current settings and save them into a [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Get current settings and save them into a [`DLR_RuntimeSettings`](dlr-runtime-settings.html) struct.
 
 ```cpp
 int GetRuntimeSettings (DLR_RuntimeSettings* settings)
@@ -130,7 +130,7 @@ delete recognizer;
 &nbsp;
 
 ### UpdateRuntimeSettings
-Update runtime settings with a given [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Update runtime settings with a given [`DLR_RuntimeSettings`](dlr-runtime-settings.html) struct.
 
 ```cpp
 int UpdateRuntimeSettings (DLR_RuntimeSettings* settings, char errorMsgBuffer[] = NULL, const int errorMsgBufferLen = 0)
@@ -391,7 +391,7 @@ int UpdateReferenceRegionFromBarcodeResults (const BarcodeResultArray* barcodeRe
    
 **Parameters**
 
-`[in]	barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`](barcode-result-array.md).
+`[in]	barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`](barcode-result-array.html).
 `[in]	templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 
@@ -534,7 +534,7 @@ int RecognizeByBuffer(const ImageData* imageData, const char* templateName)
    
 **Parameters**
 
-`[in]	imageData` A struct of [`ImageData`](image-data.md) that represents an image.  
+`[in]	imageData` A struct of [`ImageData`](image-data.html) that represents an image.  
 `[in]	templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**

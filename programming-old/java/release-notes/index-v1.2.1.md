@@ -9,4 +9,4 @@ permalink: /programming/java/release-notes/index-v1.2.1.html
 
 # Dynamsoft Label Recognition Java SDK - Release Notes
 
-- [1.2.1 (06/08/2021)](java-1.md#121-06082021)
+- [1.2.1 (06/08/2021)](java-1.html#121-06082021)

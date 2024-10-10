@@ -20,9 +20,9 @@ Stores the line result.
 | [`lineSpecificationName`](#linespecificationname) | *String* |
 | [`text`](#text) | *String* |
 | [`characterModelName`](#charactermodelname) | *String* |
-| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
+| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.html) |
 | [`confidence`](#confidence) | *int* |
-| [`characterResults`](#characterresults) | [`DLRCharacterResult[]`](dlr-character-result.md) |
+| [`characterResults`](#characterresults) | [`DLRCharacterResult[]`](dlr-character-result.html) |
 
 
 ### lineSpecificationName

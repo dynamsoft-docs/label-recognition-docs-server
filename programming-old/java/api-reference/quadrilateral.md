@@ -21,7 +21,7 @@ class com.dynamsoft.core.Quadrilateral
   
 | Attribute | Type |
 |---------- | ---- |
-| [`points`](#points) | [`Point[]`](point.md) |
+| [`points`](#points) | [`Point[]`](point.html) |
 
 
 &nbsp;

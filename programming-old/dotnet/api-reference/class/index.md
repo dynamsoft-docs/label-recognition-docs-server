@@ -10,12 +10,12 @@ permalink: /programming/dotnet/api-reference/class/index.html
 
 # Dynamsoft Label Recognition - .Net Structs
 
-- [`DMLTSConnectionParameters`](dm-lts-connection-parameters.md)
-- [`DLR_CharacterResult`](dlr-character-result.md)		
-- [`DLR_Exception`](label-recognition-exception.md)	
-- [`DLR_ImageData`](dlr-image-data.md)		
-- [`DLR_LineResult`](dlr-line-result.md)	
-- [`DLR_Quadrilateral`](dlr-quadrilateral.md)	
-- [`DLR_ReferenceRegion`](dlr-reference-region.md)	
-- [`DLR_Result`](dlr-result.md)		
-- [`DLR_RuntimeSettings`](dlr-runtime-settings.md)	
+- [`DMLTSConnectionParameters`](dm-lts-connection-parameters.html)
+- [`DLR_CharacterResult`](dlr-character-result.html)		
+- [`DLR_Exception`](label-recognition-exception.html)	
+- [`DLR_ImageData`](dlr-image-data.html)		
+- [`DLR_LineResult`](dlr-line-result.html)	
+- [`DLR_Quadrilateral`](dlr-quadrilateral.html)	
+- [`DLR_ReferenceRegion`](dlr-reference-region.html)	
+- [`DLR_Result`](dlr-result.html)		
+- [`DLR_RuntimeSettings`](dlr-runtime-settings.html)	

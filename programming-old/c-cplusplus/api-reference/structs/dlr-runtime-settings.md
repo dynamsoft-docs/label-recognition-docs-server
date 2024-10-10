@@ -28,8 +28,8 @@ typedef struct tagDLRRuntimeSettings  DLRRuntimeSettings
 | [`characterModelName`](#charactermodelname) | *char\[64\]* |
 | [`linesCount`](#linescount) | *int* |
 | [`regionPredetectionModes`](#regionpredetectionmodes) | [`DLRRegionPredetectionMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrregionpredetectionmode)\[8\] |
-| [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.md) |
-| [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
+| [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.html) |
+| [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.html) |
 | [`grayscaleTransformationModes`](#grayscaletransformationmodes) | [`DLRGrayscaleTransformationMode`]({{ site.dlr_enumerations }}parameter-mode-enums.html#dlrgrayscaletransformationmode)\[8\] |
 | [`reserved`](#reserved) | *char\[64\]* |
 

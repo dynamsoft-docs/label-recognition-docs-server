@@ -193,7 +193,7 @@ Easily manage recognition settings and reduce redundant lines of code by using t
 
 #### Change template settings using a string
 
-Use [`AppendSettingsFromString`](api-reference/c-label-recognition-class/settings.md#appendsettingsfromstring) when changing template settings with a string. The following demonstrates how to use a string template to modify recognition settings.
+Use [`AppendSettingsFromString`](api-reference/c-label-recognition-class/settings.html#appendsettingsfromstring) when changing template settings with a string. The following demonstrates how to use a string template to modify recognition settings.
 
 ```cpp
     string characterModelArray = "\"CharacterModelArray\":[\
@@ -218,7 +218,7 @@ Use [`AppendSettingsFromString`](api-reference/c-label-recognition-class/setting
 
 #### Change template settings using a JSON file
 
-As with using a string, we will use the same method [`AppendSettingsFromString`](api-reference/c-label-recognition-class/settings.md#appendsettingsfromstring) to modify the template setting. When using a JSON file, we'll need to do a little more work to get the JSON file into an acceptable string.
+As with using a string, we will use the same method [`AppendSettingsFromString`](api-reference/c-label-recognition-class/settings.html#appendsettingsfromstring) to modify the template setting. When using a JSON file, we'll need to do a little more work to get the JSON file into an acceptable string.
 
 Let's take a look at the following JSON settings file, `DLRTemplate.json`. 
 
@@ -275,7 +275,7 @@ Let's take a look at the following JSON settings file, `DLRTemplate.json`.
     }
 ```
 
-In the following cpp file, we'll demonstrate how to read the `DLRTemplate.json` file and use it in [`AppendSettingsFromString`](api-reference/c-label-recognition-class/settings.md#appendsettingsfromstring) before recognizing the image. The `ReadJsonFile` function will convert the JSON object of the file parameter to an acceptable string. 
+In the following cpp file, we'll demonstrate how to read the `DLRTemplate.json` file and use it in [`AppendSettingsFromString`](api-reference/c-label-recognition-class/settings.html#appendsettingsfromstring) before recognizing the image. The `ReadJsonFile` function will convert the JSON object of the file parameter to an acceptable string. 
 
 ```cpp
     string ReadJsonFile(const string& pJsonFile) {

@@ -12,22 +12,22 @@ permalink: /programming/java/api-reference/index.html
 
 ## Primary Classes
 
-- [LabelRecognizer](label-recognizer.md)
+- [LabelRecognizer](label-recognizer.html)
 
 ## Auxiliary Classes
 
-- [Point](point.md)
-- [Quadrilateral](quadrilateral.md)
-- [ImageData](image-data.md)
-- [BarcodeResult](barcode-result.md)
-- [LabelRecognizerException](label-recognizer-exception.md)
-- [DLRRuntimeSettings](dlr-runtime-settings.md)
-- [DLRReferenceRegion](dlr-reference-region.md)
-- [DLRResult](dlr-result.md)
-- [DLRLineResult](dlr-line-result.md)
-- [DLRCharacterResult](dlr-character-result.md)	
-- [DLRDictionaryCorrectionThreshold](dlr-dictionary-correction-threshold.md)
-- [DLRFurtherModes](dlr-further-modes.md)
+- [Point](point.html)
+- [Quadrilateral](quadrilateral.html)
+- [ImageData](image-data.html)
+- [BarcodeResult](barcode-result.html)
+- [LabelRecognizerException](label-recognizer-exception.html)
+- [DLRRuntimeSettings](dlr-runtime-settings.html)
+- [DLRReferenceRegion](dlr-reference-region.html)
+- [DLRResult](dlr-result.html)
+- [DLRLineResult](dlr-line-result.html)
+- [DLRCharacterResult](dlr-character-result.html)	
+- [DLRDictionaryCorrectionThreshold](dlr-dictionary-correction-threshold.html)
+- [DLRFurtherModes](dlr-further-modes.html)
 
 ## Enumerations
 

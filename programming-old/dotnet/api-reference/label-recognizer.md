@@ -39,7 +39,7 @@ LabelRecognizer()
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 **Code Snippet**
@@ -85,7 +85,7 @@ static void InitLicense(string license)
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -130,7 +130,7 @@ The class object of runtime settings.
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -160,7 +160,7 @@ void UpdateRuntimeSettings(DLR_RuntimeSettings settings)
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -187,7 +187,7 @@ void ResetRuntimeSettings ()
    
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -222,7 +222,7 @@ void AppendSettingsFromString (string content)
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -253,7 +253,7 @@ void AppendSettingsFromFile (string filePath)
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -285,7 +285,7 @@ void OutputSettingsToFile(string filePath, string templateName)
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -332,13 +332,13 @@ void UpdateReferenceRegionFromBarcodeResults(BarcodeResult[] barcodeResults, str
    
 **Parameters**
 
-`barcodeResults` The barcode results used to localize reference region. See also [`BarcodeResult`](barcode-result.md).
+`barcodeResults` The barcode results used to localize reference region. See also [`BarcodeResult`](barcode-result.html).
 `templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 **Code Snippet**
@@ -373,7 +373,7 @@ void SetModeArgument(string modesName, int index, string argumentName, string ar
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 
@@ -421,7 +421,7 @@ the optional argument for a specified mode in Modes parameters.
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 
@@ -465,16 +465,16 @@ DLR_Result[] RecognizeByBuffer(ImageData imageData, string templateName)
    
 **Parameters**
 
-`[in]	imageData` An object of [`ImageData`](image-data.md) that represents an image.  
+`[in]	imageData` An object of [`ImageData`](image-data.html) that represents an image.  
 `[in]	templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**
 
-All results organized in a [DLR_Result](dlr-result.md) array.
+All results organized in a [DLR_Result](dlr-result.html) array.
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -506,11 +506,11 @@ DLR_Result[] RecognizeByFile (string fileName, string templateName)
 
 **Return value**
 
-All results organized in a [DLR_Result](dlr-result.md) array.
+All results organized in a [DLR_Result](dlr-result.html) array.
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 

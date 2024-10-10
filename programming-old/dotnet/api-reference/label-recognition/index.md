@@ -14,7 +14,7 @@ permalink: /programming/dotnet/api-reference/label-recognition/index.html
    
   | Method               | Description |
   |----------------------|-------------|
-  | [`GetVersion`](general.md#getversion) | Returns the version number string for the SDK. |
+  | [`GetVersion`](general.html#getversion) | Returns the version number string for the SDK. |
    
 &nbsp; 
 
@@ -22,10 +22,10 @@ permalink: /programming/dotnet/api-reference/label-recognition/index.html
   
   | Method               | Description |
   |----------------------|-------------|
-  | [`LabelRecognition`](initialization.md#labelrecognition) | Initialization of `LabelRecognition` object.|
-  | [`Dispose`](initialization.md#dispose) | Destroys an instance of `LabelRecognition` object.|   
-  | [`InitLicense`](initialization.md#initlicense) | Sets the license and activates the SDK. |
-  | [`InitLicenseFromLTS`](initialization.md#initlicensefromlts) | Initializes the label recognition license and connects to the specified server for online verification. |
+  | [`LabelRecognition`](initialization.html#labelrecognition) | Initialization of `LabelRecognition` object.|
+  | [`Dispose`](initialization.html#dispose) | Destroys an instance of `LabelRecognition` object.|   
+  | [`InitLicense`](initialization.html#initlicense) | Sets the license and activates the SDK. |
+  | [`InitLicenseFromLTS`](initialization.html#initlicensefromlts) | Initializes the label recognition license and connects to the specified server for online verification. |
 
 &nbsp; 
 
@@ -33,16 +33,16 @@ permalink: /programming/dotnet/api-reference/label-recognition/index.html
 
   | Method               | Description |
   |----------------------|-------------|
-  | [`GetRuntimeSettings`](settings.md#getruntimesettings) | Gets the current settings and saves it into a struct. |
-  | [`UpdateRuntimeSettings`](settings.md#updateruntimesettings) | Updates runtime settings with a given struct. |
-  | [`ResetRuntimeSettings`](settings.md#resetruntimesettings) | Resets the runtime settings. |
-  | [`AppendSettingsFromString`](settings.md#appendsettingsfromstring) | Appends LabelRecognitionParameter settings in a string to the SDK object. |
-  | [`AppendSettingsFromFile`](settings.md#appendsettingsfromfile) | Appends LabelRecognitionParameter settings in a file to the SDK object. |
-  | [`OutputSettingsToFile`](settings.md#outputsettingstofile) | Outputs LabelRecognitionParameter settings into a file (JSON file). |
-  | [`ClearAppendedSettings`](settings.md#clearappendedsettings) | Clear all appended LabelRecognitionParameter settings in the SDK object. |
-  | [`UpdateReferenceRegionFromBarcodeResults`](settings.md#updatereferenceregionfrombarcoderesults) | Updates reference region which is defined with source type DLR_LST_BARCODE. |
-  | [`GetModeArgument`](settings.md#getmodeargument) | Get argument value for the specified mode parameter. |
-  | [`SetModeArgument`](settings.md#setmodeargument) | Set argument value for the specified mode parameter. |
+  | [`GetRuntimeSettings`](settings.html#getruntimesettings) | Gets the current settings and saves it into a struct. |
+  | [`UpdateRuntimeSettings`](settings.html#updateruntimesettings) | Updates runtime settings with a given struct. |
+  | [`ResetRuntimeSettings`](settings.html#resetruntimesettings) | Resets the runtime settings. |
+  | [`AppendSettingsFromString`](settings.html#appendsettingsfromstring) | Appends LabelRecognitionParameter settings in a string to the SDK object. |
+  | [`AppendSettingsFromFile`](settings.html#appendsettingsfromfile) | Appends LabelRecognitionParameter settings in a file to the SDK object. |
+  | [`OutputSettingsToFile`](settings.html#outputsettingstofile) | Outputs LabelRecognitionParameter settings into a file (JSON file). |
+  | [`ClearAppendedSettings`](settings.html#clearappendedsettings) | Clear all appended LabelRecognitionParameter settings in the SDK object. |
+  | [`UpdateReferenceRegionFromBarcodeResults`](settings.html#updatereferenceregionfrombarcoderesults) | Updates reference region which is defined with source type DLR_LST_BARCODE. |
+  | [`GetModeArgument`](settings.html#getmodeargument) | Get argument value for the specified mode parameter. |
+  | [`SetModeArgument`](settings.html#setmodeargument) | Set argument value for the specified mode parameter. |
 
 &nbsp; 
    
@@ -50,8 +50,8 @@ permalink: /programming/dotnet/api-reference/label-recognition/index.html
    
   | Method               | Description |
   |----------------------|-------------|
-  | [`RecognizeByBuffer`](recognizing.md#recognizebybuffer) | Recognizes text from memory buffer containing image pixels in defined format. |
-  | [`RecognizeByFile`](recognizing.md#recognizebyfile) | Recognizes text from a specified image file. |
+  | [`RecognizeByBuffer`](recognizing.html#recognizebybuffer) | Recognizes text from memory buffer containing image pixels in defined format. |
+  | [`RecognizeByFile`](recognizing.html#recognizebyfile) | Recognizes text from a specified image file. |
    
 &nbsp; 
    

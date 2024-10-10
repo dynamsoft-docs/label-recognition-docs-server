@@ -23,12 +23,12 @@ class com.dynamsoft.dlr.DLRRuntimeSettings
 |---------- | ---- |
 | [`maxThreadCount`](#maxthreadcount) | *int* |
 | [`characterModelName`](#charactermodelname) | *String* |
-| [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.md) |
-| [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
+| [`referenceRegion`](#referenceregion) | [`DLRReferenceRegion`](dlr-reference-region.html) |
+| [`textArea`](#textarea) | [`DLRQuadrilateral`](dlr-quadrilateral.html) |
 | [`dictionaryPath`](#dictionarypath) | *String* |
-| [`dictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) | [`DLRDictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.md) |
+| [`dictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) | [`DLRDictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.html) |
 | [`binarizationModes`](#binarizationmodes) | *int\[\]* |
-| [`furtherModes`](#furthermodes) | [`DLRFurtherModes`](dlr-further-modes.md)|
+| [`furtherModes`](#furthermodes) | [`DLRFurtherModes`](dlr-further-modes.html)|
 | [`timeout`](#timeout) | *int* |
 
 &nbsp;
@@ -131,7 +131,7 @@ DLRFurtherModes furtherModes
 
 **See also**
 
-[`DLRFurtherModes`](dlr-further-modes.md)
+[`DLRFurtherModes`](dlr-further-modes.html)
 
 &nbsp;
 

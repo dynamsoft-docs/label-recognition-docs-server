@@ -12,11 +12,11 @@ permalink: /programming/c/index.html
 
 ## Getting Started
 
-- [User Guide](user-guide.md)
+- [User Guide](user-guide.html)
 
 ## API Reference
 
-- [API Reference](api-reference/index.md)
+- [API Reference](api-reference/index.html)
 
 ## Release Notes
 

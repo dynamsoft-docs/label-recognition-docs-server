@@ -18,7 +18,7 @@ Stores the reference region information.
 | Attribute | Type |
 |---------- | ---- |
 | [`localizationSourceType`](#localizationsourcetype) | [`DLRLocalizationSourceType`]({{ site.dlr_enumerations }}other-enums.html#dlrlocalizationsourcetype) |
-| [`points`](#points) | [`DLRPoint[]`](dlr-point.md) |
+| [`points`](#points) | [`DLRPoint[]`](dlr-point.html) |
 | [`regionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`regionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
 | [`barcodeFormatIds`](#barcodeformatids) | *int* |

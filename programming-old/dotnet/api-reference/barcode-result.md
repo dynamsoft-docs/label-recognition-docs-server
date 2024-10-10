@@ -25,7 +25,7 @@ class Dynamsoft.Core.BarcodeResult
 | [`BarcodeFormat_2`](#barcodeformat_2) | [`EnumBarcodeFormat_2`]({{ site.dlr_enumerations }}barcode-format-2.html) |
 | [`Text`](#text) | *string* |
 | [`Bytes`](#bytes) | *byte[]* |
-| [`Location`](#location) | [`Quadrilateral`](quadrilateral.md)\* |
+| [`Location`](#location) | [`Quadrilateral`](quadrilateral.html)\* |
 | [`ModuleSize`](#modulesize) | *int* |
 | [`PageNumber`](#pagenumber) | *int* |
 

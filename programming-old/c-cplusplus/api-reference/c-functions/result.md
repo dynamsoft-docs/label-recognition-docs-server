@@ -25,11 +25,11 @@ DLR_API int DLR_GetAllDLRResults (void* recognizer, DLRResultArray** results)
    
 **Parameters**
 `[in] recognizer` Handle of the label recognition instance.  
-`[out] results`	Recognized results returned by last calling function [`DLR_RecognizeByBuffer`](recognizing.md#dlr_recognizebybuffer) / [`DLR_RecognizeByFile`](recognizing.md#dlr_recognizebyfile). The results is allocated by SDK and should be freed by calling function [`DLR_FreeDLRResults`](#dlr_freedlrresults).
+`[out] results`	Recognized results returned by last calling function [`DLR_RecognizeByBuffer`](recognizing.html#dlr_recognizebybuffer) / [`DLR_RecognizeByFile`](recognizing.html#dlr_recognizebyfile). The results is allocated by SDK and should be freed by calling function [`DLR_FreeDLRResults`](#dlr_freedlrresults).
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c

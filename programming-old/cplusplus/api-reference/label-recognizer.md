@@ -469,7 +469,7 @@ int RecognizeBuffer(const CImageData* imageData, const char* templateName)
 
 **Parameters**
 
-`[in] imageData` An instance of [`CImageData`](image-data-cpp.md) that represents an image.  
+`[in] imageData` An instance of [`CImageData`](image-data-cpp.html) that represents an image.  
 `[in] templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**

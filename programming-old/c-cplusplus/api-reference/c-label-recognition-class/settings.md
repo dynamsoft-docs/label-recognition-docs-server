@@ -36,7 +36,7 @@ int dynamsoft::dlr::CLabelRecognition::GetRuntimeSettings (DLRRuntimeSettings* s
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -63,7 +63,7 @@ int dynamsoft::dlr::CLabelRecognition::UpdateRuntimeSettings (DLRRuntimeSettings
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -88,7 +88,7 @@ int dynamsoft::dlr::CLabelRecognition::ResetRuntimeSettings ()
    
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -121,7 +121,7 @@ int dynamsoft::dlr::CLabelRecognition::AppendSettingsFromString (const char* con
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -149,7 +149,7 @@ int dynamsoft::dlr::CLabelRecognition::AppendSettingsFromFile (const char* fileP
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -177,7 +177,7 @@ int dynamsoft::dlr::CLabelRecognition::OutputSettingsToFile (const char* filePat
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -220,7 +220,7 @@ int dynamsoft::dlr::CLabelRecognition::UpdateReferenceRegionFromBarcodeResults (
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -253,7 +253,7 @@ int dynamsoft::dlr::CLabelRecognition::SetModeArgument (const char* modesName, c
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).  
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 #### Remark
 Check follow link for available modes and arguments:
@@ -294,7 +294,7 @@ int dynamsoft::dlr::CLabelRecognition::GetModeArgument (const char* modesName, c
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).  
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 #### Remark
 Check follow link for available modes and arguments:
