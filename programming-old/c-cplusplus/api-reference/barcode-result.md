@@ -28,7 +28,7 @@ typedef struct tagBarcodeResult*  PBarcodeResult
 | [`text`](#text) | *const char \** |
 | [`bytes`](#bytes) | *unsigned char \** |
 | [`bytesLength`](#byteslength) | *int* |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md)\* |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html)\* |
 | [`moduleSize`](#modulesize) | *int* |
 | [`pageNumber`](#pagenumber) | *int* |
 | [`reserved`](#reserved) | *char\[64\]* |

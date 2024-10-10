@@ -22,7 +22,7 @@ typedef struct tagDLR_ResultArray  DLR_ResultArray
   
 | Attribute | Type |
 |---------- | ---- |
-| [`results`](#results) | [`PDLR_Result`](dlr-result.md)\* |
+| [`results`](#results) | [`PDLR_Result`](dlr-result.html)\* |
 | [`resultsCount`](#resultscount) | *int* |
 
 

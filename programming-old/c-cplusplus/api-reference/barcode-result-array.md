@@ -22,7 +22,7 @@ typedef struct tagBarcodeResultArray  BarcodeResultArray
   
 | Attribute | Type |
 |---------- | ---- |
-| [`results`](#results) | [`PBarcodeResult`](barcode-result.md)\* |
+| [`results`](#results) | [`PBarcodeResult`](barcode-result.html)\* |
 | [`resultsCount`](#resultscount) | *int* |
 
 

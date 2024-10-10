@@ -19,9 +19,9 @@ Stores the recognized result.
 |---------- | ---- |
 | [`ReferenceRegionName`](#referenceregionname) | *string* |
 | [`TextAreaName`](#textareaname) | *string* |
-| [`Location`](#location) | [`DLR_Quadrilateral`](dlr-quadrilateral.md) |
+| [`Location`](#location) | [`DLR_Quadrilateral`](dlr-quadrilateral.html) |
 | [`Confidence`](#confidence) | *int* |
-| [`LineResults`](#lineresults) | [`DLR_LineResult[]`](dlr-line-result.md) |
+| [`LineResults`](#lineresults) | [`DLR_LineResult[]`](dlr-line-result.html) |
 
 
 ### ReferenceRegionName

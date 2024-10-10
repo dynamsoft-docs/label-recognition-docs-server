@@ -29,7 +29,7 @@ Dynamsoft.DLR.LabelRecognition.LabelRecognition()
 
 **Exceptions**
 
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 
 **Code Snippet**
@@ -69,7 +69,7 @@ void Dynamsoft.DLR.LabelRecognition.InitLicense(string license)
 
 **Exceptions**
 
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -111,7 +111,7 @@ static void Dynamsoft.DLR.LabelRecognition.InitLicenseFromLTS(DMLTSConnectionPar
 - `ltsConnectionParameters`: The struct DMLTSConnectionParameters with customized settings.  
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp

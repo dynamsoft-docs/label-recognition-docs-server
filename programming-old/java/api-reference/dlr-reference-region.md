@@ -23,7 +23,7 @@ class com.dynamsoft.dlr.DLRReferenceRegion
 | Attribute | Type |
 |---------- | ---- |
 | [`localizationSourceType`](#localizationsourcetype) | [`EnumLocalizationSourceType`]({{ site.dlr_enumerations }}localization-source-type.html) |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md) |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html) |
 | [`regionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`regionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
 | [`barcodeFormatIds`](#barcodeformatids) | *int* |

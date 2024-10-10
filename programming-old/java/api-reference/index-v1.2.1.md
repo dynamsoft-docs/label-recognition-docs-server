@@ -10,15 +10,15 @@ permalink: /programming/java/api-reference/index-v1.2.1.html
 # Dynamsoft Label Recognition - Auxiliary API
 
 ## Classes
-- [LabelRecognitionException](label-recognition-exception.md)
-- [DLRRuntimeSettings](dlr-runtime-settings.md)
-- [DLRReferenceRegion](dlr-reference-region.md)
-- [DLRQuadrilateral](dlr-quadrilateral.md)
-- [DLRResult](dlr-result.md)
-- [DLRLineResult](dlr-line-result.md)
-- [DLRCharacterResult](dlr-character-result.md)	
-- [DLRImageData](dlr-image-data.md)
-- [DMLTSConnectionParameters](dm-lts-connection-parameters.md)
+- [LabelRecognitionException](label-recognition-exception.html)
+- [DLRRuntimeSettings](dlr-runtime-settings.html)
+- [DLRReferenceRegion](dlr-reference-region.html)
+- [DLRQuadrilateral](dlr-quadrilateral.html)
+- [DLRResult](dlr-result.html)
+- [DLRLineResult](dlr-line-result.html)
+- [DLRCharacterResult](dlr-character-result.html)	
+- [DLRImageData](dlr-image-data.html)
+- [DMLTSConnectionParameters](dm-lts-connection-parameters.html)
 
 
 ## Enumerations

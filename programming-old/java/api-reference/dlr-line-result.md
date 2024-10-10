@@ -24,9 +24,9 @@ class com.dynamsoft.dlr.DLRLineResult
 | [`lineSpecificationName`](#linespecificationname) | *String* |
 | [`text`](#text) | *String* |
 | [`characterModelName`](#charactermodelname) | *String* |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md) |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html) |
 | [`confidence`](#confidence) | *int* |
-| [`characterResults`](#characterresults) | [`DLRCharacterResult[]`](dlr-character-result.md) |
+| [`characterResults`](#characterresults) | [`DLRCharacterResult[]`](dlr-character-result.html) |
 
 
 &nbsp;

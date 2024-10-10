@@ -38,7 +38,7 @@ DLR_API int DLR_GetRuntimeSettings (void* recognizer, DLRRuntimeSettings* settin
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -66,7 +66,7 @@ DLR_API int DLR_UpdateRuntimeSettings (void* recognizer, DLRRuntimeSettings* set
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -94,7 +94,7 @@ DLR_API int DLR_ResetRuntimeSettings (void* recognizer)
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -128,7 +128,7 @@ DLR_API int DLR_AppendSettingsFromString (void* recognizer, const char* content,
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -158,7 +158,7 @@ DLR_API int DLR_AppendSettingsFromFile (void* recognizer, const char* filePath, 
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -187,7 +187,7 @@ DLR_API int DLR_OutputSettingsToFile (void* recognizer, const char* filePath, co
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -234,7 +234,7 @@ DLR_API int DLR_UpdateReferenceRegionFromBarcodeResults (void* recognizer, const
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -268,7 +268,7 @@ DLR_API int DLR_SetModeArgument (void* recognizer, const char* modesName, const 
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).  
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 #### Remark
 Check follow link for available modes and arguments:
@@ -310,7 +310,7 @@ DLR_API int DLR_GetModeArgument (void* recognizer, const char* modesName, const 
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).  
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 #### Remark
 Check follow link for available modes and arguments:

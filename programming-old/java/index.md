@@ -12,13 +12,13 @@ permalink: /programming/java/index.html
 
 ## Getting Started
 
-- [User Guide](user-guide.md)
+- [User Guide](user-guide.html)
 
 ## API Reference
 
-- [API Reference](api-reference/index.md)
+- [API Reference](api-reference/index.html)
 
 ## Release Notes
 
-- [Version 2.x](release-notes/java-2.md)
-- [Version 1.x](release-notes/java-1.md)
+- [Version 2.x](release-notes/java-2.html)
+- [Version 1.x](release-notes/java-1.html)

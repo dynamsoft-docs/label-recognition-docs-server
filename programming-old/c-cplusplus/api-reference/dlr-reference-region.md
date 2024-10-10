@@ -23,7 +23,7 @@ typedef struct tagDLR_ReferenceRegion  DLR_ReferenceRegion
 | Attribute | Type |
 |---------- | ---- |
 | [`localizationSourceType`](#localizationsourcetype) | [`LocalizationSourceType`]({{ site.dlr_enumerations }}localization-source-type.html) |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md) |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html) |
 | [`regionMeasuredByPercentage`](#regionmeasuredbypercentage) | *int* |
 | [`regionPredetectionModesIndex`](#regionpredetectionmodesindex) | *int* |
 | [`barcodeFormatIds`](#barcodeformatids) | *int* |

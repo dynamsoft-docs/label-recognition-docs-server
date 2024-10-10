@@ -23,12 +23,12 @@ class Dynamsoft.DLR.DLR_RuntimeSettings
 |---------- | ---- |
 | [`MaxThreadCount`](#maxthreadcount) | *int* |
 | [`CharacterModelName`](#charactermodelname) | *string* |
-| [`ReferenceRegion`](#referenceregion) | [`DLR_ReferenceRegion`](dlr-reference-region.md) |
-| [`TextArea`](#textarea) | [`Quadrilateral`](quadrilateral.md) |
+| [`ReferenceRegion`](#referenceregion) | [`DLR_ReferenceRegion`](dlr-reference-region.html) |
+| [`TextArea`](#textarea) | [`Quadrilateral`](quadrilateral.html) |
 | [`DictionaryPath`](#dictionarypath) | *string* |
-| [`DictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) | [`DLR_DictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.md) |
+| [`DictionaryCorrectionThreshold`](#dictionarycorrectionthreshold) | [`DLR_DictionaryCorrectionThreshold`](dlr-dictionary-correction-threshold.html) |
 | [`BinarizationModes`](#binarizationmodes) | [`EnumBinarizationMode`]({{ site.dlr_enumerations }}binarization-mode.html)[ ] |
-| [`FurtherModes`](#furthermodes) | [`DLR_FurtherModes`](dlr-further-modes.md)|
+| [`FurtherModes`](#furthermodes) | [`DLR_FurtherModes`](dlr-further-modes.html)|
 
 
 &nbsp;
@@ -126,5 +126,5 @@ DLR_FurtherModes FurtherModes
 
 **See also**
 
-[`DLR_FurtherModes`](dlr-further-modes.md)
+[`DLR_FurtherModes`](dlr-further-modes.html)
 

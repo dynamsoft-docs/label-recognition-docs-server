@@ -29,7 +29,7 @@ int dynamsoft::dlr::CLabelRecognition::RecognizeByBuffer(const DLRImageData* ima
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp
@@ -56,7 +56,7 @@ int dynamsoft::dlr::CLabelRecognition::RecognizeByFile (const char* fileName, co
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`GetErrorString`](general.md#geterrorstring) to get detailed error message.*
+*You can call [`GetErrorString`](general.html#geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```cpp

@@ -24,7 +24,7 @@ typedef struct tagDLRQuadrilateral  DLRQuadrilateral
   
 | Attribute | Type |
 |---------- | ---- |
-| [`points`](#points) | [`DLRPoint`](dlr-point.md)[4] |
+| [`points`](#points) | [`DLRPoint`](dlr-point.html)[4] |
 
 
 ### points

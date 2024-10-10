@@ -9,6 +9,6 @@ permalink: /programming/dotnet/api-reference/index-v1.2.1.html
 
 # Dynamsoft Label Recognition - .Net API Reference
 
-- [`LabelRecognition` Class](label-recognition/index.md) 
-- [Other Classes](class/index.md)  
+- [`LabelRecognition` Class](label-recognition/index.html) 
+- [Other Classes](class/index.html)  
 - [Enumerations]({{ site.dlr_enumerations }})

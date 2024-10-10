@@ -27,10 +27,10 @@ typedef struct tagDLR_LineResult*  PDLR_LineResult
 | [`lineSpecificationName`](#linespecificationname) | *const char \** |
 | [`text`](#text) | *const char \** |
 | [`characterModelName`](#charactermodelname) | *const char \** |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md)\* |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html)\* |
 | [`confidence`](#confidence) | *int* |
 | [`characterResultsCount`](#characterresultscount) | *int* |
-| [`characterResults`](#characterresults) | [`PDLR_CharacterResult`](dlr-character-result.md)\* |
+| [`characterResults`](#characterresults) | [`PDLR_CharacterResult`](dlr-character-result.html)\* |
 | [`reserved`](#reserved) | *char\[64\]* |
 
 

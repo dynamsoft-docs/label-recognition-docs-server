@@ -31,11 +31,16 @@ dlr_java: /label-recognition/docs/server/programming/java/
 dlr_java_api: /label-recognition/docs/server/programming/java/api-reference/
 dlr_java_release_notes: /label-recognition/docs/server/programming/java/release-notes/
 
+dlr_python: /label-recognition/docs/server/programming/python/
+dlr_python_api: /label-recognition/docs/server/programming/python/api-reference/
+dlr_python_release_notes: /label-recognition/docs/server/programming/python/release-notes/
+
 dcv_enumerations: /capture-vision/docs/core/enums/
 dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
+dcv_python_api: /capture-vision/docs/server/programming/python/api-reference/
 dcv_arch: /capture-vision/docs/core/architecture/
 dcv_introduction: /capture-vision/docs/core/introduction/
 
@@ -47,7 +52,8 @@ dbr_icon: /label-recognition/docs/server/server/assets/img-icon/icon-dbr.svg
 dwt_icon: /label-recognition/docs/assets/img-icon/icon-dwt.svg
 dnt_icon: /label-recognition/docs/server/assets/img-icon/icon-dnt.svg
 
-useVersionTree: true
+useVersionTree: false
+isDCV: true
 
 baseurl: "/label-recognition/docs/server"
 
