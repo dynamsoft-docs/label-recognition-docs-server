@@ -37,7 +37,7 @@ LabelRecognizer() throws LabelRecognizerException;
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 **Code Snippet**
@@ -85,7 +85,7 @@ static void initLicense(String license) throws LabelRecognizerException
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -130,7 +130,7 @@ The class object of template settings.
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -160,7 +160,7 @@ void updateRuntimeSettings (DLRRuntimeSettings settings) throws LabelRecognizerE
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -189,7 +189,7 @@ void resetRuntimeSettings () throws LabelRecognizerException
    
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -225,7 +225,7 @@ void outputSettingsToFile (String filePath, String templateName) throws LabelRec
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -259,7 +259,7 @@ void appendSettingsFromFile (String filePath) throws LabelRecognizerException
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -290,7 +290,7 @@ void appendSettingsFromString (String content) throws LabelRecognizerException
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -347,7 +347,7 @@ the optional argument for a specified mode in Modes parameters.
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 
@@ -394,7 +394,7 @@ void setModeArgument (String modesName, int index, String argumentName, String a
 
 **Exceptions**
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 
@@ -431,14 +431,14 @@ void updateReferenceRegionFromBarcodeResults (BarcodeResult[] barcodeResults, St
    
 **Parameters**
 
-`barcodeResults` The barcode results used to localize reference region. See also [`BarcodeResult`](barcode-result.md).
+`barcodeResults` The barcode results used to localize reference region. See also [`BarcodeResult`](barcode-result.html).
 `templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 
 **Code Snippet**
@@ -478,17 +478,17 @@ DLRResult[] recognizeByBuffer(ImageData imageData, String templateName) throws L
    
 **Parameters**
 
-`[in]	imageData` An object of [`ImageData`](image-data.md) that represents an image.  
+`[in]	imageData` An object of [`ImageData`](image-data.html) that represents an image.  
 `[in]	templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**
 
-All results organized in a [DLR_Result](dlr-result.md) array.
+All results organized in a [DLR_Result](dlr-result.html) array.
 
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 
@@ -521,12 +521,12 @@ DLRResult[] recognizeByFile (String fileName, String templateName) throws LabelR
 
 **Return value**
 
-All results organized in a [DLR_Result](dlr-result.md) array.
+All results organized in a [DLR_Result](dlr-result.html) array.
 
 **Exceptions**
 
 
-[`LabelRecognizerException`](label-recognizer-exception.md)
+[`LabelRecognizerException`](label-recognizer-exception.html)
 
 **Code Snippet**
 

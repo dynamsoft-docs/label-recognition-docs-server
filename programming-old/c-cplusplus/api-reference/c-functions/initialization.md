@@ -77,7 +77,7 @@ DLR_API int DLR_InitLicense (void* recognizer, const char* pLicense)
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -101,7 +101,7 @@ DLR_API int DLR_InitLTSConnectionParameters (DM_LTSConnectionParameters *pLTSCon
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c
@@ -128,7 +128,7 @@ DLR_API int DLR_InitLicenseFromLTS(DM_LTSConnectionParameters *pLTSConnectionPar
 
 **Return Value**
 Returns error code (returns 0 if the function operates successfully).    
-*You can call [`DLR_GetErrorString`](general.md#dlr_geterrorstring) to get detailed error message.*
+*You can call [`DLR_GetErrorString`](general.html#dlr_geterrorstring) to get detailed error message.*
 
 **Code Snippet**
 ```c

@@ -36,7 +36,7 @@ PublicRuntimeSettings Dynamsoft.DLR.LabelRecognition.GetRuntimeSettings ()
 The class object of runtime settings.
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -60,7 +60,7 @@ void Dynamsoft.DLR.LabelRecognition.UpdateRuntimeSettings (DLR_RuntimeSettings s
 
 **Exceptions**
 
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -82,7 +82,7 @@ void Dynamsoft.DLR.LabelRecognition.ResetRuntimeSettings ()
 ```   
    
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -111,7 +111,7 @@ void Dynamsoft.DLR.LabelRecognition.AppendSettingsFromString (string content)
 
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -136,7 +136,7 @@ void Dynamsoft.DLR.LabelRecognition.AppendSettingsFromFile (string filePath)
 
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -162,7 +162,7 @@ void Dynamsoft.DLR.LabelRecognition.OutputSettingsToFile (string filePath, strin
 
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 **Code Snippet**
 ```csharp
@@ -205,7 +205,7 @@ void Dynamsoft.DLR.LabelRecognition.UpdateReferenceRegionFromBarcodeResults (Tex
 
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 
 **Code Snippet**
@@ -234,7 +234,7 @@ void Dynamsoft.DLR.LabelRecognition.SetModeArgument (string modesName, int index
 - `argumentValue`: The value of the argument to set. 
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 
 ### Remark
@@ -272,7 +272,7 @@ string Dynamsoft.DLR.LabelRecognition.GetModeArgument (string modesName, int ind
 the optional argument for a specified mode in Modes parameters.
 
 **Exceptions**
-[`DLR_Exception`](../class/label-recognition-exception.md)
+[`DLR_Exception`](../class/label-recognition-exception.html)
 
 ### Remark
 Check follow link for available modes and arguments:

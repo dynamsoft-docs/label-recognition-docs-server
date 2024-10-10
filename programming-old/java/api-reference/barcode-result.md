@@ -25,7 +25,7 @@ class com.dynamsoft.core.BarcodeResult
 | [`barcodeFormat_2`](#barcodeformat_2) | *int* |
 | [`text`](#text) | *String* |
 | [`bytes`](#bytes) | *byte[]* |
-| [`location`](#location) | [`Quadrilateral`](quadrilateral.md)\* |
+| [`location`](#location) | [`Quadrilateral`](quadrilateral.html)\* |
 | [`moduleSize`](#modulesize) | *int* |
 | [`pageNumber`](#pagenumber) | *int* |
 

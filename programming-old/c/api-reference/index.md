@@ -13,23 +13,23 @@ permalink: /programming/c/api-reference/index.html
 
 ## Primary API
 
-- [Functions](label-recognizer-functions.md)
+- [Functions](label-recognizer-functions.html)
 
 ## Auxiliary Structs
 
-- [DM_Point](point.md)	
-- [Quadrilateral](quadrilateral.md)	
-- [ImageData](image-data.md)
-- [BarcodeResultArray](barcode-result-array.md)
-- [BarcodeResult](barcode-result.md)
-- [DLR_RuntimeSettings](dlr-runtime-settings.md)
-- [DLR_ReferenceRegion](dlr-reference-region.md)	
-- [DLR_ResultArray](dlr-result-array.md)		
-- [DLR_Result](dlr-result.md)	
-- [DLR_LineResult](dlr-line-result.md)	
-- [DLR_CharacterResult](dlr-character-result.md)	
-- [DLR_DictionaryCorrectionThreshold](dlr-dictionary-correction-threshold.md)
-- [DLR_FurtherModes](dlr-further-modes.md)
+- [DM_Point](point.html)	
+- [Quadrilateral](quadrilateral.html)	
+- [ImageData](image-data.html)
+- [BarcodeResultArray](barcode-result-array.html)
+- [BarcodeResult](barcode-result.html)
+- [DLR_RuntimeSettings](dlr-runtime-settings.html)
+- [DLR_ReferenceRegion](dlr-reference-region.html)	
+- [DLR_ResultArray](dlr-result-array.html)		
+- [DLR_Result](dlr-result.html)	
+- [DLR_LineResult](dlr-line-result.html)	
+- [DLR_CharacterResult](dlr-character-result.html)	
+- [DLR_DictionaryCorrectionThreshold](dlr-dictionary-correction-threshold.html)
+- [DLR_FurtherModes](dlr-further-modes.html)
 
 ## Enumerations
 

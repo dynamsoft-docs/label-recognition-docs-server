@@ -20,7 +20,7 @@ Stores the character result.
 | [`characterH`](#characterh) | *char* |
 | [`characterM`](#characterm) | *char* |
 | [`characterL`](#characterl) | *char* |
-| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.md) |
+| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.html) |
 
 
 ### characterH

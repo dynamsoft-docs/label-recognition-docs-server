@@ -10,13 +10,13 @@ permalink: /programming/c-cplusplus/api-reference/structs/index.html
 
 # Dynamsoft Label Recognition - C and C++ Structs
 
-- [`DM_LTSConnectionParameters`](dm-lts-connection-parameters.md)
-- [`DLRCharacterResult`](dlr-character-result.md)		
-- [`DLRImageData`](dlr-image-data.md)		
-- [`DLRLineResult`](dlr-line-result.md)	
-- [`DLRPoint`](dlr-point.md)		
-- [`DLRQuadrilateral`](dlr-quadrilateral.md)	
-- [`DLRReferenceRegion`](dlr-reference-region.md)	
-- [`DLRResultArray`](dlr-result-array.md)		
-- [`DLRResult`](dlr-result.md)		
-- [`DLRRuntimeSettings`](dlr-runtime-settings.md)	
+- [`DM_LTSConnectionParameters`](dm-lts-connection-parameters.html)
+- [`DLRCharacterResult`](dlr-character-result.html)		
+- [`DLRImageData`](dlr-image-data.html)		
+- [`DLRLineResult`](dlr-line-result.html)	
+- [`DLRPoint`](dlr-point.html)		
+- [`DLRQuadrilateral`](dlr-quadrilateral.html)	
+- [`DLRReferenceRegion`](dlr-reference-region.html)	
+- [`DLRResultArray`](dlr-result-array.html)		
+- [`DLRResult`](dlr-result.html)		
+- [`DLRRuntimeSettings`](dlr-runtime-settings.html)	

@@ -9,7 +9,7 @@ permalink: /programming/c-cplusplus/api-reference/index.html
 
 # Dynamsoft Label Recognition - C/C++ API Reference
 
-- [`CLabelRecognition` Class](c-label-recognition-class/index.md) 
-- [C Functions](c-functions/index.md)
+- [`CLabelRecognition` Class](c-label-recognition-class/index.html) 
+- [C Functions](c-functions/index.html)
 - [Enumerations]({{ site.dlr_enumerations }})
-- [Structs](structs/index.md)  
+- [Structs](structs/index.html)  

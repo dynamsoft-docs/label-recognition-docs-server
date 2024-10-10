@@ -121,7 +121,7 @@ DLR_DestroyInstance(recognizer);
 &nbsp;
 
 ### DLR_GetRuntimeSettings
-Get current settings and save them into a [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Get current settings and save them into a [`DLR_RuntimeSettings`](dlr-runtime-settings.html) struct.
 
 ```c
 int DLR_GetRuntimeSettings (void* recognizer, DLR_RuntimeSettings* settings)
@@ -154,7 +154,7 @@ DLR_DestroyInstance(recognizer);
 &nbsp;
 
 ### DLR_UpdateRuntimeSettings
-Update runtime settings with a given [`DLR_RuntimeSettings`](dlr-runtime-settings.md) struct.
+Update runtime settings with a given [`DLR_RuntimeSettings`](dlr-runtime-settings.html) struct.
 
 ```c
 int DLR_UpdateRuntimeSettings (void* recognizer, DLR_RuntimeSettings* settings, char errorMsgBuffer[], const int errorMsgBufferLen)
@@ -431,7 +431,7 @@ int DLR_UpdateReferenceRegionFromBarcodeResults (void* recognizer, const Barcode
 **Parameters**
 
 `[in]	recognizer` Handle of the Dynamsoft Label Recognizer instance.  
-`[in]	barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`](barcode-result-array.md).
+`[in]	barcodeResults` The barcode results used to localize reference region.  See also [`BarcodeResultArray`](barcode-result-array.html).
 `[in]	templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 
@@ -576,7 +576,7 @@ int DLR_RecognizeByBuffer(void* recognizer, const ImageData* imageData, const ch
 **Parameters**
 
 `[in] recognizer` Handle of the label recognition instance.  
-`[in]	imageData` A struct of [`ImageData`](image-data.md) that represents an image.  
+`[in]	imageData` A struct of [`ImageData`](image-data.html) that represents an image.  
 `[in]	templateName` The template name. A template name is the value of key LabelRecognizerParameter.Name defined in JSON formatted settings. If no template name is specified, current runtime settings will be used.
 
 **Return value**

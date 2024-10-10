@@ -8,7 +8,8 @@ needAutoGenerateSidebar: true
 
 # Dynamsoft Label Recognizer Documentation
 
-* [Programming]({{ site.dlr_programming }})
+* Programming
+  * [Python]({{ site.dlr_python }})
   * [.NET]({{ site.dlr_dotnet }})
   * [Java]({{ site.dlr_java }})
   * [C]({{ site.dlr_c }})

@@ -27,10 +27,10 @@ typedef struct tagDLRResult*  PDLRResult
 |---------- | ---- |
 | [`referenceRegionName`](#referenceregionname) | *const char \** |
 | [`textAreaName`](#textareaname) | *const char \** |
-| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.md)\* |
+| [`location`](#location) | [`DLRQuadrilateral`](dlr-quadrilateral.html)\* |
 | [`confidence`](#confidence) | *int* |
 | [`lineResultsCount`](#lineresultscount) | *int* |
-| [`lineResults`](#lineresults) | [`PDLRLineResult`](dlr-line-result.md)\* |
+| [`lineResults`](#lineresults) | [`PDLRLineResult`](dlr-line-result.html)\* |
 | [`pageNumber`](#pagenumber) | *int* |
 | [`reserved`](#reserved) | *char\[60\]* |
 
