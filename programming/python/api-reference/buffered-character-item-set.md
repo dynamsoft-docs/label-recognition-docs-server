@@ -17,7 +17,7 @@ The `BufferedCharacterItemSet` class represents a collection of buffered charact
 *Module:* dynamsoft_label_recognizer
 
 ```python
-class BufferedCharacterItemSet(object)
+class BufferedCharacterItemSet
 ```
 
 ## Methods
