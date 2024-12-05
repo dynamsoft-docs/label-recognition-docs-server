@@ -17,7 +17,7 @@ The `CharacterCluster` class represents a character cluster generated from the b
 *Module:* dynamsoft_label_recognizer
 
 ```python
-class CharacterCluster(object)
+class CharacterCluster
 ```
 
 ## Properties

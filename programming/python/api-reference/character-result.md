@@ -17,7 +17,7 @@ The `CharacterResult` class represents the result of a character recognition pro
 *Module:* dynamsoft_label_recognizer
 
 ```python
-class CharacterResult(object)
+class CharacterResult
 ```
 
 ## Properties

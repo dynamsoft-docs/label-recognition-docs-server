@@ -14,7 +14,7 @@ The `SimplifiedLabelRecognizerSettings` class contains settings for label recogn
 ## Definition
 
 ```python
-class SimplifiedLabelRecognizerSettings(object)
+class SimplifiedLabelRecognizerSettings
 ```
 
 ## Properties

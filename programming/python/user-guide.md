@@ -191,7 +191,7 @@ fetcher.set_directory("[THE DIRECTORY THAT HOLDS THE IMAGES]")
 Create a class `MyCapturedResultReceiver` to implement the `CapturedResultReceiver` class, and get the recognized text results in `on_recognized_text_lines_received` callback function.
 
 ```python
-class MyCapturedResultReceiver : CapturedResultReceiver
+class MyCapturedResultReceiver(CapturedResultReceiver)
 {
     public override void on_recognized_text_lines_received(RecognizedTextLinesResult result)
     {
@@ -220,7 +220,7 @@ class MyCapturedResultReceiver : CapturedResultReceiver
 Create a class `MyImageSourceStateListener` to implement the `ImageSourceStateListener` class, and call stop_capturing in `on_image_source_state_received` callback function when the state is `ISS_EXHAUSTED`.
 
 ```python
-class MyImageSourceStateListener : ImageSourceStateListener
+class MyImageSourceStateListener(ImageSourceStateListener)
 {
     private CaptureVisionRouter? cvr = null
     public MyImageSourceStateListener(CaptureVisionRouter cvr)

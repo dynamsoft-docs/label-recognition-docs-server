@@ -17,7 +17,7 @@ The `BufferedCharacterItem` class represents a text line result item recognized 
 *Module:* dynamsoft_label_recognizer
 
 ```python
-class BufferedCharacterItem(object)
+class BufferedCharacterItem
 ```
 
 ## Methods
