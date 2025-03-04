@@ -150,7 +150,7 @@ Returns the status of the text line.
 
 **See also**
 
-* [RawTextLineStatus](raw-text-line-status.md)
+* [RawTextLineStatus](enum-raw-text-line-status.md)
 
 ### SetText
 
