@@ -3,6 +3,8 @@ repository: Dynamsoft-docs/label-recognition-docs-server
 docFullPath: https://www.dynamsoft.com/label-recognition/docs/server
 firstLevelUrl: /label-recognition/docs/server
 docHomePage: /label-recognition/docs/core/introduction/
+needSearchIndex: true
+searchNeedFilter: true
 
 dlr_introduction: /label-recognition/docs/core/introduction/
 dlr_enumerations: /label-recognition/docs/core/parameters/enum/

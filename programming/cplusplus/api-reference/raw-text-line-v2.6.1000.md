@@ -46,7 +46,6 @@ class CRawTextLine
 | [`SetSpecificationName`](#setspecificationname) | Sets the name of the text line specification that generated this element.
 | [`Release`](#release) | Decreases the reference count of the CRawTextLine object.|
 | [`Clone`](#clone) | Clone the CRawTextLine object.|
-| [`SetCharacterResults`](#setcharacterresults) | Sets the character recognition results.|
 
 ### GetText
 
@@ -150,7 +149,7 @@ Returns the status of the text line.
 
 **See also**
 
-* [RawTextLineStatus](raw-text-line-status.md)
+* [RawTextLineStatus]({{ site.dcv_enumerations }}label-recognizer/raw-text-line-status.html?lang=cpp)
 
 ### SetText
 
@@ -228,21 +227,3 @@ Returns a pointer to the cloned CRawTextLine object.
 **Remarks**
 
 Don't forget to call `Release` after you have finished using the cloned CRawTextLine object.
-
-### SetCharacterResults
-
-Sets the character recognition results.
-
-```cpp
-int SetCharacterResults(const CCharacterResult* charArray, int charArrayLength)
-```
-
-**Parameters**
-
-`[in] charArray` The character result array.
-
-`[in] charArrayLength` The length of the character result array.
-
-**Return value**
-
-Returns 0 if successful; otherwise returns an error code.
