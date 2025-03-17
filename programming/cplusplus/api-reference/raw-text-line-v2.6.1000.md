@@ -1,4 +1,3 @@
-
 ---
 layout: default-layout
 title: CRawTextLine - Dynamsoft Label Recognizer Classes
