@@ -98,7 +98,7 @@ Returns the error code of the recognition result, or 0 if no error occurred.
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html?lang=python)
+[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html)
 
 ### get_error_string
 

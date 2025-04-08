@@ -159,7 +159,7 @@ Returns the status of the text line. This is one of the values of the `EnumRawTe
 
 **See also**
 
-[EnumRawTextLineStatus]({{ site.dlr_python_api }}enum-raw-text-line-status.html?lang=python)
+[EnumRawTextLineStatus]({{ site.dlr_python_api }}enum-raw-text-line-status.html)
 
 ### set_text
 
