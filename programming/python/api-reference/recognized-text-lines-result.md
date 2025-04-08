@@ -3,9 +3,6 @@ layout: default-layout
 title: RecognizedTextLinesResult Class - Dynamsoft Label Recognizer Module Python Edition API Reference
 description: Definition of the RecognizedTextLinesResult class in Dynamsoft Label Recognizer Module Python Edition.
 keywords: Recognized text lines result
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # RecognizedTextLinesResult
@@ -101,7 +98,7 @@ Returns the error code of the recognition result, or 0 if no error occurred.
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=python)
+[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html?lang=python)
 
 ### get_error_string
 

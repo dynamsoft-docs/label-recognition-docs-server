@@ -3,9 +3,6 @@ layout: default-layout
 title: RecognizedTextLineElement - Dynamsoft Label Recognizer Classes
 description: The class RecognizedTextLineElement of Dynamsoft Label Recognizer represents a line of recognized text in an image.
 keywords: Recognized text line element
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # RecognizedTextLineElement

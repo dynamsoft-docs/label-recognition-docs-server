@@ -3,9 +3,6 @@ layout: default-layout
 title: LocalizedTextLineElement - Dynamsoft Label Recognizer Classes
 description: The class LocalizedTextLineElement of Dynamsoft Label Recognizer represents a localized text line element.
 keywords: Localized text line element
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # LocalizedTextLineElement
@@ -16,7 +13,7 @@ The `LocalizedTextLineElement` class represents a localized text line element. I
 
 *Module:* dynamsoft_label_recognizer
 
-```cpp
+```python
 class LocalizedTextLineElement(RegionObjectElement)
 ```
 
@@ -43,7 +40,7 @@ def __init__(self, *args, **kwargs):
 
 Gets the number of character quads in the text line.
 
-```cpp
+```python
 def get_character_quads_count(self) -> int:
 ```
 
@@ -55,7 +52,7 @@ Returns the number of character quads in the text line.
 
 Gets the quadrilateral of a specific character in the text line.
 
-```cpp
+```python
 def get_character_quad(self, index: int) -> Tuple[int, Quadrilateral]:
 ```
 
@@ -73,7 +70,7 @@ Returns a tuple containing following elements:
 
 Gets the row number of the text line.
 
-```cpp
+```python
 def get_row_number(self) -> int:
 ```
 
