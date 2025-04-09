@@ -3,9 +3,6 @@ layout: default-layout
 title: RawTextLinesUnit - Dynamsoft Label Recognizer Classes
 description: The class RawTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains recognized raw text lines.
 keywords: Recognized raw text lines unit
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # RawTextLinesUnit

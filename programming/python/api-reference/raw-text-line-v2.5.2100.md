@@ -37,8 +37,7 @@ class RawTextLine
 | [`set_text`](#set_text) | Sets the recognized text.|
 | [`set_location`](#set_location) | Sets the location of the text line.|
 | [`set_row_number`](#set_row_number) | Sets the row number of the text line within the image.|
-| [`set_specification_name`](#set_specification_name) | Sets the name of the text line specification that generated this element. |
-| [`set_character_results`](#set_character_results) | Sets the character recognition results for the text line. |
+| [`set_specification_name`](#set_specification_name) | Sets the name of the text line specification that generated this element.
 | [`clone`](#clone) | Clones the `RawTextLine` object.|
 
 ### \_\_init\_\_
@@ -159,7 +158,7 @@ Returns the status of the text line. This is one of the values of the `EnumRawTe
 
 **See also**
 
-[EnumRawTextLineStatus]({{ site.dlr_python_api }}enum-raw-text-line-status.html)
+[EnumRawTextLineStatus]({{ site.dcv_enumerations }}label-recognizer/raw-text-line-status.html?lang=python)
 
 ### set_text
 
@@ -237,19 +236,3 @@ def clone(self) -> "RawTextLine":
 **Return value**
 
 Returns the cloned `RawTextLine` object.
-
-### set_character_results
-
-Sets the character recognition results for the text line..
-
-```python
-def set_character_results(self, char_array: List[CharacterResult]) -> int:
-```
-
-**Parameters**
-
-`char_array` The character recognition results to set.
-
-**Return value**
-
-Returns 0 if successful; otherwise returns an error code.

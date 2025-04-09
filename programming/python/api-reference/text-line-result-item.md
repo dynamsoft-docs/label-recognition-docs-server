@@ -3,9 +3,6 @@ layout: default-layout
 title: TextLineResultItem Class - Dynamsoft Label Recognizer Module Python Edition API Reference
 description: Definition of the TextLineResultItem class in Dynamsoft Label Recognizer Module Python Edition.
 keywords: Text line result item
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # TextLineResultItem

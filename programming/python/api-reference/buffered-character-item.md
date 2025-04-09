@@ -3,9 +3,6 @@ layout: default-layout
 title: BufferedCharacterItem Class - Dynamsoft Label Recognizer Module Python Edition API Reference
 description: Definition of the BufferedCharacterItem class in Dynamsoft Label Recognizer Module Python Edition.
 keywords: BufferedCharacterItem
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # BufferedCharacterItem

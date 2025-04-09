@@ -3,9 +3,6 @@ layout: default-layout
 title: LocalizedTextLinesUnit - Dynamsoft Label Recognizer Classes
 description: The class LocalizedTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains localized text lines.
 keywords: Localized text lines unit
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # LocalizedTextLinesUnit

@@ -3,9 +3,6 @@ layout: default-layout
 title: CharacterCluster Class - Dynamsoft Label Recognizer Module Python Edition API Reference
 description: Definition of the CharacterCluster class in Dynamsoft Label Recognizer Module Python Edition.
 keywords: Character result
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # CharacterCluster

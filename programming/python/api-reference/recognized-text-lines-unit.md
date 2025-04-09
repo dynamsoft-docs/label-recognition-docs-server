@@ -3,9 +3,6 @@ layout: default-layout
 title: RecognizedTextLinesUnit - Dynamsoft Label Recognizer Classes
 description: The class RecognizedTextLinesUnit of Dynamsoft Label Recognizer represents an intermediate result unit containing recognized text lines.
 keywords: Recognized text lines unit
-needGenerateH3Content: true
-needAutoGenerateSidebar: true
-noTitleIndex: true
 ---
 
 # RecognizedTextLinesUnit
