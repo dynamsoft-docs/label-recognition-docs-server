@@ -23,7 +23,7 @@ The `CLocalizedTextLinesUnit` class represents a unit that contains localized te
 class CLocalizedTextLinesUnit : public CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLocalizedTextLinesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLocalizedTextLinesUnit
 
 ## Methods
 

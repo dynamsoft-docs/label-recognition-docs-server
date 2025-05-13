@@ -47,7 +47,7 @@ The location of the character in a quadrilateral shape.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
 
 ### character_h_confidence
 

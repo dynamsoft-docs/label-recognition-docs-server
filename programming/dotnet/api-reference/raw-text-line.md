@@ -1,17 +1,16 @@
 ---
 layout: default-layout
-title: CRawTextLine - Dynamsoft Label Recognizer Classes
-description: The class CRawTextLine of Dynamsoft Label Recognizer represents a recognized raw text line.
+title: RawTextLine - Dynamsoft Label Recognizer Module .NET Edition API Reference
+description: The class RawTextLine represents a recognized raw text line for .NET Edition.
 keywords: Recognized raw text line
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
-breadcrumbText: CRawTextLine
 ---
 
-# CRawTextLine
+# RawTextLine
 
-The class `CRawTextLine` of Dynamsoft Label Recognizer represents a recognized raw text line in an image. It can be in one of the following states:
+The class `RawTextLine` represents a recognized raw text line in an image. It can be in one of the following states:
 
 * `RTLS_LOCALIZED`: Localized but recognition not performed.
 * `RTLS_RECOGNITION_FAILED`: Recognition failed.
@@ -19,12 +18,11 @@ The class `CRawTextLine` of Dynamsoft Label Recognizer represents a recognized r
 
 ## Definition
 
-*Namespace:* dynamsoft::dlr::intermediate_results
+*Namespace:* Dynamsoft.DLR.intermediate_results
 
-*Assembly:* DynamsoftLabelRecognizer
 
-```cpp
-class CRawTextLine
+```csharp
+class RawTextLine : IDisposable
 ```
 
 ## Methods
@@ -35,37 +33,36 @@ class CRawTextLine
 | [`GetConfidence`](#getconfidence) | Gets the confidence level of the recognized text.|
 | [`GetCharacterResultsCount`](#getcharacterresultscount) | Gets the number of individual character recognition results in the line.|
 | [`GetCharacterResult`](#getcharacterresult) | Gets the character recognition result at the specified index.|
+| [`GetCharacterResults`](#getcharacterresults) | Gets all the character recognition results. |
 | [`GetLocation`](#getlocation) | Gets the location of the text line.|
 | [`GetRowNumber`](#getrownumber) | Gets the row number of the text line within the image.|
 | [`GetSpecificationName`](#getspecificationname) | Gets the name of the text line specification that generated this element.|
 | [`GetStatus`](#getstatus) | Gets the status of the text line.|
 | [`SetText`](#settext) | Sets the recognized text.|
-| [`SetLocation`](#setlocation) | Set the location of the text line.|
-| [`SetRowNumber`](#setrownumber) | Set the row number of the text line within the image.|
+| [`SetLocation`](#setlocation) | Sets the location of the text line.|
+| [`SetRowNumber`](#setrownumber) | Sets the row number of the text line within the image.|
 | [`SetSpecificationName`](#setspecificationname) | Sets the name of the text line specification that generated this element.
-| [`Release`](#release) | Decreases the reference count of the `CRawTextLine` object.|
-| [`Retain`](#retain) | Increases the reference count of the `CRawTextLine` object.|
-| [`Clone`](#clone) | Clone the `CRawTextLine` object.|
+| [`Clone`](#clone) | Clone the `RawTextLine` object.|
 | [`SetCharacterResults`](#setcharacterresults) | Sets the character recognition results.|
 
 ### GetText
 
 Gets the recognized text.
 
-```cpp
-const char* GetText() const
+```csharp
+string GetText()
 ```
 
 **Return value**
 
-Returns a pointer to the recognized text.
+Returns the recognized text.
 
 ### GetConfidence
 
 Gets the confidence level of the recognized text.
 
-```cpp
-int GetConfidence() const
+```csharp
+int GetConfidence()
 ```
 
 **Return value**
@@ -76,8 +73,8 @@ Returns an integer value representing the confidence level of the recognized tex
 
 Gets the number of individual character recognition results in the line.
 
-```cpp
-int GetCharacterResultsCount() const
+```csharp
+int GetCharacterResultsCount()
 ```
 
 **Return value**
@@ -88,8 +85,8 @@ Returns an integer value representing the number of individual character recogni
 
 Gets the character recognition result at the specified index.
 
-```cpp
-const CCharacterResult* GetCharacterResult(int index) const
+```csharp
+CharacterResult GetCharacterResult(int index)
 ```
 
 **Parameters**
@@ -98,26 +95,50 @@ const CCharacterResult* GetCharacterResult(int index) const
 
 **Return value**
 
-Returns a pointer to the character recognition result.
+Returns the character recognition result.
+
+**See Also**
+
+[CharacterResult]({{ site.dlr_dotnet_api }}character-result.html)
+
+### GetCharacterResults
+
+Gets all the character recognition results.
+
+```csharp
+CharacterResult[] GetCharacterResults()
+```
+
+**Return value**
+
+Returns a `CharacterResult` object array stores the results.
+
+**See Also**
+
+[CharacterResult]({{ site.dlr_dotnet_api }}character-result.html)
 
 ### GetLocation
 
 Gets the location of the text line.
 
-```cpp
-CQuadrilateral GetLocation() const
+```csharp
+Quadrilateral GetLocation()
 ```
 
 **Return value**
 
-Returns a CQuadrilateral object which represents the location of the text line.
+Returns a `Quadrilateral` object which represents the location of the text line.
+
+**See Also**
+
+[Quadrilateral]({{ site.dcvb_dotnet_api }}core/basic-classes/quadrilateral.html)
 
 ### GetRowNumber
 
 Gets the row number of the text line within the image.
 
-```cpp
-int GetRowNumber() const
+```csharp
+int GetRowNumber()
 ```
 
 **Return value**
@@ -128,8 +149,8 @@ Returns an integer value representing the row number of the text line within the
 
 Gets the name of the text line specification that generated this element.
 
-```cpp
-const char* GetSpecificationName() const
+```csharp
+string GetSpecificationName()
 ```
 
 **Return value**
@@ -140,8 +161,8 @@ Returns the name of the text line specification.
 
 Gets the status of the text line.
 
-```cpp
-RawTextLineStatus GetStatus() const
+```csharp
+EnumRawTextLineStatus GetStatus()
 ```
 
 **Return value**
@@ -150,14 +171,14 @@ Returns the status of the text line.
 
 **See also**
 
-* [RawTextLineStatus](enum-raw-text-line-status.md)
+* [EnumRawTextLineStatus]({{ site.dlr_dotnet_api }}enum-raw-text-line-status.html)
 
 ### SetText
 
 Sets the recognized text.
 
-```cpp
-void SetText(const char* text)
+```csharp
+void SetText(string text)
 ```
 
 **Parameters**
@@ -167,93 +188,79 @@ void SetText(const char* text)
 
 ### SetLocation
 
-Set the location of the text line.
+Sets the location of the text line.
 
-```cpp
-int SetLocation(const CQuadrilateral& location)
+```csharp
+int SetLocation(Quadrilateral location)
 ```
 
 **Parameters**
 
 `[in] location` The location of the text line.
 
-** Return value**
+**Return value**
 
 Returns 0 if successful; otherwise returns an error code.
 
+**See Also**
+
+[Quadrilateral]({{ site.dcvb_dotnet_api }}core/basic-classes/quadrilateral.html)
+
 ### SetRowNumber
 
-Set the row number of the text line within the image.
+Sets the row number of the text line within the image.
 
-```cpp
-void SetRowNumber(int rowNumber)
+```csharp
+int SetRowNumber(int rowNumber)
 ```
 
 **Parameters**
 
 `[in] rowNumber` The row number of the text line within the image.
 
+**Return value**
+
+Returns 0 if successful; otherwise returns an error code.
+
 ### SetSpecificationName
 
 Sets the name of the text line specification that generated this element.
 
-```cpp
-void SetSpecificationName(const char* specificationName)
+```csharp
+int SetSpecificationName(string specificationName)
 ```
 
 **Parameters**
 
 `[in] specificationName` The name of the text line specification.
 
-### Release
-
-Decreases the reference count of the `CRawTextLine` object.
-
-```cpp
-void Release()
-```
-
-### Retain
-
-Increases the reference count of the `CRawTextLine` object.
-
-```cpp
-virtual CRawTextLine* Retain() = 0;
-```
-
 **Return value**
 
-Returns a pointer to a `CRawTextLine` object.
+Returns 0 if successful; otherwise returns an error code.
 
 ### Clone
 
-Clone the `CRawTextLine` object.
+Clone the `RawTextLine` object.
 
-```cpp
-CRawTextLine* Clone() const
+```csharp
+RawTextLine Clone()
 ```
 
 **Return value**
 
-Returns a pointer to the cloned `CRawTextLine` object.
-
-**Remarks**
-
-Don't forget to call `Release` after you have finished using the cloned `CRawTextLine` object.
+Returns the cloned `RawTextLine` object.
 
 ### SetCharacterResults
 
 Sets the character recognition results.
 
-```cpp
-int SetCharacterResults(const CCharacterResult* charArray, int charArrayLength)
+```csharp
+int SetCharacterResults(CharacterResult[] charArray)
 ```
 
 **Parameters**
 
 `[in] charArray` The character result array.
-
-`[in] charArrayLength` The length of the character result array.
 
 **Return value**
 

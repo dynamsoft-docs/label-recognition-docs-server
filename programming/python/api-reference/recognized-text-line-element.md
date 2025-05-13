@@ -17,7 +17,7 @@ The `RecognizedTextLineElement` class represents a line of recognized text in an
 class RecognizedTextLineElement(RegionObjectElement)
 ```
 
-*Inheritance:* [RegionObjectElement]({{ site.dcv_python_api }}core/intermediate-results/region-object-element.html) -> RecognizedTextLineElement
+*Inheritance:* [RegionObjectElement]({{ site.dcvb_python_api }}core/intermediate-results/region-object-element.html) -> RecognizedTextLineElement
 
 ## Methods
 

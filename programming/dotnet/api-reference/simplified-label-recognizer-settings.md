@@ -9,7 +9,7 @@ needGenerateH3Content: true
 
 # SimplifiedLabelRecognizerSettings
 
-The `SimplifiedLabelRecognizerSettings` class contains settings for label recognition. It is a sub-parameter of [`SimplifiedCaptureVisionSettings`]({{ site.dcv_dotnet_api }}capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html).
+The `SimplifiedLabelRecognizerSettings` class contains settings for label recognition. It is a sub-parameter of [`SimplifiedCaptureVisionSettings`]({{ site.dcvb_dotnet_api }}capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html).
 
 ## Definition
 
@@ -30,7 +30,7 @@ public class SimplifiedLabelRecognizerSettings
 
 ### grayscaleTransformationModes
 
-Set the grayscale transformation modes using an [`EnumGrayscaleEnhancementMode`]({{ site.dcv_enumerations }}core/grayscale-transformation-mode.html?lang=dotnet) array with 8 elements. View the reference page of <a href="{{ site.dcv_parameters_reference }}image-parameter/grayscale-transformation-modes.html?product=dlr&repoType=core" target="_blank">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
+Set the grayscale transformation modes using an [`EnumGrayscaleTransformationMode`]({{ site.dcvb_dotnet_api }}core/enum-grayscale-transformation-mode.html) array with 8 elements. View the reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-transformation-modes.html">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
 
 ```csharp
 EnumGrayscaleEnhancementMode[] grayscaleTransformationModes;
@@ -38,7 +38,7 @@ EnumGrayscaleEnhancementMode[] grayscaleTransformationModes;
 
 ### grayscaleEnhancementModes
 
-Set the grayscale enhancement modes using an [`EnumGrayscaleTransformationMode`]({{ site.dcv_enumerations }}core/grayscale-enhancement-mode.html?lang=dotnet) array with 8 elements. View the reference page of <a href="{{ site.dcv_parameters_reference }}image-parameter/grayscale-enhancement-modes.html?product=dlr&repoType=core" target="_blank">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
+Set the grayscale enhancement modes using an [`EnumGrayscaleEnhancementMode`]({{ site.dcvb_dotnet_api }}core/enum-grayscale-enhancement-mode.html) array with 8 elements. View the reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-enhancement-modes.html">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
 
 ```csharp
 EnumGrayscaleTransformationMode[] grayscaleEnhancementModes;

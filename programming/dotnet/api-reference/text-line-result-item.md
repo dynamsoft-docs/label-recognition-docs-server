@@ -16,9 +16,8 @@ The `TextLineResultItem` class represents a text line result item recognized by 
 
 *Namespace:* Dynamsoft.DLR
 
-*Assembly:* Dynamsoft.LabelRecognizer.dll
 
-*Inheritance:* [CapturedResultItem]({{ site.dcv_dotnet_api }}core/basic-classes/captured-result-item.html) -> TextLineResultItem
+*Inheritance:* [CapturedResultItem]({{ site.dcvb_dotnet_api }}core/basic-classes/captured-result-item.html) -> TextLineResultItem
 
 ```csharp
 public class TextLineResultItem : CapturedResultItem
@@ -32,8 +31,11 @@ public class TextLineResultItem : CapturedResultItem
 | [`GetLocation`](#getlocation) | Gets the location of the text line in the form of a quadrilateral. |
 | [`GetConfidence`](#getconfidence) | Gets the confidence of the text line recognition result. |
 | [`GetCharacterResults`](#getcharacterresults) | Gets all the character results. |
-| [`GetCapturedResultItemType`](#getcapturedresultitemtype) | Gets the type of the captured result item. |
-| [`GetReferenceItem`](#getreferenceitem) | Gets the referenced item in the captured result item. |
+| [`GetCharacterResultsCount`](#getcharacterresultscount) | Gets the number of individual character recognition results in the line.|
+| [`GetCharacterResult`](#getcharacterresult) | Gets the character recognition result at the specified index.|
+| [`GetSpecificationName`](#getspecificationname) | Gets the name of the text line specification that generated this item.|
+| [`GetRawText`](#GetRawText) | Gets the recognized raw text, excluding any concatenation separators.|
+| [`SetLocation`](#setlocation) | Sets the location of the text line.|
 
 ### GetText
 
@@ -61,7 +63,7 @@ Returns the location of the text line in the form of a quadrilateral.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_dotnet_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_dotnet_api }}core/basic-classes/quadrilateral.html)
 
 ### GetConfidence
 
@@ -91,34 +93,79 @@ Returns all the character results as a `CharacterResult` array.
 
 [CharacterResult]({{ site.dlr_dotnet_api }}character-result.html)
 
-### GetCapturedResultItemType
+### GetCharacterResultsCount
 
-Gets the type of the captured result item.
+Gets the number of individual character recognition results in the line.
 
 ```csharp
-EnumCapturedResultItemType GetCapturedResultItemType()
+int GetCharacterResultsCount()
+```
+
+**Return value**
+
+Returns an integer value representing the number of individual character recognition results.
+
+### GetCharacterResult
+
+Gets the character recognition result at the specified index.
+
+```csharp
+CharacterResult GetCharacterResult(int index)
+```
+
+**Parameters**
+
+`[in] index` The index of the character recognition result to retrieve.
+
+**Return value**
+
+Returns the character recognition result.
+
+**See Also**
+
+[CharacterResult]({{ site.dlr_dotnet_api }}character-result.html)
+
+### GetSpecificationName
+
+Gets the name of the text line specification that generated this item.
+
+```csharp
+string GetSpecificationName()
+```
+
+**Return value**
+
+Returns the name of the text line specification.
+
+### GetRawText
+
+Gets the recognized raw text, excluding any concatenation separators.
+
+```csharp
+string GetRawText()
 ```
 
 **Return Value**
 
-Returns the type of the captured result item.
+Returns the recognized raw text, excluding any concatenation separators.
 
-**See Also**
+### SetLocation
 
-[EnumCapturedResultItemType]({{ site.dcv_enumerations }}core/captured-result-item-type.html?lang=dotnet)
-
-### GetReferenceItem
-
-Gets the referenced item in the captured result item.
+Sets the location of the text line.
 
 ```csharp
-CapturedResultItem GetReferenceItem()
+int SetLocation(Quadrilateral location)
 ```
 
-**Return Value**
+**Parameters**
 
-Returns the referenced item in the captured result item.
+`[in] location` The location of the text line.
+
+**Return value**
+
+Returns 0 if successful; otherwise returns an error code.
 
 **See Also**
 
-[CapturedResultItem]({{ site.dcv_dotnet_api }}core/basic-classes/captured-result-item.html)
+[Quadrilateral]({{ site.dcvb_dotnet_api }}core/basic-classes/quadrilateral.html)
+

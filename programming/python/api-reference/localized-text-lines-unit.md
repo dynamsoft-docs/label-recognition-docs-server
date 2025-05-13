@@ -17,7 +17,7 @@ The `LocalizedTextLinesUnit` class represents a unit that contains localized tex
 class LocalizedTextLinesUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> LocalizedTextLinesUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> LocalizedTextLinesUnit
 
 ## Methods
 

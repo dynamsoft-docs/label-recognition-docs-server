@@ -54,7 +54,7 @@ Returns an `ImageTag` object representing the tag of the original image.
 
 **See Also**
 
-[ImageTag]({{ site.dcv_python_api }}core/basic-classes/image-tag.html)
+[ImageTag]({{ site.dcvb_python_api }}core/basic-classes/image-tag.html)
 
 ### get_items
 
@@ -98,7 +98,7 @@ Returns the error code of the recognition result, or 0 if no error occurred.
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html)
+[EnumErrorCode]({{ site.dcvb_python_api }}core/enum-error-code.html)
 
 ### get_error_string
 

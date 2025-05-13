@@ -23,7 +23,7 @@ The `CRecognizedTextLinesUnit` class represents an intermediate result unit cont
 class CRecognizedTextLinesUnit : public CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CRecognizedTextLinesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CRecognizedTextLinesUnit
 
 ## Methods Summary
 

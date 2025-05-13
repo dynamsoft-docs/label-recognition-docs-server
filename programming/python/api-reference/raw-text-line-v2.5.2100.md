@@ -118,7 +118,7 @@ Returns a `Quadrilateral` object which represents the location of the text line.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
 
 ### get_row_number
 
@@ -158,7 +158,7 @@ Returns the status of the text line. This is one of the values of the `EnumRawTe
 
 **See also**
 
-[EnumRawTextLineStatus]({{ site.dcv_enumerations }}label-recognizer/raw-text-line-status.html?lang=python)
+[EnumRawTextLineStatus]({{ site.dcvb_enumerations }}label-recognizer/raw-text-line-status.html?lang=python)
 
 ### set_text
 
@@ -191,7 +191,7 @@ Returns 0 if successful; otherwise returns an error code.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
 
 ### set_row_number
 

@@ -43,9 +43,8 @@ class CRawTextLine
 | [`SetLocation`](#setlocation) | Set the location of the text line.|
 | [`SetRowNumber`](#setrownumber) | Set the row number of the text line within the image.|
 | [`SetSpecificationName`](#setspecificationname) | Sets the name of the text line specification that generated this element.
-| [`Release`](#release) | Decreases the reference count of the `CRawTextLine` object.|
-| [`Retain`](#retain) | Increases the reference count of the `CRawTextLine` object.|
-| [`Clone`](#clone) | Clone the `CRawTextLine` object.|
+| [`Release`](#release) | Decreases the reference count of the CRawTextLine object.|
+| [`Clone`](#clone) | Clone the CRawTextLine object.|
 | [`SetCharacterResults`](#setcharacterresults) | Sets the character recognition results.|
 
 ### GetText
@@ -207,27 +206,15 @@ void SetSpecificationName(const char* specificationName)
 
 ### Release
 
-Decreases the reference count of the `CRawTextLine` object.
+Decreases the reference count of the CRawTextLine object.
 
 ```cpp
 void Release()
 ```
 
-### Retain
-
-Increases the reference count of the `CRawTextLine` object.
-
-```cpp
-virtual CRawTextLine* Retain() = 0;
-```
-
-**Return value**
-
-Returns a pointer to a `CRawTextLine` object.
-
 ### Clone
 
-Clone the `CRawTextLine` object.
+Clone the CRawTextLine object.
 
 ```cpp
 CRawTextLine* Clone() const
@@ -235,11 +222,11 @@ CRawTextLine* Clone() const
 
 **Return value**
 
-Returns a pointer to the cloned `CRawTextLine` object.
+Returns a pointer to the cloned CRawTextLine object.
 
 **Remarks**
 
-Don't forget to call `Release` after you have finished using the cloned `CRawTextLine` object.
+Don't forget to call `Release` after you have finished using the cloned CRawTextLine object.
 
 ### SetCharacterResults
 

@@ -13,7 +13,7 @@ The `TextLineResultItem` class represents a text line result item recognized by 
 
 *Module:* dynamsoft_label_recognizer
 
-*Inheritance:* [CapturedResultItem]({{ site.dcv_python_api }}core/basic-classes/captured-result-item.html) -> TextLineResultItem
+*Inheritance:* [CapturedResultItem]({{ site.dcvb_python_api }}core/basic-classes/captured-result-item.html) -> TextLineResultItem
 
 ```python
 class TextLineResultItem(dynamsoft_core.CapturedResultItem)
@@ -56,7 +56,7 @@ Returns the location of the text line in the form of a quadrilateral.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
 
 ### get_confidence
 
