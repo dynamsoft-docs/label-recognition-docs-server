@@ -23,7 +23,7 @@ The `CLocalizedTextLineElement` class represents a localized text line element. 
 class CLocalizedTextLineElement : public CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CLocalizedTextLineElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> CLocalizedTextLineElement
 
 ## Methods
 

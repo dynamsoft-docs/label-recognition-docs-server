@@ -1,37 +1,35 @@
 ---
 layout: default-layout
-title: CRawTextLinesUnit - Dynamsoft Label Recognizer Classes
-description: The class CRawTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains recognized raw text lines.
+title: RawTextLinesUnit - Dynamsoft Label Recognizer Module .NET Edition API Reference
+description: The class RawTextLinesUnit represents a unit that contains recognized raw text lines for .NET Edition.
 keywords: Recognized raw text lines unit
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
 noTitleIndex: true
-breadcrumbText: CRawTextLinesUnit
 ---
 
-# CRawTextLinesUnit
+# RawTextLinesUnit
 
-The `CRawTextLinesUnit` class represents an intermediate result unit containing raw text lines. It inherits from the `CIntermediateResultUnit` class.
+The `RawTextLinesUnit` class represents an intermediate result unit containing raw text lines. It inherits from the `IntermediateResultUnit` class.
 
 ## Definition
 
-*Namespace:* dynamsoft::dlr::intermediate_results
+*Namespace:* Dynamsoft.DLR.intermediate_results
 
-*Assembly:* DynamsoftLabelRecognizer
 
-```cpp
-class CRawTextLinesUnit : public CIntermediateResultUnit
+```csharp
+class RawTextLinesUnit : IntermediateResultUnit, IEnumerable<RawTextLine>
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CRawTextLinesUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_dotnet_api }}core/intermediate-results/intermediate-result-unit.html) -> RawTextLinesUnit
 
 ## Methods
 
 | Method | Description |
 |--------|-------------|
 | [`GetCount`](#getcount) | Gets the number of raw text lines in the unit.|
-| [`GetRawTextLine`](#getrawtextline) | Gets a pointer to a specific raw text line.|
-| [`operator[]`](#operator) | Gets a pointer to a specific raw text line.|
+| [`GetRawTextLine`](#getrawtextline) | Gets a specific raw text line.|
+| [`GetRawTextLines`](#getrawtextlines) | Gets all raw text lines.|
 | [`RemoveAllRawTextLines`](#removeallrawtextlines) | Removes all raw text lines.|
 | [`RemoveRawTextLine`](#removerawtextline) | Removes the raw text line at the specified index.|
 | [`AddRawTextLine`](#addrawtextline) | Adds a raw text line.|
@@ -41,8 +39,8 @@ class CRawTextLinesUnit : public CIntermediateResultUnit
 
 Gets the number of raw text lines in the unit.
 
-```cpp
-virtual int GetCount() const = 0;
+```csharp
+int GetCount()
 ```
 
 **Return value**
@@ -51,10 +49,10 @@ Returns the number of raw text lines in the unit.
 
 ### GetRawTextLine
 
-Gets a pointer to a specific raw text line.
+Gets a specific raw text line.
 
-```cpp
-virtual const CRawTextLine* GetRawTextLine(int index) const = 0;
+```csharp
+RawTextLine GetRawTextLine(int index)
 ```
 
 **Parameters**
@@ -63,38 +61,42 @@ virtual const CRawTextLine* GetRawTextLine(int index) const = 0;
 
 **Return value**
 
-Returns a const pointer to the raw text line at the specified index.
+Returns the raw text line at the specified index.
 
-### operator[]
+**See Also**
 
-Gets a pointer to a specific raw text line.
+[RawTextLine]({{ site.dlr_dotnet_api }}raw-text-line.html)
 
-```cpp
-virtual const CRawTextLine* operator[](int index) const = 0;
+### GetRawTextLines
+
+Gets all raw text lines.
+
+```csharp
+RawTextLine[] GetRawTextLines()
 ```
-
-**Parameters**
-
-`[in] index` The index of the raw text line to retrieve.
 
 **Return value**
 
-Returns a const pointer to the raw text line at the specified index.
+Returns all the raw text lines.
+
+**See Also**
+
+[RawTextLine]({{ site.dlr_dotnet_api }}raw-text-line.html)
 
 ### RemoveAllRawTextLines
 
 Removes all raw text lines.
 
-```cpp
-virtual void RemoveAllRawTextLines() = 0;
+```csharp
+void RemoveAllRawTextLines()
 ```
 
 ### RemoveRawTextLine
 
 Removes the raw text line at the specified index.
 
-```cpp
-virtual int RemoveRawTextLine(int index) = 0;
+```csharp
+int RemoveRawTextLine(int index)
 ```
 
 **Parameters**
@@ -109,8 +111,8 @@ Returns 0 if successful, otherwise returns a negative value.
 
 Adds a raw text line.
 
-```cpp
-virtual int AddRawTextLine(const CRawTextLine* textline, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```csharp
+int AddRawTextLine(RawTextLine textline, double[] matrixToOriginalImage = null)
 ```
 
 **Parameters**
@@ -123,12 +125,16 @@ virtual int AddRawTextLine(const CRawTextLine* textline, const double matrixToOr
 
 Returns 0 if successful, otherwise returns a negative value.
 
+**See Also**
+
+[RawTextLine]({{ site.dlr_dotnet_api }}raw-text-line.html)
+
 ### SetRawTextLine
 
 Sets the raw text line at the specified index.
 
-```cpp
-virtual int SetRawTextLine(int index, const CRawTextLine* textline, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```csharp
+int SetRawTextLine(int index, RawTextLine textline, double[] matrixToOriginalImage = null)
 ```
 
 **Parameters**
@@ -142,3 +148,7 @@ virtual int SetRawTextLine(int index, const CRawTextLine* textline, const double
 **Return value**
 
 Returns 0 if successful, otherwise returns a negative value.
+
+**See Also**
+
+[RawTextLine]({{ site.dlr_dotnet_api }}raw-text-line.html)

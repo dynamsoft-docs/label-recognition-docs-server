@@ -9,7 +9,7 @@ needGenerateH3Content: true
 
 # SimplifiedLabelRecognizerSettings
 
-The `SimplifiedLabelRecognizerSettings` class contains settings for label recognition. It is a sub-parameter of [`SimplifiedCaptureVisionSettings`]({{ site.dcv_python_api }}capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html).
+The `SimplifiedLabelRecognizerSettings` class contains settings for label recognition. It is a sub-parameter of [`SimplifiedCaptureVisionSettings`]({{ site.dcvb_python_api }}capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html).
 
 ## Definition
 
@@ -32,17 +32,17 @@ class SimplifiedLabelRecognizerSettings
 
 Specifies how grayscale transformations should be applied, including whether to process inverted grayscale images and the specific transformation mode to use.
 
-It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleTransformationMode`]({{ site.dcv_python_api }}core/enum-grayscale-transformation-mode.html) enumeration.
+It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleTransformationMode`]({{ site.dcvb_python_api }}core/enum-grayscale-transformation-mode.html) enumeration.
 
-View the parameter reference page of <a href="{{ site.dcv_parameters_reference }}image-parameter/grayscale-transformation-modes.html?product=dlr&repoType=core" target="_blank">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
+View the parameter reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-transformation-modes.html?product=dlr&repoType=core" target="_blank">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
 
 ### grayscale_enhancement_modes
 
 Specifies how to enhance the quality of the grayscale image.
 
-It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleEnhancementMode`]({{ site.dcv_python_api }}core/enum-grayscale-enhancement-mode.html) enumeration.
+It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleEnhancementMode`]({{ site.dcvb_python_api }}core/enum-grayscale-enhancement-mode.html) enumeration.
 
-View the parameter reference page of <a href="{{ site.dcv_parameters_reference }}image-parameter/grayscale-enhancement-modes.html?product=dlr&repoType=core" target="_blank">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
+View the parameter reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-enhancement-modes.html?product=dlr&repoType=core" target="_blank">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
 
 
 ### character_model_name

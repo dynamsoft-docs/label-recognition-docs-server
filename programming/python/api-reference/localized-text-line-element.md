@@ -17,7 +17,7 @@ The `LocalizedTextLineElement` class represents a localized text line element. I
 class LocalizedTextLineElement(RegionObjectElement)
 ```
 
-*Inheritance:* [RegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> LocalizedTextLineElement
+*Inheritance:* [RegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> LocalizedTextLineElement
 
 ## Methods
 

@@ -17,7 +17,7 @@ The `RecognizedTextLinesUnit` class represents an intermediate result unit conta
 class RecognizedTextLinesUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> RecognizedTextLinesUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> RecognizedTextLinesUnit
 
 ## Methods Summary
 

@@ -39,7 +39,7 @@ typedef struct tagSimplifiedLabelRecognizerSettings
 
 ### grayscaleTransformationModes
 
-Set the grayscale transformation modes with an array of enumeration `GrayscaleTransformationMode`. View the reference page of <a href="{{ site.dcv_cpp_api}}core/enum-grayscale-transformation-mode.html?src=cpp&&lang=cpp" target="_blank">`GrayscaleTransformationMode`</a> for more detail about grayscale transformation modes.
+Set the grayscale transformation modes with an array of enumeration `GrayscaleTransformationMode`. View the reference page of <a href="{{ site.dcvb_cpp_api}}core/enum-grayscale-transformation-mode.html?src=cpp&&lang=cpp" target="_blank">`GrayscaleTransformationMode`</a> for more detail about grayscale transformation modes.
 
 ```cpp
 GrayscaleTransformationMode grayscaleTransformationModes[8];
@@ -47,7 +47,7 @@ GrayscaleTransformationMode grayscaleTransformationModes[8];
 
 ### grayscaleEnhancementModes
 
-Set the grayscale enhancement modes with an array of enumeration `GrayscaleEnhancementMode`. View the reference page of <a href="{{ site.dcv_cpp_api}}core/enum-grayscale-enhancement-mode.html?src=cpp&&lang=cpp" target="_blank">`GrayscaleEnhancementMode`</a> for more detail about grayscale enhancement modes.
+Set the grayscale enhancement modes with an array of enumeration `GrayscaleEnhancementMode`. View the reference page of <a href="{{ site.dcvb_cpp_api}}core/enum-grayscale-enhancement-mode.html?src=cpp&&lang=cpp" target="_blank">`GrayscaleEnhancementMode`</a> for more detail about grayscale enhancement modes.
 
 ```cpp
 GrayscaleEnhancementMode grayscaleEnhancementModes[8];

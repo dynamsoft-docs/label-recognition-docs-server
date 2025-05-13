@@ -51,7 +51,7 @@ Returns the image data of the buffered character.
 
 **See Also**
 
-[ImageData]({{ site.dcv_python_api }}core/basic-classes/image-data.html)
+[ImageData]({{ site.dcvb_python_api }}core/basic-classes/image-data.html)
 
 ### get_features
 

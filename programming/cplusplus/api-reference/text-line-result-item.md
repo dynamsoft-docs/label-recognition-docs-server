@@ -23,7 +23,7 @@ The `CTextLineResultItem` class represents a text line result item recognized by
 class CTextLineResultItem : public CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CTextLineResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-item.html) -> CTextLineResultItem
 
 ## Methods Summary
 

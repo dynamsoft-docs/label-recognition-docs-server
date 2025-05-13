@@ -16,7 +16,6 @@ The `CharacterResult` class represents the result of a character recognition pro
 
 *Namespace:* Dynamsoft.DLR
 
-*Assembly:* Dynamsoft.LabelRecognizer.dll
 
 ```csharp
 public class CharacterResult
@@ -68,7 +67,7 @@ Quadrilateral location;
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_dotnet_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_dotnet_api }}core/basic-classes/quadrilateral.html)
 
 ### characterHConfidence
 

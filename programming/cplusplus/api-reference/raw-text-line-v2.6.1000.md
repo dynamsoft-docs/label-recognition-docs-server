@@ -148,7 +148,7 @@ Returns the status of the text line.
 
 **See also**
 
-* [RawTextLineStatus]({{ site.dcv_enumerations }}label-recognizer/raw-text-line-status.html?lang=cpp)
+* [RawTextLineStatus]({{ site.dcvb_enumerations }}label-recognizer/raw-text-line-status.html?lang=cpp)
 
 ### SetText
 

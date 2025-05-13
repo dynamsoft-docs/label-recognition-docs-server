@@ -15,7 +15,6 @@ The `LabelRecognizerModule` class defines general functions in the label recogni
 
 *Namespace:* Dynamsoft.DLR
 
-*Assembly:* Dynamsoft.LabelRecognizer.dll
 
 ```csharp
 public class LabelRecognizerModule 

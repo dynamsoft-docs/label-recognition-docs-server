@@ -23,7 +23,7 @@ The `CRecognizedTextLineElement` class represents a line of recognized text in a
 class CRecognizedTextLineElement : public CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CRecognizedTextLineElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> CRecognizedTextLineElement
 
 ## Methods
 
