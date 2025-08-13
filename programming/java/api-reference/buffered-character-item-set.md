@@ -56,11 +56,3 @@ Returns a `CharacterCluster` array.
 
 [CharacterCluster]({{ site.dlr_java_api }}character-cluster.html)
 
-**Return Value**
-
-Returns a `CharacterCluster` list.
-
-**See Also**
-
-[CharacterCluster]({{ site.dlr_python_api }}character-cluster.html)
-

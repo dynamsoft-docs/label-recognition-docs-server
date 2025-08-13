@@ -51,7 +51,3 @@ Returns the mean of the cluster which is a `BufferedCharacterItem` object.
 **See Also**
 
 [BufferedCharacterItem]({{ site.dlr_java_api }}buffered-character-item.html)
-
-**See Also**
-
-[BufferedCharacterItem]({{ site.dlr_python_api }}buffered-character-item.html)
