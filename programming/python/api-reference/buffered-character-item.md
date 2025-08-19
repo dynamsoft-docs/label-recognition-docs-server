@@ -7,7 +7,7 @@ keywords: BufferedCharacterItem
 
 # BufferedCharacterItem
 
-The `BufferedCharacterItem` class represents a text line result item recognized by the library. It is derived from `CapturedResultItem`.
+The `BufferedCharacterItem` class represents a buffered character item. Each buffered character item represents a recognized character along with its image and features.
 
 ## Definition
 
