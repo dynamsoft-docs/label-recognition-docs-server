@@ -31,4 +31,12 @@ jobs:
       doc-repo: label-recognition-docs-server
       doc-url: label-recognition/docs/server
     secrets: inherit
+  Build-v2:
+    if: ${{ github.ref == 'refs/heads/v2' }}
+    uses: dynamsoft-docs/Docs-Template-Repo/.github/workflows/called-workflow-build-sync-production.yml@DCV-v2
+    with:
+      doc-repo: label-recognition-docs-server
+      doc-url: label-recognition/docs/v2/server
+      doc-branch: v2
+    secrets: inherit
 

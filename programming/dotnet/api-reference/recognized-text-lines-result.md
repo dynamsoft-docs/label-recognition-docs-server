@@ -16,20 +16,50 @@ The `RecognizedTextLinesResult` class represents the result of a text recognitio
 
 *Namespace:* Dynamsoft.DLR
 
-*Inheritance:* [CapturedResultBase]({{ site.dcvb_dotnet_api }}core/basic-classes/captured-result-base.html) -> RecognizedTextLinesResult
-
+*Assembly:* Dynamsoft.LabelRecognizer.dll
 
 ```csharp
-public class RecognizedTextLinesResult : CapturedResultBase, IEnumerable<TextLineResultItem>
+public class RecognizedTextLinesResult
 ```
 
 ## Methods
 
 | Method               | Description |
 |----------------------|-------------|
+| [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the original image. |
+| [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the original image. |
 | [`GetItems`](#getitems) | Gets all the text line result items. |
-| [`GetItemsCount`](#getitemscount) | Gets the number of text line result items in current result object. |
-| [`GetItem`](#getitem) | Gets a specific text line result item. |
+| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Gets the 3x3 rotation transformation matrix of the original image relative to the rotated image.|
+| [`GetErrorCode`](#geterrorcode) | Gets the error code of the recognition result, if an error occurred. |
+| [`GetErrorString`](#geterrorstring) | Gets the error message of the recognition result, if an error occurred. |
+
+### GetOriginalImageHashId
+
+Gets the hash ID of the original image.
+
+```csharp
+string GetOriginalImageHashId()
+```
+
+**Return Value**
+
+Returns a string containing the hash ID of the original image.
+
+### GetOriginalImageTag
+
+Gets the tag of the original image.
+
+```csharp
+ImageTag GetOriginalImageTag()
+```
+
+**Return Value**
+
+Returns an `ImageTag` object representing the tag of the original image.
+
+**See Also**
+
+[ImageTag]({{ site.dcvb_dotnet_api }}core/basic-classes/image-tag.html)
 
 ### GetItems
 
@@ -47,34 +77,43 @@ Returns a `TextLineResultItem` array.
 
 [TextLineResultItem]({{ site.dlr_dotnet_api }}text-line-result-item.html)
 
-### GetItemsCount
+### GetRotationTransformMatrix
 
-Gets the number of text line result items in current result object.
-
-```csharp
-int GetItemsCount()
-```
-
-**Return value**
-
-Returns the number of text line result items in current result object.
-
-### GetItem
-
-Gets a specific text line result item.
+Gets the 3x3 rotation transformation matrix of the original image relative to the rotated image.
 
 ```csharp
-TextLineResultItem GetItem(int index)
+double[] GetRotationTransformMatrix()
 ```
 
-**Parameters**
+**Return Value**
 
-`[in] index` The index of specific text line result item.
+Returns a double array of length 9 which represents a 3x3 rotation matrix.
 
-**Return value**
+### GetErrorCode
 
-Returns the specific text line result item.
+Gets the error code of the recognition result, if an error occurred.
+
+```csharp
+int GetErrorCode()
+```
+
+**Return Value**
+
+Returns the error code of the recognition result, or 0 if no error occurred.
 
 **See Also**
 
-[TextLineResultItem]({{ site.dlr_dotnet_api }}text-line-result-item.html)
+[EnumErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?lang=dotnet)
+
+### GetErrorString
+
+Gets the error message of the recognition result, if an error occurred.
+
+```csharp
+string GetErrorString()
+```
+
+**Return Value**
+
+Returns a string containing the error message of the recognition result, or an empty string if no error occurred.
+
