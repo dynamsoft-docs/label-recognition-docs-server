@@ -21,7 +21,7 @@ The `BufferedCharacterItem` class represents a buffered character item. Each buf
 class BufferedCharacterItem
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

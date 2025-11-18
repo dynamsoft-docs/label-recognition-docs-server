@@ -21,7 +21,7 @@ The `BufferedCharacterItemSet` class represents a collection of buffered charact
 class BufferedCharacterItemSet : IEnumerable<BufferedCharacterItem>
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

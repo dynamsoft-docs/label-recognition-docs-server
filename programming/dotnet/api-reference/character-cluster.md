@@ -21,7 +21,7 @@ The `CharacterCluster` class represents a character cluster generated from the b
 class CharacterCluster
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

@@ -19,7 +19,7 @@ The `RecognizedTextLinesUnit` class represents an intermediate result unit conta
 public class RecognizedTextLinesUnit extends IntermediateResultUnit
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

@@ -23,7 +23,7 @@ The `CCharacterCluster` class represents a character cluster generated from the 
 class CCharacterCluster
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

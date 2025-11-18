@@ -19,7 +19,7 @@ class RecognizedTextLinesUnit(IntermediateResultUnit)
 
 *Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> RecognizedTextLinesUnit
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|
