@@ -22,7 +22,7 @@ The `CLabelRecognizerModule` class defines general functions in the label recogn
 class CLabelRecognizerModule 
 ```
 
-## Methods Summary
+## Methods
 
 | Method                                                    | Description                                        |
 | --------------------------------------------------------- | -------------------------------------------------- |

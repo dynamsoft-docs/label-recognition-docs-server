@@ -23,7 +23,7 @@ The `CBufferedCharacterItemSet` class represents a collection of buffered charac
 class CBufferedCharacterItemSet
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

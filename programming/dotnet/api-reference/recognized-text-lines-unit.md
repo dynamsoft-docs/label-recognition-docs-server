@@ -23,7 +23,7 @@ class RecognizedTextLinesUnit : IntermediateResultUnit, IEnumerable<RecognizedTe
 
 *Inheritance:* [IntermediateResultUnit]({{ site.dcvb_dotnet_api }}core/intermediate-results/intermediate-result-unit.html) -> RecognizedTextLinesUnit
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|

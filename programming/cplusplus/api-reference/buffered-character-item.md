@@ -23,7 +23,7 @@ The `CBufferedCharacterItem` class represents a buffered character item. Each bu
 class CBufferedCharacterItem
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|
