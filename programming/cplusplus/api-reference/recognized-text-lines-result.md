@@ -19,51 +19,30 @@ The `CRecognizedTextLinesResult` class represents the result of a text recogniti
 
 *Assembly:* DynamsoftLabelRecognizer
 
+*Inheritance:* [CCapturedResultBase]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html) -> CRecognizedTextLinesResult
+
 ```cpp
-class CRecognizedTextLinesResult
+class CRecognizedTextLinesResult : public CCapturedResultBase
 ```
 
-## Methods Summary
+## Methods
 
 | Method               | Description |
 |----------------------|-------------|
-| [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the original image. |
-| [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the original image. |
 | [`GetItemsCount`](#getitemscount) | Gets the number of text line result items in the recognition result. |
 | [`GetItem`](#getitem) | Gets the text line result item at the specified index. |
-| [`HasItem`](#hasitem) | Check if the item is present in the array.|
-| [`RemoveItem`](#removeitem) | Remove a specific item from the array in the recognition result.|
-| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
-| [`GetErrorCode`](#geterrorcode) | Gets the error code of the recognition result, if an error occurred. |
-| [`GetErrorString`](#geterrorstring) | Gets the error message of the recognition result, if an error occurred. |
+| [`HasItem`](#hasitem) | Checks if the item is present in the array. |
+| [`RemoveItem`](#removeitem) | Removes a specific item from the array in the recognition result. |
 | [`operator[]`](#operator) | Gets the text line result item at the specified index. |
+| [`AddItem`](#additem) | Adds a specific item to the array in the recognized text lines result. |
 | [`Retain`](#retain) | Increases the reference count of the CRecognizedTextLinesResult object. |
 | [`Release`](#release) | Decreases the reference count of the CRecognizedTextLinesResult object. |
-| [`AddItem`](#additem) | Add a specific item to the array in the recognized text lines result. |
-
-### GetOriginalImageHashId
-
-Gets the hash ID of the original image.
-
-```cpp
-virtual const char* GetOriginalImageHashId() const = 0;
-```
-
-**Return value**
-
-Returns a pointer to a null-terminated string containing the hash ID of the original image.
-
-### GetOriginalImageTag
-
-Gets the tag of the original image.
-
-```cpp
-virtual const CImageTag* GetOriginalImageTag() const = 0;
-```
-
-**Return value**
-
-Returns a pointer to a CImageTag object representing the tag of the original image.
+| **Methods Inherited from [CCapturedResultBase]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html):** | |
+| [`GetOriginalImageHashId`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#getoriginalimagehashid) | Gets the hash ID of the original image. |
+| [`GetOriginalImageTag`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#getoriginalimagetag) | Gets the tag of the original image. |
+| [`GetRotationTransformMatrix`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#getrotationtransformmatrix) | Gets the rotation transformation matrix of the original image relative to the rotated image. |
+| [`GetErrorCode`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#geterrorcode) | Gets the error code of the recognition result, if an error occurred. |
+| [`GetErrorString`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#geterrorstring) | Gets the error message of the recognition result, if an error occurred. |
 
 ### GetItemsCount
 
@@ -124,43 +103,6 @@ int RemoveItem(const CTextLineResultItem* item)
 **Return value**
 
 Return value indicating whether the deletion was successful or not.
-
-### GetRotationTransformMatrix
-
-Get the rotation transformation matrix of the original image relative to the rotated image.
-
-```cpp
-void GetRotationTransformMatrix(double matrix[9]) const;
-```
-
-**Parameters**
-
-`[out] matrix` A double array which represents the rotation transform matrix.
-
-
-### GetErrorCode
-
-Gets the error code of the recognition result, if an error occurred.
-
-```cpp
-virtual int GetErrorCode() const = 0;
-```
-
-**Return value**
-
-Returns the error code of the recognition result, or 0 if no error occurred.
-
-### GetErrorString
-
-Gets the error message of the recognition result, if an error occurred.
-
-```cpp
-virtual const char* GetErrorString() const = 0;
-```
-
-**Return value**
-
-Returns a pointer to a null-terminated string containing the error message of the recognition result, or a pointer to an empty string if no error occurred.
 
 ### operator[]
 
