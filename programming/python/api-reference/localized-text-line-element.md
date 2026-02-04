@@ -11,7 +11,7 @@ The `LocalizedTextLineElement` class represents a localized text line element. I
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class LocalizedTextLineElement(RegionObjectElement)

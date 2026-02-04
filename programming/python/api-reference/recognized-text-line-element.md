@@ -11,7 +11,7 @@ The `RecognizedTextLineElement` class represents a line of recognized text in an
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class RecognizedTextLineElement(RegionObjectElement)

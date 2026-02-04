@@ -13,7 +13,7 @@ The `LabelRecognizerModule` class defines general functions in the label recogni
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class LabelRecognizerModule

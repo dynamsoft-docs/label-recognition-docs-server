@@ -11,7 +11,7 @@ The `RawTextLinesUnit` class represents an intermediate result unit containing r
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class RawTextLinesUnit(IntermediateResultUnit)

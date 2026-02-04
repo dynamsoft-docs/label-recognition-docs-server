@@ -11,7 +11,7 @@ The `BufferedCharacterItem` class represents a buffered character item. Each buf
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class BufferedCharacterItem
