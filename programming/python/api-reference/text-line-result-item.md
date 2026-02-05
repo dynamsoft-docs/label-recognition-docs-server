@@ -11,7 +11,7 @@ The `TextLineResultItem` class represents a text line result item recognized by 
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 *Inheritance:* [CapturedResultItem]({{ site.dcvb_python_api }}core/basic-classes/captured-result-item.html) -> TextLineResultItem
 

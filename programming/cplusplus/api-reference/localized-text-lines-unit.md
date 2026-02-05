@@ -36,6 +36,12 @@ class CLocalizedTextLinesUnit : public CIntermediateResultUnit
 | [`RemoveLocalizedTextLine`](#removelocalizedtextline) | Removes the localized text line at the specified index.|
 | [`AddLocalizedTextLine`](#addlocalizedtextline) | Adds a localized text line.|
 | [`SetLocalizedTextLine`](#setlocalizedtextline) | Sets the localized text line at the specified index.|
+| [`GetAuxiliaryRegionElementsCount`](#getauxiliaryregionelementscount) | Gets the count of auxiliary region elements in this unit.|
+| [`GetAuxiliaryRegionElement`](#getauxiliaryregionelement) | Gets the auxiliary region element at the specified index.|
+| [`SetAuxiliaryRegionElement`](#setauxiliaryregionelement) | Sets or replaces the auxiliary region element at the specified index.|
+| [`AddAuxiliaryRegionElement`](#addauxiliaryregionelement) | Adds a new auxiliary region element to this unit.|
+| [`RemoveAuxiliaryRegionElement`](#removeauxiliaryregionelement) | Removes the auxiliary region element at the specified index.|
+| [`RemoveAllAuxiliaryRegionElements`](#removeallauxiliaryregionelements) | Removes all auxiliary region elements from this unit.|
 | **Methods Inherited from [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html):** | |
 | [`GetHashId`]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html#gethashid) | Gets the hash ID of the unit.|
 | [`GetOriginalImageHashId`]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html#getoriginalimagehashid) | Gets the hash ID of the original image. |
@@ -155,3 +161,122 @@ virtual int SetLocalizedTextLine(int index, const CLocalizedTextLineElement* ele
 **Return value**
 
 Returns 0 if successful, otherwise returns a negative value.
+
+### GetAuxiliaryRegionElementsCount
+
+Gets the count of auxiliary region elements in this unit.
+
+```cpp
+virtual int GetAuxiliaryRegionElementsCount() const = 0;
+```
+
+**Return value**
+
+Returns the number of auxiliary region elements.
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### GetAuxiliaryRegionElement
+
+Gets the auxiliary region element at the specified index.
+
+```cpp
+virtual const CAuxiliaryRegionElement* GetAuxiliaryRegionElement(int index) const = 0;
+```
+
+**Parameters**
+
+`[in] index` The zero-based index of the auxiliary region element to retrieve.
+
+**Return value**
+
+Returns a pointer to the `CAuxiliaryRegionElement` object, or NULL if the index is out of range.
+
+**See Also**
+
+[CAuxiliaryRegionElement]({{ site.dcvb_cpp_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### SetAuxiliaryRegionElement
+
+Sets or replaces the auxiliary region element at the specified index.
+
+```cpp
+virtual int SetAuxiliaryRegionElement(int index, const CAuxiliaryRegionElement* element, const double matrixToOriginalImage[9] = IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] index` The zero-based index where the element should be set.
+
+`[in] element` The auxiliary region element to set.
+
+`[in] matrixToOriginalImage` The transformation matrix from the current image to the original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns an error code.
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### AddAuxiliaryRegionElement
+
+Adds a new auxiliary region element to this unit.
+
+```cpp
+virtual int AddAuxiliaryRegionElement(const CAuxiliaryRegionElement* element, const double matrixToOriginalImage[9] = IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] element` The auxiliary region element to add.
+
+`[in] matrixToOriginalImage` The transformation matrix from the current image to the original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns an error code.
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### RemoveAuxiliaryRegionElement
+
+Removes the auxiliary region element at the specified index.
+
+```cpp
+virtual int RemoveAuxiliaryRegionElement(int index) = 0;
+```
+
+**Parameters**
+
+`[in] index` The zero-based index of the auxiliary region element to remove.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns an error code.
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### RemoveAllAuxiliaryRegionElements
+
+Removes all auxiliary region elements from this unit.
+
+```cpp
+virtual void RemoveAllAuxiliaryRegionElements() = 0;
+```
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+

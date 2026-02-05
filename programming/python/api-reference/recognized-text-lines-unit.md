@@ -11,7 +11,7 @@ The `RecognizedTextLinesUnit` class represents an intermediate result unit conta
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class RecognizedTextLinesUnit(IntermediateResultUnit)

@@ -30,6 +30,11 @@ public class LocalizedTextLinesUnit extends IntermediateResultUnit
 | [`removeLocalizedTextLine`](#removelocalizedtextline) | Removes the localized text line at the specified index.|
 | [`addLocalizedTextLine`](#addlocalizedtextline) | Adds a localized text line.|
 | [`setLocalizedTextLine`](#setlocalizedtextline) | Sets the localized text line at the specified index.|
+| [`getAuxiliaryRegionElements`](#getauxiliaryregionelements) | Gets all auxiliary region elements. |
+| [`setAuxiliaryRegionElement`](#setauxiliaryregionelement) | Sets the auxiliary region element at the specified index. |
+| [`addAuxiliaryRegionElement`](#addauxiliaryregionelement) | Adds a new auxiliary region element to this unit. |
+| [`removeAuxiliaryRegionElement`](#removeauxiliaryregionelement) | Removes the auxiliary region element at the specified index. |
+| [`removeAllAuxiliaryRegionElements`](#removeallauxiliaryregionelements) | Removes all auxiliary region elements from this unit. |
 
 ### getCount
 
@@ -148,12 +153,111 @@ public void setLocalizedTextLine(int index, LocalizedTextLineElement element, do
 
 [LocalizedTextLineElement]({{ site.dlr_java_api }}localized-text-line-element.html)
 
-`matrix_to_original_image` The matrix to original image.
+### getAuxiliaryRegionElements
+
+Gets all auxiliary region elements.
+
+```java
+public AuxiliaryRegionElement[] getAuxiliaryRegionElements()
+```
 
 **Return value**
 
-Returns 0 if successful, otherwise returns a negative value.
+Returns an array of `AuxiliaryRegionElement` objects.
 
 **See Also**
 
-[LocalizedTextLineElement]({{ site.dlr_java_api }}localized-text-line-element.html)
+[AuxiliaryRegionElement]({{ site.dcvb_java_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### setAuxiliaryRegionElement
+
+Sets or replaces the auxiliary region element at the specified index.
+
+```java
+public void setAuxiliaryRegionElement(int index, AuxiliaryRegionElement element) throws LabelRecognizerException
+public void setAuxiliaryRegionElement(int index, AuxiliaryRegionElement element, double[] matrixToOriginalImage) throws LabelRecognizerException
+```
+
+**Parameters**
+
+`index` The zero-based index where the element should be set.
+
+`element` The auxiliary region element to set.
+
+`matrixToOriginalImage` The transformation matrix from the current image to the original image (optional).
+
+**Exceptions**
+
+[`LabelRecognizerException`]({{ site.dlr_java_api }}label-recognizer-exception.html)
+
+**See Also**
+
+[AuxiliaryRegionElement]({{ site.dcvb_java_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### addAuxiliaryRegionElement
+
+Adds a new auxiliary region element to this unit.
+
+```java
+public void addAuxiliaryRegionElement(AuxiliaryRegionElement element) throws LabelRecognizerException
+public void addAuxiliaryRegionElement(AuxiliaryRegionElement element, double[] matrixToOriginalImage) throws LabelRecognizerException
+```
+
+**Parameters**
+
+`element` The auxiliary region element to add.
+
+`matrixToOriginalImage` The transformation matrix from the current image to the original image (optional).
+
+**Exceptions**
+
+[`LabelRecognizerException`]({{ site.dlr_java_api }}label-recognizer-exception.html)
+
+**See Also**
+
+[AuxiliaryRegionElement]({{ site.dcvb_java_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### removeAuxiliaryRegionElement
+
+Removes the auxiliary region element at the specified index.
+
+```java
+public void removeAuxiliaryRegionElement(int index) throws LabelRecognizerException
+```
+
+**Parameters**
+
+`index` The zero-based index of the auxiliary region element to remove.
+
+**Exceptions**
+
+[`LabelRecognizerException`]({{ site.dlr_java_api }}label-recognizer-exception.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### removeAllAuxiliaryRegionElements
+
+Removes all auxiliary region elements from this unit.
+
+```java
+public void removeAllAuxiliaryRegionElements()
+```
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+

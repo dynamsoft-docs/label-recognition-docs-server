@@ -15,7 +15,7 @@ The class `RawTextLine` represents a recognized raw text line in an image. It ca
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class RawTextLine

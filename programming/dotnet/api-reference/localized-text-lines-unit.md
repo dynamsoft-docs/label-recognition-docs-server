@@ -34,6 +34,11 @@ class LocalizedTextLinesUnit : IntermediateResultUnit, IEnumerable<LocalizedText
 | [`RemoveLocalizedTextLine`](#removelocalizedtextline) | Removes the localized text line at the specified index.|
 | [`AddLocalizedTextLine`](#addlocalizedtextline) | Adds a localized text line.|
 | [`SetLocalizedTextLine`](#setlocalizedtextline) | Sets the localized text line at the specified index.|
+| [`GetAuxiliaryRegionElements`](#getauxiliaryregionelements) | Gets all auxiliary region elements. |
+| [`SetAuxiliaryRegionElement`](#setauxiliaryregionelement) | Sets the auxiliary region element at the specified index. |
+| [`AddAuxiliaryRegionElement`](#addauxiliaryregionelement) | Adds a new auxiliary region element to this unit. |
+| [`RemoveAuxiliaryRegionElement`](#removeauxiliaryregionelement) | Removes the auxiliary region element at the specified index. |
+| [`RemoveAllAuxiliaryRegionElements`](#removeallauxiliaryregionelements) | Removes all auxiliary region elements from this unit. |
 
 ### GetCount
 
@@ -152,3 +157,110 @@ Returns 0 if successful, otherwise returns a negative value.
 **See Also**
 
 [LocalizedTextLineElement]({{ site.dlr_dotnet_api }}localized-text-line-element.html)
+
+### GetAuxiliaryRegionElements
+
+Gets all auxiliary region elements.
+
+```csharp
+AuxiliaryRegionElement[] GetAuxiliaryRegionElements()
+```
+
+**Return value**
+
+Returns an array of `AuxiliaryRegionElement` objects.
+
+**See Also**
+
+[AuxiliaryRegionElement]({{ site.dcvb_dotnet_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### SetAuxiliaryRegionElement
+
+Sets or replaces the auxiliary region element at the specified index.
+
+```csharp
+int SetAuxiliaryRegionElement(int index, AuxiliaryRegionElement element, double[] matrixToOriginalImage)
+```
+
+**Parameters**
+
+`[in] index` The zero-based index where the element should be set.
+
+`[in] element` The auxiliary region element to set.
+
+`[in] matrixToOriginalImage` The transformation matrix from the current image to the original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+**See Also**
+
+[AuxiliaryRegionElement]({{ site.dcvb_dotnet_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### AddAuxiliaryRegionElement
+
+Adds a new auxiliary region element to this unit.
+
+```csharp
+int AddAuxiliaryRegionElement(AuxiliaryRegionElement element, double[] matrixToOriginalImage)
+```
+
+**Parameters**
+
+`[in] element` The auxiliary region element to add.
+
+`[in] matrixToOriginalImage` The transformation matrix from the current image to the original image.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+**See Also**
+
+[AuxiliaryRegionElement]({{ site.dcvb_dotnet_api }}core/intermediate-results/auxiliary-region-element.html)
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### RemoveAuxiliaryRegionElement
+
+Removes the auxiliary region element at the specified index.
+
+```csharp
+int RemoveAuxiliaryRegionElement(int index)
+```
+
+**Parameters**
+
+`[in] index` The zero-based index of the auxiliary region element to remove.
+
+**Return value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+
+### RemoveAllAuxiliaryRegionElements
+
+Removes all auxiliary region elements from this unit.
+
+```csharp
+void RemoveAllAuxiliaryRegionElements()
+```
+
+**Remarks**
+
+Introduced in Dynamsoft Capture Vision version 3.4.1000.
+

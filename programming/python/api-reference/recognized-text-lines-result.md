@@ -11,7 +11,7 @@ The `RecognizedTextLinesResult` class represents the result of a text recognitio
 
 ## Definition
 
-*Module:* dynamsoft_label_recognizer
+*Module:* dlr
 
 ```python
 class RecognizedTextLinesResult
