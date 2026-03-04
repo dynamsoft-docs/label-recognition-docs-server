@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RecognizedTextLinesUnit - Dynamsoft Label Recognizer Classes
-description: The class RecognizedTextLinesUnit of Dynamsoft Label Recognizer represents an intermediate result unit containing recognized text lines.
+description: API reference for the RecognizedTextLinesUnit class in Dynamsoft Label Recognizer Python Edition, which represents an intermediate result unit containing all recognized text lines in an image.
 keywords: Recognized text lines unit
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: class CLabelRecognizerModule - Dynamsoft Label Recognizer Classes
-description: This page shows the C++ edition of the class CLabelRecognizerModule in Label Recognizer Module.
+description: API reference for the CLabelRecognizerModule class in Dynamsoft Label Recognizer C++ Edition, which provides general functions for the Label Recognizer module.
 keywords: label recognizer module, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true

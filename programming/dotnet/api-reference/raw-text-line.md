@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLine - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class RawTextLine represents a recognized raw text line for .NET Edition.
+description: API reference for the RawTextLine class in Dynamsoft Label Recognizer .NET Edition, which represents a recognized raw text line with its content and status.
 keywords: Recognized raw text line
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

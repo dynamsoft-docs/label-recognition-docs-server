@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: BufferedCharacterItemSet - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class BufferedCharacterItemSet represents a collection of buffered character items and associated character clusters for .NET Edition.
+description: API reference for the BufferedCharacterItemSet class in Dynamsoft Label Recognizer .NET Edition, which represents a collection of buffered character items and associated character clusters used for recognition accuracy improvement.
 keywords: Buffered character item set
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

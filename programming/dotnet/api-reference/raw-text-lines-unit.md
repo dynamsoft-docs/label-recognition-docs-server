@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLinesUnit - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class RawTextLinesUnit represents a unit that contains recognized raw text lines for .NET Edition.
+description: API reference for the RawTextLinesUnit class in Dynamsoft Label Recognizer .NET Edition, which represents an intermediate result unit containing all recognized raw text lines in an image.
 keywords: Recognized raw text lines unit
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

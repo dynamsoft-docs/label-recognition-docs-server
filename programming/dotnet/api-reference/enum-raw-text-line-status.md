@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLineStatus - Dynamsoft LabelRecognizer .NET Enumerations
-description: The enumeration RawTextLineStatus describes the final status of a raw text line for .NET Edition.
+description: The enumeration RawTextLineStatus in Dynamsoft Label Recognizer .NET Edition describes the final status of a raw text line, indicating whether it was recognized successfully or failed.
 keywords: Raw Text Line Status
 needGenerateH3Content: true
 needAutoGenerateSidebar: true
