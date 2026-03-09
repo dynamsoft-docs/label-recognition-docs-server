@@ -1,49 +1,49 @@
 repositoryUrl: https://github.com/dynamsoft-docs/label-recognition-docs-server/blob/v2
 repository: Dynamsoft-docs/label-recognition-docs-server
-docFullPath: https://www.dynamsoft.com/label-recognition/docs/v2/server
-firstLevelUrl: /label-recognition/docs/v2/server
-docHomePage: /label-recognition/docs/v2/core/introduction/
+docFullPath: https://www.dynamsoft.com/label-recognition/docs-v2/server
+firstLevelUrl: /label-recognition/docs-v2/server
+docHomePage: /label-recognition/docs-v2/core/introduction/
 needSearchIndex: true
 searchNeedFilter: true
 
 
 
-dlr_cpp: /label-recognition/docs/v2/server/programming/cplusplus/
-dlr_cpp_api: /label-recognition/docs/v2/server/programming/cplusplus/api-reference/
-dlr_cpp_release_notes: /label-recognition/docs/v2/server/programming/cplusplus/release-notes/
+dlr_cpp: /label-recognition/docs-v2/server/programming/cplusplus/
+dlr_cpp_api: /label-recognition/docs-v2/server/programming/cplusplus/api-reference/
+dlr_cpp_release_notes: /label-recognition/docs-v2/server/programming/cplusplus/release-notes/
 
-dlr_dotnet: /label-recognition/docs/v2/server/programming/dotnet/
-dlr_dotnet_api: /label-recognition/docs/v2/server/programming/dotnet/api-reference/
-dlr_dotnet_release_notes: /label-recognition/docs/v2/server/programming/dotnet/release-notes/
+dlr_dotnet: /label-recognition/docs-v2/server/programming/dotnet/
+dlr_dotnet_api: /label-recognition/docs-v2/server/programming/dotnet/api-reference/
+dlr_dotnet_release_notes: /label-recognition/docs-v2/server/programming/dotnet/release-notes/
 
-dlr_java: /label-recognition/docs/v2/server/programming/java/
-dlr_java_api: /label-recognition/docs/v2/server/programming/java/api-reference/
-dlr_java_release_notes: /label-recognition/docs/v2/server/programming/java/release-notes/
+dlr_java: /label-recognition/docs-v2/server/programming/java/
+dlr_java_api: /label-recognition/docs-v2/server/programming/java/api-reference/
+dlr_java_release_notes: /label-recognition/docs-v2/server/programming/java/release-notes/
 
-dlr_python: /label-recognition/docs/v2/server/programming/python/
-dlr_python_api: /label-recognition/docs/v2/server/programming/python/api-reference/
-dlr_python_release_notes: /label-recognition/docs/v2/server/programming/python/release-notes/
+dlr_python: /label-recognition/docs-v2/server/programming/python/
+dlr_python_api: /label-recognition/docs-v2/server/programming/python/api-reference/
+dlr_python_release_notes: /label-recognition/docs-v2/server/programming/python/release-notes/
 
-dcvb_enumerations: /capture-vision/docs/v2/core/enums/
-dcvb_parameters_reference: /capture-vision/docs/v2/core/parameters/reference/
+dcvb_enumerations: /capture-vision/docs-v2/core/enums/
+dcvb_parameters_reference: /capture-vision/docs-v2/core/parameters/reference/
 
-dcvb_cpp_api: /capture-vision/docs/v2/server/programming/cplusplus/api-reference/
-dcvb_dotnet_api: /capture-vision/docs/v2/server/programming/dotnet/api-reference/
-dcvb_python_api: /capture-vision/docs/v2/server/programming/python/api-reference/
+dcvb_cpp_api: /capture-vision/docs-v2/server/programming/cplusplus/api-reference/
+dcvb_dotnet_api: /capture-vision/docs-v2/server/programming/dotnet/api-reference/
+dcvb_python_api: /capture-vision/docs-v2/server/programming/python/api-reference/
 
-assets: /label-recognition/docs/v2/server/assets/
-edit_icon: /label-recognition/docs/v2/server/assets/img-icon/edit-icon.png
-smile_icon: /label-recognition/docs/v2/server/assets/img-icon/icon-smile.png
-sad_icon: /label-recognition/docs/v2/server/assets/img-icon/icon-sad.png
-dbr_icon: /label-recognition/docs/v2/server/assets/img-icon/icon-dbr.svg
-dwt_icon: /label-recognition/docs/v2/server/assets/img-icon/icon-dwt.svg
-dnt_icon: /label-recognition/docs/v2/server/assets/img-icon/icon-dnt.svg
+assets: /label-recognition/docs-v2/server/assets/
+edit_icon: /label-recognition/docs-v2/server/assets/img-icon/edit-icon.png
+smile_icon: /label-recognition/docs-v2/server/assets/img-icon/icon-smile.png
+sad_icon: /label-recognition/docs-v2/server/assets/img-icon/icon-sad.png
+dbr_icon: /label-recognition/docs-v2/server/assets/img-icon/icon-dbr.svg
+dwt_icon: /label-recognition/docs-v2/server/assets/img-icon/icon-dwt.svg
+dnt_icon: /label-recognition/docs-v2/server/assets/img-icon/icon-dnt.svg
 
 useVersionTree: false
 isDCV: true
 useJSVersionV3: true
 
-baseurl: "/label-recognition/docs/v2/server"
+baseurl: "/label-recognition/docs-v2/server"
 
 plugins:
   - jemoji
