@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: RecognizedTextLineElement - Dynamsoft Label Recognizer Classes
+title: RecognizedTextLineElement – Label Recognizer Java
 description: The class RecognizedTextLineElement of Dynamsoft Label Recognizer represents a line of recognized text in an image.
 keywords: Recognized text line element
 ---

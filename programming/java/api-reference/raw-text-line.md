@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLine - Dynamsoft Label Recognizer Classes
-description: The class RawTextLine of Dynamsoft Label Recognizer represents a recognized raw text line.
+description: "Learn what RawTextLine does in Dynamsoft Label Recognizer Java API, including its purpose, key data, and how it supports capture workflows for modern web."
 keywords: Recognized raw text line
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: LocalizedTextLineElement - Dynamsoft Label Recognizer Classes
+title: LocalizedTextLineElement – Label Recognizer Python
 description: The class LocalizedTextLineElement of Dynamsoft Label Recognizer represents a localized text line element.
 keywords: Localized text line element
 ---

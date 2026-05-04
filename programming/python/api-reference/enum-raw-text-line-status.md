@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLineStatus - Dynamsoft LabelRecognizer Python Enumerations
-description: The enumeration RawTextLineStatus of Dynamsoft LabelRecognizer describes the final status of a raw text line.
+description: "Explore RawTextLineStatus values in Dynamsoft Label Recognizer Python API and learn how they define status, configuration, and processing behavior today."
 keywords: Raw Text Line Status
 codeAutoHeight: true
 ---
