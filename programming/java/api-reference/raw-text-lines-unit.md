@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: RawTextLinesUnit - Dynamsoft Label Recognizer Classes
+title: RawTextLinesUnit – Dynamsoft Label Recognizer Java
 description: The class RawTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains recognized raw text lines.
 keywords: Recognized raw text lines unit
 ---

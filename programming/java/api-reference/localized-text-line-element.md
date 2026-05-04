@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LocalizedTextLineElement - Dynamsoft Label Recognizer Classes
-description: The class LocalizedTextLineElement of Dynamsoft Label Recognizer represents a localized text line element.
+description: "Learn what LocalizedTextLineElement does in Dynamsoft Label Recognizer Java API, including its purpose, key data, and how it supports capture workflows."
 keywords: Localized text line element
 ---
 
