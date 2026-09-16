@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RecognizedTextLinesUnit - Dynamsoft Label Recognizer Classes
-description: API reference for the RecognizedTextLinesUnit class in Dynamsoft Label Recognizer Java Edition, which represents an intermediate result unit containing all recognized text lines in an image.
+description: "Learn what RecognizedTextLinesUnit does in Dynamsoft Label Recognizer Java API, including its purpose, key data, and how it supports capture workflows."
 keywords: Recognized text lines unit
 ---
 

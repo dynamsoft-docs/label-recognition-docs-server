@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LocalizedTextLinesUnit - Dynamsoft Label Recognizer Classes
-description: API reference for the LocalizedTextLinesUnit class in Dynamsoft Label Recognizer Java Edition, which represents an intermediate result unit containing all localized text lines detected in an image.
+description: "Learn what LocalizedTextLinesUnit does in Dynamsoft Label Recognizer Java API, including its purpose, key data, and how it supports capture workflows."
 keywords: Localized text lines unit
 ---
 

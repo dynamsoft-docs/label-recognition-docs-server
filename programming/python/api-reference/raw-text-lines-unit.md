@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLinesUnit - Dynamsoft Label Recognizer Classes
-description: API reference for the RawTextLinesUnit class in Dynamsoft Label Recognizer Python Edition, which represents an intermediate result unit containing all recognized raw text lines in an image.
+description: "Learn what RawTextLinesUnit does in Dynamsoft Label Recognizer Python API, including its purpose, key data, and how it supports capture workflows today."
 keywords: Recognized raw text lines unit
 ---
 

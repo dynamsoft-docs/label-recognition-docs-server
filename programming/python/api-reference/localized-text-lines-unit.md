@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: LocalizedTextLinesUnit - Dynamsoft Label Recognizer Classes
-description: API reference for the LocalizedTextLinesUnit class in Dynamsoft Label Recognizer Python Edition, which represents an intermediate result unit containing all localized text lines detected in an image.
+title: LocalizedTextLinesUnit – Label Recognizer Python
+description: The class LocalizedTextLinesUnit of Dynamsoft Label Recognizer represents a unit that contains localized text lines.
 keywords: Localized text lines unit
 ---
 
