@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LocalizedTextLinesUnit - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class LocalizedTextLinesUnit represents a unit that contains localized text lines for .NET Edition.
+description: API reference for the LocalizedTextLinesUnit class in Dynamsoft Label Recognizer .NET Edition, which represents an intermediate result unit containing all localized text lines detected in an image.
 keywords: Localized text lines unit
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CharacterCluster - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class CharacterCluster represents a character cluster for .NET Edition.
+description: API reference for the CharacterCluster class in Dynamsoft Label Recognizer .NET Edition, which represents a cluster of similar characters used in the buffered recognition process.
 keywords: character cluster
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

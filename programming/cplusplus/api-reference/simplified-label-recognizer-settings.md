@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: struct SimplifiedLabelRecognizerSettings - Dynamsoft Capture Vision C++ Edition API Reference
-description: This page shows the SimplifiedLabelRecognizerSettings struct of the CCaptureVisionRouter class of the Dynamsoft Capture Vision C++ Edition.
+description: API reference for the SimplifiedLabelRecognizerSettings struct in Dynamsoft Label Recognizer C++ Edition, which contains simplified configuration options for text line recognition tasks.
 keywords: struct, c++, SimplifiedLabelRecognizerSettings
 needAutoGenerateSidebar: true
 needGenerateH3Content: true

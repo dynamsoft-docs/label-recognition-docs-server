@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RecognizedTextLineElement - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class RecognizedTextLineElement represents a line of recognized text in an image for .NET Edition.
+description: API reference for the RecognizedTextLineElement class in Dynamsoft Label Recognizer .NET Edition, which represents a line of recognized text with its content and confidence score.
 keywords: Recognized text line element
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

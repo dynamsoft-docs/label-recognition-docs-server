@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LocalizedTextLineElement - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class LocalizedTextLineElement represents a localized text line element for .NET Edition.
+description: API reference for the LocalizedTextLineElement class in Dynamsoft Label Recognizer .NET Edition, which represents a localized text line element detected before recognition.
 keywords: Localized text line element
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

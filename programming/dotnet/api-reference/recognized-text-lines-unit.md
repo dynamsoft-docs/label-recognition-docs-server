@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RecognizedTextLinesUnit - Dynamsoft Label Recognizer Module .NET Edition API Reference
-description: The class RecognizedTextLinesUnit represents an intermediate result unit containing recognized text lines for .NET Edition.
+description: API reference for the RecognizedTextLinesUnit class in Dynamsoft Label Recognizer .NET Edition, which represents an intermediate result unit containing all recognized text lines in an image.
 keywords: Recognized text lines unit
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

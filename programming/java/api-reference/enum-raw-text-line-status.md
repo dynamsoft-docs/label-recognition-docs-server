@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RawTextLineStatus - Dynamsoft LabelRecognizer Java Enumerations
-description: The enumeration RawTextLineStatus of Dynamsoft LabelRecognizer describes the final status of a raw text line.
+description: The enumeration RawTextLineStatus in Dynamsoft Label Recognizer Java Edition describes the final status of a raw text line, indicating whether it was recognized successfully or failed.
 keywords: Raw Text Line Status
 codeAutoHeight: true
 ---
