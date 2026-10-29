@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: LocalizedTextLineElement - Dynamsoft Label Recognizer Classes
-description: API reference for the LocalizedTextLineElement class in Dynamsoft Label Recognizer Python Edition, which represents a localized text line element detected before recognition.
+title: LocalizedTextLineElement – Label Recognizer Python
+description: The class LocalizedTextLineElement of Dynamsoft Label Recognizer represents a localized text line element.
 keywords: Localized text line element
 ---
 

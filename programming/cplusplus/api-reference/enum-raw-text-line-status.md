@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: RawTextLineStatus - Dynamsoft LabelRecognizer Enumerations
-description: The enumeration RawTextLineStatus of Dynamsoft LabelRecognizer describes the final status of a raw text line.
+title: RawTextLineStatus Enum – Label Recognizer C++ Ref
+description: "Explore RawTextLineStatus values in Dynamsoft Label Recognizer C++ API and learn how they define status, configuration, and processing behavior for modern web."
 keywords: Raw Text Line Status
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

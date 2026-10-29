@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: RawTextLine - Dynamsoft Label Recognizer Classes
-description: API reference for the RawTextLine class in Dynamsoft Label Recognizer Python Edition, which represents a recognized raw text line with its content and status.
+title: RawTextLine Class – Dynamsoft Label Recognizer Python
+description: The class RawTextLine of Dynamsoft Label Recognizer represents a recognized raw text line.
 keywords: Recognized raw text line
 ---
 

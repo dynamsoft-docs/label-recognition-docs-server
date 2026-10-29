@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: RecognizedTextLineElement - Dynamsoft Label Recognizer Classes
-description: API reference for the RecognizedTextLineElement class in Dynamsoft Label Recognizer Python Edition, which represents a line of recognized text with its content and confidence score.
+description: "Learn what RecognizedTextLineElement does in Dynamsoft Label Recognizer Python API, including its purpose, key data, and how it supports capture workflows."
 keywords: Recognized text line element
 ---
 
